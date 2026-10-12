@@ -1,0 +1,181 @@
+---
+import type { Pin, Punkt } from '../lib/reisen';
+
+interface Props {
+  pins?: Pin[];
+  /** Linien mit nummerierten Stationen (Detailseiten) */
+  routen?: Punkt[][];
+  hoehe?: string;
+  beschriftung?: string;
+}
+
+const { pins = [], routen = [], hoehe = '30rem', beschriftung = 'Karte' } = Astro.props;
+const daten = JSON.stringify({ pins, routen });
+---
+
+<div
+  class="karte"
+  data-karte
+  data-daten={daten}
+  style={`--karte-hoehe:${hoehe}`}
+  role="region"
+  aria-label={beschriftung}
+>
+  <noscript><p class="leise">Die Karte braucht JavaScript.</p></noscript>
+</div>
+
+<style>
+  .karte {
+    height: var(--karte-hoehe);
+    min-height: 16rem;
+    border: 1px solid var(--linie);
+    border-radius: var(--radius);
+    background: var(--papier-2);
+    overflow: hidden;
+  }
+
+  .karte :global(.leaflet-container) {
+    height: 100%;
+    font-family: var(--sans);
+  }
+</style>
+
+<script>
+  import L from 'leaflet';
+  import 'leaflet/dist/leaflet.css';
+
+  type P = {
+    titel: string;
+    url: string;
+    lat: number;
+    lng: number;
+    zeit?: string;
+    ort?: string;
+    bild?: string;
+  };
+  type R = { name: string; lat: number; lng: number; notiz?: string };
+
+  const HELL = 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png';
+  const DUNKEL = 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png';
+  const QUELLE =
+    '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>-Mitwirkende &copy; <a href="https://carto.com/attributions">CARTO</a>';
+
+  function popup(p: P): HTMLElement {
+    const box = document.createElement('div');
+    box.className = 'popup';
+    if (p.bild) {
+      const img = document.createElement('img');
+      img.src = p.bild;
+      img.alt = '';
+      img.loading = 'lazy';
+      box.append(img);
+    }
+    const titel = document.createElement('strong');
+    titel.textContent = p.titel;
+    box.append(titel);
+    const meta = [p.ort, p.zeit].filter(Boolean).join(' · ');
+    if (meta) {
+      const small = document.createElement('small');
+      small.textContent = meta;
+      box.append(small);
+    }
+    const link = document.createElement('a');
+    link.href = p.url;
+    link.textContent = 'Bericht lesen →';
+    box.append(link);
+    return box;
+  }
+
+  function starte(el: HTMLElement) {
+    if (el.dataset.bereit) return;
+    el.dataset.bereit = '1';
+
+    const { pins = [], routen = [] } = JSON.parse(el.dataset.daten ?? '{}') as {
+      pins: P[];
+      routen: R[][];
+    };
+
+    const karte = L.map(el, { scrollWheelZoom: false, worldCopyJump: true, minZoom: 2 });
+    karte.on('focus', () => karte.scrollWheelZoom.enable());
+    karte.on('blur', () => karte.scrollWheelZoom.disable());
+
+    const dunkel = window.matchMedia('(prefers-color-scheme: dark)');
+    let kacheln = L.tileLayer(dunkel.matches ? DUNKEL : HELL, {
+      attribution: QUELLE,
+      subdomains: 'abcd',
+      maxZoom: 18,
+    }).addTo(karte);
+    dunkel.addEventListener('change', () => {
+      kacheln.remove();
+      kacheln = L.tileLayer(dunkel.matches ? DUNKEL : HELL, {
+        attribution: QUELLE,
+        subdomains: 'abcd',
+        maxZoom: 18,
+      }).addTo(karte);
+    });
+
+    const punkte: L.LatLngTuple[] = [];
+
+    for (const p of pins) {
+      const icon = L.divIcon({
+        className: 'pin',
+        html: '<span></span>',
+        iconSize: [22, 22],
+        iconAnchor: [11, 22],
+        popupAnchor: [0, -20],
+      });
+      L.marker([p.lat, p.lng], { icon, title: p.titel, keyboard: true })
+        .bindPopup(popup(p), { maxWidth: 260 })
+        .addTo(karte);
+      punkte.push([p.lat, p.lng]);
+    }
+
+    for (const route of routen) {
+      const linie = route.map((s) => [s.lat, s.lng] as L.LatLngTuple);
+      L.polyline(linie, { color: '#1f6f78', weight: 3, opacity: 0.8, dashArray: '6 6' }).addTo(karte);
+      route.forEach((s, i) => {
+        const icon = L.divIcon({
+          className: '',
+          html: `<div class="route-nummer">${i + 1}</div>`,
+          iconSize: [24, 24],
+          iconAnchor: [12, 12],
+        });
+        const m = L.marker([s.lat, s.lng], { icon, title: s.name }).addTo(karte);
+        const text = document.createElement('div');
+        text.className = 'popup';
+        const t = document.createElement('strong');
+        t.textContent = s.name;
+        text.append(t);
+        if (s.notiz) {
+          const n = document.createElement('small');
+          n.textContent = s.notiz;
+          text.append(n);
+        }
+        m.bindPopup(text);
+        punkte.push([s.lat, s.lng]);
+      });
+    }
+
+    if (punkte.length > 1) {
+      karte.fitBounds(L.latLngBounds(punkte), { padding: [40, 40], maxZoom: 7 });
+    } else if (punkte.length === 1) {
+      karte.setView(punkte[0], 8);
+    } else {
+      karte.setView([25, 10], 2);
+    }
+  }
+
+  const beobachter = new IntersectionObserver(
+    (eintraege) => {
+      for (const e of eintraege) {
+        if (e.isIntersecting) {
+          starte(e.target as HTMLElement);
+          beobachter.unobserve(e.target);
+        }
+      }
+    },
+    { rootMargin: '200px' },
+  );
+
+  document.querySelectorAll<HTMLElement>('[data-karte]').forEach((el) => beobachter.observe(el));
+</script>

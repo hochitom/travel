@@ -1,0 +1,55 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  titel?: string;
+  beschreibung?: string;
+}
+
+const {
+  titel,
+  beschreibung = 'Reiseberichte, Fotos und Karten von Thomas Hochörtler.',
+} = Astro.props;
+
+const seitenTitel = titel ? `${titel} · hochitom.travel` : 'hochitom.travel';
+const pfad = Astro.url.pathname;
+const aktiv = (p: string) => (p === '/' ? pfad === '/' : pfad.startsWith(p));
+---
+
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{seitenTitel}</title>
+    <meta name="description" content={beschreibung} />
+    <meta property="og:title" content={seitenTitel} />
+    <meta property="og:description" content={beschreibung} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="de_AT" />
+    <link rel="canonical" href={new URL(pfad, Astro.site)} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <header class="kopf">
+      <div class="huelle kopf__innen">
+        <a class="marke" href="/">hochitom<span>.travel</span></a>
+        <nav class="nav" aria-label="Hauptnavigation">
+          <a href="/" aria-current={aktiv('/') ? 'page' : undefined}>Weltkarte</a>
+          <a href="/reisen/" aria-current={aktiv('/reisen') || aktiv('/jahr') || aktiv('/kontinent') ? 'page' : undefined}>Reisen</a>
+        </nav>
+      </div>
+    </header>
+    <main id="inhalt">
+      <slot />
+    </main>
+    <footer class="fuss">
+      <div class="huelle fuss__innen">
+        <span>© {new Date().getFullYear()} Thomas Hochörtler</span>
+        <span>
+          <a href="/impressum/">Impressum</a> · <a href="/datenschutz/">Datenschutz</a>
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>

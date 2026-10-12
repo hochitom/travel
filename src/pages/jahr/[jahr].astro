@@ -1,0 +1,63 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Karte from '../../components/Karte.astro';
+import ReiseKachel from '../../components/ReiseKachel.astro';
+import { einheiten, ladeBaum, nachJahr, nachfahren, pinsFuer, type Knoten } from '../../lib/reisen';
+
+export async function getStaticPaths() {
+  const baum = await ladeBaum();
+  const gruppen = nachJahr(einheiten(baum)).filter(([jahr]) => jahr > 0);
+  const alleJahre = gruppen.map(([jahr]) => jahr);
+  return gruppen.map(([jahr, liste]) => ({
+    params: { jahr: String(jahr) },
+    props: { jahr, liste, alleJahre },
+  }));
+}
+
+interface Props {
+  jahr: number;
+  liste: Knoten[];
+  alleJahre: number[];
+}
+
+const { jahr, liste, alleJahre } = Astro.props;
+
+// Pins nur für Beiträge, die in diesem Jahr liegen (Reisen über den Jahreswechsel)
+const kandidaten = liste.flatMap((u) => [u, ...nachfahren(u)]).filter((k) => {
+  const datum = k.eintrag.data.datum;
+  return k.ebene !== 'beitrag' || !datum || datum.getUTCFullYear() === jahr;
+});
+const pins = await pinsFuer(kandidaten);
+---
+
+<Layout titel={`Reisen ${jahr}`} beschreibung={`Alle Reisen aus dem Jahr ${jahr}.`}>
+  <div class="huelle">
+    <section class="hero">
+      <p class="kicker"><a href="/reisen/">Alle Reisen</a></p>
+      <h1>{jahr}</h1>
+      <ul class="chips">
+        {
+          alleJahre.map((j) => (
+            <li>
+              <a href={`/jahr/${j}/`} aria-current={j === jahr ? 'page' : undefined}>
+                {j}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    {pins.length > 0 && <Karte pins={pins} beschriftung={`Karte der Reisen ${jahr}`} />}
+
+    <ul class="raster" style="margin-top:2rem">
+      {
+        liste.map((k) => (
+          <li>
+            <ReiseKachel knoten={k} />
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</Layout>

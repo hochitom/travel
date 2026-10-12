@@ -1,0 +1,554 @@
+/* hochitom.travel – Vanilla CSS, keine Frameworks, keine Webfonts (Datenschutz, Ladezeit) */
+
+:root {
+  --papier: #f6f1e7;
+  --papier-2: #ece5d6;
+  --tinte: #1d2a2e;
+  --tinte-leise: #55646a;
+  --linie: #d9d0bd;
+  --akzent: #b8472a;
+  --akzent-dunkel: #8f3419;
+  --meer: #1f6f78;
+
+  --serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
+  --sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+
+  --breite: 70rem;
+  --text: 42rem;
+  --rand: clamp(1rem, 4vw, 2rem);
+  --radius: 0.5rem;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --papier: #151c1f;
+    --papier-2: #1e282c;
+    --tinte: #ece6d8;
+    --tinte-leise: #a3b0b5;
+    --linie: #2f3d42;
+    --akzent: #e58a63;
+    --akzent-dunkel: #f0a27f;
+    --meer: #6cc0c8;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--papier);
+  color: var(--tinte);
+  font-family: var(--sans);
+  line-height: 1.6;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: var(--akzent-dunkel);
+  text-underline-offset: 0.2em;
+}
+
+a:hover {
+  color: var(--akzent);
+}
+
+:focus-visible {
+  outline: 3px solid var(--meer);
+  outline-offset: 2px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--serif);
+  line-height: 1.2;
+  font-weight: 700;
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  margin: 0 0 0.5rem;
+}
+
+h2 {
+  font-size: clamp(1.4rem, 3vw, 1.9rem);
+  margin: 2.5rem 0 1rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+.huelle {
+  width: min(100% - 2 * var(--rand), var(--breite));
+  margin-inline: auto;
+}
+
+.text {
+  width: min(100% - 2 * var(--rand), var(--text));
+  margin-inline: auto;
+}
+
+.kicker {
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--tinte-leise);
+  margin: 0;
+}
+
+.leise {
+  color: var(--tinte-leise);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* ---------- Kopf und Fuß ---------- */
+
+.kopf {
+  border-bottom: 1px solid var(--linie);
+}
+
+.kopf__innen {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem 2rem;
+  padding-block: 1rem;
+}
+
+.marke {
+  font-family: var(--serif);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--tinte);
+  text-decoration: none;
+}
+
+.marke span {
+  color: var(--akzent);
+}
+
+.nav {
+  display: flex;
+  gap: 1.25rem;
+  font-size: 0.95rem;
+}
+
+.nav a {
+  color: var(--tinte);
+  text-decoration: none;
+  padding-block: 0.25rem;
+  border-bottom: 2px solid transparent;
+}
+
+.nav a:hover,
+.nav a[aria-current='page'] {
+  border-bottom-color: var(--akzent);
+}
+
+.fuss {
+  border-top: 1px solid var(--linie);
+  margin-top: 4rem;
+  padding-block: 1.5rem;
+  font-size: 0.9rem;
+  color: var(--tinte-leise);
+}
+
+.fuss__innen {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem 2rem;
+}
+
+.fuss a {
+  color: inherit;
+}
+
+/* ---------- Startseite ---------- */
+
+.hero {
+  padding-block: clamp(2rem, 6vw, 4rem) 1.5rem;
+}
+
+.hero p {
+  max-width: 38rem;
+  font-size: 1.15rem;
+  color: var(--tinte-leise);
+  margin: 0;
+}
+
+/* ---------- Karten ---------- */
+
+.pin {
+  background: none;
+  border: 0;
+}
+
+.pin span {
+  display: block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50% 50% 50% 0;
+  background: var(--akzent);
+  border: 2px solid #fff;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 0.45);
+  transform: rotate(-45deg);
+}
+
+.pin:hover span,
+.pin:focus-visible span {
+  background: var(--akzent-dunkel);
+}
+
+.route-nummer {
+  background: var(--meer);
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: grid;
+  place-items: center;
+  font: 700 0.75rem/1 var(--sans);
+  box-shadow: 0 1px 4px rgb(0 0 0 / 0.45);
+}
+
+.leaflet-popup-content {
+  font-family: var(--sans);
+  margin: 0.75rem 0.9rem;
+}
+
+.popup {
+  display: grid;
+  gap: 0.35rem;
+  min-width: 11rem;
+}
+
+.popup img {
+  width: 100%;
+  border-radius: 0.25rem;
+  margin-bottom: 0.15rem;
+}
+
+.popup strong {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  line-height: 1.25;
+}
+
+.popup small {
+  color: #55646a;
+}
+
+.popup a {
+  font-weight: 600;
+}
+
+/* ---------- Kacheln ---------- */
+
+.raster {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.kachel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: var(--papier-2);
+  border: 1px solid var(--linie);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.kachel:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgb(0 0 0 / 0.12);
+}
+
+.kachel__bild {
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  width: 100%;
+  background: var(--linie);
+}
+
+.kachel__platzhalter {
+  aspect-ratio: 3 / 2;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, var(--meer), var(--akzent));
+  color: #fff;
+  font-size: 2rem;
+  opacity: 0.85;
+}
+
+.kachel__text {
+  padding: 1rem 1.1rem 1.2rem;
+  display: grid;
+  gap: 0.3rem;
+}
+
+.kachel h3 {
+  margin: 0;
+}
+
+.kachel a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Die ganze Kachel ist klickbar, der Link bleibt trotzdem der Titel. */
+.kachel a::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+}
+
+.kachel p {
+  margin: 0;
+}
+
+/* ---------- Gruppen und Umschalter ---------- */
+
+.gruppe {
+  margin-block: 2.5rem;
+}
+
+.gruppe > h2 {
+  margin-top: 0;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--linie);
+}
+
+.umschalter {
+  display: inline-flex;
+  border: 1px solid var(--linie);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-block: 1rem 0.5rem;
+}
+
+.umschalter label {
+  padding: 0.45rem 1.1rem;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+#ansicht-jahr:checked ~ .umschalter label[for='ansicht-jahr'],
+#ansicht-kontinent:checked ~ .umschalter label[for='ansicht-kontinent'] {
+  background: var(--tinte);
+  color: var(--papier);
+}
+
+#ansicht-jahr:focus-visible ~ .umschalter label[for='ansicht-jahr'],
+#ansicht-kontinent:focus-visible ~ .umschalter label[for='ansicht-kontinent'] {
+  outline: 3px solid var(--meer);
+  outline-offset: -3px;
+}
+
+.ansicht-radio {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.ansicht {
+  display: none;
+}
+
+#ansicht-jahr:checked ~ .ansicht-jahr,
+#ansicht-kontinent:checked ~ .ansicht-kontinent {
+  display: block;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0;
+  margin: 1rem 0 0;
+  list-style: none;
+}
+
+.chips a {
+  display: inline-block;
+  padding: 0.25rem 0.8rem;
+  border: 1px solid var(--linie);
+  border-radius: 999px;
+  text-decoration: none;
+  color: var(--tinte);
+  font-size: 0.9rem;
+}
+
+.chips a:hover,
+.chips a[aria-current='page'] {
+  background: var(--tinte);
+  color: var(--papier);
+}
+
+/* ---------- Reisebericht ---------- */
+
+.artikel-kopf {
+  padding-block: clamp(1.5rem, 4vw, 3rem) 1rem;
+}
+
+.krumen {
+  font-size: 0.9rem;
+  color: var(--tinte-leise);
+  margin-bottom: 1rem;
+}
+
+.krumen a {
+  color: inherit;
+}
+
+.titelbild {
+  width: min(100% - 2 * var(--rand), var(--breite));
+  margin: 1rem auto 2rem;
+  border-radius: var(--radius);
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.prosa {
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  line-height: 1.75;
+}
+
+.prosa > :first-child {
+  margin-top: 0;
+}
+
+.prosa p {
+  margin: 0 0 1.2em;
+}
+
+.prosa img {
+  border-radius: var(--radius);
+  margin-block: 1.5rem;
+}
+
+.prosa figure {
+  margin: 1.5rem 0;
+}
+
+.prosa figcaption {
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  color: var(--tinte-leise);
+  margin-top: 0.4rem;
+}
+
+.prosa blockquote {
+  border-left: 3px solid var(--akzent);
+  margin: 1.5rem 0;
+  padding-left: 1rem;
+  color: var(--tinte-leise);
+}
+
+.kapitel {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid var(--linie);
+}
+
+.kapitel li {
+  border-bottom: 1px solid var(--linie);
+}
+
+.kapitel a {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.25rem 1rem;
+  padding: 0.85rem 0.25rem;
+  text-decoration: none;
+  color: var(--tinte);
+}
+
+.kapitel a:hover {
+  background: var(--papier-2);
+}
+
+.kapitel small {
+  color: var(--tinte-leise);
+  white-space: nowrap;
+}
+
+.blaettern {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--linie);
+}
+
+.blaettern a {
+  max-width: 48%;
+}
+
+.blaettern__weiter {
+  margin-left: auto;
+  text-align: right;
+}
+
+.hinweis {
+  border: 2px dashed var(--akzent);
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+  background: var(--papier-2);
+}
+
+.leer {
+  text-align: center;
+  padding-block: 4rem;
+  color: var(--tinte-leise);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -4,7 +4,7 @@ zusammenfassung: 'Von San Francisco über den Highway One, quer durch das Land b
 kontinent: nordamerika
 laender: ['USA', 'Kanada']
 von: 2018-05-28
-bis: 2018-08-17
+bis: 2018-08-07
 tags: ['roadtrip', 'camper', 'race-across-america']
 ---
 

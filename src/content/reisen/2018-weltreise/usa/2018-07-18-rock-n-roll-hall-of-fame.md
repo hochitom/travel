@@ -1,6 +1,6 @@
 ---
-titel: 'Rock’n’Roll Hall of Fame und die Fahrt nach Philadelphia'
-zusammenfassung: 'Ein Museumsstopp in Cleveland, ein Spaziergang in Pittsburgh und über 700 Meilen Fahrt.'
+titel: 'Zu Besuch in der Rock''n''Roll Hall of Fame'
+zusammenfassung: 'Von Michigan nach Philadelphia, mit Zwischenstopps in Cleveland und Pittsburgh.'
 datum: 2018-07-18
 position: { name: 'Cleveland', lat: 41.4993, lng: -81.6944 }
 route:
@@ -11,8 +11,16 @@ route:
 tags: ['roadtrip', 'musik']
 ---
 
-Von Beaverton nach Philadelphia sind es über 700 Meilen, ohne Stau gut elf bis zwölf Stunden. Das ist an einem Tag zu viel, also teile ich die Fahrt in zwei Etappen über Detroit und Cleveland und danach über Pittsburgh.
+Als ich mich endlich von Kater Pete losreißen kann, steht eine lange Autofahrt an. Wieder einmal. Laut dem Plan vom Wochenende muss ich nach Philadelphia.
 
-**Cleveland.** Die Rock’n’Roll Hall of Fame erzählt die Geschichte der Rockmusik, mit Gitarren und Erinnerungsstücken von Musiklegenden. Jedes Jahr kommen neue Künstler in die Ruhmeshalle. Das Hard Rock Café in der Nähe ist eigentlich ein Casino, ein „Rocksino“, das Café ist dort nur Nebensache. Ich zeige meinen Ausweis vor und spiele nicht.
+Zwischen Beaverton in Michigan und Philadelphia in Pennsylvania liegen über 700 Meilen, das sind elf bis zwölf Stunden Autofahrt, wenn man in keinen Stau kommt. Deshalb teile ich die Strecke auf zwei Etappen auf. Die erste führt mich an Detroit und Cleveland vorbei nach Youngstown, die zweite über Pittsburgh nach Philadelphia.
 
-**Pittsburgh.** Am Station Square und am Monongahela River gehe ich spazieren. Die Duquesne Incline lasse ich aus, denn bis Philadelphia liegen noch fünf Stunden Fahrt vor mir.
+## Cleveland
+
+Erster Stopp ist Cleveland, wo ich die Rock'n'Roll Hall of Fame besuche. Man kann viel über die Geschichte des Rock'n'Roll lesen, und es sind jede Menge Gitarren und anderes Zeug von Rocklegenden ausgestellt. Gezeigt wird auch, wie sich die Musik im Lauf der Zeit verändert hat. Und jedes Jahr werden neue Musiker ausgezeichnet und in die Hall of Fame aufgenommen.
+
+Etwas außerhalb von Cleveland liegt dann das Hard Rock Cafe. Eigentlich ist es ein „Rocksino", also ein Casino, und das Café nur eine kleine Nebensache. Im ersten Moment bin ich ein bisschen verwirrt und weiß nicht recht, ob ich da hineingehen soll. Kurz darauf zücke ich aber schon meinen Ausweis und marschiere in mein erstes amerikanisches Casino. Gespielt habe ich natürlich nicht, nur geschaut ;)
+
+## Pittsburgh
+
+Die Nacht verbringe ich in einem Ort, der ziemlich genau in der Mitte zwischen Cleveland und Pittsburgh liegt, am nächsten Tag geht's weiter nach Pittsburgh. Dort schaue ich mir den Station Square an und spaziere am Monongahela River entlang. Eigentlich wäre ich gern noch mit der Duquesne Incline gefahren, einer Standseilbahn auf den Mount Washington. Aber ich habe noch eine fünfstündige Autofahrt vor mir, und aus Zeitmangel muss das ausfallen.

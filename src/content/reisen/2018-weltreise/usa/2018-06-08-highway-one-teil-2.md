@@ -1,6 +1,6 @@
 ---
-titel: 'Highway One, Teil 2: Hearst Castle bis Los Angeles'
-zusammenfassung: 'Seeelefanten, ein Schloss mit Heizkörpern, Rodeo-Parade, Solvang und Santa Barbara.'
+titel: 'Unterwegs am Highway One – ein Kalifornien-Roadtrip, Teil 2'
+zusammenfassung: 'Hearst Castle, Taco Temple, eine Rodeo-Parade und Solvang, das Dänemark für Amerikaner.'
 datum: 2018-06-08
 position: { name: 'Hearst Castle', lat: 35.6852, lng: -121.1681 }
 route:
@@ -13,12 +13,18 @@ route:
 tags: ['roadtrip', 'kalifornien']
 ---
 
-Vom Leuchtturm Piedras Blancas mit seinen Seeelefanten sind es nur wenige Autominuten bis Hearst Castle. Fast den ganzen Nachmittag bleibe ich dort. Bei einer geführten Tour sehe ich die Privaträume, danach laufe ich durch die Außenanlagen mit Blick auf Meer und Berge. Das Schloss ist noch keine hundert Jahre alt und für damalige Verhältnisse erstaunlich modern: Es hatte schon Heizkörper, Lichtschalter und Steckdosen.
+Nach Teil 1, von San Francisco bis zum Leuchtturm von Piedras Blancas, nehme ich euch heute mit bis nach Los Angeles. Von den Seeelefanten beim Leuchtturm sind es nur ein paar Autominuten zum Hearst Castle.
 
-Am Abend spaziere ich am Pier von Morro Bay und esse Tacos im Taco Temple.
+Dort verbringe ich fast den ganzen Nachmittag. Ich gönne mir eine geführte Tour und sehe mir die privaten Räume dieser modernen Burg an. Modern deshalb, weil es die erste Burg ist, die ich gesehen habe, die schon Heizkörper, Lichtschalter und Steckdosen hat. Hearst Castle ist nämlich noch keine hundert Jahre alt. Nach der Führung erkunde ich die Außenanlagen auf eigene Faust und genieße die Aussicht aufs Meer und die Berge rundherum.
 
-Am nächsten Morgen weckt mich in Santa Maria eine Highschool-Band. Es ist die Parade vor dem jährlichen Rodeo. Das Rodeo selbst schaffe ich zeitlich nicht mehr. Weiter geht es nach Solvang, einem Städtchen mit dänischem Anstrich, das sich trotzdem sehr amerikanisch anfühlt. Am Samstag ist es voller Touristen.
+Zum Tagesausklang fahre ich noch nach Morro Bay, spaziere den Pier entlang und gehe dann im Taco Temple Tacos essen (no na ned).
 
-Bei 32 Grad, der ersten Hitze über 90 Fahrenheit seit meiner Ankunft, erreiche ich Santa Barbara. Erst eine Pause im klimatisierten Auto, dann ein glutenfreies Gebäck in der Lilac Patisserie und ein Bummel über die Hauptstraße bis zum Strand.
+Am nächsten Morgen weckt mich in Santa Maria die High-School-Band. Vor dem alljährlichen Rodeo zieht eine Parade mit Musik, vielen Pferden, Leuten auf allen möglichen Fahrzeugen und Tänzerinnen die Hauptstraße entlang, an der mein Motel liegt. Die Parade lasse ich mir natürlich nicht entgehen, für das Rodeo fehlt mir dann leider die Zeit.
 
-Am Sonntag fahre ich über Malibu Beach und Santa Monica weiter nach Los Angeles.
+Weiter geht's nach Solvang, einem kleinen Städtchen, das aussieht, als wäre man in Dänemark. Ein bisschen zumindest, denn es schreit trotzdem überall nach Amerika. Die Amerikaner und Japaner, die an diesem Samstag in Massen da sind, finden das sicher ganz nett. Ich finde es eher skurril.
+
+An dem Tag klettert das Thermometer zum ersten Mal seit meiner Ankunft in Amerika über 90 Grad Fahrenheit (32 Grad Celsius). Ich setze mich also bald wieder ins klimatisierte Auto, zurück auf den Highway One und weiter nach Santa Barbara.
+
+Dort bin ich wieder den ganzen Tag zu Fuß unterwegs. Nach einer Stärkung in der Lilac Patisserie schlendere ich die Hauptstraße bis zum Strand und schaue in das eine oder andere Geschäft.
+
+Am Sonntag geht es über Malibu Beach und Santa Monica nach Los Angeles. Was ich dort getrieben habe, lest ihr im nächsten Beitrag.

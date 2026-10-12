@@ -1,6 +1,6 @@
 ---
-titel: 'Vom RAAM zum Roadtrip, Teil 1: Flagstaff bis Memphis'
-zusammenfassung: 'Grand Canyon, Monument Valley, Four Corners, Wolf Creek Pass und ein 800-Meilen-Tag durch Kansas.'
+titel: 'Vom RAAM zum Roadtrip: ein Amerika-Roadtrip, Teil 1'
+zusammenfassung: 'Von Flagstaff über Grand Canyon, Monument Valley und endlose Weiten in Kansas bis nach Memphis.'
 datum: 2018-06-27
 position: { name: 'Grand Canyon', lat: 36.0544, lng: -112.1401 }
 route:
@@ -15,12 +15,20 @@ route:
 tags: ['roadtrip', 'camper', 'usa']
 ---
 
-Das Rennen ist in Flagstaff zu Ende, der Camper ist aber noch bis zum 25. Juni gemietet. Also los.
+Wie schon im Reiseupdate erzählt, war mein Abenteuer Race Across America viel zu früh vorbei. Nach nur zwei Tagen stehen wir in Flagstaff in Arizona vor der Frage, wie es weitergehen soll. Als ein Roadtrip im Raum steht, ist für mich sofort klar: Das lasse ich mir nicht entgehen. Wie oft hat man schon die Möglichkeit, quer durch die USA zu fahren?
 
-**Grand Canyon.** Von Flagstaff ist es knapp eine Stunde Fahrt. Ich verbringe einen halben Tag im Park, fahre mit den Shuttlebussen von Aussichtspunkt zu Aussichtspunkt und kann mich kaum sattsehen.
+Schon vor der Reise habe ich mich viel mit dem Grand Canyon beschäftigt, aber wegen der knappen Zeit vor dem Rennen hatte ich ihn auf später verschoben. Wie's der Zufall will, trennt uns in Flagstaff nur eine Autostunde davon. Der erste Punkt am Roadtrip steht also schon fest.
 
-**Monument Valley.** Weiter ins Reservat der Navajo. Die Nacht verbringe ich im Norden von New Mexico an einer Tankstelle, denn die Schranken bei Four Corners sind abends schon geschlossen.
+Am Grand Canyon verbringe ich ungefähr einen halben Tag. Mit den Shuttlebussen des Nationalparks fahre ich einen Teil der Schlucht ab und steige immer wieder aus, um die beeindruckenden Ausblicke zu genießen.
 
-**Four Corners.** Am nächsten Morgen stehe ich dort, wo sich Utah, Colorado, New Mexico und Arizona treffen. Dann geht es über den Wolf Creek Pass an der kontinentalen Wasserscheide. Dort feuere ich vorbeifahrende Radler des Rennens an. Nach knapp fünf Stunden erreiche ich Trinidad und übernachte auf einem RV-Park.
+Den Rest des Tages verbringe ich im Camper auf der Straße. Es geht ins Reservat der Navajo, wo ich das Monument Valley durchquere. Spätabends will ich mir noch das Four Corners Monument anschauen, aber die Schranken sind schon zu. Also suche ich mir ein paar Kilometer weiter im Norden von New Mexico einen Schlafplatz. Den finde ich irgendwo im Nirgendwo an einer Tankstelle.
 
-**Durch die Prärie.** Der längste Fahrtag: über 800 Meilen durch Kansas und Missouri. Kansas wirkt auf mich eintönig, mit Silos, weiten Feldern und riesigen Rinderfarmen. In St. Louis frühstücke ich, sehe mir den Gateway Arch an und gehe ins Hard Rock Café. Am Abend fahre ich die knapp 300 Meilen weiter nach Memphis.
+Am Morgen hake ich auch die Four Corners ab. Das ist der einzige Punkt der USA, an dem vier Bundesstaaten zusammenstoßen: Utah, Colorado, New Mexico und Arizona.
+
+Der restliche Samstag gehört dem Autofahren. Zuerst geht's zum Wolf Creek Pass, wo wir oben direkt an der Continental Divide die vorbeikommenden Radler des Race Across America anfeuern. Danach sitze ich noch einmal fast fünf Stunden im Camper Richtung Osten, bis wir uns in Trinidad auf einem RV-Park einquartieren.
+
+Der nächste Tag ist der längste Fahrtag: über 800 Meilen durch Kansas und Missouri. Vor allem Kansas zieht sich. Es geht fast nur geradeaus, und nach unzähligen Meilen kommt eine einzelne Kurve. Optisch erinnert mich Kansas stark ans Burgenland, mit den Silotürmen und den meilenweiten Feldern. Dazu kommen riesige Rinderfarmen, an denen man minutenlang nur an Kühen vorbeifährt.
+
+Am nächsten Morgen frühstücken wir in St. Louis. Dort bleibe ich auch den längsten Teil des Tages, besichtige den Gateway Arch und mache einen meiner vielen Besuche in einem Hard Rock Cafe.
+
+Danach warten wieder fast 300 Meilen im Camper, denn es geht weiter nach Memphis. Was ich dort und in den Tagen danach erlebe, lest ihr im zweiten Teil.

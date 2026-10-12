@@ -1,17 +1,27 @@
 ---
 titel: 'Mit dem Flieger über das Great Barrier Reef'
-zusammenfassung: 'Ein Rundflug über die Whitsunday Islands, den Whitehaven Beach und das Heart Reef.'
+zusammenfassung: 'Ein Rundflug in der Mini-Maschine, türkises Wasser, ein Herz im Riff und ein ziemlich flaues Gefühl im Magen.'
 datum: 2018-11-19
 position: { name: 'Whitsunday Islands', lat: -20.2797, lng: 149.0369 }
 tags: ['flug', 'riff', 'ostkueste']
 ---
 
-Um 9:30 Uhr holt mich ein Taxibus am Campingplatz in Airlie Beach ab. Am Flughafen gibt es Bordkarten und eine kurze Sicherheitseinweisung. Die Maschine ist mit sieben Passagieren und einem Piloten voll besetzt, der Rundflug dauert etwa eine Stunde.
+In Airlie Beach liege ich natürlich nicht nur auf der faulen Haut. Das nahe Great Barrier Reef lädt zu der einen oder anderen Unternehmung ein.
 
-**Whitsunday Islands.** Weiße Strände und türkisfarbenes Meer. Der Sand am Whitehaven Beach wird auch bei großer Hitze nicht heiß, und der Strand war Drehort des letzten „Fluch der Karibik“-Films.
+Um halb zehn werde ich von einem Taxibus vor dem Campingplatz abgeholt, und es geht zum Flughafen von Airlie Beach. Dort bekomme ich meine Bordkarte, und nach einer kurzen Sicherheitseinweisung darf ich auch schon in den Flieger klettern. Bisher waren die Flugzeuge auf meiner Reise immer große Maschinen für hunderte Leute. Diesmal ist der Flieger mit sieben Passagieren und einem Piloten bis auf den letzten Platz voll.
 
-**Great Barrier Reef.** Es ist die größte zusammenhängende Ansammlung von Korallenriffen der Erde und seit 1981 UNESCO-Weltnaturerbe. Vom Flugzeug aus sieht man kaum Leben im Wasser, aber die Farben und Muster sind unglaublich. Besonders gefällt mir das Heart Reef, ein Riff in Herzform.
+Schon kurz nach dem Start eröffnet sich ein wunderbarer Ausblick auf die vielen kleinen und etwas größeren Inseln vor Airlie Beach. Das sind die Whitsunday Islands, eines der Highlights an Australiens Ostküste. Spätestens nach einem Flug über die Inseln ist klar, warum.
 
-Bei Windböen wackelt die kleine Maschine spürbar, vielen wird mulmig, auch mir. Erst nach einiger Zeit kehrt die Farbe in die Gesichter zurück. Der Rückflug bietet Ausblicke auf bewohnte und unbewohnte Inseln.
+Die Strände strahlen in strahlendem Weiß, das Meer ist türkis. Und die Inseln haben zwei Besonderheiten: Erstens kann man hier wieder im Meer baden, was an der Küste wegen Krokodilen, Quallen und Haien nicht unbedingt empfohlen wird. Zweitens gibt es hier den Whitehaven Beach, einen der wenigen Strände, an denen der Sand nie heiß wird, egal welche Temperaturen herrschen. Außerdem wurde dort der letzte „Fluch der Karibik"-Film gedreht.
 
-Vom Baden an der Küste wird wegen Krokodilen, Quallen und Haien abgeraten.
+Danach wird es für ein paar Minuten ruhiger, zumindest was die Aussicht betrifft. In der kleinen Maschine spürt man nämlich jede Windböe, und mir wird im Flieger ganz schön mulmig.
+
+Nach ein paar Minuten erreichen wir das große Highlight des Fluges und meines ganzen Aufenthalts in Australien: das Great Barrier Reef, die größte zusammenhängende Ansammlung von Korallenriffen der Erde, seit 1981 UNESCO-Weltnaturerbe. Ähnlich wie beim Milford Sound in Neuseeland war mir von Anfang an klar, dass ich dieses Wunder der Natur unbedingt sehen will.
+
+Und was soll ich sagen? Es ist einfach atemberaubend! Auch wenn man vom Flieger aus kaum Leben im Riff erkennt: Allein die unterschiedlichen Farben, das klare Wasser und die vielen Muster sind ein unvergessliches Erlebnis, das einen prominenten Platz in meinem Erinnerungsalbum bekommt.
+
+Nach einigen Minuten über dem Riff, unter anderem über dem weltberühmten Heart Reef, einem Riff in Herzform, geht's auch schon wieder Richtung Flughafen.
+
+Auch beim Rückflug wird mir nicht langweilig, denn die Ausblicke sind wieder umwerfend. Wir fliegen vorbei an kleinen, unbewohnten und größeren, bewohnten Inseln.
+
+Nach einer Stunde setzt der Flieger sicher in Airlie Beach auf, und als ich wieder festen Boden unter den Füßen habe, bin ich auch ein bisschen froh. Der Flug war atemberaubend schön, aber auch sehr wackelig, und es dauert eine Weile, bis die Farbe in mein Gesicht zurückkehrt.

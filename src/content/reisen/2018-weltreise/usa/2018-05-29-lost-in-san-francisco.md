@@ -1,15 +1,27 @@
 ---
 titel: 'Lost in San Francisco'
-zusammenfassung: 'Ankunft nach zwölf Stunden Flug, ein Cable Car, das nicht kommt, und das falsche Hotel.'
+zusammenfassung: 'Zwölf Stunden Flug, ein falsches Hotel und eine steile Straße zu viel.'
 datum: 2018-05-29
 position: { name: 'San Francisco', lat: 37.7749, lng: -122.4194 }
 tags: ['ankunft', 'stadt']
 ---
 
-Nach fast zwölf Stunden Flug lande ich um 12:26 Uhr Ortszeit in San Francisco. Zu Hause ist es da schon 21 Uhr. Bei der Einreise fragt man mich nach Aufenthalt und Reiseplänen, dann hole ich meinen großen Rucksack vom Band.
+Ein Buch, zwei Filme, zwei Mahlzeiten, unzählige kleine Nickerchen und fast zwölf Stunden Flug später bin ich endlich da. Angekommen am ersten Ziel meiner Reise: San Francisco.
 
-Mit der BART geht es in die Innenstadt, je nach Station kostet die Fahrt sieben bis neun Dollar. Das Cable Car, auf das ich hoffe, kommt nicht, und ein Ticket habe ich ohnehin nicht. Also zu Fuß mit schwerem Gepäck über die steilen Straßen. Die Hügel von San Francisco spürt man mit Rucksack ganz anders als im Reiseführer.
+Wegen der Zeitverschiebung lande ich um 12.26 Uhr Ortszeit, daheim in Österreich ist es da schon 21 Uhr. Nach dem ganzen Einreiseprozedere samt Fragen, was ich hier mache und wie lange ich bleibe, hole ich meinen riesigen Rucksack ab und brauche erst einmal eine kleine Orientierungs- und Verschnaufpause.
 
-Im Hotel stellt sich heraus, dass ich im falschen von zwei gebuchten Häusern gelandet bin. Ein Taxi bringt mich zum richtigen. Die Gegend wirkt auf den ersten Blick wenig einladend, ich bleibe trotzdem.
+Ehrlich gesagt bin ich ziemlich unorganisiert angekommen. Einen Plan, wie ich am besten in die Stadt und ins Hotel komme, habe ich nicht. Nach kurzer Recherche nehme ich den BART, den Zug, der direkt in die Stadt fährt. Je nach Station in Downtown kostet das zwischen 7 und 9 Dollar.
 
-Das Erkunden der Stadt verschiebe ich auf den nächsten Tag.
+### Die Suche nach dem Hotel
+
+In der Stadt wäre ich also einmal. Aber wie komme ich jetzt zum Hotel? Zuerst will ich mit dem Cable Car fahren. Ich habe aber kein Ticket, und es kommt auch keins daher, also gehe ich in meiner Euphorie einfach zu Fuß.
+
+Stellt euch das ungefähr so vor: ein schwer bepackter Tourist mit einem riesigen Rucksack, einem kleineren Rucksack, einer Tasche und zwei dicken Pullis, ein bisschen erledigt und übermüdet, der durch San Francisco stapft.
+
+Was ich bei dem tollen Plan nicht bedacht habe: Die Straßen hier verlaufen nicht gerade, sondern sind teilweise richtig steil. Und natürlich muss ich genau so eine hinauf. Ich hatte die letzten Tage eine Erkältung und bin noch nicht ganz fit, also lege ich immer wieder Pausen ein und bin am Ende einfach nur noch geschafft. Als ich nach langer Qual endlich beim Hotel stehe, merke ich: Es ist das falsche. Alles umsonst!
+
+Jetzt denken sich vielleicht einige: „Wie verwirrt kann man bitte sein?" Zu meiner Verteidigung: Ich hatte in San Francisco zwei Hotels in der engeren Auswahl und mich anscheinend für das andere entschieden. Im Kopf war aber immer noch das Cable-Car-Hotel, und die Buchungsbestätigung hatte ich nur am Laptop.
+
+Nach dem Missgeschick gönne ich mir ein Taxi und lasse mich zum richtigen Hotel kutschieren. Dort würde ich am liebsten gleich wieder umdrehen. Die Gegend ist bei weitem nicht so schön wie beim anderen Hotel, und ich bin anfangs ziemlich abgeschreckt. Ich bleibe trotzdem, denn die Zeit will ich ja sowieso nicht im Hotel verbringen.
+
+Heute geht's mit der richtigen Erkundung los, und ich freu mich schon auf die Stadt!

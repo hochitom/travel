@@ -1,6 +1,7 @@
 ---
 import { Image } from 'astro:assets';
-import { knotenUrl, kontinent, KONTINENTE, laender, zeitraum, type Knoten } from '../lib/reisen';
+import Stempel from './Stempel.astro';
+import { knotenUrl, kontinent, KONTINENTE, laender, von, zeitraum, type Knoten } from '../lib/reisen';
 
 interface Props {
   knoten: Knoten;
@@ -9,31 +10,48 @@ interface Props {
 const { knoten } = Astro.props;
 const d = knoten.eintrag.data;
 const kicker = knoten.eltern ? knoten.eltern.eintrag.data.titel : (KONTINENTE[kontinent(knoten) ?? ''] ?? '');
-const land = laender(knoten).join(', ');
-const meta = [zeitraum(knoten), land].filter(Boolean).join(' · ');
+const laenderListe = laender(knoten);
+const zeit = zeitraum(knoten);
+
+// Der Stempel zeigt das erste Land und das Jahr des Beginns
+const stempelLand = laenderListe[0];
+const beginn = von(knoten);
+const stempelJahr = beginn ? String(beginn.getUTCFullYear()) : undefined;
 ---
 
 <article class="kachel">
-  {
-    d.titelbild ? (
-      <Image
-        class="kachel__bild"
-        src={d.titelbild}
-        alt={d.titelbildAlt ?? ''}
-        width={640}
-        height={427}
-        loading="lazy"
-      />
-    ) : (
-      <div class="kachel__platzhalter" aria-hidden="true">
-        ✈
-      </div>
-    )
-  }
+  <div class="kachel__rahmen">
+    <div class="kachel__foto">
+      {
+        d.titelbild ? (
+          <Image
+            class="kachel__bild"
+            src={d.titelbild}
+            alt={d.titelbildAlt ?? ''}
+            width={640}
+            height={427}
+            loading="lazy"
+          />
+        ) : (
+          <div class="kachel__platzhalter" aria-hidden="true">
+            Foto folgt
+          </div>
+        )
+      }
+    </div>
+    {
+      stempelLand && (
+        <div class="kachel__stempel">
+          <Stempel titel={stempelLand} zusatz={stempelJahr} groesse="5rem" />
+        </div>
+      )
+    }
+  </div>
   <div class="kachel__text">
     {kicker && <p class="kicker">{kicker}</p>}
     <h3><a href={knotenUrl(knoten)}>{d.titel}</a></h3>
-    {meta && <p class="leise">{meta}</p>}
+    {zeit && <p class="leise">{zeit}</p>}
+    {laenderListe.length > 1 && <p class="leise">{laenderListe.join(', ')}</p>}
     {d.zusammenfassung && <p>{d.zusammenfassung}</p>}
   </div>
 </article>

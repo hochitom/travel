@@ -13,30 +13,71 @@ const { pins = [], routen = [], hoehe = '30rem', beschriftung = 'Karte' } = Astr
 const daten = JSON.stringify({ pins, routen });
 ---
 
-<div
-  class="karte"
-  data-karte
-  data-daten={daten}
-  style={`--karte-hoehe:${hoehe}`}
-  role="region"
-  aria-label={beschriftung}
->
-  <noscript><p class="leise">Die Karte braucht JavaScript.</p></noscript>
+<div class="seekarte">
+  <div
+    class="karte"
+    data-karte
+    data-daten={daten}
+    style={`--karte-hoehe:${hoehe}`}
+    role="region"
+    aria-label={beschriftung}
+  >
+    <noscript><p class="leise">Die Karte braucht JavaScript.</p></noscript>
+  </div>
+  <svg class="kompass" viewBox="-80 -80 160 160" aria-hidden="true" focusable="false">
+    <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round">
+      <circle r="46"></circle>
+      <circle r="36" stroke-dasharray="2 4"></circle>
+      <path d="M0 -66 L10 -10 L66 0 L10 10 L0 66 L-10 10 L-66 0 L-10 -10 Z" style="fill: var(--papier-2)"></path>
+      <path d="M0 -66 L6 -6 L0 0 Z M0 66 L-6 6 L0 0 Z" style="fill: var(--akzent); stroke: none"></path>
+    </g>
+    <text x="-5" y="-72" font-size="14" fill="currentColor" style="font-family: var(--serif-kopf)">N</text>
+  </svg>
 </div>
 
 <style>
+  /* Rahmen wie bei einer Seekarte: Papier, doppelte Linie, Kompassrose in der Ecke */
+  .seekarte {
+    position: relative;
+    padding: 0.4rem;
+    background: var(--papier-2);
+    border: 1px solid var(--tinte);
+    box-shadow: 3px 4px 0 var(--schatten);
+  }
+
   .karte {
     height: var(--karte-hoehe);
     min-height: 16rem;
-    border: 1px solid var(--linie);
-    border-radius: var(--radius);
+    border: 1px solid var(--tinte);
     background: var(--papier-2);
     overflow: hidden;
   }
 
   .karte :global(.leaflet-container) {
     height: 100%;
-    font-family: var(--sans);
+  }
+
+  /* Die Kacheln bekommen den Ton von altem Kartenpapier */
+  .karte :global(.leaflet-tile-pane) {
+    filter: sepia(0.5) saturate(0.8) hue-rotate(-10deg) contrast(0.95);
+  }
+
+  .kompass {
+    position: absolute;
+    z-index: 500;
+    left: 0.9rem;
+    bottom: 0.9rem;
+    width: clamp(3.5rem, 9vw, 5.5rem);
+    height: auto;
+    color: var(--tinte);
+    opacity: 0.85;
+    pointer-events: none;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .karte :global(.leaflet-tile-pane) {
+      filter: sepia(0.2) saturate(0.7) brightness(0.9);
+    }
   }
 </style>
 
@@ -73,7 +114,7 @@ const daten = JSON.stringify({ pins, routen });
     const titel = document.createElement('strong');
     titel.textContent = p.titel;
     box.append(titel);
-    const meta = [p.ort, p.zeit].filter(Boolean).join(' · ');
+    const meta = [p.ort, p.zeit].filter(Boolean).join(', ');
     if (meta) {
       const small = document.createElement('small');
       small.textContent = meta;
@@ -81,7 +122,7 @@ const daten = JSON.stringify({ pins, routen });
     }
     const link = document.createElement('a');
     link.href = p.url;
-    link.textContent = 'Bericht lesen →';
+    link.textContent = 'Eintrag aufschlagen';
     box.append(link);
     return box;
   }
@@ -120,9 +161,9 @@ const daten = JSON.stringify({ pins, routen });
       const icon = L.divIcon({
         className: 'pin',
         html: '<span></span>',
-        iconSize: [22, 22],
-        iconAnchor: [11, 22],
-        popupAnchor: [0, -20],
+        iconSize: [44, 44],
+        iconAnchor: [22, 22],
+        popupAnchor: [0, -14],
       });
       L.marker([p.lat, p.lng], { icon, title: p.titel, keyboard: true })
         .bindPopup(popup(p), { maxWidth: 260 })
@@ -132,7 +173,7 @@ const daten = JSON.stringify({ pins, routen });
 
     for (const route of routen) {
       const linie = route.map((s) => [s.lat, s.lng] as L.LatLngTuple);
-      L.polyline(linie, { color: '#1f6f78', weight: 3, opacity: 0.8, dashArray: '6 6' }).addTo(karte);
+      L.polyline(linie, { color: dunkel.matches ? '#86bccb' : '#2f5d6b', weight: 3, opacity: 0.85, dashArray: '3 9', lineCap: 'round' }).addTo(karte);
       route.forEach((s, i) => {
         const icon = L.divIcon({
           className: '',

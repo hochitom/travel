@@ -216,7 +216,7 @@ Regel: Eine neue Komponente nur, wenn sie an mindestens zwei Stellen gebraucht w
 ## 16. Offene Punkte
 
 - [ ] Farbwerte am echten Bildschirm und mit echten Fotos prüfen
-- [ ] Schriften: im Code vorgesehen (IM Fell English, Newsreader, Reenie Beanie), die woff2-Dateien fehlen noch, bis dahin greifen Systemschriften (siehe README)
+- [x] Schriften: IM Fell English, Newsreader und Reenie Beanie über die Fonts-API von Astro, selbst ausgeliefert (siehe README). Umlaute und Lesbarkeit am Handy noch prüfen
 - [x] Kartenlösung: bleibt bei Leaflet mit CARTO-Kacheln (OpenStreetMap). Der Seekarten-Look kommt aus CSS (Kachelfilter, Papierrahmen, Kompassrose, Stecknadeln, Zettel-Popups)
 - [ ] Stempelmotive: aktuell ein runder Stempel aus Land und Jahr bzw. Datum, später eigene Gestaltung?
 - [ ] Logo/Wortmarke für „hochitom.travel“ (aktuell Schriftzug plus Favicon mit Kompassrose)

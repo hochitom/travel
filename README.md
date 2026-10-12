@@ -38,7 +38,7 @@ Alles liegt in `src/content/reisen/`. **Die Ebene ergibt sich aus dem Pfad:**
 
 Die Seite ist ein Logbuch: Seekartenpapier, Tinte, Meerblau und ein Akzent in Stempelrot. Die Grundsätze stehen in [`design.md`](design.md), alle Farben, Schriften und Abstände als Variablen oben in `src/styles/global.css`. Stempel sind die Komponente `Stempel.astro`.
 
-**Schriften:** vorgesehen sind IM Fell English (Überschriften), Newsreader (Text) und Reenie Beanie (kurze Handschrift), alle unter der SIL Open Font License. Die woff2-Dateien liegen noch nicht im Repo. Bis dahin greifen Systemschriften. Zum Einbinden die Dateien nach `public/fonts/` legen und die `@font-face`-Regeln ergänzen (Beispiel im Kommentar am Anfang von `global.css`). Die Schriften werden selbst gehostet, nie von Google geladen.
+**Schriften:** IM Fell English (Überschriften), Newsreader (Text) und Reenie Beanie (kurze Handschrift), alle unter der SIL Open Font License. Sie kommen über die Fonts-API von Astro (`experimental.fonts` in `astro.config.mjs`, in Astro 5 noch experimentell). Astro lädt die Dateien beim Build herunter und liefert sie von der eigenen Domain aus, Besucher schicken keine Anfrage an Google. Der Build braucht dafür Internetzugang. Eingebunden werden sie mit `<Font>` in `src/layouts/Layout.astro`, benutzt über die Variablen `--font-kopf`, `--font-text` und `--font-hand`. Eine weitere Schrift: Eintrag in `astro.config.mjs` ergänzen, `<Font>` im Layout hinzufügen.
 
 ## Seiten
 

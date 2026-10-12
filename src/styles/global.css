@@ -3,16 +3,10 @@
   Design-Grundsätze: design.md im Hauptordner. Die Seite ist ein Logbuch:
   Verspieltes sitzt in Rahmen, Stempeln und auf der Karte, der Lesetext bleibt ruhig.
 
-  Schriften: IM Fell English (Überschriften), Newsreader (Text) und Reenie Beanie (Handschrift) sind
-  vorgesehen. Solange ihre woff2-Dateien nicht in public/fonts/ liegen, greifen die Systemschriften
-  aus den Variablen unten. Zum Einbinden hier ergänzen (Beispiel):
-
-  @font-face {
-    font-family: 'IM Fell English';
-    src: url('/fonts/im-fell-english-400.woff2') format('woff2');
-    font-weight: 400;
-    font-display: swap;
-  }
+  Schriften: IM Fell English (Überschriften), Newsreader (Text) und Reenie Beanie (Handschrift) kommen
+  über die Fonts-API von Astro (astro.config.mjs, eingebunden in Layout.astro). Astro setzt die
+  Variablen --font-kopf, --font-text und --font-hand. Fehlt eine davon, greift die Systemschrift
+  hinter dem Komma.
 */
 
 :root {
@@ -29,9 +23,9 @@
   --streifen-2: #dad9c3;
   --schatten: rgb(30 42 56 / 0.18);
 
-  --serif-kopf: 'IM Fell English', 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
-  --serif: 'Newsreader', 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
-  --hand: 'Reenie Beanie', 'Segoe Print', 'Bradley Hand', 'Chalkboard SE', 'Comic Sans MS', cursive;
+  --serif-kopf: var(--font-kopf, 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif);
+  --serif: var(--font-text, 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif);
+  --hand: var(--font-hand, 'Segoe Print', 'Bradley Hand', 'Chalkboard SE', 'Comic Sans MS', cursive);
   --sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
 
   --breite: 70rem;

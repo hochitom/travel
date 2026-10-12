@@ -10,7 +10,7 @@
     "import": "node scripts/import-wordpress.mjs"
   },
   "dependencies": {
-    "astro": "^5.14.0",
+    "astro": "^5.16.0",
     "leaflet": "^1.9.4"
   },
   "devDependencies": {

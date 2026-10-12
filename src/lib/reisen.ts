@@ -40,7 +40,11 @@ export const KONTINENTE: Record<string, string> = {
   antarktis: 'Antarktis',
 };
 
+// Astro entfernt beim Glob-Loader das abschließende "/index" aus der id
+// ("2018-weltreise/index.md" -> "2018-weltreise"). Ob ein Eintrag eine index.md
+// ist, steht deshalb im Dateipfad.
 const INDEX = /(^|\/)index$/;
+const INDEX_DATEI = /(^|\/)index\.md$/;
 
 export const knotenUrl = (k: Knoten) => `/reisen/${k.pfad}/`;
 
@@ -52,8 +56,8 @@ export async function ladeBaum(): Promise<Knoten[]> {
   const eintraege = (await getCollection('reisen')).filter((e) => !e.data.entwurf);
 
   const knoten = eintraege.map<Knoten>((eintrag) => {
-    const istIndex = INDEX.test(eintrag.id);
-    const pfad = istIndex ? eintrag.id.replace(INDEX, '') : eintrag.id;
+    const istIndex = INDEX_DATEI.test(eintrag.filePath ?? '') || INDEX.test(eintrag.id);
+    const pfad = eintrag.id.replace(INDEX, '');
     if (pfad === '') {
       throw new Error('src/content/reisen/index.md ist nicht erlaubt: Reisen liegen in eigenen Ordnern.');
     }

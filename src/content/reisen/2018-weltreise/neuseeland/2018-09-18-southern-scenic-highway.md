@@ -14,18 +14,39 @@ route:
 tags: ['roadtrip', 'suedinsel', 'camper']
 ---
 
-Mit dem Milford Sound ist wieder ein Highlight meines Neuseeland-Aufenthalts erledigt, und ich setze die Reise über die Südinsel fort. Von Te Anau aus erkunde ich den Southern Scenic Highway.
+<!-- titelbild: 2018/09/0909-slope-point_007.jpg -->
 
-Der erste Punkt ist Bluff. Von dort fährt man nach Stewart Island, einer zu Neuseeland gehörenden Insel etwas weiter südlich, auf der man angeblich die besten Chancen hat, freilebende Kiwis zu sehen. Die Fähre ist mir aber zu teuer, deshalb bleibe ich in Bluff und verzichte auf die Überfahrt. Ich fahre zum Stirling Point, der vor allem wegen seines Wegweisers ein beliebtes Fotomotiv ist, und danach noch auf den Bluff Hill.
+Mit dem Milford Sound ist wieder ein Highlight unseres Neuseeland-Aufenthalts erledigt, und wir setzen die Reise über die Südinsel fort. Von Te Anau aus erkunden wir den Southern Scenic Highway.
 
-Auf dem Rückweg halte ich in Invercargill. Eigentlich wollte ich mich dort um den Blog kümmern, aber wie schon in den letzten Tagen habe ich kein Glück mit dem Internet. Also genieße ich nur einen guten Kaffee und einen Muffin und mache auf dem Weg zurück zum Auto das eine oder andere Foto.
+Der erste Punkt ist Bluff. Von dort fährt man nach Stewart Island, einer zu Neuseeland gehörenden Insel etwas weiter südlich, auf der man angeblich die besten Chancen hat, freilebende Kiwis zu sehen. Die Fähre ist uns aber zu teuer, deshalb bleiben wir in Bluff und verzichten auf die Überfahrt. Wir fahren zum Stirling Point, der vor allem wegen seines Wegweisers ein beliebtes Fotomotiv ist, und danach noch auf den Bluff Hill.
 
-Am nächsten Tag fahre ich gleich nach dem Frühstück zum Waipapa Point Lighthouse, wo ich am Strand einen Seelöwen sehe. Zuerst glaube ich, er sei tot, denn er liegt mutterseelenallein am Strand und bewegt sich keinen Millimeter. Bis er kurz den Kopf hebt, sich ein bisschen Sand auf den Körper wirft und weiterschläft.
+<!-- bild: 2018/09/0908-bluff-invercargill_001.jpg -->
+<!-- bild: 2018/09/0908-bluff-invercargill_002.jpg -->
+<!-- bild: 2018/09/0908-bluff-invercargill_003.jpg -->
 
-Wieder im Auto, mache ich mich auf den Weg zum Slope Point, dem südlichsten Punkt Neuseelands. Beim zweiten Versuch finde ich die Abzweigung, dann geht's über eine Wiese vom Parkplatz bis nach vorne zu den Klippen. Genau 18.020 Kilometer trennen mich dort von daheim. Der südlichste Punkt Neuseelands heißt auch: So weit weg von zu Hause war ich auf dieser Reise noch nie und werde es auch nie mehr sein. Ab jetzt bin ich quasi auf dem Heimweg.
+Auf dem Rückweg halten wir in Invercargill. Eigentlich wollten wir uns dort um den Blog kümmern, aber wie schon in den letzten Tagen haben wir kein Glück mit dem Internet. Also genießen wir nur einen guten Kaffee und einen Muffin und machen auf dem Weg zurück zum Auto das eine oder andere Foto.
 
-Nach dem obligatorischen Erinnerungsfoto geht's wieder eher Richtung Norden. Bevor ich die Nacht in Kurow verbringe, schaue ich bei einigen Wasserfällen vorbei: erst die McLean Falls, dann die Matai Falls, zum Schluss die Purakaunui Falls.
+Am nächsten Tag fahren wir gleich nach dem Frühstück zum Waipapa Point Lighthouse, wo wir am Strand einen Seelöwen sehen. Zuerst glauben wir, er sei tot, denn er liegt mutterseelenallein am Strand und bewegt sich keinen Millimeter. Bis er kurz den Kopf hebt, sich ein bisschen Sand auf den Körper wirft und weiterschläft.
 
-Am Montagvormittag steht wieder ein Leuchtturm am Programm, diesmal der Nugget Point, der durch seine exponierte Lage ein beeindruckendes Fotomotiv ist. Danach fahre ich nach Dunedin, in die zweitgrößte Stadt der Südinsel. Dort bleibe ich etwas mehr als 24 Stunden, schaue mir zu Fuß die Stadt und die Cafés an und gehe abends wieder einmal essen.
+Wieder im Auto, machen wir uns auf den Weg zum Slope Point, dem südlichsten Punkt Neuseelands. Beim zweiten Versuch finden wir die Abzweigung, dann geht's über eine Wiese vom Parkplatz bis nach vorne zu den Klippen. Genau 18.020 Kilometer trennen uns dort von daheim. Der südlichste Punkt Neuseelands heißt auch: So weit weg von zu Hause waren wir auf dieser Reise noch nie und werden es auch nie mehr sein. Ab jetzt sind wir quasi auf dem Heimweg.
 
-Auf dem Weg zurück in den Norden sind die Moeraki Boulders der erste Stopp nach Dunedin. Sie sind ein weiteres beliebtes Fotomotiv in Neuseeland. Wegen ihrer Form und Größe wirken die runden Felsen am Strand, als hätte sie jemand dort hingelegt. Danach nehme ich Kurs auf den Mount Cook, den höchsten Berg Neuseelands.
+<!-- bild: 2018/09/0909-slope-point_004.jpg -->
+<!-- bild: 2018/09/0909-slope-point_005.jpg -->
+<!-- bild: 2018/09/0909-slope-point_006.jpg -->
+<!-- bild: 2018/09/0909-slope-point_008.jpg -->
+<!-- bild: 2018/09/0909-slope-point_009.jpg -->
+<!-- bild: 2018/09/0909-slope-point_010.jpg -->
+<!-- bild: 2018/09/0909-slope-point_011.jpg -->
+<!-- bild: 2018/09/0909-slope-point_012.jpg -->
+
+Nach dem obligatorischen Erinnerungsfoto geht's wieder eher Richtung Norden. Bevor wir die Nacht in Kurow verbringen, schauen wir bei einigen Wasserfällen vorbei: erst die McLean Falls, dann die Matai Falls, zum Schluss die Purakaunui Falls.
+
+Am Montagvormittag steht wieder ein Leuchtturm am Programm, diesmal der Nugget Point, der durch seine exponierte Lage ein beeindruckendes Fotomotiv ist. Danach fahren wir nach Dunedin, in die zweitgrößte Stadt der Südinsel. Dort bleiben wir etwas mehr als 24 Stunden, schauen uns zu Fuß die Stadt und die Cafés an und gehen abends wieder einmal essen.
+
+Auf dem Weg zurück in den Norden sind die Moeraki Boulders der erste Stopp nach Dunedin. Sie sind ein weiteres beliebtes Fotomotiv in Neuseeland. Wegen ihrer Form und Größe wirken die runden Felsen am Strand, als hätte sie jemand dort hingelegt. Danach nehmen wir Kurs auf den Mount Cook, den höchsten Berg Neuseelands.
+
+<!-- bild: 2018/09/0910-nugget-point-dunedin_013.jpg -->
+<!-- bild: 2018/09/0910-nugget-point-dunedin_014.jpg -->
+<!-- bild: 2018/09/0910-nugget-point-dunedin_015.jpg -->
+<!-- bild: 2018/09/0910-nugget-point-dunedin_016.jpg -->
+<!-- bild: 2018/09/0912-moeraki-boulders_017.jpg -->

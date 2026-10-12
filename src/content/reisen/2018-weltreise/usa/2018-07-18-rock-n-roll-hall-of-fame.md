@@ -11,16 +11,28 @@ route:
 tags: ['roadtrip', 'musik']
 ---
 
-Als ich mich endlich von Kater Pete losreißen kann, steht eine lange Autofahrt an. Wieder einmal. Laut dem Plan vom Wochenende muss ich nach Philadelphia.
+<!-- titelbild: 2018/07/0709-cleveland_img_3840.jpg -->
 
-Zwischen Beaverton in Michigan und Philadelphia in Pennsylvania liegen über 700 Meilen, das sind elf bis zwölf Stunden Autofahrt, wenn man in keinen Stau kommt. Deshalb teile ich die Strecke auf zwei Etappen auf. Die erste führt mich an Detroit und Cleveland vorbei nach Youngstown, die zweite über Pittsburgh nach Philadelphia.
+Als wir uns endlich von Kater Pete losreißen können, steht eine lange Autofahrt an. Wieder einmal. Laut unserem Plan vom Wochenende müssen wir nach Philadelphia.
+
+Zwischen Beaverton in Michigan und Philadelphia in Pennsylvania liegen über 700 Meilen, das sind elf bis zwölf Stunden Autofahrt, wenn man in keinen Stau kommt. Deshalb teilen wir die Strecke auf zwei Etappen auf. Die erste führt uns an Detroit und Cleveland vorbei nach Youngstown, die zweite über Pittsburgh nach Philadelphia.
 
 ## Cleveland
 
-Erster Stopp ist Cleveland, wo ich die Rock'n'Roll Hall of Fame besuche. Man kann viel über die Geschichte des Rock'n'Roll lesen, und es sind jede Menge Gitarren und anderes Zeug von Rocklegenden ausgestellt. Gezeigt wird auch, wie sich die Musik im Lauf der Zeit verändert hat. Und jedes Jahr werden neue Musiker ausgezeichnet und in die Hall of Fame aufgenommen.
+Erster Stopp ist Cleveland, wo wir die Rock'n'Roll Hall of Fame besuchen. Man kann viel über die Geschichte des Rock'n'Roll lesen, und es sind jede Menge Gitarren und anderes Zeug von Rocklegenden ausgestellt. Gezeigt wird auch, wie sich die Musik im Lauf der Zeit verändert hat. Und jedes Jahr werden neue Musiker ausgezeichnet und in die Hall of Fame aufgenommen.
 
-Etwas außerhalb von Cleveland liegt dann das Hard Rock Cafe. Eigentlich ist es ein „Rocksino", also ein Casino, und das Café nur eine kleine Nebensache. Im ersten Moment bin ich ein bisschen verwirrt und weiß nicht recht, ob ich da hineingehen soll. Kurz darauf zücke ich aber schon meinen Ausweis und marschiere in mein erstes amerikanisches Casino. Gespielt habe ich natürlich nicht, nur geschaut ;)
+Etwas außerhalb von Cleveland liegt dann das Hard Rock Cafe. Eigentlich ist es ein „Rocksino", also ein Casino, und das Café nur eine kleine Nebensache. Im ersten Moment sind wir ein bisschen verwirrt und wissen nicht recht, ob wir da hineingehen sollen. Kurz darauf zücken wir aber schon unsere Ausweise und marschieren in unser erstes amerikanisches Casino. Gespielt haben wir natürlich nicht, nur geschaut ;)
 
 ## Pittsburgh
 
-Die Nacht verbringe ich in einem Ort, der ziemlich genau in der Mitte zwischen Cleveland und Pittsburgh liegt, am nächsten Tag geht's weiter nach Pittsburgh. Dort schaue ich mir den Station Square an und spaziere am Monongahela River entlang. Eigentlich wäre ich gern noch mit der Duquesne Incline gefahren, einer Standseilbahn auf den Mount Washington. Aber ich habe noch eine fünfstündige Autofahrt vor mir, und aus Zeitmangel muss das ausfallen.
+<!-- bild: 2018/07/0709-cleveland_img_3833.jpg -->
+<!-- bild: 2018/07/0709-cleveland_img_3834.jpg -->
+<!-- bild: 2018/07/0709-cleveland_img_3837.jpg -->
+<!-- bild: 2018/07/0709-cleveland_img_3838.jpg -->
+
+Die Nacht verbringen wir in einem Ort, der ziemlich genau in der Mitte zwischen Cleveland und Pittsburgh liegt, am nächsten Tag geht's weiter nach Pittsburgh. Dort schauen wir uns den Station Square an und spazieren am Monongahela River entlang. Eigentlich wären wir gern noch mit der Duquesne Incline gefahren, einer Standseilbahn auf den Mount Washington. Aber wir haben noch eine fünfstündige Autofahrt vor uns, und aus Zeitmangel muss das ausfallen.
+
+<!-- bild: 2018/07/0710-pittsburgh-philadelphia_img_3849.jpg -->
+<!-- bild: 2018/07/0710-pittsburgh-philadelphia_img_3845.jpg -->
+<!-- bild: 2018/07/0710-pittsburgh-philadelphia_img_3847.jpg -->
+<!-- bild: 2018/07/0710-pittsburgh-philadelphia_img_3850.jpg -->

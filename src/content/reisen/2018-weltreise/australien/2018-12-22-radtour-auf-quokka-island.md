@@ -6,18 +6,36 @@ position: { name: 'Rottnest Island', lat: -32.0000, lng: 115.5167 }
 tags: ['insel', 'tiere', 'rad']
 ---
 
-Was für ein toller Tag! Ich bin noch ganz begeistert von meinem Tagesausflug nach Rottnest Island und freue mich, euch heute ausführlich davon zu erzählen.
+<!-- titelbild: 2018/12/1204-rottnest-island_012.jpg -->
 
-Schon lange vor der Reise habe ich die ersten Fotos von Quokkas gesehen. Quokkas gehören zur Familie der Kängurus und werden auch Kurzschwanzkängurus genannt. Beim ersten Bild habe ich mich in die kleinen Tiere verliebt und wollte sie unbedingt einmal hautnah sehen. Deshalb war Rottnest Island ein Pflichtpunkt auf meiner Reiseliste. Die kleinen Kängurus waren früher in Australien weiter verbreitet, wurden aber wegen der eingeschleppten Füchse und Katzen immer seltener. Heute kann man sie nur noch auf Rottnest Island sehen.
+Was für ein toller Tag! Wir sind noch ganz begeistert von unserem Tagesausflug nach Rottnest Island, und ich freue mich, euch heute ausführlich davon zu erzählen.
 
-Die Insel erreicht man mit der Fähre. Nach rund 30 Minuten Überfahrt von Fremantle kommt man in der Thomson Bay an. Die Fahrt ist ganz schön wackelig, und gleich nach dem Ablegen fragt mich eine Mitarbeiterin, ob eh alles in Ordnung ist. Ich sage nur „jaja" und wundere mich, ob man mir das bisschen Bauchweh schon ansieht. Entsprechend froh bin ich, als ich wieder festen Boden unter den Füßen habe.
+Schon lange vor der Reise habe ich die ersten Fotos von Quokkas gesehen. Quokkas gehören zur Familie der Kängurus und werden auch Kurzschwanzkängurus genannt. Beim ersten Bild habe ich mich in die kleinen Tiere verliebt und wollte sie unbedingt einmal hautnah sehen. Deshalb war Rottnest Island ein Pflichtpunkt auf unserer Reiseliste. Die kleinen Kängurus waren früher in Australien weiter verbreitet, wurden aber wegen der eingeschleppten Füchse und Katzen immer seltener. Heute kann man sie nur noch auf Rottnest Island sehen.
 
-Einer der besten Wege, die Insel zu erkunden, ist mit dem Rad. Ich bin natürlich gleich Feuer und Flamme. Die Fahrräder buche ich gleich mit der Fähre dazu und suche mir vor Ort eines aus. Weise vorausschauend nehme ich ein Mountainbike. Die meisten anderen Besucher greifen eher zur Einkaufsrad-Variante.
+Die Insel erreicht man mit der Fähre. Nach rund 30 Minuten Überfahrt von Fremantle kommt man in der Thomson Bay an. Die Fahrt ist ganz schön wackelig, und gleich nach dem Ablegen fragt mich eine Mitarbeiterin, ob eh alles in Ordnung ist. Ich sage nur „jaja" und wundere mich, ob man mir das bisschen Bauchweh schon ansieht. Entsprechend froh bin ich, als wir wieder festen Boden unter den Füßen haben.
 
-Schon nach ein paar Metern bin ich richtig froh darüber. Die Insel ist keineswegs flach, an manchen Stellen muss man ordentlich in die Pedale treten. Die große Tour, die ich mache, ist mit 22 Kilometern angeschrieben und führt einmal um die ganze Insel. Für mich natürlich kein Problem, und so geht's los.
+<!-- bild: 2018/12/1204-rottnest-island_011-960x640.jpg -->
+<!-- bild: 2018/12/1204-rottnest-island_010-960x1280.jpg -->
+<!-- bild: 2018/12/1204-rottnest-island_006-960x1280.jpg -->
+<!-- bild: 2018/12/1204-rottnest-island_003-960x720.jpg -->
+<!-- bild: 2018/12/1204-rottnest-island_004-960x458.jpg -->
 
-Die Ausblicke aufs Meer sind gigantisch, ich halte immer wieder für Fotos an. Das Wasser ist so klar und wunderschön blau. Man kann hier auch schnorcheln und die Unterwasserwelt erkunden, aber ich bleibe lieber beim Radfahren. Am westlichsten Punkt, dem Cape Vlamingh, kann man sogar Wale beobachten. Mit den Walen habe ich leider kein Glück, dafür sehe ich ein paar Delfine.
+Einer der besten Wege, die Insel zu erkunden, ist mit dem Rad. Wir sind natürlich gleich Feuer und Flamme. Die Fahrräder buchen wir gleich mit der Fähre dazu und suchen uns vor Ort welche aus. Weise vorausschauend nehmen wir Mountainbikes. Die meisten anderen Besucher greifen eher zur Einkaufsrad-Variante.
 
-Nach fast 30 Kilometern bin ich endlich wieder in der Thomson Bay. In der Früh war ich noch ein bisschen enttäuscht, weil der Himmel so bewölkt war, jetzt bin ich richtig froh, dass es nicht so heiß ist wie am Vortag. Für einen Sonnenbrand hat es trotzdem gereicht.
+Schon nach ein paar Metern sind wir richtig froh darüber. Die Insel ist keineswegs flach, an manchen Stellen muss man ordentlich in die Pedale treten. Die große Tour, die wir machen, ist mit 22 Kilometern angeschrieben und führt einmal um die ganze Insel. Für uns natürlich kein Problem, und so geht's los.
 
-In der Thomson Bay trinke ich noch einen Kaffee und genieße die letzte Stunde, bevor mich die Fähre zurück nach Fremantle bringt. Und dort sehe ich noch einmal richtig viele Quokkas. Vor allem in der Fußgängerzone sind ganz viele unterwegs, und ich mache noch ein ausgiebiges Fotoshooting mit ihnen.
+<!-- bild: 2018/12/1204-rottnest-island_007-960x720.jpg -->
+<!-- bild: 2018/12/1204-rottnest-island_005-960x1278.jpg -->
+<!-- bild: 2018/12/1204-rottnest-island_002-960x1280.jpg -->
+<!-- bild: 2018/12/1204-rottnest-island_001-960x720.jpg -->
+
+Die Ausblicke aufs Meer sind gigantisch, wir halten immer wieder für Fotos an. Das Wasser ist so klar und wunderschön blau. Man kann hier auch schnorcheln und die Unterwasserwelt erkunden, aber wir bleiben lieber beim Radfahren. Am westlichsten Punkt, dem Cape Vlamingh, kann man sogar Wale beobachten. Mit den Walen haben wir leider kein Glück, dafür sehen wir ein paar Delfine.
+
+Nach fast 30 Kilometern sind wir endlich wieder in der Thomson Bay. In der Früh waren wir noch ein bisschen enttäuscht, weil der Himmel so bewölkt war, jetzt sind wir richtig froh, dass es nicht so heiß ist wie am Vortag. Für einen Sonnenbrand hat es trotzdem gereicht.
+
+In der Thomson Bay trinken wir noch einen Kaffee und genießen die letzte Stunde, bevor uns die Fähre zurück nach Fremantle bringt. Und dort sehen wir noch einmal richtig viele Quokkas. Vor allem in der Fußgängerzone sind ganz viele unterwegs, und wir machen noch ein ausgiebiges Fotoshooting mit ihnen.
+
+<!-- bild: 2018/12/1204-rottnest-island_014-960x640.jpg -->
+<!-- bild: 2018/12/1204-rottnest-island_015-960x1440.jpg -->
+<!-- bild: 2018/12/1204-rottnest-island_016-960x640.jpg -->
+<!-- bild: 2018/12/1204-rottnest-island_013-960x640.jpg -->

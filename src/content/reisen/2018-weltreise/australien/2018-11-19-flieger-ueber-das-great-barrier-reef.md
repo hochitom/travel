@@ -6,22 +6,45 @@ position: { name: 'Whitsunday Islands', lat: -20.2797, lng: 149.0369 }
 tags: ['flug', 'riff', 'ostkueste']
 ---
 
-In Airlie Beach liege ich natürlich nicht nur auf der faulen Haut. Das nahe Great Barrier Reef lädt zu der einen oder anderen Unternehmung ein.
+<!-- titelbild: 2018/11/1112-great-barrier-reef_011.jpg -->
 
-Um halb zehn werde ich von einem Taxibus vor dem Campingplatz abgeholt, und es geht zum Flughafen von Airlie Beach. Dort bekomme ich meine Bordkarte, und nach einer kurzen Sicherheitseinweisung darf ich auch schon in den Flieger klettern. Bisher waren die Flugzeuge auf meiner Reise immer große Maschinen für hunderte Leute. Diesmal ist der Flieger mit sieben Passagieren und einem Piloten bis auf den letzten Platz voll.
+In Airlie Beach liegen wir natürlich nicht nur auf der faulen Haut. Das nahe Great Barrier Reef lädt zu der einen oder anderen Unternehmung ein.
+
+Um halb zehn werden wir von einem Taxibus vor dem Campingplatz abgeholt, und es geht zum Flughafen von Airlie Beach. Dort bekommen wir unsere Bordkarten, und nach einer kurzen Sicherheitseinweisung dürfen wir auch schon in den Flieger klettern. Bisher waren die Flugzeuge auf unserer Reise immer große Maschinen für hunderte Leute. Diesmal ist der Flieger mit sieben Passagieren und einem Piloten bis auf den letzten Platz voll.
+
+<!-- bild: 2018/11/1112-great-barrier-reef_001.jpg -->
+<!-- bild: 2018/11/1112-great-barrier-reef_010.jpg -->
+<!-- bild: 2018/11/1112-great-barrier-reef_006.jpg -->
+<!-- bild: 2018/11/1112-great-barrier-reef_009.jpg -->
 
 Schon kurz nach dem Start eröffnet sich ein wunderbarer Ausblick auf die vielen kleinen und etwas größeren Inseln vor Airlie Beach. Das sind die Whitsunday Islands, eines der Highlights an Australiens Ostküste. Spätestens nach einem Flug über die Inseln ist klar, warum.
 
 Die Strände strahlen in strahlendem Weiß, das Meer ist türkis. Und die Inseln haben zwei Besonderheiten: Erstens kann man hier wieder im Meer baden, was an der Küste wegen Krokodilen, Quallen und Haien nicht unbedingt empfohlen wird. Zweitens gibt es hier den Whitehaven Beach, einen der wenigen Strände, an denen der Sand nie heiß wird, egal welche Temperaturen herrschen. Außerdem wurde dort der letzte „Fluch der Karibik"-Film gedreht.
 
-Danach wird es für ein paar Minuten ruhiger, zumindest was die Aussicht betrifft. In der kleinen Maschine spürt man nämlich jede Windböe, und mir wird im Flieger ganz schön mulmig.
+<!-- bild: 2018/11/1112-great-barrier-reef_008.jpg -->
+<!-- bild: 2018/11/1112-great-barrier-reef_003.jpg -->
+<!-- bild: 2018/11/1112-great-barrier-reef_007.jpg -->
+<!-- bild: 2018/11/1112-great-barrier-reef_005.jpg -->
+<!-- bild: 2018/11/1112-great-barrier-reef_004.jpg -->
 
-Nach ein paar Minuten erreichen wir das große Highlight des Fluges und meines ganzen Aufenthalts in Australien: das Great Barrier Reef, die größte zusammenhängende Ansammlung von Korallenriffen der Erde, seit 1981 UNESCO-Weltnaturerbe. Ähnlich wie beim Milford Sound in Neuseeland war mir von Anfang an klar, dass ich dieses Wunder der Natur unbedingt sehen will.
+Danach wird es für ein paar Minuten ruhiger, zumindest was die Aussicht betrifft. In der kleinen Maschine spürt man nämlich jede Windböe, und uns wird im Flieger ganz schön mulmig.
 
-Und was soll ich sagen? Es ist einfach atemberaubend! Auch wenn man vom Flieger aus kaum Leben im Riff erkennt: Allein die unterschiedlichen Farben, das klare Wasser und die vielen Muster sind ein unvergessliches Erlebnis, das einen prominenten Platz in meinem Erinnerungsalbum bekommt.
+Nach ein paar Minuten erreichen wir das große Highlight des Fluges und unseres ganzen Aufenthalts in Australien: das Great Barrier Reef, die größte zusammenhängende Ansammlung von Korallenriffen der Erde, seit 1981 UNESCO-Weltnaturerbe. Ähnlich wie beim Milford Sound in Neuseeland war uns von Anfang an klar, dass wir dieses Wunder der Natur unbedingt sehen wollen.
+
+Und was sollen wir sagen? Es ist einfach atemberaubend! Auch wenn man vom Flieger aus kaum Leben im Riff erkennt: Allein die unterschiedlichen Farben, das klare Wasser und die vielen Muster sind ein unvergessliches Erlebnis, das einen prominenten Platz in unserem Erinnerungsalbum bekommt.
 
 Nach einigen Minuten über dem Riff, unter anderem über dem weltberühmten Heart Reef, einem Riff in Herzform, geht's auch schon wieder Richtung Flughafen.
 
-Auch beim Rückflug wird mir nicht langweilig, denn die Ausblicke sind wieder umwerfend. Wir fliegen vorbei an kleinen, unbewohnten und größeren, bewohnten Inseln.
+<!-- bild: 2018/11/1112-great-barrier-reef_013.jpg -->
+<!-- bild: 2018/11/1112-great-barrier-reef_012.jpg -->
+<!-- bild: 2018/11/1112-great-barrier-reef_018.jpg -->
+<!-- bild: 2018/11/1112-great-barrier-reef_019.jpg -->
+<!-- bild: 2018/11/1112-great-barrier-reef_014.jpg -->
+<!-- bild: 2018/11/1112-great-barrier-reef_016.jpg -->
+<!-- bild: 2018/11/1112-great-barrier-reef_015.jpg -->
 
-Nach einer Stunde setzt der Flieger sicher in Airlie Beach auf, und als ich wieder festen Boden unter den Füßen habe, bin ich auch ein bisschen froh. Der Flug war atemberaubend schön, aber auch sehr wackelig, und es dauert eine Weile, bis die Farbe in mein Gesicht zurückkehrt.
+Auch beim Rückflug wird uns nicht langweilig, denn die Ausblicke sind wieder umwerfend. Wir fliegen vorbei an kleinen, unbewohnten und größeren, bewohnten Inseln.
+
+Nach einer Stunde setzt der Flieger sicher in Airlie Beach auf, und als wir wieder festen Boden unter den Füßen haben, sind wir auch ein bisschen froh. Der Flug war atemberaubend schön, aber auch sehr wackelig, und es dauert eine Weile, bis die Farbe in unsere Gesichter zurückkehrt.
+
+<!-- bild: 2018/11/1112-great-barrier-reef_022.jpg -->

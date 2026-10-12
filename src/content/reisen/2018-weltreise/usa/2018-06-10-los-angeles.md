@@ -6,33 +6,60 @@ position: { name: 'Los Angeles', lat: 34.0522, lng: -118.2437 }
 tags: ['stadt', 'kalifornien']
 ---
 
-Die nächste Großstadt am Highway No. 1 ist Los Angeles und damit das nächste Ziel meines Roadtrips. Bevor ich in die Stadt fahre, schaue ich noch in Malibu, Santa Monica und am Venice Beach vorbei. Im Norden war es eher windig und kalt, jetzt wird es von Tag zu Tag wärmer, und die Sonne lädt dazu ein, die Zeit draußen zu verbringen.
+<!-- titelbild: 2018/06/0604-los-angeles_img_1531_020.jpg -->
+
+Die nächste Großstadt am Highway No. 1 ist Los Angeles und damit das nächste Ziel unseres Roadtrips. Bevor wir in die Stadt fahren, schauen wir noch in Malibu, Santa Monica und am Venice Beach vorbei. Im Norden war es eher windig und kalt, jetzt wird es von Tag zu Tag wärmer, und die Sonne lädt dazu ein, die Zeit draußen zu verbringen.
 
 ## Malibu
 
-Malibu ist als Wohnort vieler Filmstars bekannt und überzeugt mit wunderschönen Häusern direkt am Strand. Eigentlich ist es eine lange Durchzugsstraße mit wenigen Geschäften und Lokalen. Die Stars wohnen entweder direkt am Meer oder oben in den Hügeln. Das Besondere: Die Häuser liegen wirklich direkt am Strand, Gartentürl auf und man steht im Sand. Der Strand ist aber ganz normal öffentlich zugänglich, und das nutzen auch einige Sonnenhungrige. Mit Parkplätzen schaut es eher schlecht aus, aber genau deshalb ist es hier ruhig und nicht so überlaufen wie in Santa Monica. Ich spaziere ein Stück den Strand entlang und spüre zum ersten Mal auf dieser Reise Sand und Wasser unter den Füßen.
+Malibu ist als Wohnort vieler Filmstars bekannt und überzeugt mit wunderschönen Häusern direkt am Strand. Eigentlich ist es eine lange Durchzugsstraße mit wenigen Geschäften und Lokalen. Die Stars wohnen entweder direkt am Meer oder oben in den Hügeln. Das Besondere: Die Häuser liegen wirklich direkt am Strand, Gartentürl auf und man steht im Sand. Der Strand ist aber ganz normal öffentlich zugänglich, und das nutzen auch einige Sonnenhungrige. Mit Parkplätzen schaut es eher schlecht aus, aber genau deshalb ist es hier ruhig und nicht so überlaufen wie in Santa Monica. Wir spazieren ein Stück den Strand entlang und spüren zum ersten Mal auf dieser Reise Sand und Wasser unter den Füßen.
+
+<!-- bild: 2018/06/0603-malibu-los-angeles_img_1396_001.jpg -->
+<!-- bild: 2018/06/0603-malibu-los-angeles_img_1408_002.jpg -->
+<!-- bild: 2018/06/0603-malibu-los-angeles_img_1414_003.jpg -->
+<!-- bild: 2018/06/0603-malibu-los-angeles_img_1437_005.jpg -->
+<!-- bild: 2018/06/0603-malibu-los-angeles_img_1428_004.jpg -->
 
 ## Santa Monica und Venice Beach
 
-In Santa Monica ist schon deutlich mehr los, und der Verkehr in die Stadt zieht sich. Ich suche mir einen Parkplatz, und der Unterschied zu Malibu ist sofort zu spüren. Erster Stopp ist der Santa Monica Pier mit Vergnügungsbuden, Musik und Ständen mit allerhand interessanten Dingen. Auch die Leute hier sind ziemlich ausgeflippt und interessant.
+In Santa Monica ist schon deutlich mehr los, und der Verkehr in die Stadt zieht sich. Wir suchen uns einen Parkplatz, und der Unterschied zu Malibu ist sofort zu spüren. Erster Stopp ist der Santa Monica Pier mit Vergnügungsbuden, Musik und Ständen mit allerhand interessanten Dingen. Auch die Leute hier sind ziemlich ausgeflippt und interessant.
 
-Ein Fahrrad will ich mir nicht ausborgen und extra mit dem Auto zum Venice Beach fahren auch nicht, also gehe ich zu Fuß. Ich bin die letzten Tage ohnehin so viel gegangen, dass mich das nicht mehr schreckt. Der Spaziergang dauert trotzdem ungefähr eine Dreiviertelstunde. Venice Beach ist das Viertel der Künstler, und hier liegt der berühmte Muscle Beach, an dem schon Arnold Schwarzenegger seine Muskeln trainiert hat.
+Ein Fahrrad wollen wir uns nicht ausborgen und extra mit dem Auto zum Venice Beach fahren auch nicht, also gehen wir zu Fuß. Wir sind die letzten Tage ohnehin so viel gegangen, dass uns das nicht mehr schreckt. Der Spaziergang dauert trotzdem ungefähr eine Dreiviertelstunde. Venice Beach ist das Viertel der Künstler, und hier liegt der berühmte Muscle Beach, an dem schon Arnold Schwarzenegger seine Muskeln trainiert hat.
 
 ## Los Angeles
 
-Nach einem langen Tag am Strand geht's endlich in die Stadt. Mein erstes Motel muss ich leider stornieren. Auf dem Weg dorthin lese ich so viele schlechte Bewertungen, und das Bild vor Ort bestätigt sie. Dass es einer der schlechteren Bezirke von LA ist, erfahre ich erst später. Ich suche mir also eine andere Bleibe und beschließe, diesmal etwas mehr auszugeben, damit ich mich auch wirklich wohlfühle. Gesagt, getan: ein schönes Motel mit Frühstück.
+Nach einem langen Tag am Strand geht's endlich in die Stadt. Unser erstes Motel müssen wir leider stornieren. Auf dem Weg dorthin lese ich so viele schlechte Bewertungen, und das Bild vor Ort bestätigt sie. Dass es einer der schlechteren Bezirke von LA ist, erfahren wir erst später. Wir suchen uns also eine andere Bleibe und beschließen, diesmal etwas mehr auszugeben, damit wir uns auch wirklich wohlfühlen. Gesagt, getan: ein schönes Motel mit Frühstück.
 
-Dank Mietauto sehe ich innerhalb von zwei Tagen die wichtigsten Sehenswürdigkeiten. LA gilt als die Autostadt schlechthin, und das kann ich nur bestätigen. Die Stadt ist einfach riesig, nach New York die zweitgrößte der USA und die größte in Kalifornien. Ich brauche meistens mindestens eine halbe bis dreiviertel Stunde, bis ich irgendwo bin.
+Dank Mietauto sehen wir innerhalb von zwei Tagen die wichtigsten Sehenswürdigkeiten. LA gilt als die Autostadt schlechthin, und das können wir nur bestätigen. Die Stadt ist einfach riesig, nach New York die zweitgrößte der USA und die größte in Kalifornien. Wir brauchen meistens mindestens eine halbe bis dreiviertel Stunde, bis wir irgendwo sind.
 
-Am zweiten Tag buche ich in der Früh Tickets für eine Führung durch die Warner-Bros.-Studios. Davor ist noch etwas Zeit, also fahre ich zum Walk of Fame und zum TCL Chinese Theatre.
+<!-- bild: 2018/06/0604-los-angeles_img_1442_002.jpg -->
+<!-- bild: 2018/06/0604-los-angeles_img_1440_001.jpg -->
+<!-- bild: 2018/06/0604-los-angeles_img_1447_004.jpg -->
+<!-- bild: 2018/06/0604-los-angeles_img_1449_005.jpg -->
 
-Anfangs zögere ich, ob ich die Tour wirklich machen soll, denn billig sind die Tickets nicht. Aber ich kann nur sagen: Die Investition zahlt sich definitiv aus, sonst hätte ich echt was verpasst. Mit einem größeren Golfcart fahren wir über das Gelände, besuchen Drehorte und lernen viel darüber, wie Filme und Serien entstehen. Ich sehe viele Kulissen und erfahre, wie aus der Straße, die gerade noch New York war, eine Straße im Chicago der Zwanzigerjahre wird. Richtig interessant.
+Am zweiten Tag buchen wir in der Früh Tickets für eine Führung durch die Warner-Bros.-Studios. Davor ist noch etwas Zeit, also fahren wir zum Walk of Fame und zum TCL Chinese Theatre.
 
-Das Highlight ist der Besuch am Drehort von „The Big Bang Theory" und „Fuller House". Gedreht wird zum Glück gerade nicht, sonst dürfte man dort nicht hinein. Außerdem gibt es eine Ausstellung mit vielen Kostümen und Requisiten aus Harry Potter, und ich darf sogar den Sprechenden Hut aufsetzen. Gryffindor, natürlich ;) Der Besuch war auf jeden Fall super, und ich schaue Filme jetzt mit ganz anderen Augen.
+Anfangs zögern wir, ob wir die Tour wirklich machen sollen, denn billig sind die Tickets nicht. Aber wir können nur sagen: Die Investition zahlt sich definitiv aus, sonst hätten wir echt was verpasst. Mit einem größeren Golfcart fahren wir über das Gelände, besuchen Drehorte und lernen viel darüber, wie Filme und Serien entstehen. Wir sehen viele Kulissen und erfahren, wie aus der Straße, die gerade noch New York war, eine Straße im Chicago der Zwanzigerjahre wird. Richtig interessant.
 
-Danach geht's zum Sunset Boulevard, und ich erkunde die umliegenden Straßen, wo einige der schönsten Villen stehen. Mit dem Auto sieht man leider wenig, weil die Häuser zur Straße hin meistens komplett verbaut sind. Zum Essen fahre ich nach Beverly Hills und genehmige mir in einer Seitenstraße einen richtig guten veganen Burger. Zum Abschluss spaziere ich noch den Rodeo Drive entlang.
+<!-- bild: 2018/06/0604-los-angeles_img_3158_006.jpg -->
+<!-- bild: 2018/06/0604-los-angeles_img_1496_011.jpg -->
+<!-- bild: 2018/06/0604-los-angeles_img_1474_008.jpg -->
+<!-- bild: 2018/06/0604-los-angeles_img_1500_012.jpg -->
+<!-- bild: 2018/06/0604-los-angeles_img_1483_009.jpg -->
+<!-- bild: 2018/06/0604-los-angeles_img_1486_010.jpg -->
+<!-- bild: 2018/06/0604-los-angeles_img_1523_019.jpg -->
 
-Mir hat es in LA besser gefallen als in San Francisco. Allerdings bin ich auch nicht in die weniger schönen Gegenden gekommen, außer beim ersten Motel. Die Grenze zwischen Reich und „normal" Verdienenden spürt man hier trotzdem extrem, aber genau das ist anscheinend der Reiz dieser Stadt. Passend zum Gefühl in LA noch ein Zitat zum Abschluss:
+Das Highlight ist der Besuch am Drehort von „The Big Bang Theory" und „Fuller House". Gedreht wird zum Glück gerade nicht, sonst dürfte man dort nicht hinein. Außerdem gibt es eine Ausstellung mit vielen Kostümen und Requisiten aus Harry Potter, und wir dürfen sogar beide den Sprechenden Hut aufsetzen. Gryffindor, natürlich ;) Der Besuch war auf jeden Fall super, und wir schauen Filme jetzt mit ganz anderen Augen.
+
+Danach geht's zum Sunset Boulevard, und wir erkunden die umliegenden Straßen, wo einige der schönsten Villen stehen. Mit dem Auto sieht man leider wenig, weil die Häuser zur Straße hin meistens komplett verbaut sind. Zum Essen fahren wir nach Beverly Hills und genehmigen uns in einer Seitenstraße richtig gute vegane Burger. Zum Abschluss spazieren wir noch den Rodeo Drive entlang.
+
+Mir hat es in LA besser gefallen als in San Francisco. Allerdings sind wir auch nicht in die weniger schönen Gegenden gekommen, außer beim ersten Motel. Die Grenze zwischen Reich und „normal" Verdienenden spürt man hier trotzdem extrem, aber genau das ist anscheinend der Reiz dieser Stadt. Passend zum Gefühl in LA noch ein Zitat zum Abschluss:
 
 > Alle unsere Träume können wahr werden, wenn wir den Mut haben, ihnen zu folgen.
 > – Walt Disney
+
+<!-- bild: 2018/06/0604-los-angeles_img_1519_018.jpg -->
+<!-- bild: 2018/06/0604-los-angeles_img_1517_016.jpg -->
+<!-- bild: 2018/06/0604-los-angeles_img_1507_014.jpg -->
+<!-- bild: 2018/06/0604-los-angeles_img_1509_015.jpg -->
+<!-- bild: 2018/06/0604-los-angeles_img_1505_013.jpg -->

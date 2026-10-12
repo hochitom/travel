@@ -8,4 +8,4 @@ bis: 2018-09-30
 tags: ['camper', 'wandern', 'natur']
 ---
 
-Nach den Wochen in den USA bin ich im neuseeländischen Winter gelandet. Auf Auckland folgte der Camper: erst in den hohen Norden, über die Coromandel-Halbinsel und Rotorua nach Wellington, dann mit der Fähre auf die Südinsel. Dort ging es die Westküste hinunter, zum Milford Sound, zum Slope Point, zum Mount Cook und über den Arthur’s Pass nach Christchurch.
+Nach den Wochen in den USA sind wir im neuseeländischen Winter gelandet. Auf Auckland folgte der Camper: erst in den hohen Norden, über die Coromandel-Halbinsel und Rotorua nach Wellington, dann mit der Fähre auf die Südinsel. Dort ging es die Westküste hinunter, zum Milford Sound, zum Slope Point, zum Mount Cook und über den Arthur’s Pass nach Christchurch.

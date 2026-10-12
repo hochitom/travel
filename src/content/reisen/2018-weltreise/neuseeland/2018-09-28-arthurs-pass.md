@@ -11,22 +11,36 @@ route:
 tags: ['camper', 'suedinsel', 'natur']
 ---
 
-Nach 50 Kilometern Schotterpiste mache ich mich auf den Weg zum Arthur's Pass. Wenn man nach den schönsten Strecken in Neuseeland sucht, ist fast immer auch dieser Pass dabei. Für mich war von Anfang an klar, dass ich dorthin muss.
+<!-- titelbild: 2018/09/0917-glow-worm-hokitika_001.jpg -->
 
-Von Mount Somers geht's in knapp zwei Stunden Autofahrt zu meinem Schlafplatz am Fuß des Arthur's Pass. Es ist schon mein zweiter Versuch an diesem Tag, einen Schlafplatz zu finden. Den ersten Campingplatz habe ich schnell wieder verlassen, er wäre der perfekte Schauplatz für einen Horrorfilm gewesen.
+Nach 50 Kilometern Schotterpiste machen wir uns auf den Weg zum Arthur's Pass. Wenn man nach den schönsten Strecken in Neuseeland sucht, ist fast immer auch dieser Pass dabei. Für uns war von Anfang an klar, dass wir dorthin müssen.
 
-Auf der Fahrt komme ich bei Castle Hill vorbei und lege einen spontanen Halt ein. Schon von der Straße aus wirken die runden Felsen auf den Hügeln richtig spektakulär. Optisch erinnern sie ein wenig an die Moeraki Boulders, die ich erst vor ein paar Tagen gesehen habe, aber je näher ich komme, desto größer wird der Unterschied. Und je länger ich zwischen den Steinen herumirre, desto mehr sehe ich. Aus jedem Winkel sehen sie anders aus. Echt beeindruckend!
+Von Mount Somers geht's in knapp zwei Stunden Autofahrt zu unserem Schlafplatz am Fuß des Arthur's Pass. Es ist schon unser zweiter Versuch an diesem Tag, einen Schlafplatz zu finden. Den ersten Campingplatz haben wir schnell wieder verlassen, er wäre der perfekte Schauplatz für einen Horrorfilm gewesen.
 
-In der Nacht beginnt es leider zu regnen, und der Regen hört auch am nächsten Tag nicht auf. Er hüllt die Berge in dunkelgraue Wolken. Wohin man schaut, ist es grau. Also verschiebe ich das Tagesprogramm auf den nächsten Tag und fahre weiter an die Westküste nach Greymouth, wo ich schon zu Beginn meines Aufenthalts auf der Südinsel war.
+Auf der Fahrt kommen wir bei Castle Hill vorbei und legen einen spontanen Halt ein. Schon von der Straße aus wirken die runden Felsen auf den Hügeln richtig spektakulär. Optisch erinnern sie ein wenig an die Moeraki Boulders, die wir erst vor ein paar Tagen gesehen haben, aber je näher wir kommen, desto größer wird der Unterschied. Und je länger wir zwischen den Steinen herumirren, desto mehr sehen wir. Aus jedem Winkel sehen sie anders aus. Echt beeindruckend!
 
-Am Abend hört es endlich auf zu regnen, und sogar die Sonne kommt ein bisschen durch. Ich beschließe, noch eine Kleinigkeit zu unternehmen. Kurz nachdem ich die Westküste das letzte Mal hinter mir gelassen hatte, hatte ich von den Glühwürmchenhöhlen in Neuseeland gelesen. Leider hatte ich bis dahin alle Möglichkeiten verpasst.
+<!-- bild: 2018/09/0916-mt--sunday_001.jpg -->
+<!-- bild: 2018/09/0916-mt--sunday_002.jpg -->
+<!-- bild: 2018/09/0916-mt--sunday_003.jpg -->
+<!-- bild: 2018/09/0916-mt--sunday_004.jpg -->
+
+In der Nacht beginnt es leider zu regnen, und der Regen hört auch am nächsten Tag nicht auf. Er hüllt die Berge in dunkelgraue Wolken. Wohin man schaut, ist es grau. Also verschieben wir das Tagesprogramm auf den nächsten Tag und fahren weiter an die Westküste nach Greymouth, wo wir schon zu Beginn unseres Aufenthalts auf der Südinsel waren.
+
+Am Abend hört es endlich auf zu regnen, und sogar die Sonne kommt ein bisschen durch. Wir beschließen, noch eine Kleinigkeit zu unternehmen. Kurz nachdem wir die Westküste das letzte Mal hinter uns gelassen hatten, hatten wir von den Glühwürmchenhöhlen in Neuseeland gelesen. Leider hatten wir bis dahin alle Möglichkeiten verpasst.
 
 Glücklicherweise gibt es an der Westküste auch eine Möglichkeit, Glühwürmchen zu sehen. Und die ist sogar gratis! In Hokitika, etwa 40 Kilometer südlich von Greymouth, gibt's einen Wald, in dem man die Tierchen super sieht.
 
-Ich parke den Camper neben der Straße. Der Eingang zum Wald ist nicht zu übersehen, ein großes Schild weist darauf hin, und ein paar andere Autos stehen schon am Straßenrand. Mit Stirnlampe und Fotoapparat gehe ich die paar Meter in den Wald, und sofort leuchtet es überall. Die tausenden Glühwürmchen wirken wie ein Sternenhimmel.
+Wir parken den Camper neben der Straße. Der Eingang zum Wald ist nicht zu übersehen, ein großes Schild weist darauf hin, und ein paar andere Autos stehen schon am Straßenrand. Mit Stirnlampe und Fotoapparat gehen wir die paar Meter in den Wald, und sofort leuchtet es überall. Die tausenden Glühwürmchen wirken wie ein Sternenhimmel.
 
-Nach dem Frühstück am nächsten Tag hole ich das verpasste Programm vom Vortag nach und fahre wieder auf den Arthur's Pass. Das Wetter hat sich eindeutig gebessert: statt grauem Himmel und Regen gibt's wieder blauen Himmel und Sonnenschein.
+<!-- bild: 2018/09/0917-glow-worm-hokitika_005.jpg | Der Versuch, die Glühwürmchen fotografisch festzuhalten -->
 
-Am Arthur's Pass besuche ich einen Wasserfall mit dem klingenden Namen Devil's Punchbowl. Der Weg führt über die eine oder andere Brücke und ein paar Stufen zu einer Aussichtsplattform mit tollem Blick auf den fast 130 Meter hohen Wasserfall.
+Nach dem Frühstück am nächsten Tag holen wir das verpasste Programm vom Vortag nach und fahren wieder auf den Arthur's Pass. Das Wetter hat sich eindeutig gebessert: statt grauem Himmel und Regen gibt's wieder blauen Himmel und Sonnenschein.
 
-Danach geht's wieder die gleiche Strecke zurück, die ich schon am Vormittag bezwungen habe. Obwohl ich sie jetzt zum dritten Mal fahre, ist sie nicht weniger spektakulär, und ich bleibe noch bei den beiden Aussichtspunkten stehen, die einen schönen Blick ins Tal bieten.
+Am Arthur's Pass besuchen wir einen Wasserfall mit dem klingenden Namen Devil's Punchbowl. Der Weg führt über die eine oder andere Brücke und ein paar Stufen zu einer Aussichtsplattform mit tollem Blick auf den fast 130 Meter hohen Wasserfall.
+
+Danach geht's wieder die gleiche Strecke zurück, die wir schon am Vormittag bezwungen haben. Obwohl wir sie jetzt zum dritten Mal fahren, ist sie nicht weniger spektakulär, und wir bleiben noch bei den beiden Aussichtspunkten stehen, die einen schönen Blick ins Tal bieten.
+
+<!-- bild: 2018/09/0918-arthurs-pass_006.jpg -->
+<!-- bild: 2018/09/0918-arthurs-pass_007.jpg -->
+<!-- bild: 2018/09/0918-arthurs-pass_008.jpg -->
+<!-- bild: 2018/09/0918-arthurs-pass_009.jpg -->

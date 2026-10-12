@@ -8,4 +8,4 @@ bis: 2019-01-31
 tags: ['yoga', 'roller', 'tempel']
 ---
 
-Bali war das letzte Ziel der Weltreise und das erste in Asien. In Canggu hat mich anfangs vieles überfordert: Verkehr, Hitze, Lärm. Mit einem gemieteten Roller wurde es erträglich. In Ubud, im Landesinneren, habe ich mich deutlich wohler gefühlt.
+Bali war das letzte Ziel unserer Weltreise und das erste in Asien. In Canggu hat uns anfangs vieles überfordert: Verkehr, Hitze, Lärm. Mit einem gemieteten Roller wurde es erträglich. In Ubud, im Landesinneren, haben wir uns deutlich wohler gefühlt.

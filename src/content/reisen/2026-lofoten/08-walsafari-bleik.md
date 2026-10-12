@@ -2,7 +2,7 @@
 titel: "Walsafari ab Andenes"
 datum: 2026-09-09
 position: { name: 'Andenes', lat: 69.31, lng: 16.12 }
-entwurf: true  # erst veröffentlichen, wenn TODOs und Fakten geprüft sind
+entwurf: false  # erst veröffentlichen, wenn TODOs und Fakten geprüft sind
 ---
 
 Heute hat der Wecker schon um acht Uhr geklingelt, weil wir früh genug am Hafen sein mussten. Kaffee im Bett und die ersten Spiele haben wir uns trotzdem nicht nehmen lassen. Zum Frühstück gab es wieder Eierspeis, Brot und Käse, danach ging es auch schon zum Hafen.

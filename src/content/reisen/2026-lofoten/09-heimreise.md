@@ -2,7 +2,7 @@
 titel: "Rückgabe, Evenes und Heimflug über Tromsø"
 datum: 2026-09-10
 position: { name: 'Tromsø', lat: 69.65, lng: 18.96 }
-entwurf: true  # erst veröffentlichen, wenn TODOs und Fakten geprüft sind
+entwurf: false  # erst veröffentlichen, wenn TODOs und Fakten geprüft sind
 ---
 
 ## Donnerstag: Rückfahrt nach Evenes

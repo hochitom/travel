@@ -2,7 +2,7 @@
 titel: "Camper, Kabelvåg und Henningsvær"
 datum: 2026-08-31
 position: { name: 'Kabelvåg', lat: 68.21, lng: 14.48 }
-entwurf: true  # erst veröffentlichen, wenn TODOs und Fakten geprüft sind
+entwurf: false  # erst veröffentlichen, wenn TODOs und Fakten geprüft sind
 ---
 
 ## Montag: Propellerflug und Camper-Übernahme

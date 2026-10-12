@@ -2,7 +2,7 @@
 titel: "Über die Andøya-Route nach Andenes"
 datum: 2026-09-08
 position: { name: 'Andenes', lat: 69.31, lng: 16.12 }
-entwurf: true  # erst veröffentlichen, wenn TODOs und Fakten geprüft sind
+entwurf: false  # erst veröffentlichen, wenn TODOs und Fakten geprüft sind
 ---
 
 Die letzte Nacht war sehr stürmisch und regnerisch. Das ganze Wohnmobil hat gewackelt, und wenn eine Sturmböe eingefahren ist, war es richtig laut. Trotzdem haben wir gut geschlafen, bis ungefähr halb neun. Wie immer gab es dann Kaffee im Bett und unsere Spiele, bevor es zum Frühstück ging. Diesmal gab es Spiegeleier, Brot, Aufstrich und Käse, zum ersten Mal auch braunen Käse als Aufstrich, sehr interessant. Dazu natürlich Müsli und Saft.

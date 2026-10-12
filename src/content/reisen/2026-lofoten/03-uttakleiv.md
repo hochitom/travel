@@ -1,7 +1,7 @@
 ---
 titel: "Wikinger, Wind und der Mannen"
 datum: 2026-09-03
-entwurf: true  # erst veröffentlichen, wenn TODOs und Fakten geprüft sind
+entwurf: false  # erst veröffentlichen, wenn TODOs und Fakten geprüft sind
 ---
 
 <!-- TODO: Koordinaten für Uttakleiv (lat/lng) ergänzen, ich kenne sie nicht sicher. -->

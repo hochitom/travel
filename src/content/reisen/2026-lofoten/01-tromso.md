@@ -2,7 +2,7 @@
 titel: "Drei Tage Tromsø"
 datum: 2026-08-28
 position: { name: 'Tromsø', lat: 69.65, lng: 18.96 }
-entwurf: true  # erst veröffentlichen, wenn TODOs und Fakten geprüft sind
+entwurf: false  # erst veröffentlichen, wenn TODOs und Fakten geprüft sind
 ---
 
 ## Anreise: früh raus, knapp angekommen

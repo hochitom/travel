@@ -1,7 +1,7 @@
 ---
 titel: "Ryten, Sauna und doch noch Polarlichter"
 datum: 2026-09-05
-entwurf: true  # erst veröffentlichen, wenn TODOs und Fakten geprüft sind
+entwurf: false  # erst veröffentlichen, wenn TODOs und Fakten geprüft sind
 ---
 
 <!-- TODO: Koordinaten für Ramberg (lat/lng) ergänzen, ich kenne sie nicht sicher. -->

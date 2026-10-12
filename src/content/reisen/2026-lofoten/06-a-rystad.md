@@ -2,7 +2,7 @@
 titel: "Regentag in Å und Sakrisøy"
 datum: 2026-09-07
 position: { name: 'Å', lat: 67.88, lng: 12.98 }
-entwurf: true  # erst veröffentlichen, wenn TODOs und Fakten geprüft sind
+entwurf: false  # erst veröffentlichen, wenn TODOs und Fakten geprüft sind
 ---
 
 Grau in Grau, wohin man schaut! Heute Morgen hat uns das starke Prasseln des Regens auf dem Camper geweckt. Die Laune haben wir uns davon nicht verderben lassen, denn wir wussten ja schon, dass heute ein Regentag wird. Wie immer gab es den ersten Kaffee im Bett, dazu haben wir schon unsere LinkedIn-Spiele erledigt. Danach das übliche Frühstück: Eierspeis, Brot, Aufstrich, Müsli, Saft und noch vieles mehr. Denise hat wieder einen super Frühstückstisch gezaubert, und ich die beste Eierspeis.

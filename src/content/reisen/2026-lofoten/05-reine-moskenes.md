@@ -2,7 +2,7 @@
 titel: "1900 Stufen auf den Reinebringen"
 datum: 2026-09-06
 position: { name: 'Reine', lat: 67.93, lng: 13.09 }
-entwurf: true  # erst veröffentlichen, wenn TODOs und Fakten geprüft sind
+entwurf: false  # erst veröffentlichen, wenn TODOs und Fakten geprüft sind
 ---
 
 Nach den Polarlichtern am Vorabend sind wir direkt schlafen gegangen, denn heute wollten wir früher aufstehen. Der Wecker war auf 7:30 Uhr gestellt. Wie gewohnt gab es Kaffee im Bett und die LinkedIn-Spiele, kurz vor 8 Uhr haben wir gefrühstückt. Um 9 Uhr haben wir das Lofoten Beach Camp verlassen und sind nach Reine gefahren.

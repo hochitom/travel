@@ -14,7 +14,7 @@ route:
   - { name: "Å", lat: 67.88, lng: 12.98, notiz: "Südlichster Punkt der Reise" }
   - { name: "Andenes", lat: 69.31, lng: 16.12, notiz: "Walsafari" }
 tags: ["roadtrip", "wohnmobil", "wandern", "polarlichter", "walsafari", "tromsø"]
-entwurf: true  # erst veröffentlichen, wenn TODOs und Fakten geprüft sind
+entwurf: false  # erst veröffentlichen, wenn TODOs und Fakten geprüft sind
 ---
 
 <!-- TODO: Koordinaten für Valberg, Uttakleiv, Ramberg, Moskenes, Rystad und Bleik fehlen in der Route, weil ich sie nicht sicher kenne. Willst du sie selbst ergänzen? -->

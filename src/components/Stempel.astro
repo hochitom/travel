@@ -1,0 +1,63 @@
+---
+interface Props {
+  /** Land oder Ort, groß auf dem Stempel */
+  titel: string;
+  /** Datum oder Jahr, klein darunter */
+  zusatz?: string;
+  /** Schräglage in Grad */
+  drehung?: number;
+  /** Durchmesser, z. B. "5rem" */
+  groesse?: string;
+}
+
+const { titel, zusatz, drehung = -8, groesse = '6rem' } = Astro.props;
+// Lange Namen (z. B. "Großbritannien") brauchen eine kleinere Schrift
+const lang = titel.length > 9;
+---
+
+<span class:list={['stempel', { 'stempel--lang': lang }]} style={`--drehung:${drehung}deg;--groesse:${groesse}`} aria-hidden="true">
+  <span class="stempel__titel">{titel}</span>
+  {zusatz && <span class="stempel__zusatz">{zusatz}</span>}
+</span>
+
+<style>
+  .stempel {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: var(--groesse);
+    height: var(--groesse);
+    box-sizing: border-box;
+    padding: 0.35rem;
+    border: 3px double var(--akzent);
+    border-radius: 50%;
+    color: var(--akzent);
+    font-family: var(--serif-kopf);
+    text-align: center;
+    line-height: 1.1;
+    rotate: var(--drehung);
+    mix-blend-mode: multiply;
+    opacity: 0.9;
+    pointer-events: none;
+  }
+
+  .stempel__titel {
+    font-size: calc(var(--groesse) * 0.19);
+  }
+
+  .stempel--lang .stempel__titel {
+    font-size: calc(var(--groesse) * 0.14);
+  }
+
+  .stempel__zusatz {
+    font-size: calc(var(--groesse) * 0.14);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .stempel {
+      mix-blend-mode: normal;
+      opacity: 0.95;
+    }
+  }
+</style>

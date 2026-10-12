@@ -23,6 +23,8 @@ const aktiv = (p: string) => (p === '/' ? pfad === '/' : pfad.startsWith(p));
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{seitenTitel}</title>
     <meta name="description" content={beschreibung} />
+    <meta name="theme-color" content="#e3e2d0" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#16202a" media="(prefers-color-scheme: dark)" />
     <meta property="og:title" content={seitenTitel} />
     <meta property="og:description" content={beschreibung} />
     <meta property="og:type" content="website" />

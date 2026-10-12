@@ -1,35 +1,60 @@
-/* hochitom.travel – Vanilla CSS, keine Frameworks, keine Webfonts (Datenschutz, Ladezeit) */
+/*
+  hochitom.travel – Vanilla CSS, keine Frameworks, keine Drittanbieter-Schriften (Datenschutz, Ladezeit).
+  Design-Grundsätze: design.md im Hauptordner. Die Seite ist ein Logbuch:
+  Verspieltes sitzt in Rahmen, Stempeln und auf der Karte, der Lesetext bleibt ruhig.
+
+  Schriften: IM Fell English (Überschriften), Newsreader (Text) und Reenie Beanie (Handschrift) sind
+  vorgesehen. Solange ihre woff2-Dateien nicht in public/fonts/ liegen, greifen die Systemschriften
+  aus den Variablen unten. Zum Einbinden hier ergänzen (Beispiel):
+
+  @font-face {
+    font-family: 'IM Fell English';
+    src: url('/fonts/im-fell-english-400.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+  }
+*/
 
 :root {
-  --papier: #f6f1e7;
-  --papier-2: #ece5d6;
-  --tinte: #1d2a2e;
-  --tinte-leise: #55646a;
-  --linie: #d9d0bd;
-  --akzent: #b8472a;
-  --akzent-dunkel: #8f3419;
-  --meer: #1f6f78;
+  /* Seekartenpapier, Tinte, Meer und genau ein Akzent: Stempelrot */
+  --papier: #e3e2d0;
+  --papier-2: #f1f0e3;
+  --tinte: #1e2a38;
+  --tinte-leise: #4a5260;
+  --linie: #b9b8a2;
+  --akzent: #a32638;
+  --akzent-dunkel: #8a1f2f;
+  --meer: #2f5d6b;
+  --streifen-1: #d3d2ba;
+  --streifen-2: #dad9c3;
+  --schatten: rgb(30 42 56 / 0.18);
 
-  --serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
+  --serif-kopf: 'IM Fell English', 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
+  --serif: 'Newsreader', 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
+  --hand: 'Reenie Beanie', 'Segoe Print', 'Bradley Hand', 'Chalkboard SE', 'Comic Sans MS', cursive;
   --sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
 
   --breite: 70rem;
   --text: 42rem;
   --rand: clamp(1rem, 4vw, 2rem);
-  --radius: 0.5rem;
+  --radius: 0.125rem;
   color-scheme: light dark;
 }
 
+/* Nachtwache: tiefes Blaugrau statt Papier */
 @media (prefers-color-scheme: dark) {
   :root {
-    --papier: #151c1f;
-    --papier-2: #1e282c;
-    --tinte: #ece6d8;
-    --tinte-leise: #a3b0b5;
-    --linie: #2f3d42;
-    --akzent: #e58a63;
-    --akzent-dunkel: #f0a27f;
-    --meer: #6cc0c8;
+    --papier: #16202a;
+    --papier-2: #1e2b37;
+    --tinte: #e3e2d0;
+    --tinte-leise: #a9b3bb;
+    --linie: #36444f;
+    --akzent: #e26b7d;
+    --akzent-dunkel: #ee8a99;
+    --meer: #86bccb;
+    --streifen-1: #243240;
+    --streifen-2: #1f2c38;
+    --schatten: rgb(0 0 0 / 0.35);
   }
 }
 
@@ -47,8 +72,9 @@ body {
   margin: 0;
   background: var(--papier);
   color: var(--tinte);
-  font-family: var(--sans);
-  line-height: 1.6;
+  font-family: var(--serif);
+  font-size: 1.0625rem;
+  line-height: 1.65;
   min-height: 100dvh;
   display: flex;
   flex-direction: column;
@@ -65,7 +91,7 @@ img {
 }
 
 a {
-  color: var(--akzent-dunkel);
+  color: var(--meer);
   text-underline-offset: 0.2em;
 }
 
@@ -74,31 +100,32 @@ a:hover {
 }
 
 :focus-visible {
-  outline: 3px solid var(--meer);
+  outline: 3px solid var(--tinte);
   outline-offset: 2px;
 }
 
 h1,
 h2,
 h3 {
-  font-family: var(--serif);
-  line-height: 1.2;
-  font-weight: 700;
+  font-family: var(--serif-kopf);
+  line-height: 1.15;
+  font-weight: 400;
   text-wrap: balance;
 }
 
 h1 {
-  font-size: clamp(2rem, 5vw, 3.25rem);
+  font-size: clamp(2.4rem, 6vw, 4.25rem);
+  letter-spacing: -0.01em;
   margin: 0 0 0.5rem;
 }
 
 h2 {
-  font-size: clamp(1.4rem, 3vw, 1.9rem);
+  font-size: clamp(1.7rem, 3.5vw, 2.4rem);
   margin: 2.5rem 0 1rem;
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 1.45rem;
 }
 
 .huelle {
@@ -111,16 +138,26 @@ h3 {
   margin-inline: auto;
 }
 
+/* Kleine Zeile über einer Überschrift, normal geschrieben statt in Großbuchstaben */
 .kicker {
-  font-size: 0.8rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--tinte-leise);
+  font-style: italic;
+  color: var(--meer);
   margin: 0;
 }
 
 .leise {
   color: var(--tinte-leise);
+}
+
+/* Randnotiz in Handschrift: kurz halten, höchstens zwei Zeilen */
+.randnotiz {
+  font-family: var(--hand);
+  font-size: 1.75rem;
+  line-height: 1.1;
+  color: var(--meer);
+  rotate: -1.5deg;
+  max-width: 16rem;
+  margin: 0;
 }
 
 .sr-only {
@@ -144,13 +181,12 @@ h3 {
   align-items: baseline;
   justify-content: space-between;
   gap: 0.5rem 2rem;
-  padding-block: 1rem;
+  padding-block: 1.25rem;
 }
 
 .marke {
-  font-family: var(--serif);
-  font-size: 1.4rem;
-  font-weight: 700;
+  font-family: var(--serif-kopf);
+  font-size: 1.9rem;
   color: var(--tinte);
   text-decoration: none;
 }
@@ -161,14 +197,14 @@ h3 {
 
 .nav {
   display: flex;
-  gap: 1.25rem;
-  font-size: 0.95rem;
+  gap: 1.75rem;
+  font-size: 1.1rem;
 }
 
 .nav a {
   color: var(--tinte);
   text-decoration: none;
-  padding-block: 0.25rem;
+  padding-block: 0.5rem 0.25rem;
   border-bottom: 2px solid transparent;
 }
 
@@ -181,7 +217,7 @@ h3 {
   border-top: 1px solid var(--linie);
   margin-top: 4rem;
   padding-block: 1.5rem;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: var(--tinte-leise);
 }
 
@@ -204,50 +240,97 @@ h3 {
 
 .hero p {
   max-width: 38rem;
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   color: var(--tinte-leise);
   margin: 0;
 }
 
-/* ---------- Karten ---------- */
+.hero .randnotiz {
+  margin-top: 1rem;
+  font-size: 1.75rem;
+  color: var(--meer);
+}
 
+/* ---------- Karten (Leaflet) ---------- */
+
+/* Der Marker ist 44 x 44 px groß (gut treffbar), der sichtbare Kopf der Nadel sitzt in der Mitte. */
 .pin {
   background: none;
   border: 0;
 }
 
 .pin span {
-  display: block;
-  width: 18px;
-  height: 18px;
-  border-radius: 50% 50% 50% 0;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
   background: var(--akzent);
-  border: 2px solid #fff;
-  box-shadow: 0 1px 4px rgb(0 0 0 / 0.45);
-  transform: rotate(-45deg);
+  border: 3px solid var(--papier-2);
+  box-shadow:
+    0 0 0 1px var(--akzent),
+    1px 2px 0 1px var(--schatten);
+  transition: scale 0.15s ease;
 }
 
 .pin:hover span,
 .pin:focus-visible span {
   background: var(--akzent-dunkel);
+  scale: 1.2;
 }
 
 .route-nummer {
   background: var(--meer);
-  color: #fff;
-  border: 2px solid #fff;
+  color: var(--papier-2);
+  border: 2px solid var(--papier-2);
   border-radius: 50%;
   width: 24px;
   height: 24px;
   display: grid;
   place-items: center;
   font: 700 0.75rem/1 var(--sans);
-  box-shadow: 0 1px 4px rgb(0 0 0 / 0.45);
+  box-shadow: 1px 2px 0 var(--schatten);
 }
 
-.leaflet-popup-content {
-  font-family: var(--sans);
-  margin: 0.75rem 0.9rem;
+/* Die Popups sind kleine Zettel mit Klebestreifen. Das Präfix schlägt die Regeln von leaflet.css. */
+.leaflet-container {
+  font-family: var(--serif);
+}
+
+.leaflet-container .leaflet-popup-content-wrapper {
+  position: relative;
+  background: var(--papier-2);
+  color: var(--tinte);
+  border: 1px solid var(--linie);
+  border-radius: var(--radius);
+  box-shadow: 2px 3px 0 var(--schatten);
+}
+
+.leaflet-container .leaflet-popup-content-wrapper::before {
+  content: '';
+  position: absolute;
+  top: -0.6rem;
+  left: 50%;
+  width: 3.5rem;
+  height: 1.1rem;
+  margin-left: -1.75rem;
+  background: color-mix(in srgb, var(--papier-2) 85%, transparent);
+  border: 1px solid var(--linie);
+  rotate: -3deg;
+}
+
+.leaflet-container .leaflet-popup-tip {
+  background: var(--papier-2);
+  box-shadow: none;
+}
+
+.leaflet-container .leaflet-popup-content {
+  margin: 0.9rem 1rem 0.8rem;
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+  color: var(--tinte-leise);
 }
 
 .popup {
@@ -258,33 +341,64 @@ h3 {
 
 .popup img {
   width: 100%;
-  border-radius: 0.25rem;
+  border: 4px solid var(--papier);
+  box-shadow: 1px 2px 0 var(--schatten);
   margin-bottom: 0.15rem;
 }
 
 .popup strong {
-  font-family: var(--serif);
-  font-size: 1.05rem;
-  line-height: 1.25;
+  font-family: var(--serif-kopf);
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.2;
 }
 
 .popup small {
-  color: #55646a;
+  color: var(--tinte-leise);
+  font-size: 0.95rem;
 }
 
 .popup a {
-  font-weight: 600;
+  font-family: var(--hand);
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--akzent);
+  text-decoration: none;
 }
 
-/* ---------- Kacheln ---------- */
+.popup a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Einträge (Reise-Kacheln) ---------- */
 
 .raster {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
-  gap: 1.5rem;
+  gap: 3rem 2rem;
   padding: 0;
   margin: 0;
   list-style: none;
+}
+
+/* Auf der Startseite darf der erste Eintrag größer sein */
+@media (min-width: 46rem) {
+  .raster--betont > li:first-child {
+    grid-column: span 2;
+  }
+}
+
+/* Jedes Foto liegt ein wenig anders, wie eingeklebt */
+.raster > li:nth-child(3n + 1) {
+  --neigung: -1.2deg;
+}
+
+.raster > li:nth-child(3n + 2) {
+  --neigung: 1deg;
+}
+
+.raster > li:nth-child(3n) {
+  --neigung: -0.5deg;
 }
 
 .kachel {
@@ -292,16 +406,37 @@ h3 {
   display: flex;
   flex-direction: column;
   height: 100%;
-  background: var(--papier-2);
-  border: 1px solid var(--linie);
-  border-radius: var(--radius);
-  overflow: hidden;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
-.kachel:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgb(0 0 0 / 0.12);
+.kachel__rahmen {
+  position: relative;
+}
+
+.kachel__foto {
+  position: relative;
+  border: 8px solid var(--papier-2);
+  box-shadow: 2px 3px 0 var(--schatten);
+  rotate: var(--neigung, 0deg);
+  transition: rotate 0.2s ease;
+}
+
+/* Klebestreifen oben am Foto */
+.kachel__foto::before {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: -1.1rem;
+  left: 50%;
+  width: 4rem;
+  height: 1.2rem;
+  margin-left: -2rem;
+  background: color-mix(in srgb, var(--papier-2) 85%, transparent);
+  border: 1px solid var(--linie);
+  rotate: -3deg;
+}
+
+.kachel:hover .kachel__foto {
+  rotate: 0deg;
 }
 
 .kachel__bild {
@@ -311,18 +446,28 @@ h3 {
   background: var(--linie);
 }
 
+/* Solange noch kein Foto da ist: Papierstreifen mit Notiz in Handschrift */
 .kachel__platzhalter {
   aspect-ratio: 3 / 2;
-  display: grid;
-  place-items: center;
-  background: linear-gradient(135deg, var(--meer), var(--akzent));
-  color: #fff;
-  font-size: 2rem;
-  opacity: 0.85;
+  display: flex;
+  align-items: flex-end;
+  padding: 0.5rem 0.8rem;
+  background: repeating-linear-gradient(135deg, var(--streifen-1) 0 12px, var(--streifen-2) 12px 24px);
+  color: var(--tinte-leise);
+  font-family: var(--hand);
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+.kachel__stempel {
+  position: absolute;
+  z-index: 2;
+  right: 0.75rem;
+  bottom: -1.5rem;
 }
 
 .kachel__text {
-  padding: 1rem 1.1rem 1.2rem;
+  padding: 1.25rem 0.25rem 0;
   display: grid;
   gap: 0.3rem;
 }
@@ -334,6 +479,10 @@ h3 {
 .kachel a {
   color: inherit;
   text-decoration: none;
+}
+
+.kachel a:hover {
+  color: var(--akzent);
 }
 
 /* Die ganze Kachel ist klickbar, der Link bleibt trotzdem der Titel. */
@@ -356,21 +505,21 @@ h3 {
 .gruppe > h2 {
   margin-top: 0;
   padding-bottom: 0.4rem;
-  border-bottom: 2px solid var(--linie);
+  border-bottom: 2px solid var(--tinte);
 }
 
 .umschalter {
   display: inline-flex;
-  border: 1px solid var(--linie);
-  border-radius: 999px;
+  border: 1px solid var(--tinte);
+  border-radius: var(--radius);
   overflow: hidden;
   margin-block: 1rem 0.5rem;
 }
 
 .umschalter label {
-  padding: 0.45rem 1.1rem;
+  padding: 0.5rem 1.1rem;
   cursor: pointer;
-  font-size: 0.95rem;
+  font-size: 1rem;
 }
 
 #ansicht-jahr:checked ~ .umschalter label[for='ansicht-jahr'],
@@ -381,7 +530,7 @@ h3 {
 
 #ansicht-jahr:focus-visible ~ .umschalter label[for='ansicht-jahr'],
 #ansicht-kontinent:focus-visible ~ .umschalter label[for='ansicht-kontinent'] {
-  outline: 3px solid var(--meer);
+  outline: 3px solid var(--akzent);
   outline-offset: -3px;
 }
 
@@ -411,12 +560,11 @@ h3 {
 
 .chips a {
   display: inline-block;
-  padding: 0.25rem 0.8rem;
-  border: 1px solid var(--linie);
-  border-radius: 999px;
+  padding: 0.3rem 0.9rem;
+  border: 1px solid var(--tinte);
+  border-radius: var(--radius);
   text-decoration: none;
   color: var(--tinte);
-  font-size: 0.9rem;
 }
 
 .chips a:hover,
@@ -431,26 +579,50 @@ h3 {
   padding-block: clamp(1.5rem, 4vw, 3rem) 1rem;
 }
 
+.artikel-kopf__innen {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid var(--tinte);
+}
+
+.artikel-kopf__text {
+  flex: 1 1 24rem;
+  min-width: 0;
+}
+
 .krumen {
-  font-size: 0.9rem;
   color: var(--tinte-leise);
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
 }
 
 .krumen a {
   color: inherit;
 }
 
+/* Eintragskopf wie auf der Seite eines Logbuchs: Ort, Zeitraum, Stelle im Buch */
+.eintragskopf {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 2rem;
+  margin-bottom: 0.75rem;
+  color: var(--tinte-leise);
+}
+
 .titelbild {
   width: min(100% - 2 * var(--rand), var(--breite));
-  margin: 1rem auto 2rem;
-  border-radius: var(--radius);
+  margin: 2rem auto;
   aspect-ratio: 16 / 9;
   object-fit: cover;
+  border: 10px solid var(--papier-2);
+  box-shadow: 2px 3px 0 var(--schatten);
+  rotate: -0.4deg;
 }
 
 .prosa {
-  font-family: var(--serif);
   font-size: 1.15rem;
   line-height: 1.75;
 }
@@ -464,7 +636,8 @@ h3 {
 }
 
 .prosa img {
-  border-radius: var(--radius);
+  border: 8px solid var(--papier-2);
+  box-shadow: 2px 3px 0 var(--schatten);
   margin-block: 1.5rem;
 }
 
@@ -473,9 +646,10 @@ h3 {
 }
 
 .prosa figcaption {
-  font-family: var(--sans);
-  font-size: 0.85rem;
-  color: var(--tinte-leise);
+  font-family: var(--hand);
+  font-size: 1.5rem;
+  line-height: 1.1;
+  color: var(--meer);
   margin-top: 0.4rem;
 }
 
@@ -490,7 +664,7 @@ h3 {
   list-style: none;
   padding: 0;
   margin: 0;
-  border-top: 1px solid var(--linie);
+  border-top: 2px solid var(--tinte);
 }
 
 .kapitel li {
@@ -513,6 +687,7 @@ h3 {
 .kapitel small {
   color: var(--tinte-leise);
   white-space: nowrap;
+  font-size: 0.95rem;
 }
 
 .blaettern {
@@ -521,11 +696,13 @@ h3 {
   gap: 1rem;
   margin-top: 3rem;
   padding-top: 1.5rem;
-  border-top: 1px solid var(--linie);
+  border-top: 2px solid var(--tinte);
 }
 
 .blaettern a {
   max-width: 48%;
+  font-family: var(--serif-kopf);
+  font-size: 1.3rem;
 }
 
 .blaettern__weiter {

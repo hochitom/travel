@@ -4,6 +4,7 @@ import { render } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 import Karte from '../../components/Karte.astro';
 import ReiseKachel from '../../components/ReiseKachel.astro';
+import Stempel from '../../components/Stempel.astro';
 import {
   KONTINENTE,
   knotenUrl,
@@ -13,6 +14,7 @@ import {
   nachfahren,
   pinsFuer,
   routenFuer,
+  von,
   zeitraum,
   type Knoten,
 } from '../../lib/reisen';
@@ -48,8 +50,22 @@ const zurueck = index > 0 ? geschwister[index - 1] : undefined;
 const weiter = index >= 0 && index < geschwister.length - 1 ? geschwister[index + 1] : undefined;
 
 const kontinentName = KONTINENTE[kontinent(knoten) ?? ''];
-const kicker = [kontinentName, laender(knoten).join(', ')].filter(Boolean).join(' · ');
+const ort = [laender(knoten).join(', '), kontinentName].filter(Boolean).join(', ');
 const zeit = zeitraum(knoten);
+const stelle =
+  index >= 0 && geschwister.length > 1
+    ? `${knoten.eltern?.ebene === 'reise' ? 'Kapitel' : 'Bericht'} ${index + 1} von ${geschwister.length}`
+    : undefined;
+
+// Stempel: erstes Land, bei Berichten das Datum, sonst das Jahr des Beginns
+const stempelLand = laender(knoten)[0];
+const beginn = von(knoten);
+const kurzesDatum = new Intl.DateTimeFormat('de-AT', { day: '2-digit', month: '2-digit', year: 'numeric', timeZone: 'UTC' });
+const stempelZusatz = beginn
+  ? knoten.ebene === 'beitrag'
+    ? kurzesDatum.format(beginn)
+    : String(beginn.getUTCFullYear())
+  : undefined;
 ---
 
 <Layout titel={d.titel} beschreibung={d.zusammenfassung}>
@@ -66,10 +82,18 @@ const zeit = zeitraum(knoten);
           ))
         }
       </nav>
-      {kicker && <p class="kicker">{kicker}</p>}
-      <h1>{d.titel}</h1>
-      {zeit && <p class="leise">{zeit}</p>}
-      {d.zusammenfassung && <p style="font-size:1.15rem;max-width:42rem">{d.zusammenfassung}</p>}
+      <div class="artikel-kopf__innen">
+        <div class="artikel-kopf__text">
+          <div class="eintragskopf">
+            {ort && <span>Ort: {ort}</span>}
+            {zeit && <span>Zeitraum: {zeit}</span>}
+            {stelle && <span>{stelle}</span>}
+          </div>
+          <h1>{d.titel}</h1>
+          {d.zusammenfassung && <p style="font-size:1.2rem;max-width:42rem;margin:0.5rem 0 0">{d.zusammenfassung}</p>}
+        </div>
+        {stempelLand && <Stempel titel={stempelLand} zusatz={stempelZusatz} groesse="7rem" />}
+      </div>
     </header>
 
     {

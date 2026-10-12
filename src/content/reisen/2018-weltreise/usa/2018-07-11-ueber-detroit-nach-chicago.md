@@ -10,24 +10,46 @@ route:
 tags: ['roadtrip', 'stadt']
 ---
 
-Wie im letzten Beitrag erwähnt, zieht es mich zurück in die USA. Die letzte Nacht in Kanada verbringe ich direkt an der Grenze in Windsor. Ich muss schmunzeln, als ich vom Ufer aus hinüber in ein anderes Land schaue.
+<!-- titelbild: 2018/07/09-chicago_img_3665-1.jpg -->
 
-Durch den Detroit-Windsor-Tunnel geht's also zurück in die Vereinigten Staaten. Wie immer muss ich ein paar Fragen beantworten, eine ist neu: „Wie viel Geld hast du für diesen Trip zur Verfügung?" Sonst läuft alles wie gehabt.
+Wie im letzten Beitrag erwähnt, zieht es uns zurück in die USA. Die letzte Nacht in Kanada verbringen wir direkt an der Grenze in Windsor. Wir müssen beide schmunzeln, als wir vom Ufer aus hinüber in ein anderes Land schauen.
+
+Durch den Detroit-Windsor-Tunnel geht's also zurück in die Vereinigten Staaten. Wie immer müssen wir ein paar Fragen beantworten, eine ist neu: „Wie viel Geld habt ihr für diesen Trip zur Verfügung?" Sonst läuft alles wie gehabt.
 
 ## Detroit
 
-Detroit war ursprünglich die Autometropole Amerikas, aber davon ist heute nicht mehr viel übrig. Die Stadt wirkt ziemlich ausgestorben, und außer dass mir Drogen angeboten werden, passiert nichts Aufregendes. Ich drehe eine kleine Runde und entscheide bald weiterzufahren. Vorher mache ich noch einen Abstecher zum Motown-Museum, aber ich habe den Andrang unterschätzt und muss die Führung ausfallen lassen. Vier Stunden Wartezeit sind mir zu viel. Außerdem wartet die Unterkunft in Chicago, und es liegen noch über fünf Stunden Autofahrt vor mir.
+Detroit war ursprünglich die Autometropole Amerikas, aber davon ist heute nicht mehr viel übrig. Die Stadt wirkt ziemlich ausgestorben, und außer dass uns Drogen angeboten werden, passiert nichts Aufregendes. Wir drehen eine kleine Runde und entscheiden bald weiterzufahren. Vorher machen wir noch einen Abstecher zum Motown-Museum, aber wir haben den Andrang unterschätzt und müssen die Führung ausfallen lassen. Vier Stunden Wartezeit sind uns zu viel. Außerdem wartet die Unterkunft in Chicago, und es liegen noch über fünf Stunden Autofahrt vor uns.
 
 ## Chicago
 
-Gut ausgeruht fahre ich am 4. Juli in die drittgrößte Stadt Amerikas, nach Chicago. Nach langer Parkplatzsuche, ich bin da schon etwas unentspannt, stelle ich das Auto endlich ab und gehe direkt in den Millennium Park, um das berühmte Kunstwerk „Cloud Gate" zu bewundern.
+<!-- bild: 2018/07/08-detroit_img_3474.jpg -->
+<!-- bild: 2018/07/08-detroit_img_3479.jpg -->
+<!-- bild: 2018/07/08-detroit_img_3498.jpg -->
+<!-- bild: 2018/07/08-detroit_img_3509.jpg -->
+<!-- bild: 2018/07/08-detroit_img_3521.jpg -->
+<!-- bild: 2018/07/08-detroit_img_3537.jpg -->
 
-Von der Windy City ist an dem Tag nichts zu spüren, bei über 30 Grad schwitze ich wie ein Hund. Als Nächstes geht's daher gleich in den klimatisierten Willis Tower, das höchste Gebäude Chicagos. Der Lift bringt mich ganz nach oben, und ich genieße den Blick vom zweithöchsten Gebäude Amerikas über die Stadt.
+Gut ausgeruht fahren wir am 4. Juli in die drittgrößte Stadt Amerikas, nach Chicago. Nach langer Parkplatzsuche, ich bin da schon etwas unentspannt, stellen wir das Auto endlich ab und gehen direkt in den Millennium Park, um das berühmte Kunstwerk „Cloud Gate" zu bewundern.
 
-Nach den ganzen Sehenswürdigkeiten ist eine Pause fällig. Im Hard Rock Cafe sitze ich bei cooler Livemusik und gutem Essen. Gut gestärkt führt mich die Sightseeing-Tour zum Navy Pier, wo ich den 4. Juli ausklingen lassen will.
+Von der Windy City ist an dem Tag nichts zu spüren, bei über 30 Grad schwitzen wir wie die Hunde. Als Nächstes geht's daher gleich in den klimatisierten Willis Tower, das höchste Gebäude Chicagos. Der Lift bringt uns ganz nach oben, und wir genießen den Blick vom zweithöchsten Gebäude Amerikas über die Stadt.
 
-Ich muss einige Zeit warten, bis das Feuerwerk pünktlich um 21.30 Uhr startet, aber das Warten hat sich eindeutig gelohnt. Das Feuerwerk direkt über dem Wasser ist atemberaubend und rundet den Tag wunderbar ab.
+<!-- bild: 2018/07/09-chicago_img_3568.jpg -->
+<!-- bild: 2018/07/09-chicago_img_3577.jpg -->
+<!-- bild: Quelle nicht ermittelbar -->
+<!-- bild: 2018/07/09-chicago_img_3583.jpg -->
+<!-- bild: 2018/07/09-chicago_img_3584.jpg -->
+<!-- bild: 2018/07/09-chicago_img_3610.jpg -->
+<!-- bild: 2018/07/09-chicago_img_3605.jpg -->
+<!-- bild: 2018/07/09-chicago_img_3603.jpg -->
 
-Weil ich die Besuchermassen schon ahne, gehe ich ein bisschen früher Richtung Ausgang. Aber nicht die Besucher halten mich auf, sondern ein riesiger Wolkenbruch. Als wäre es geplant, fängt es genau mit dem Ende des Feuerwerks zu schütten an. Ich bin darauf genauso unvorbereitet wie alle anderen, und bis ich beim Auto bin, bin ich patschnass. Bis auf die Unterhose.
+Nach den ganzen Sehenswürdigkeiten ist eine Pause fällig. Im Hard Rock Cafe sitzen wir bei cooler Livemusik und gutem Essen. Gut gestärkt führt uns die Sightseeing-Tour zum Navy Pier, wo wir den 4. Juli ausklingen lassen wollen.
 
-Diese Stadt hat mich schon vor acht Jahren fasziniert, und beim neuerlichen Besuch war es genauso.
+Wir müssen einige Zeit warten, bis das Feuerwerk pünktlich um 21.30 Uhr startet, aber das Warten hat sich eindeutig gelohnt. Das Feuerwerk direkt über dem Wasser ist atemberaubend und rundet den Tag wunderbar ab.
+
+Weil wir die Besuchermassen schon ahnen, gehen wir ein bisschen früher Richtung Ausgang. Aber nicht die Besucher halten uns auf, sondern ein riesiger Wolkenbruch. Als wäre es geplant, fängt es genau mit dem Ende des Feuerwerks zu schütten an. Wir sind darauf genauso unvorbereitet wie alle anderen, und bis wir beim Auto sind, sind wir patschnass. Bis auf die Unterhose.
+
+Diese Stadt hat uns schon vor Jahren fasziniert, und beim neuerlichen Besuch war es genauso.
+
+<!-- bild: 2018/07/09-chicago_img_3553.jpg -->
+<!-- bild: 2018/07/09-chicago_img_3641.jpg -->
+<!-- bild: 2018/07/09-chicago_img_3636.jpg -->

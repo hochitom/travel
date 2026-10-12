@@ -6,14 +6,25 @@ position: { name: 'Tanah Lot', lat: -8.6212, lng: 115.0868 }
 tags: ['roller', 'tempel', 'canggu']
 ---
 
-Nach den ersten, nicht wirklich positiven Tagen in Canggu muss dringend eine Lösung her. Immerhin will ich hier zehn Tage verbringen und nicht nur im Hotelzimmer sitzen. Ich miete einen Roller!
+<!-- titelbild: 2019/01/1217-tag-11-tanah-lot_001-4.jpg -->
 
-Man glaubt gar nicht, wie sehr diese kleine Entscheidung meinen Alltag hier erleichtert. Es ist schade, dass man in Canggu kaum irgendwo zu Fuß hinkommt. Deshalb will ich nicht mehr schutzlos am Straßenrand gehen, sondern mich direkt ins Getümmel stürzen. Ganz nach dem Motto: mittendrin statt nur dabei!
+Nach den ersten, nicht wirklich positiven Tagen in Canggu muss dringend eine Lösung her. Immerhin wollen wir hier zehn Tage verbringen und nicht nur im Hotelzimmer sitzen. Wir mieten einen Roller!
 
-Mit dem Roller düse ich in wenigen Minuten durch die Straßen und kann endlich die ganze Umgebung erkunden. Mein Alltag besteht meistens aus Frühstücken und Arbeiten am Laptop, Mittagessen und Yoga, Abendessen und Sonnenuntergang anschauen.
+Man glaubt gar nicht, wie sehr diese kleine Entscheidung unseren Alltag hier erleichtert. Es ist schade, dass man in Canggu kaum irgendwo zu Fuß hinkommt. Deshalb wollen wir nicht mehr schutzlos am Straßenrand gehen, sondern uns direkt ins Getümmel stürzen. Ganz nach dem Motto: mittendrin statt nur dabei!
 
-Zwischendurch mache ich immer wieder kleinere Ausflüge und fahre eine der meistbefahrenen Straßen entlang, zwischen Reisfeldern, bis zur nächsten Hauptstraße. In Canggu genieße ich richtig meinen Urlaub: Ich schlafe lange und esse viel und gut!
+Mit dem Roller düsen wir in wenigen Minuten durch die Straßen und können endlich die ganze Umgebung erkunden. Unser Alltag besteht meistens aus Frühstücken und Arbeiten am Laptop, Mittagessen und Yoga, Abendessen und Sonnenuntergang anschauen.
+
+<!-- bild: 2019/01/1217-tag-11-tanah-lot_001-7-960x720.jpg -->
+<!-- bild: 2019/01/1217-tag-11-tanah-lot_001-9-960x720.jpg -->
+<!-- bild: 2019/01/1217-tag-11-tanah-lot_001-6-960x720.jpg -->
+<!-- bild: 2019/01/1217-tag-11-tanah-lot_001-8-960x720.jpg -->
+
+Zwischendurch machen wir immer wieder kleinere Ausflüge und fahren eine der meistbefahrenen Straßen entlang, zwischen Reisfeldern, bis zur nächsten Hauptstraße. In Canggu genießen wir richtig unseren Urlaub: Wir schlafen lange und essen viel und gut!
 
 ### Ausflug zum Tanah Lot Tempel
 
-Damit ich nicht die ganze Zeit in Canggu bleibe, mache ich einen Ausflug zum Tanah-Lot-Tempel. Ich wage mich mit dem Roller auf die große Hauptstraße und fahre etwa 20 Minuten bis zum Tempel. Ein bisschen aufgeregt bin ich schon, denn so weit weg habe ich mich mit dem Roller noch nie getraut. Aber der Tempel ist den Ausflug eindeutig wert. Das Besondere an dem hinduistischen Tempel ist die tolle Lage, mitten im Meer auf einem Felsen. Ich mache einige Fotos, aber die Hitze und die Luftfeuchtigkeit laden nicht wirklich zum langen Verweilen ein. Nach einer kleinen Runde, bei der ich mich von Schatten zu Schatten kämpfe, fahre ich wieder nach Hause.
+Damit wir nicht die ganze Zeit in Canggu bleiben, machen wir einen Ausflug zum Tanah-Lot-Tempel. Wir wagen uns mit dem Roller auf die große Hauptstraße und fahren etwa 20 Minuten bis zum Tempel. Ein bisschen aufgeregt sind wir beide schon, denn so weit weg haben wir uns mit dem Roller noch nie getraut. Aber der Tempel ist den Ausflug eindeutig wert. Das Besondere an dem hinduistischen Tempel ist die tolle Lage, mitten im Meer auf einem Felsen. Wir machen einige Fotos, aber die Hitze und die Luftfeuchtigkeit laden nicht wirklich zum langen Verweilen ein. Nach einer kleinen Runde, bei der wir uns von Schatten zu Schatten kämpfen, fahren wir wieder nach Hause.
+
+<!-- bild: 2019/01/1217-tag-11-tanah-lot_001-3-960x1280.jpg -->
+<!-- bild: 2019/01/1217-tag-11-tanah-lot_001-2-960x720.jpg -->
+<!-- bild: 2019/01/1217-tag-11-tanah-lot_001-960x720.jpg -->

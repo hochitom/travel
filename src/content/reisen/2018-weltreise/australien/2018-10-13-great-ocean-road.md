@@ -12,18 +12,32 @@ route:
 tags: ['roadtrip', 'kueste']
 ---
 
-Bei meiner Ankunft in Melbourne habe ich noch nicht viel geplant, außer dass ich mir in Sydney wieder einen Camper ausborgen will. Ich überlege schon vorher, ob ich die Great Ocean Road noch in meine Pläne aufnehmen soll. Das ist eine wunderschöne Küstenstraße, deren berühmtestes Highlight die Zwölf Apostel sind.
+<!-- titelbild: 2018/10/1005-apollo-bay-bis-mount-gambier_001-2.jpg -->
 
-Auf der Fahrt vom Flughafen zur Unterkunft erzählt mir der Uber-Fahrer von einer Internetseite, auf der man Autos findet, die von einer Stadt in eine andere überstellt werden müssen. Die Preise sind ganz gering, nur hat man nicht lange Zeit für die Überstellung. Auf dieser Seite finde ich mein erstes Mietauto, für gerade einmal 3 australische Dollar. Ja, richtig gelesen: drei Dollar, das sind umgerechnet nicht einmal zwei Euro. Sprit und Versicherung sind natürlich nicht dabei, aber man kann trotzdem einiges sparen.
+Bei unserer Ankunft in Melbourne haben wir noch nicht viel geplant, außer dass wir uns in Sydney wieder einen Camper ausborgen wollen. Wir überlegen schon vorher, ob wir die Great Ocean Road noch in unsere Pläne aufnehmen sollen. Das ist eine wunderschöne Küstenstraße, deren berühmtestes Highlight die Zwölf Apostel sind.
 
-So beginnt meine Reise von Melbourne nach Adelaide. Ich plane die Tage so, dass ich ohne zu lange Fahrten und rechtzeitig in Adelaide ankomme. Zuerst geht's von Melbourne nach Marengo bei Apollo Bay, wo ich den ersten Eindruck von der Natur Australiens bekomme.
+Auf der Fahrt vom Flughafen zur Unterkunft erzählt uns der Uber-Fahrer von einer Internetseite, auf der man Autos findet, die von einer Stadt in eine andere überstellt werden müssen. Die Preise sind ganz gering, nur hat man nicht lange Zeit für die Überstellung. Auf dieser Seite finden wir unser erstes Mietauto, für gerade einmal 3 australische Dollar. Ja, richtig gelesen: drei Dollar, das sind umgerechnet nicht einmal zwei Euro. Sprit und Versicherung sind natürlich nicht dabei, aber man kann trotzdem einiges sparen.
 
-Mein erster Halt ist Torquay. Hier beginnt die Great Ocean Road, und der Ort ist im Sommer ein Surferparadies. Ich mache einen kurzen Spaziergang am Meer und durch den Ort, dann geht's weiter zum Bells Beach, ebenfalls ein bekannter Surferstrand.
+So beginnt unsere Reise von Melbourne nach Adelaide. Wir planen die Tage so, dass wir ohne zu lange Fahrten und rechtzeitig in Adelaide ankommen. Zuerst geht's von Melbourne nach Marengo bei Apollo Bay, wo wir den ersten Eindruck von der Natur Australiens bekommen.
 
-In Anglesea erlebe ich mein erstes tierisches Highlight: Ich sehe zum ersten Mal Kängurus. Am Golfplatz von Anglesea lebt eine Kängurukolonie. Es gibt eigene Touren, für die man bezahlen muss, aber ich habe das riesige Glück, schon beim Vorbeifahren Kängurus zu sehen.
+Unser erster Halt ist Torquay. Hier beginnt die Great Ocean Road, und der Ort ist im Sommer ein Surferparadies. Wir machen einen kurzen Spaziergang am Meer und durch den Ort, dann geht's weiter zum Bells Beach, ebenfalls ein bekannter Surferstrand.
 
-Als Nächstes geht's nach Lorne. Dort sehe ich die ersten Surfer im Wasser. Surfen kann man hier eindeutig mit Skifahren bei uns vergleichen, schon die ganz kleinen Kinder laufen mit Neoprenanzug und Minibrett herum. Es gibt auch einen Lookout, von dem man perfekt aufs Meer sieht, den lasse ich mir natürlich nicht entgehen. Die erste Nacht verbringe ich in Apollo Bay.
+<!-- bild: 2018/10/1004-melbourne-bis-apollo-bay_001-3-1.jpg -->
+<!-- bild: 2018/10/1004-melbourne-bis-apollo-bay_001.jpg -->
+<!-- bild: 2018/10/1004-melbourne-bis-apollo-bay_001-2-1.jpg -->
+
+In Anglesea erleben wir unser erstes tierisches Highlight: Wir sehen zum ersten Mal Kängurus. Am Golfplatz von Anglesea lebt eine Kängurukolonie. Es gibt eigene Touren, für die man bezahlen muss, aber wir haben das riesige Glück, schon beim Vorbeifahren Kängurus zu sehen.
+
+Als Nächstes geht's nach Lorne. Dort sehen wir die ersten Surfer im Wasser. Surfen kann man hier eindeutig mit Skifahren bei uns vergleichen, schon die ganz kleinen Kinder laufen mit Neoprenanzug und Minibrett herum. Es gibt auch einen Lookout, von dem man perfekt aufs Meer sieht, den lassen wir uns natürlich nicht entgehen. Die erste Nacht verbringen wir in Apollo Bay.
+
+<!-- bild: 2018/10/1005-apollo-bay-bis-mount-gambier_002.jpg -->
+<!-- bild: 2018/10/1005-apollo-bay-bis-mount-gambier_001.jpg -->
 
 Nach dem Frühstück geht's zum Highlight der Route, den Zwölf Aposteln. Obwohl sie so heißen, sind es nur acht Kalksteinformationen, die aus dem Wasser ragen. Es gibt noch einige weitere Felsformationen wie die Loch Ard Gorge, The Arch und die London Bridge. Alle sehr beeindruckend und definitiv einen Besuch wert.
 
-Es gibt noch viele weitere Aussichtsplattformen, bei denen es sich wirklich lohnt stehen zu bleiben und die Natur zu bewundern. Die Great Ocean Road endet in Warrnambool. Dort endet auch die eher gemütliche Fahrt, denn von dort liegen noch 600 Kilometer und fast sieben Stunden Fahrzeit vor mir. Den letzten Tag meines Roadtrips verbringe ich deshalb nur noch im Auto.
+Es gibt noch viele weitere Aussichtsplattformen, bei denen es sich wirklich lohnt stehen zu bleiben und die Natur zu bewundern. Die Great Ocean Road endet in Warrnambool. Dort endet auch die eher gemütliche Fahrt, denn von dort liegen noch 600 Kilometer und fast sieben Stunden Fahrzeit vor uns. Den letzten Tag unseres Roadtrips verbringen wir deshalb nur noch im Auto.
+
+<!-- bild: 2018/10/1005-apollo-bay-bis-mount-gambier_003.jpg -->
+<!-- bild: 2018/10/1005-apollo-bay-bis-mount-gambier_004.jpg -->
+<!-- bild: 2018/10/1005-apollo-bay-bis-mount-gambier_005.jpg -->
+<!-- bild: 2018/10/1005-apollo-bay-bis-mount-gambier_002-2.jpg -->

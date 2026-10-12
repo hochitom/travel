@@ -10,14 +10,25 @@ route:
 tags: ['camper', 'nordinsel']
 ---
 
-Mit Cape Reinga ist der erste Stopp im Norden Neuseelands erledigt. Ab jetzt geht's nur noch Richtung Süden. Oder zumindest großteils. Nach einer angenehmen Nacht im Norfolk Campervan Park, wo ich die Batterien lade, alle Abwassertanks leere und Frischwasser sowie Diesel auffülle, fahre ich zurück in die Nähe von Whangarei nach Tutukaka. Der wohl bisher beste Ortsname auf meiner Reise.
+<!-- titelbild: 2018/08/0817-miranda-springs_img_0717.jpg -->
 
-Über enge Straßen, die sich Berge hinauf- und hinunterschlängeln, geht's quer durch die Insel bis zur Kowharewa Bay, einer wunderbar abgelegenen Bucht. Dort koche ich mir etwas zu essen und lasse die Seele baumeln. Nach Sonnenuntergang vertreibe ich mir die Zeit mit meiner neuen Lieblingsbeschäftigung: Schnapsen. Mein Ziel ist es, nach der Reise als Schnapserkönig heimzukommen. Mal schauen, ob das gelingt.
+Mit Cape Reinga ist der erste Stopp im Norden Neuseelands erledigt. Ab jetzt geht's nur noch Richtung Süden. Oder zumindest großteils. Nach einer angenehmen Nacht im Norfolk Campervan Park, wo wir die Batterien laden, alle Abwassertanks leeren und Frischwasser sowie Diesel auffüllen, fahren wir zurück in die Nähe von Whangarei nach Tutukaka. Der wohl bisher beste Ortsname auf unserer Reise.
 
-Irgendwann drehe ich das Licht ab und schlafe ein. Bis mich mitten in der Nacht lautes Klopfen an der Fensterscheibe weckt und der Mann, der neben mir mit seinem Camper parkt, irgendetwas herumbrüllt. „Turn off that bloody noise!", schreit er immer wieder. Völlig schlaftrunken weiß ich nicht, welches Geräusch ihn so stört, dass er mitten in der Nacht so einen Radau macht. Dann dämmert's mir: Es kann nur meine Heizung sein. Ich springe auf und schalte sie ab. Obwohl sie noch einige Zeit nachläuft, dürfte ihm das gereicht haben, denn kurz darauf verschwindet er wieder in seinem Auto. Völlig perplex liege ich danach ewig wach und weiß nicht recht, was da gerade passiert ist. Ich habe ja schon Horrorgeschichten gelesen, in denen Camper nachts überfallen werden. Bei mir war zum Glück nur die Heizung zu laut.
+<!-- bild: 2018/08/0817-miranda-springs_img_7114.jpg -->
+<!-- bild: 2018/08/0817-miranda-springs_img_7104.jpg -->
+<!-- bild: 2018/08/0816-tutukaka-beach_img_7050.jpg -->
 
-Beim Frühstück muss ich mich am nächsten Morgen erst vergewissern, dass ich das nicht geträumt habe. Der Camper neben mir ist übrigens schon weg. Ich hätte ihn gern noch gegrüßt.
+Über enge Straßen, die sich Berge hinauf- und hinunterschlängeln, geht's quer durch die Insel bis zur Kowharewa Bay, einer wunderbar abgelegenen Bucht. Dort kochen wir uns etwas zu essen und lassen die Seele baumeln. Nach Sonnenuntergang vertreiben wir uns die Zeit mit unserer neuen Lieblingsbeschäftigung: Schnapsen. Unser Ziel ist es, nach der Reise als Schnapserkönige heimzukommen. Mal schauen, ob das gelingt.
 
-Nach dem Frühstück geht's weiter Richtung Auckland. Als ich durch den ersten Ort fahre, fällt mir auf, dass ziemlich viele Leute und Autos neben der Straße stehen und alle aufs Wasser schauen. Beim Weiterfahren sehe ich im Wasser eine Flosse. Ich halte mit dem Camper am Straßenrand an, und dann sehe ich es auch: Eine Gruppe Delfine ist in die Bucht gekommen und hat dort ihren Spaß. Völlig aufgeregt sitze ich im Auto, mache Fotos und Videos von den spielenden Delfinen. So unerwartet wie der Verrückte in der Nacht kam dieses Erlebnis, ich hätte nie damit gerechnet, so einfach frei lebende Delfine zu sehen.
+Irgendwann drehen wir das Licht ab und schlafen ein. Bis uns mitten in der Nacht lautes Klopfen an der Fensterscheibe weckt und der Mann, der neben uns mit seinem Camper parkt, irgendetwas herumbrüllt. „Turn off that bloody noise!", schreit er immer wieder. Völlig schlaftrunken wissen wir nicht, welches Geräusch ihn so stört, dass er mitten in der Nacht so einen Radau macht. Dann dämmert's uns: Es kann nur unsere Heizung sein. Wir springen auf und schalten sie ab. Obwohl sie noch einige Zeit nachläuft, dürfte ihm das gereicht haben, denn kurz darauf verschwindet er wieder in seinem Auto. Völlig perplex liegen wir danach ewig wach und wissen nicht recht, was da gerade passiert ist. Wir haben ja schon Horrorgeschichten gelesen, in denen Camper nachts überfallen werden. Bei uns war zum Glück nur die Heizung zu laut.
 
-Danach geht's wieder über enge, verschlungene Straßen weiter, die immer breiter werden, bis ich auf einer mehrspurigen Autobahn lande und mich durch Auckland kämpfe. Dort stärke ich mich mit Fish & Chips und fahre weiter zum nächsten Campingplatz, dem Ray's Rest Reserve, von dem aus ich in der Nacht schon die Lichter der Coromandel-Halbinsel sehe.
+<!-- bild: 2018/08/0816-tutukaka-beach_dji_0151.jpg -->
+<!-- bild: 2018/08/0816-tutukaka-beach_dji_0150.jpg -->
+<!-- bild: 2018/08/0816-tutukaka-beach_dji_0137.jpg -->
+<!-- bild: 2018/08/0816-tutukaka-beach_dji_0134.jpg -->
+
+Beim Frühstück müssen wir uns am nächsten Morgen erst vergewissern, dass wir das nicht geträumt haben. Der Camper neben uns ist übrigens schon weg. Wir hätten ihn gern noch gegrüßt.
+
+Nach dem Frühstück geht's weiter Richtung Auckland. Als wir durch den ersten Ort fahren, fällt uns auf, dass ziemlich viele Leute und Autos neben der Straße stehen und alle aufs Wasser schauen. Beim Weiterfahren sehen wir im Wasser eine Flosse. Wir halten mit dem Camper am Straßenrand an, und dann sehen wir es auch: Eine Gruppe Delfine ist in die Bucht gekommen und hat dort ihren Spaß. Völlig aufgeregt sitzen wir im Auto und machen Fotos und Videos von den spielenden Delfinen. So unerwartet wie der Verrückte in der Nacht kam dieses Erlebnis, wir hätten nie damit gerechnet, so einfach frei lebende Delfine zu sehen.
+
+Danach geht's wieder über enge, verschlungene Straßen weiter, die immer breiter werden, bis wir auf einer mehrspurigen Autobahn landen und uns durch Auckland kämpfen. Dort stärken wir uns mit Fish & Chips und fahren weiter zum nächsten Campingplatz, dem Ray's Rest Reserve, von dem aus wir in der Nacht schon die Lichter der Coromandel-Halbinsel sehen.

@@ -13,18 +13,38 @@ route:
 tags: ['roadtrip', 'kalifornien']
 ---
 
-Nach Teil 1, von San Francisco bis zum Leuchtturm von Piedras Blancas, nehme ich euch heute mit bis nach Los Angeles. Von den Seeelefanten beim Leuchtturm sind es nur ein paar Autominuten zum Hearst Castle.
+<!-- titelbild: 2018/06/0601-highway-1-hearst-castle_img_1316_011.jpg -->
 
-Dort verbringe ich fast den ganzen Nachmittag. Ich gönne mir eine geführte Tour und sehe mir die privaten Räume dieser modernen Burg an. Modern deshalb, weil es die erste Burg ist, die ich gesehen habe, die schon Heizkörper, Lichtschalter und Steckdosen hat. Hearst Castle ist nämlich noch keine hundert Jahre alt. Nach der Führung erkunde ich die Außenanlagen auf eigene Faust und genieße die Aussicht aufs Meer und die Berge rundherum.
+Nach Teil 1, von San Francisco bis zum Leuchtturm von Piedras Blancas, nehmen wir euch heute mit bis nach Los Angeles. Von den Seeelefanten beim Leuchtturm sind es nur ein paar Autominuten zum Hearst Castle.
 
-Zum Tagesausklang fahre ich noch nach Morro Bay, spaziere den Pier entlang und gehe dann im Taco Temple Tacos essen (no na ned).
+Dort verbringen wir fast den ganzen Nachmittag. Wir gönnen uns eine geführte Tour und sehen uns die privaten Räume dieser modernen Burg an. Modern deshalb, weil es die erste Burg ist, die ich gesehen habe, die schon Heizkörper, Lichtschalter und Steckdosen hat. Hearst Castle ist nämlich noch keine hundert Jahre alt. Nach der Führung erkunden wir die Außenanlagen auf eigene Faust und genießen die Aussicht aufs Meer und die Berge rundherum.
 
-Am nächsten Morgen weckt mich in Santa Maria die High-School-Band. Vor dem alljährlichen Rodeo zieht eine Parade mit Musik, vielen Pferden, Leuten auf allen möglichen Fahrzeugen und Tänzerinnen die Hauptstraße entlang, an der mein Motel liegt. Die Parade lasse ich mir natürlich nicht entgehen, für das Rodeo fehlt mir dann leider die Zeit.
+Zum Tagesausklang fahren wir noch nach Morro Bay, spazieren den Pier entlang und gehen dann im Taco Temple Tacos essen (no na ned).
 
-Weiter geht's nach Solvang, einem kleinen Städtchen, das aussieht, als wäre man in Dänemark. Ein bisschen zumindest, denn es schreit trotzdem überall nach Amerika. Die Amerikaner und Japaner, die an diesem Samstag in Massen da sind, finden das sicher ganz nett. Ich finde es eher skurril.
+<!-- bild: 2018/06/0601-highway-1-hearst-castle_img_1224_001.jpg -->
+<!-- bild: 2018/06/0601-highway-1-hearst-castle_img_1249_003.jpg -->
+<!-- bild: 2018/06/0601-highway-1-hearst-castle_img_1257_005.jpg -->
+<!-- bild: 2018/06/0601-highway-1-hearst-castle_img_1267_006.jpg -->
+<!-- bild: 2018/06/0601-highway-1-hearst-castle_img_1225_002.jpg -->
+<!-- bild: 2018/06/0601-highway-1-hearst-castle_img_1305_009.jpg -->
+<!-- bild: 2018/06/0601-highway-1-hearst-castle_img_1278_007.jpg -->
 
-An dem Tag klettert das Thermometer zum ersten Mal seit meiner Ankunft in Amerika über 90 Grad Fahrenheit (32 Grad Celsius). Ich setze mich also bald wieder ins klimatisierte Auto, zurück auf den Highway One und weiter nach Santa Barbara.
+Am nächsten Morgen weckt uns in Santa Maria die High-School-Band. Vor dem alljährlichen Rodeo zieht eine Parade mit Musik, vielen Pferden, Leuten auf allen möglichen Fahrzeugen und Tänzerinnen die Hauptstraße entlang, an der unser Motel liegt. Die Parade lassen wir uns natürlich nicht entgehen, für das Rodeo fehlt uns dann leider die Zeit.
 
-Dort bin ich wieder den ganzen Tag zu Fuß unterwegs. Nach einer Stärkung in der Lilac Patisserie schlendere ich die Hauptstraße bis zum Strand und schaue in das eine oder andere Geschäft.
+Weiter geht's nach Solvang, einem kleinen Städtchen, das aussieht, als wäre man in Dänemark. Ein bisschen zumindest, denn es schreit trotzdem überall nach Amerika. Die Amerikaner und Japaner, die an diesem Samstag in Massen da sind, finden das sicher ganz nett. Wir finden es eher skurril.
 
-Am Sonntag geht es über Malibu Beach und Santa Monica nach Los Angeles. Was ich dort getrieben habe, lest ihr im nächsten Beitrag.
+<!-- bild: 2018/06/0602-highway-1-solvang-santa-barbara_img_1331_001.jpg -->
+<!-- bild: 2018/06/0602-highway-1-solvang-santa-barbara_img_1358_004.jpg -->
+<!-- bild: 2018/06/0602-highway-1-solvang-santa-barbara_img_1365_005.jpg -->
+<!-- bild: 2018/06/0602-highway-1-solvang-santa-barbara_img_1353_003.jpg -->
+
+An dem Tag klettert das Thermometer zum ersten Mal seit unserer Ankunft in Amerika über 90 Grad Fahrenheit (32 Grad Celsius). Wir setzen uns also bald wieder ins klimatisierte Auto, zurück auf den Highway One und weiter nach Santa Barbara.
+
+Dort sind wir wieder den ganzen Tag zu Fuß unterwegs. Nach einer Stärkung in der Lilac Patisserie schlendern wir die Hauptstraße bis zum Strand und schauen in das eine oder andere Geschäft.
+
+Am Sonntag geht es über Malibu Beach und Santa Monica nach Los Angeles. Was wir dort getrieben haben, lest ihr im nächsten Beitrag.
+
+<!-- bild: 2018/06/0602-highway-1-solvang-santa-barbara_img_1375_006.jpg -->
+<!-- bild: 2018/06/0602-highway-1-solvang-santa-barbara_img_1378_007.jpg -->
+<!-- bild: 2018/06/0602-highway-1-solvang-santa-barbara_img_1389_008.jpg -->
+<!-- bild: 2018/06/0601-highway-1-hearst-castle_img_1314_010.jpg -->

@@ -9,24 +9,38 @@ route:
 tags: ['stadt', 'strand', 'florida']
 ---
 
-Miami ist definitiv eine Stadt, in die ich mich verlieben könnte. Ich genieße die vier Tage dort richtig und nehme mir ganz bewusst Zeit, um „richtig" Urlaub zu machen.
+<!-- titelbild: 2018/07/0719-miami_img_0217.jpg -->
 
-Die Unterkunft suche ich mir wieder bewusst etwas außerhalb, um nicht mitten im Touristentrubel zu sein. Ich habe wieder richtig Glück: ein sehr schönes Zimmer mit eigenem Bad. Und ja, das muss mittlerweile betont werden, denn in den letzten Unterkünften habe ich das Bad immer mit mindestens einem anderen Gast oder den Eigentümern geteilt. Da ist ein eigenes Badezimmer ein richtiger Luxus.
+Miami ist definitiv eine Stadt, in die man sich verlieben könnte. Wir genießen die vier Tage dort richtig und nehmen uns ganz bewusst Zeit, um „richtig" Urlaub zu machen.
 
-Den ersten Tag beginne ich ganz entspannt: lange schlafen, ausgiebig frühstücken, dann geht's in die Stadt. Zuerst zu den Wynwood Walls, einem Viertel mit extrem viel Streetart und Graffiti. Irgendwie haben es mir diese Kunstwerke angetan, und ich liebe es, durch die Gassen zu spazieren und sie zu bewundern.
+Die Unterkunft suchen wir uns wieder bewusst etwas außerhalb, um nicht mitten im Touristentrubel zu sein. Wir haben wieder richtig Glück: ein sehr schönes Zimmer mit eigenem Bad. Und ja, das muss mittlerweile betont werden, denn in den letzten Unterkünften haben wir das Bad immer mit mindestens einem anderen Gast oder den Eigentümern geteilt. Da ist ein eigenes Badezimmer ein richtiger Luxus.
 
-Bevor es an den Strand geht, mache ich noch einen Halt an der Bayfront und im Bayfront Park. Dort findet man neben dem Hard Rock Cafe auch Restaurants und einige Geschäfte. Nach diesen Pflichtpunkten geht's endlich an den weltberühmten South Beach. Ich genieße Sonne und Wasser.
+Den ersten Tag beginnen wir ganz entspannt: lange schlafen, ausgiebig frühstücken, dann geht's in die Stadt. Zuerst zu den Wynwood Walls, einem Viertel mit extrem viel Streetart und Graffiti. Irgendwie haben es uns diese Kunstwerke angetan, und wir lieben es, durch die Gassen zu spazieren und sie zu bewundern.
+
+<!-- bild: 2018/07/0719-miami_img_4265.jpg -->
+<!-- bild: 2018/07/0719-miami_img_4275.jpg -->
+<!-- bild: 2018/07/0719-miami_img_4276.jpg -->
+
+Bevor es an den Strand geht, machen wir noch einen Halt an der Bayfront und im Bayfront Park. Dort findet man neben dem Hard Rock Cafe auch Restaurants und einige Geschäfte. Nach diesen Pflichtpunkten geht's endlich an den weltberühmten South Beach. Wir genießen Sonne und Wasser.
 
 ## Ausflug auf die Keys
 
-Eigentlich habe ich mir extra den Wecker gestellt, aber als er aus ist, schlafe ich seelenruhig noch eine Stunde weiter. Mit leichter Verspätung trete ich den Tagesausflug auf die Keys an. Die Keys sind viele einzelne Inseln, die nur über Brücken mit dem Festland verbunden sind, ganz am Ende liegt Key West.
+<!-- bild: 2018/07/0719-miami_img_4296.jpg -->
+<!-- bild: 2018/07/0719-miami_img_0222.jpg -->
+<!-- bild: 2018/07/0719-miami_img_0211.jpg -->
 
-Key West ist der südlichste Punkt der USA und ein beliebter Urlaubsort. Ich nutze die Zeit, um durch die Stadt zu spazieren, durch die Geschäfte zu bummeln, und esse ein leckeres Eis mit Key Lime und Erdnussbutter.
+Eigentlich haben wir uns extra den Wecker gestellt, aber als er aus ist, schlafen wir seelenruhig noch eine Stunde weiter. Mit leichter Verspätung treten wir den Tagesausflug auf die Keys an. Die Keys sind viele einzelne Inseln, die nur über Brücken mit dem Festland verbunden sind, ganz am Ende liegt Key West.
 
-Den dritten Tag in Miami verbringe ich ganz entspannt. Ich bleibe bis Mittag in der Unterkunft und mache mich erst nachmittags auf zum Strand. Das Wasser hat eine so angenehme Temperatur und ist perfekt, um einfach nur drinnen zu stehen.
+Key West ist der südlichste Punkt der USA und ein beliebter Urlaubsort. Wir nutzen die Zeit, um durch die Stadt zu spazieren, durch die Geschäfte zu bummeln, und essen ein leckeres Eis mit Key Lime und Erdnussbutter.
+
+<!-- bild: 2018/07/0720-key-west_img_4343.jpg -->
+<!-- bild: 2018/07/0720-key-west_img_4364.jpg -->
+<!-- bild: 2018/07/0720-key-west_img_4376-bearbeitet.jpg -->
+
+Den dritten Tag in Miami verbringen wir ganz entspannt. Wir bleiben bis Mittag in der Unterkunft und machen uns erst nachmittags auf zum Strand. Das Wasser hat eine so angenehme Temperatur und ist perfekt, um einfach nur drinnen zu stehen.
 
 ## Everglades
 
-Die Everglades erkunde ich weder mit dem Motorboot noch mit dem Kajak noch zu Fuß. Ich habe ohnehin meine Probleme mit Sümpfen und Wildnis, in der ich nicht weiß, was mich erwartet, und beim Wort „Schlangen" ist mir das schon genug. Ich fahre also „nur" über die Schnellstraße, die am Everglades-Nationalpark vorbeiführt.
+Die Everglades erkunden wir weder mit dem Motorboot noch mit dem Kajak noch zu Fuß. Ich habe ohnehin meine Probleme mit Sümpfen und Wildnis, in der ich nicht weiß, was mich erwartet, und beim Wort „Schlangen" ist mir das schon genug. Wir fahren also „nur" über die Schnellstraße, die am Everglades-Nationalpark vorbeiführt.
 
-Eher zufällig fahre ich bei einer der vielen Ausbuchtungen hinein, um doch noch einen kurzen Blick und ein paar Fotos von der Natur zu machen. Und ich habe Glück: Ich sehe gleich zwei Alligatoren. Einer schwimmt ganz ruhig mitten im Wasser und lässt sich von mir nicht aus der Ruhe bringen, der zweite liegt nah am Ufer. Alles ist so abgesichert, dass die beiden keine Chance hätten, auf den Steg zu kommen. So habe ich ganz ohne teure Fahrt im „Dschungel" frei lebende, wilde Alligatoren gesehen.
+Eher zufällig fahren wir bei einer der vielen Ausbuchtungen hinein, um doch noch einen kurzen Blick und ein paar Fotos von der Natur zu machen. Und wir haben Glück: Wir sehen gleich zwei Alligatoren. Einer schwimmt ganz ruhig mitten im Wasser und lässt sich von uns nicht aus der Ruhe bringen, der zweite liegt nah am Ufer. Alles ist so abgesichert, dass die beiden keine Chance hätten, auf den Steg zu kommen. So haben wir ganz ohne teure Fahrt im „Dschungel" frei lebende, wilde Alligatoren gesehen.

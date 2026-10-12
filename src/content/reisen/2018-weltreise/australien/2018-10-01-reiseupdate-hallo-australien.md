@@ -6,18 +6,20 @@ position: { name: 'Melbourne', lat: -37.8136, lng: 144.9631 }
 tags: ['update', 'ankunft']
 ---
 
-Neuseeland habe ich nach eineinhalb Monaten verlassen, und ich sitze gerade in einem netten Café in Melbourne. Die Anreise war diesmal leider nicht so angenehm, ich fühle mich erledigt und geschlaucht.
+<!-- titelbild: 2018/09/1001-tag-2_001.jpg -->
 
-Mein Flug ging schon um 6.10 Uhr in Christchurch. In der Nacht war in Neuseeland auch noch die Zeitumstellung von Winter- auf Sommerzeit, also musste ich noch früher raus, und der Wecker läutete bereits um 2.30 Uhr. Beim Flug gab's dann ziemliche Turbulenzen, und ich war froh, als ich wieder festen Boden unter den Füßen hatte.
+Neuseeland haben wir nach eineinhalb Monaten verlassen, und wir sitzen gerade in einem netten Café in Melbourne. Die Anreise war diesmal leider nicht so angenehm, wir fühlen uns erledigt und geschlaucht.
 
-Wegen der Zeitverschiebung war es 7 Uhr früh, als ich in Melbourne gelandet bin. Gleich ging's zur Unterkunft, wo ich leider nur den Rucksack abgeben konnte und erst um 14 Uhr einchecken darf. Ich war froh, wenigstens den Ballast los zu sein, aber eigentlich wollte ich mich nur noch hinlegen.
+Unser Flug ging schon um 6.10 Uhr in Christchurch. In der Nacht war in Neuseeland auch noch die Zeitumstellung von Winter- auf Sommerzeit, also mussten wir noch früher raus, und der Wecker läutete bereits um 2.30 Uhr. Beim Flug gab's dann ziemliche Turbulenzen, und wir waren froh, als wir wieder festen Boden unter den Füßen hatten.
+
+Wegen der Zeitverschiebung war es 7 Uhr früh, als wir in Melbourne gelandet sind. Gleich ging's zur Unterkunft, wo wir leider nur die Rucksäcke abgeben konnten und erst um 14 Uhr einchecken dürfen. Wir waren froh, wenigstens den Ballast los zu sein, aber eigentlich wollten wir uns nur noch hinlegen.
 
 ## Wie geht's weiter?
 
-In Australien habe ich wieder einiges vor. Konkrete Pläne gibt es noch nicht, aber im Groben schaut der Plan so aus:
+In Australien haben wir wieder einiges vor. Konkrete Pläne gibt es noch nicht, aber im Groben schaut der Plan so aus:
 
-Die nächsten Tage verbringe ich in Melbourne, danach miete ich ein Auto und fahre bis nach Sydney. In Sydney wechsle ich wieder in einen Camper. Das Campen in Neuseeland hat mir so viel Spaß gemacht, dass ich auch in Australien ein paar Tage im Camper wohnen will.
+Die nächsten Tage verbringen wir in Melbourne, danach mieten wir ein Auto und fahren bis nach Sydney. In Sydney wechseln wir wieder in einen Camper. Das Campen in Neuseeland hat uns so viel Spaß gemacht, dass wir auch in Australien ein paar Tage im Camper wohnen wollen.
 
-Mit dem Camper will ich dann die Ostküste von Sydney bis in den Norden nach Cairns fahren. Zum Abschluss meines Australien-Aufenthalts geht's mit einem kurzen Zwischenstopp beim Uluru nach Perth.
+Mit dem Camper wollen wir dann die Ostküste von Sydney bis in den Norden nach Cairns fahren. Zum Abschluss unseres Australien-Aufenthalts geht's mit einem kurzen Zwischenstopp beim Uluru nach Perth.
 
-Und dann sind zwei Monate in Australien auch schon wieder vorbei, und ich ziehe weiter.
+Und dann sind zwei Monate in Australien auch schon wieder vorbei, und wir ziehen weiter.

@@ -1,25 +1,49 @@
 ---
-titel: 'Melbourne: meine ersten Schritte in Australien'
+titel: 'Melbourne: unsere ersten Schritte in Australien'
 zusammenfassung: 'Müde angekommen, mit der Gratis-Bim durch die Stadt und gleich in den Top 3 der Reise.'
 datum: 2018-10-11
 position: { name: 'Melbourne', lat: -37.8136, lng: 144.9631 }
 tags: ['stadt']
 ---
 
-Kurz nach sieben Uhr Ortszeit lande ich mit dem Flieger aus Christchurch in Melbourne. Ein neues Land, nein, ein neuer Kontinent wartet auf mich. Entsprechend motiviert bin ich, aber leider verläuft der Start etwas holprig.
+<!-- titelbild: 2018/10/1001-melbourne-tag-2_004.jpg -->
 
-Schon in den Tagen vor der Ankunft habe ich vergeblich versucht, die Vermieterin meiner Unterkunft zu erreichen. Auf keine Nachricht kam eine Antwort. Als ich am Flughafen die Passkontrolle und alle anderen Einreisekontrollen hinter mir habe und endlich draußen stehe, schreibe ich ihr eine letzte Nachricht. Mein Problem: Es ist sieben Uhr früh, und Check-in ist erst ab 14 Uhr möglich.
+Kurz nach sieben Uhr Ortszeit landen wir mit dem Flieger aus Christchurch in Melbourne. Ein neues Land, nein, ein neuer Kontinent wartet auf uns. Entsprechend motiviert sind wir, aber leider verläuft der Start etwas holprig.
 
-Ich beschließe kurzerhand, einfach ohne Antwort mit dem Uber zur Unterkunft zu fahren. Ich erwische einen sehr gesprächigen Fahrer, der mich gleich mit den wichtigsten Infos zu Melbourne und Australien versorgt. Am Flughafen hatte ich noch zwei Cafés in der Nähe entdeckt, wo ich die Zeit hätte totschlagen können, denn mit dem Gepäck wollte ich nicht auf Entdeckungstour gehen.
+Schon in den Tagen vor der Ankunft haben wir vergeblich versucht, die Vermieterin unserer Unterkunft zu erreichen. Auf keine Nachricht kam eine Antwort. Als wir am Flughafen die Passkontrolle und alle anderen Einreisekontrollen hinter uns haben und endlich draußen stehen, schreiben wir ihr eine letzte Nachricht. Unser Problem: Es ist sieben Uhr früh, und Check-in ist erst ab 14 Uhr möglich.
 
-Wie ausgemacht kommt die Vermieterin gerade aus dem Haus, als ich aus dem Taxi steige. So kann ich schnell die großen Rucksäcke abstellen und mit „leichtem" Gepäck Melbourne erkunden.
+<!-- bild: 2018/10/0930-melbourne-tag-1_001-225x300.jpg | Die Skyline von Melbourne vom Queen Victoria Market -->
 
-So richtig in Schwung kommt mein Körper an dem Tag aber nicht. Er fühlt sich an, als hätte ich in der Nacht davor mit Freunden gefeiert. Die kurze Nacht wegen der Zeitumstellung in Neuseeland und der frühe Abflug aus Christchurch machen sich ordentlich bemerkbar. Ich schleppe meinen müden Körper durch die Straßen von Melbourne und über den Queen Victoria Market, bis ich kurz nach 14 Uhr endlich in die Unterkunft kann.
+Wir beschließen kurzerhand, einfach ohne Antwort mit dem Uber zur Unterkunft zu fahren. Wir erwischen einen sehr gesprächigen Fahrer, der uns gleich mit den wichtigsten Infos zu Melbourne und Australien versorgt. Am Flughafen hatten wir noch zwei Cafés in der Nähe entdeckt, wo wir die Zeit hätten totschlagen können, denn mit dem Gepäck wollten wir nicht auf Entdeckungstour gehen.
 
-Am nächsten Tag geht's frisch und munter in den montäglichen Trubel der Vier-Millionen-Stadt. Mit der Gratis-Bim fahre ich zur Flinders Street Station und gehe von dort zu Fuß weiter, zuerst am Yarra River entlang, dann wieder hinein ins Zentrum.
+Wie ausgemacht kommt die Vermieterin gerade aus dem Haus, als wir aus dem Taxi steigen. So können wir schnell die großen Rucksäcke abstellen und mit „leichtem" Gepäck Melbourne erkunden.
 
-Den Dienstag starte ich wieder mit einer entspannten Fahrt zur Flinders Station. Diesmal spaziere ich danach vorbei an Cooks' Cottage in den Botanischen Garten und weiter zu den Carlton Gardens, wo ich mir das Royal Exhibition Building und das Melbourne Museum von außen anschaue. Nach den vielen tausend Schritten werde ich langsam hungrig und gehe zurück ins Zentrum, diesmal durch Chinatown, das älteste Chinatown der Welt.
+So richtig in Schwung kommen unsere Körper an dem Tag aber nicht. Sie fühlen sich an, als hätten wir in der Nacht davor mit Freunden gefeiert. Die kurze Nacht wegen der Zeitumstellung in Neuseeland und der frühe Abflug aus Christchurch machen sich ordentlich bemerkbar. Wir schleppen unsere müden Körper durch die Straßen von Melbourne und über den Queen Victoria Market, bis wir kurz nach 14 Uhr endlich in die Unterkunft können.
 
-Mein dritter Tag in Melbourne beginnt, wie sollte es anders sein, mit einer Fahrt in der Straßenbahn zur Flinders Station. Diesmal überquere ich den Yarra River und spaziere die Southbank Promenade flussabwärts. Nachdem ich den Fluss wieder überquert habe, geht's am Batman Park vorbei in die Guildford Lane. Zum Abschluss meines Aufenthalts gehe ich in Chinatown essen. Das Lokal heißt „Mao Please" und ist offensichtlich eine Hommage an Mao Zedong.
+Am nächsten Tag geht's frisch und munter in den montäglichen Trubel der Vier-Millionen-Stadt. Mit der Gratis-Bim fahren wir zur Flinders Street Station und gehen von dort zu Fuß weiter, zuerst am Yarra River entlang, dann wieder hinein ins Zentrum.
 
-Melbourne hat mir vom ersten Tag an wahnsinnig gut gefallen und liegt derzeit in den Top 3 der schönsten Städte der Reise. Ich weiß nicht, ob es daran liegt, dass ich schon lange nicht mehr in einer Stadt dieser Größe war, oder am milden Wetter, das den Aufenthalt so angenehm macht. Jedenfalls habe ich die Zeit sehr genossen und das Gefühl, noch nicht alles gesehen zu haben.
+<!-- bild: 2018/10/1001-melbourne-tag-2_002.jpg -->
+<!-- bild: 2018/10/1001-melbourne-tag-2_005.jpg -->
+<!-- bild: 2018/10/1001-melbourne-tag-2_003.jpg -->
+<!-- bild: 2018/10/1001-melbourne-tag-2_007.jpg -->
+<!-- bild: 2018/10/1001-melbourne-tag-2_006.jpg -->
+
+Den Dienstag starten wir wieder mit einer entspannten Fahrt zur Flinders Station. Diesmal spazieren wir danach vorbei an Cooks' Cottage in den Botanischen Garten und weiter zu den Carlton Gardens, wo wir uns das Royal Exhibition Building und das Melbourne Museum von außen anschauen. Nach den vielen tausend Schritten werden wir langsam hungrig und gehen zurück ins Zentrum, diesmal durch Chinatown, das älteste Chinatown der Welt.
+
+<!-- bild: 2018/10/1002-melbourne-tag-3_015.jpg -->
+<!-- bild: 2018/10/1002-melbourne-tag-3_009.jpg -->
+<!-- bild: 2018/10/1002-melbourne-tag-3_018.jpg -->
+<!-- bild: 2018/10/1002-melbourne-tag-3_010.jpg -->
+<!-- bild: 2018/10/1002-melbourne-tag-3_008.jpg -->
+<!-- bild: 2018/10/1002-melbourne-tag-3_016.jpg -->
+<!-- bild: 2018/10/1002-melbourne-tag-3_017.jpg -->
+
+Unser dritter Tag in Melbourne beginnt, wie sollte es anders sein, mit einer Fahrt in der Straßenbahn zur Flinders Station. Diesmal überqueren wir den Yarra River und spazieren die Southbank Promenade flussabwärts. Nachdem wir den Fluss wieder überquert haben, geht's am Batman Park vorbei in die Guildford Lane. Zum Abschluss unseres Aufenthalts gehen wir in Chinatown essen. Das Lokal heißt „Mao Please" und ist offensichtlich eine Hommage an Mao Zedong.
+
+Melbourne hat uns vom ersten Tag an wahnsinnig gut gefallen und liegt derzeit in den Top 3 der schönsten Städte der Reise. Wir wissen nicht, ob es daran liegt, dass wir schon lange nicht mehr in einer Stadt dieser Größe waren, oder am milden Wetter, das den Aufenthalt so angenehm macht. Jedenfalls haben wir die Zeit sehr genossen und das Gefühl, noch nicht alles gesehen zu haben.
+
+<!-- bild: 2018/10/1003-melbourne-tag-4_021.jpg -->
+<!-- bild: 2018/10/1002-melbourne-tag-3_019.jpg -->
+<!-- bild: 2018/10/1002-melbourne-tag-3_013.jpg -->
+<!-- bild: 2018/10/1002-melbourne-tag-3_014.jpg -->
+<!-- bild: 2018/10/1003-melbourne-tag-4_020.jpg -->

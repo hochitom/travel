@@ -1,0 +1,69 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ReiseKachel from '../../components/ReiseKachel.astro';
+import { KONTINENTE, einheiten, ladeBaum, nachJahr, nachKontinent } from '../../lib/reisen';
+
+const baum = await ladeBaum();
+const units = einheiten(baum);
+const jahre = nachJahr(units);
+const kontinente = nachKontinent(units);
+---
+
+<Layout titel="Alle Reisen" beschreibung="Alle Reisen, sortiert nach Jahr oder Kontinent.">
+  <div class="huelle">
+    <section class="hero">
+      <h1>Alle Reisen</h1>
+    </section>
+
+    {
+      units.length === 0 ? (
+        <p class="leer">Noch keine Reisen veröffentlicht.</p>
+      ) : (
+        <>
+          <input class="ansicht-radio" type="radio" name="ansicht" id="ansicht-jahr" checked />
+          <input class="ansicht-radio" type="radio" name="ansicht" id="ansicht-kontinent" />
+          <div class="umschalter" role="group" aria-label="Ansicht wählen">
+            <label for="ansicht-jahr">Nach Jahr</label>
+            <label for="ansicht-kontinent">Nach Kontinent</label>
+          </div>
+
+          <div class="ansicht ansicht-jahr">
+            {jahre.map(([jahr, liste]) => (
+              <section class="gruppe">
+                <h2>{jahr > 0 ? <a href={`/jahr/${jahr}/`}>{jahr}</a> : 'Ohne Datum'}</h2>
+                <ul class="raster">
+                  {liste.map((k) => (
+                    <li>
+                      <ReiseKachel knoten={k} />
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            ))}
+          </div>
+
+          <div class="ansicht ansicht-kontinent">
+            {kontinente.map(([key, liste]) => (
+              <section class="gruppe">
+                <h2>
+                  {key in KONTINENTE ? (
+                    <a href={`/kontinent/${key}/`}>{KONTINENTE[key]}</a>
+                  ) : (
+                    'Ohne Kontinent'
+                  )}
+                </h2>
+                <ul class="raster">
+                  {liste.map((k) => (
+                    <li>
+                      <ReiseKachel knoten={k} />
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            ))}
+          </div>
+        </>
+      )
+    }
+  </div>
+</Layout>

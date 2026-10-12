@@ -1,0 +1,41 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Karte from '../components/Karte.astro';
+import ReiseKachel from '../components/ReiseKachel.astro';
+import { einheiten, ladeBaum, pinsFuer, von } from '../lib/reisen';
+
+const baum = await ladeBaum();
+const pins = await pinsFuer(baum);
+const neueste = einheiten(baum)
+  .sort((a, b) => (von(b)?.getTime() ?? 0) - (von(a)?.getTime() ?? 0))
+  .slice(0, 6);
+---
+
+<Layout>
+  <div class="huelle">
+    <section class="hero">
+      <h1>Reisen, Karten, Geschichten</h1>
+      <p>Jeder Pin ist ein Bericht. Klick drauf und lies nach, wie es dort war.</p>
+    </section>
+
+    <Karte pins={pins} hoehe="min(70vh, 38rem)" beschriftung="Weltkarte mit allen Reiseberichten" />
+
+    {
+      neueste.length > 0 ? (
+        <section>
+          <h2>Zuletzt unterwegs</h2>
+          <ul class="raster">
+            {neueste.map((k) => (
+              <li>
+                <ReiseKachel knoten={k} />
+              </li>
+            ))}
+          </ul>
+          <p><a href="/reisen/">Alle Reisen ansehen →</a></p>
+        </section>
+      ) : (
+        <p class="leer">Hier entstehen gerade die ersten Reiseberichte.</p>
+      )
+    }
+  </div>
+</Layout>

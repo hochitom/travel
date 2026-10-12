@@ -1,0 +1,58 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Karte from '../../components/Karte.astro';
+import ReiseKachel from '../../components/ReiseKachel.astro';
+import { KONTINENTE, einheiten, ladeBaum, nachKontinent, nachfahren, pinsFuer, type Knoten } from '../../lib/reisen';
+
+export async function getStaticPaths() {
+  const baum = await ladeBaum();
+  const gruppen = nachKontinent(einheiten(baum)).filter(([key]) => key in KONTINENTE);
+  const alle = gruppen.map(([key]) => key);
+  return gruppen.map(([key, liste]) => ({
+    params: { name: key },
+    props: { kontinentKey: key, liste, alle },
+  }));
+}
+
+interface Props {
+  kontinentKey: string;
+  liste: Knoten[];
+  alle: string[];
+}
+
+const { kontinentKey, liste, alle } = Astro.props;
+const name = KONTINENTE[kontinentKey];
+const pins = await pinsFuer(liste.flatMap((u) => [u, ...nachfahren(u)]));
+---
+
+<Layout titel={name} beschreibung={`Alle Reisen nach ${name}.`}>
+  <div class="huelle">
+    <section class="hero">
+      <p class="kicker"><a href="/reisen/">Alle Reisen</a></p>
+      <h1>{name}</h1>
+      <ul class="chips">
+        {
+          alle.map((k) => (
+            <li>
+              <a href={`/kontinent/${k}/`} aria-current={k === kontinentKey ? 'page' : undefined}>
+                {KONTINENTE[k]}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    {pins.length > 0 && <Karte pins={pins} beschriftung={`Karte: ${name}`} />}
+
+    <ul class="raster" style="margin-top:2rem">
+      {
+        liste.map((k) => (
+          <li>
+            <ReiseKachel knoten={k} />
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</Layout>

@@ -1,0 +1,139 @@
+---
+import { Image } from 'astro:assets';
+import { render } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import Karte from '../../components/Karte.astro';
+import ReiseKachel from '../../components/ReiseKachel.astro';
+import {
+  KONTINENTE,
+  knotenUrl,
+  kontinent,
+  ladeBaum,
+  laender,
+  nachfahren,
+  pinsFuer,
+  routenFuer,
+  zeitraum,
+  type Knoten,
+} from '../../lib/reisen';
+
+export async function getStaticPaths() {
+  const baum = await ladeBaum();
+  return baum.map((knoten) => ({ params: { pfad: knoten.pfad }, props: { knoten } }));
+}
+
+interface Props {
+  knoten: Knoten;
+}
+
+const { knoten } = Astro.props;
+const d = knoten.eintrag.data;
+const { Content } = await render(knoten.eintrag);
+
+// Brotkrumen: Reise > Etappe > (dieser Eintrag)
+const krumen: Knoten[] = [];
+for (let k = knoten.eltern; k; k = k.eltern) krumen.unshift(k);
+
+// Karte: eigene Position/Route plus die Pins aller Beiträge darunter
+const pins = await pinsFuer(knoten.ebene === 'beitrag' ? [knoten] : [knoten, ...nachfahren(knoten)]);
+const routen = routenFuer(knoten);
+
+const etappen = knoten.kinder.filter((k) => k.ebene === 'etappe');
+const beitraege = knoten.kinder.filter((k) => k.ebene === 'beitrag');
+
+// Blättern zwischen Geschwister-Beiträgen
+const geschwister = knoten.ebene === 'beitrag' && knoten.eltern ? knoten.eltern.kinder.filter((k) => k.ebene === 'beitrag') : [];
+const index = geschwister.findIndex((k) => k.pfad === knoten.pfad);
+const zurueck = index > 0 ? geschwister[index - 1] : undefined;
+const weiter = index >= 0 && index < geschwister.length - 1 ? geschwister[index + 1] : undefined;
+
+const kontinentName = KONTINENTE[kontinent(knoten) ?? ''];
+const kicker = [kontinentName, laender(knoten).join(', ')].filter(Boolean).join(' · ');
+const zeit = zeitraum(knoten);
+---
+
+<Layout titel={d.titel} beschreibung={d.zusammenfassung}>
+  <article>
+    <header class="huelle artikel-kopf">
+      <nav class="krumen" aria-label="Brotkrumen">
+        <a href="/reisen/">Reisen</a>
+        {
+          krumen.map((k) => (
+            <>
+              {' › '}
+              <a href={knotenUrl(k)}>{k.eintrag.data.titel}</a>
+            </>
+          ))
+        }
+      </nav>
+      {kicker && <p class="kicker">{kicker}</p>}
+      <h1>{d.titel}</h1>
+      {zeit && <p class="leise">{zeit}</p>}
+      {d.zusammenfassung && <p style="font-size:1.15rem;max-width:42rem">{d.zusammenfassung}</p>}
+    </header>
+
+    {
+      d.titelbild && (
+        <Image class="titelbild" src={d.titelbild} alt={d.titelbildAlt ?? ''} width={1400} height={788} loading="eager" />
+      )
+    }
+
+    {
+      (pins.length > 0 || routen.length > 0) && (
+        <div class="huelle" style="margin-bottom:2rem">
+          <Karte pins={pins} routen={routen} hoehe="24rem" beschriftung={`Karte: ${d.titel}`} />
+        </div>
+      )
+    }
+
+    <div class="text prosa">
+      <Content />
+    </div>
+
+    {
+      etappen.length > 0 && (
+        <section class="huelle">
+          <h2>Etappen</h2>
+          <ul class="raster">
+            {etappen.map((k) => (
+              <li>
+                <ReiseKachel knoten={k} />
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    {
+      beitraege.length > 0 && (
+        <section class="text">
+          <h2>{knoten.ebene === 'etappe' ? 'Berichte' : 'Kapitel'}</h2>
+          <ol class="kapitel">
+            {beitraege.map((k) => (
+              <li>
+                <a href={knotenUrl(k)}>
+                  <span>{k.eintrag.data.titel}</span>
+                  <small>{zeitraum(k)}</small>
+                </a>
+              </li>
+            ))}
+          </ol>
+        </section>
+      )
+    }
+
+    {
+      (zurueck || weiter) && (
+        <nav class="text blaettern" aria-label="Weiterblättern">
+          {zurueck && <a href={knotenUrl(zurueck)}>← {zurueck.eintrag.data.titel}</a>}
+          {weiter && (
+            <a class="blaettern__weiter" href={knotenUrl(weiter)}>
+              {weiter.eintrag.data.titel} →
+            </a>
+          )}
+        </nav>
+      )
+    }
+  </article>
+</Layout>

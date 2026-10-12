@@ -1,6 +1,6 @@
 ---
 titel: 'Eine Wanderung im Abel-Tasman-Nationalpark'
-zusammenfassung: 'Fähre nach Picton, Wassertaxi vorbei an Seelöwen und zwölf Kilometer an der Küste.'
+zusammenfassung: 'Mit dem Wassertaxi, Seelöwenbabys und Regenjacke zum Küstenwanderweg.'
 datum: 2018-09-08
 position: { name: 'Abel-Tasman-Nationalpark', lat: -40.9959, lng: 173.0090 }
 route:
@@ -11,8 +11,16 @@ route:
 tags: ['wandern', 'suedinsel', 'nationalpark']
 ---
 
-Die Fähre von Wellington nach Picton braucht dreieinhalb Stunden, dann geht es in zwei kurzen Etappen zum Abel-Tasman-Nationalpark. Bei meiner Ankunft regnet es, ich will trotzdem wandern. Den Camper stelle ich in Motueka ab, etwa eine halbe Autostunde vom Park entfernt. Am nächsten Morgen um 9:30 Uhr nehme ich das Wassertaxi.
+Wellington hat mir sehr gut gefallen, aber ich merke, dass es mir die Natur Neuseelands viel mehr angetan hat. Nach zwei kurzen Tagen in der Hauptstadt nehme ich die Fähre auf die Südinsel. Nach dreieinhalb Stunden bin ich in Picton, von dort geht's in zwei kurzen Tagesetappen zum Abel-Tasman-Nationalpark, wo ich wandern will.
 
-Die Fahrt nach Anchorage Bay dauert etwa eine halbe Stunde. Wir fahren am Split Rock vorbei, einem gespaltenen Felsen, und an einer Seelöwenkolonie. Die Jungtiere führen den Passagieren ein kleines Schauspiel vor.
+Leider empfängt mich die Südinsel mit Regen, und ich bin nicht sicher, ob ich den Ausflug wirklich wagen soll. Ich entscheide mich dann doch für den Umweg. Wenn das Wetter gar nicht mitspielt, kann ich immer noch umkehren und weiter in den Westen fahren, denke ich mir.
 
-Von Anchorage Bay laufe ich auf dem letzten Stück des Abel Tasman Coastal Track nach Marahau, rund 12 Kilometer in etwa dreieinhalb Stunden. Anfangs regnet es heftig, dann kommt die Sonne heraus. Der Weg führt durch dichten Wald, über Brücken und Stege, an Wasserfällen und Buchten vorbei. Steile Abschnitte gibt es nicht.
+Den Camper parke ich in Motueka, einem kleinen Ort etwa eine halbe Autostunde vom Nationalpark entfernt, um am nächsten Morgen nicht zu viel Stress zu haben. Ich muss nämlich das Wassertaxi um 9.30 Uhr erwischen. Trotzdem habe ich am nächsten Morgen alle Hände voll zu tun, um rechtzeitig dort zu sein. Auto geparkt, Ticket gekauft, ins Boot gesprungen, los geht's. Besser kann man seinen Zeitplan nicht optimieren, würde ich sagen!
+
+Das Wassertaxi bringt mich in einer halben Stunde nach Anchorage Bay, wo ich an Land gehe. Unterwegs gibt's für mich und die zwölf anderen Passagiere noch ein kleines Touristenprogramm: Wir fahren am Split Apple Rock, einem gespaltenen Felsen, und an einer Seelöwenkolonie vorbei. Die Seelöwenbabys begrüßen uns gleich voller Freude und legen für uns eine kleine Show hin, sie sind die Besucher eindeutig gewöhnt.
+
+Als ich das Boot verlasse und mich für die Wanderung fertig mache, fängt es an zu schütten. Zum Glück verlasse ich den Strand recht schnell, und der dichte Wald lässt den Regen nicht mehr so stark durch. Die ersten eineinhalb Stunden gehe ich in der Regenjacke, bis der Regen ganz aufhört und sogar die Sonne herauskommt.
+
+Ich gehe einen Teil des Abel Tasman Coast Track. Eigentlich ist das eine mehrtägige Wanderung, dank der Wassertaxis kann man aber bequem einzelne Teilstücke gehen. Ich entscheide mich für das letzte Teilstück (oder erste, je nachdem, von wo man kommt), von Anchorage Bay zurück nach Marahau.
+
+Der Weg ist richtig schön. Einerseits der dichte Wald, der oft kaum Licht durchlässt, nur um wenige Meter weiter den Blick auf eine der vielen traumhaften Buchten freizugeben. Hier erlebe ich wieder die unglaubliche Vielfalt der Insel. Es geht über Brücken und Stege, vorbei an rauschenden Wasserfällen, bis mich der Weg nach dreieinhalb Stunden und über 12 Kilometern in Marahau wieder ausspuckt. Der Weg ist sehr angenehm zu gehen, keine steilen Abschnitte, man kann ganz gemütlich dahinspazieren.

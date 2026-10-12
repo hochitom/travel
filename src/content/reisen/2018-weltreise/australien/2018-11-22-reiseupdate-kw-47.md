@@ -1,13 +1,17 @@
 ---
-titel: 'Reiseupdate: Camperrückgabe und neue Pläne'
-zusammenfassung: 'Ein Monat im Camper ist vorbei, der Flug nach Bali verschiebt sich um eine Woche.'
+titel: 'Reiseupdate KW 47'
+zusammenfassung: 'Camper zurückgegeben, ab ins Outback, und der Heimflug wandert nach hinten.'
 datum: 2018-11-22
 position: { name: 'Cairns', lat: -16.9186, lng: 145.7781 }
 tags: ['update', 'planung']
 ---
 
-Seit dem letzten Update sind fast zwei Monate vergangen, einen davon habe ich im Camper verbracht. In Cairns gebe ich das Fahrzeug zurück, danach geht es mit dem Flugzeug ins Zentrum Australiens zum Uluru und anschließend nach Denpasar auf Bali.
+Seit dem letzten Reiseupdate sind schon wieder fast zwei Monate vergangen. Es ist immer wieder erstaunlich, wie schnell die Zeit vergeht. Mir kommt vor, als hätte ich erst gestern den Camper bezogen, aber mein Monat im Camper in Australien ist schon wieder vorbei.
 
-Der Flug nach Bali war ursprünglich für den 30. November geplant, ich verschiebe ihn um eine Woche auf den 7. Dezember. Auf Bali besorge ich ein einmonatiges indonesisches Visum, das sich hoffentlich um dreißig Tage verlängern lässt. Ich arbeite von dort aus weiter.
+In den letzten Updates habe ich immer auch von den weiteren Reiseplänen erzählt. Das mache ich diesmal natürlich auch, nur sind die Pläne diesmal ziemlich vage.
 
-Auch die Rückreise nach Österreich verschiebt sich nach hinten. Ursprünglich wollte ich die Reise nicht verlängern, jetzt liegt die Landung in Wien Ende Januar.
+Gestern habe ich den Camper in Cairns zurückgegeben, und heute sitze ich schon im Flieger ins Zentrum Australiens, wo ich mir den Uluru anschauen werde. Ursprünglich wollte ich schon am 30. November weiter nach Bali fliegen. Den Flug habe ich aber um eine Woche nach hinten verschoben. Ich bleibe noch bis 7. Dezember in Australien.
+
+Am 7. Dezember geht's dann nach Denpasar, wo ich mir ein Visum für einen Monat für Indonesien besorge, das ich hoffentlich noch einmal um dreißig Tage verlängern kann. Im Jänner beginnt nämlich für mich wieder der Ernst des Lebens: Ich werde von Bali aus schon wieder arbeiten.
+
+Mitten auf der Reise hätte ich nicht damit gerechnet, dass ich später als geplant nach Hause komme. Schon nach ein paar Monaten unterwegs stand für mich fest, dass ich nicht verlängern will und auf alle Fälle beim ursprünglichen Zeitplan bleibe. Jetzt habe ich den Heimflug aber doch nach hinten verschoben. Wenn alles gut geht, lande ich am 31. Jänner in Wien-Schwechat. Der 31. Jänner ist übrigens ein Donnerstag ;)

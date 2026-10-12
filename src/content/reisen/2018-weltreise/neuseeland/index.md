@@ -3,7 +3,7 @@ titel: 'Neuseeland'
 zusammenfassung: 'Fast 7.000 Kilometer im Camper, vom Cape Reinga bis zum Milford Sound.'
 kontinent: ozeanien
 laender: ['Neuseeland']
-von: 2018-08-17
+von: 2018-08-07
 bis: 2018-09-30
 tags: ['camper', 'wandern', 'natur']
 ---

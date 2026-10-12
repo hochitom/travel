@@ -1,6 +1,6 @@
 ---
 titel: 'Ein Umweg für ein Foto'
-zusammenfassung: 'Spontan zum Mount Taranaki statt durch den Tongariro-Nationalpark, mit Wolken, Wind und Dawson Falls.'
+zusammenfassung: 'Spontan zum Mount Taranaki, der sich konsequent hinter den Wolken versteckt.'
 datum: 2018-09-02
 position: { name: 'Mount Taranaki', lat: -39.2967, lng: 174.0640 }
 route:
@@ -10,8 +10,12 @@ route:
 tags: ['berg', 'nordinsel', 'camper']
 ---
 
-Nach Rotorua will ich die Nordinsel verlassen, Ziel ist Wellington und danach die Südinsel. Eigentlich ist die Route durch den Tongariro-Nationalpark geplant. Dann sehe ich auf Instagram Bilder vom Mount Taranaki und ändere spontan den Plan: von Taupo an die Westküste nach New Plymouth.
+Nach Rotorua wird es langsam Zeit, die Nordinsel zu verlassen. Ich mache mich auf den Weg nach Wellington. Der ursprüngliche Plan wäre mitten durch den Tongariro-Nationalpark gegangen. Dann sehe ich auf Instagram Bilder vom Mount Taranaki und beschließe spontan, eine andere Route zu nehmen.
 
-Bei den Three Sisters halte ich an und gehe zu Fuß am Strand zu den Felsen. Der Taranaki trägt während der Fahrt eine dicke Wolkenhaube. Am Visitor Center ist der Gipfel für etwa fünf Minuten frei, dann verschwindet er wieder. Am nächsten Morgen ist von ihm nichts zu sehen.
+Von Taupo geht's über die Westküste nach New Plymouth. Unterwegs komme ich an den Three Sisters vorbei, bleibe spontan stehen und gehe zu Fuß am Strand entlang zu den Felsen. Kurz davor sehe ich zum ersten Mal den Mount Taranaki. Die ganze Fahrt über zeigt er sich mit Wolkenhaube.
 
-Wegen Regens, starker Windböen und schlechter Sicht gehe ich keine lange Wanderung, sondern nur eine kleine Runde zu den Dawson Falls. Der Wasserfall ist 18 Meter hoch. Ich entscheide mich gegen eine weitere Nacht und fahre weiter, auf der Südinsel erwarte ich bessere Wanderbedingungen.
+Weil ich am nächsten Tag wandern will, fahre ich gleich zum Visitor Center. Dort angekommen, haben sich tatsächlich die Wolken verzogen und ich sehe den Gipfel. Schnell noch Fotos, dann gehe ich ins Visitor Center. Als ich nach fünf Minuten wieder rauskomme, ist der Berg schon wieder unter einer dicken Wolkenschicht verschwunden.
+
+Am nächsten Morgen ist vom Mount Taranaki leider gar nichts mehr zu sehen. Ich fahre zum Dawson Falls Visitor Center und gehe zumindest eine kleine Runde zu den Dawson Falls, aber das Wetter mit Regen, starken Windböen und kaum Sicht ist für eine längere Wanderung leider viel zu schlecht. Der 18 Meter hohe Wasserfall entschädigt mich ein bisschen für den Umweg, den ich für diesen Berg in Kauf genommen habe.
+
+Zurück im Camper koche ich mir erst einmal einen heißen Kaffee und überlege, ob ich einfach eine Nacht bleibe und hoffe, dass das Wetter am nächsten Tag besser wird. Ich entscheide mich dann doch für die Weiterfahrt, denn eigentlich will ich endlich auf die Südinsel. Und dort habe ich hoffentlich noch mehr Möglichkeiten zum Wandern.

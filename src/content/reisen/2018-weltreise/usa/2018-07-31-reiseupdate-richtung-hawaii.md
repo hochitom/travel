@@ -1,15 +1,17 @@
 ---
-titel: 'Reiseupdate: Auf dem Weg nach Hawaii'
-zusammenfassung: 'Miami, New Orleans, ein verspäteter Flug über Houston und eine Hütte ohne Strom auf Oahu.'
+titel: 'Reiseupdate KW 31'
+zusammenfassung: 'Neun Stunden im Flieger, eine Gartenhütte ohne Strom und der letzte Stopp in den USA.'
 datum: 2018-07-31
 position: { name: 'Honolulu', lat: 21.3069, lng: -157.8583 }
 tags: ['update', 'hawaii']
 ---
 
-In Miami und New Orleans habe ich viel Zeit am Strand verbracht, Berichte darüber folgen in den nächsten Tagen.
+Das letzte Reiseupdate ist schon wieder eine Weile her, also bringe ich euch einmal wieder auf den aktuellsten Stand. Wer meinen Newsletter liest, weiß schon: Seit gestern bin ich auf Hawaii.
 
-Der Weiterreisetag beginnt früh: Der Flug von New Orleans nach Houston startet kurz nach sieben Uhr morgens. Vor dem Weiterflug nach Honolulu gibt es ein technisches Problem am Flugzeug, das uns knapp zwei Stunden aufhält. Aus gut siebeneinhalb Stunden Flug werden so neun Stunden an Bord.
+Die letzten Tage in Amerika habe ich in Miami und New Orleans verbracht. Dort ist so richtig Urlaubsstimmung aufgekommen, und ich habe viel Zeit am Strand in Miami verbracht. Die Beiträge darüber stelle ich in den nächsten Tagen online.
 
-Auf Oahu wohne ich in den ersten Tagen im Süden der Insel, in einer Gartenhütte ohne Strom und Wasser, dafür mit Blick Richtung Honolulu. Später reise ich weiter in den Norden.
+Am Sonntag heißt es dann früh aufstehen, denn mein erster Flug von New Orleans nach Houston geht kurz nach sieben Uhr in der Früh. Beim Weiterflug von Houston nach Honolulu gibt es vor dem Start Probleme mit dem Flugzeug, ich sitze fast zwei Stunden im Flieger, bevor es überhaupt losgeht. Aus siebeneinhalb Stunden werden so neun.
 
-Hawaii ist der letzte Stopp in den USA. Nach mehr als zwei Monaten in den USA und Kanada geht es in einer Woche weiter nach Neuseeland.
+Auf Hawaii verbringe ich die ersten Tage im Süden der Insel Oahu, danach geht's in den Norden, wo ich mir die Sonne auf den Bauch scheinen lasse. Vor allem die Unterkunft im Süden ist spannend, denn es ist nur eine Gartenhütte. Ohne Strom und fließendes Wasser! Dafür mit wunderbarer Aussicht Richtung Honolulu.
+
+Hawaii ist schon der letzte Stopp in den USA. Nach mehr als zwei Monaten in den USA und Kanada geht's heute in einer Woche weiter nach Neuseeland.

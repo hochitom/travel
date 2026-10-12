@@ -1,6 +1,6 @@
 ---
-titel: 'Unterwegs an Australiens Ostküste, Teil 2: Rainbow Beach bis Airlie Beach'
-zusammenfassung: 'Farbige Dünen, Delfine ohne Delfine, Wale ohne Wale und die Rinderhauptstadt Rockhampton.'
+titel: 'Unterwegs an Australiens Ostküste, Teil 2'
+zusammenfassung: 'Der eintönige Abschnitt: lange Fahrten, ein Ort namens 1770 und viele Delfine und Wale, die ich nicht gesehen habe.'
 datum: 2018-11-16
 position: { name: 'Airlie Beach', lat: -20.2685, lng: 148.7184 }
 route:
@@ -14,14 +14,18 @@ route:
 tags: ['camper', 'ostkueste']
 ---
 
-**Rainbow Beach.** Ein kleiner, ruhiger Ort an einem sehr langen Strand. Mineralien färben die Sanddünen. Rundherum liegt ein Nationalpark mit Regenwald, von hier kann man nach Fraser Island übersetzen.
+Die Tage nach Noosa verbringe ich zum Großteil im Auto. Jetzt kommt der eher unspannende Teil der Ostküste: Die Straßen sind eintönig, und man hat das Gefühl, stundenlang nicht weiterzukommen.
 
-**Tin Can Bay.** Bekannt für eine Delfinkolonie, die frühmorgens gefüttert wird. Ich warte die Fütterung nicht ab und sehe keine Delfine.
+Meinen ersten Stopp lege ich in Rainbow Beach ein. Der kleine Ort liegt an einem ewig langen Strand. Wegen der vielen Mineralien leuchten die Sanddünen hier in ganz unterschiedlichen Farben. Sonst ist der Ort sehr klein und ruhig. Rundherum ist ein Nationalpark mit Regenwäldern, und von hier aus könnte man auch nach Fraser Island übersetzen.
 
-**Hervey Bay.** Ich übernachte auf einem bezahlten Campingplatz. Der Ort lebt von Walbeobachtungstouren, auf die ich verzichte, und bei meinem Spaziergang am Wasser sehe ich keine Wale.
+Mein nächstes Ziel ist die Tin Can Bay. Das Besondere dort ist eine Delfinkolonie. Leider sehe ich keine Delfine. Jeden Tag in der Früh gibt es eine Fütterung, bei der man den Tieren ganz nahe kommt, aber ich will nicht auf den nächsten Tag warten und ziehe weiter. Die Nacht verbringe ich in Hervey Bay auf einem bezahlten Campingplatz.
 
-**1770.** Eine Nacht in Seventeen Seventy. Hier betrat James Cook im Mai 1770 zum zweiten Mal australischen Boden. Es gibt ein Museum, ein kleines Denkmal und Meerblick.
+Von Hervey Bay aus gibt's viele Ausflüge zur Walbeobachtung. Ich möchte die Tiere aber lieber in der Natur erleben und buche keine Tour. Das Glück ist mir leider auch hier nicht hold: Ich spaziere am Wasser entlang, entdecke aber keinen einzigen Wal.
 
-**Rockhampton.** Gratis-Campingplatz in landwirtschaftlicher Gegend. Rockhampton gilt als Rinderhauptstadt Australiens.
+Nach drei Stunden Fahrt erreiche ich „Seventeen Seventy", kurz 1770. Ja, der Ort heißt wirklich so. Hier betrat James Cook im Mai 1770 zum zweiten Mal australischen Boden. Es gibt ein Museum, ein kleines Denkmal und tolle Ausblicke aufs Meer. Ich bleibe eine Nacht.
 
-**Mackay** erreiche ich nach rund fünf Stunden Fahrt, dann geht es weiter nach **Airlie Beach**, wo ich mir ein paar Tage Erholung gönne.
+Von 1770 geht's weiter nach Rockhampton. Nach einer sehr langen Autofahrt erreiche ich einen Gratis-Campingplatz. Hier gibt es fast nur Landwirtschaft, und Rockhampton gilt als die Rinderhauptstadt Australiens. Am nächsten Tag sitze ich noch einmal fünf Stunden im Auto, bis ich endlich Mackay erreiche.
+
+Nach diesen langen und eintönigen Tagen bin ich richtig froh, als ich Airlie Beach erreiche. Hier bleibe ich ein paar Tage und entspanne einmal wieder so richtig. Außerdem steht hier eines der Highlights der ganzen Reise am Programm, aber dazu mehr im nächsten Beitrag.
+
+Zum Weiterlesen in dieser Serie: Teil 1 und Teil 3.

@@ -1,12 +1,18 @@
 ---
-titel: 'Tschüss Österreich, hallo Welt'
+titel: 'Tschüss Österreich, hallo Welt 👋🏼'
 zusammenfassung: 'Der Start: Job gekündigt, Rucksack gepackt, erstes Ziel San Francisco.'
 datum: 2018-05-26
 tags: ['aufbruch']
 ---
 
-Es ist so weit. Ich habe meinen Job gekündigt, die Wohnung ist zur Ruhe gekommen und der große Rucksack steht gepackt im Gang. Für die nächsten Monate ist die Welt mein Büro.
+Heute geht's los. Die grobe Route steht, und trotzdem ist es eine Reise ins Ungewisse. Was werde ich in den nächsten Monaten erleben? Wen werde ich treffen? Was werde ich essen, entdecken und welche Erkenntnisse nehme ich mit? Genau das halte ich hier in meinem Reisetagebuch fest.
 
-Der Plan ist bewusst grob. Ein ungefährer Zeitplan sagt mir, in welchem Land ich ungefähr wann sein möchte, alles andere lasse ich offen. Los geht es in San Francisco, dort verbringe ich die ersten Tage. Danach schaue ich, wohin mich der Weg trägt.
+## Wer da unterwegs ist
 
-Von unterwegs halte ich alles in diesem Reisetagebuch fest.
+Ich bin Thomas, komme aus Österreich und habe meinen Job gekündigt, weil ich in den nächsten Monaten die weite Welt kennenlernen will. Mit Bildern und Geschichten nehme ich euch mit auf die Reise.
+
+## Wie schaut die Route aus?
+
+Los geht's in San Francisco, dort verbringe ich die ersten Tage, bevor ich den Rest der Welt unsicher mache.
+
+Wie die genaue Route aussieht, weiß ich selber noch nicht. Einen ungefähren Zeitplan, wann ich in welchem Land sein will, gibt's schon. Alles andere lasse ich bewusst offen.

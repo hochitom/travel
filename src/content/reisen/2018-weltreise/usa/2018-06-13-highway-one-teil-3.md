@@ -1,6 +1,6 @@
 ---
-titel: 'Highway One, Teil 3: Von Los Angeles nach San Diego'
-zusammenfassung: 'Long Beach, Huntington Beach, Oceanside: der letzte Abschnitt der Küstenfahrt.'
+titel: 'Unterwegs am Highway One – ein Kalifornien-Roadtrip, Teil 3'
+zusammenfassung: 'Queen Mary, Huntington Beach und endlich San Diego.'
 datum: 2018-06-13
 position: { name: 'San Diego', lat: 32.7157, lng: -117.1611 }
 route:
@@ -12,12 +12,12 @@ route:
 tags: ['roadtrip', 'kalifornien']
 ---
 
-Nach zwei Tagen in Los Angeles geht es auf die letzte Etappe Richtung Süden, bis fast an die mexikanische Grenze.
+Nach zwei Tagen in Los Angeles ist es Zeit für die letzte Etappe am Highway One. Teil 1 ging von San Francisco bis zum Hearst Castle, Teil 2 von dort nach LA, und diesmal geht's fast bis zur mexikanischen Grenze, nach San Diego.
 
-**Long Beach.** Die Queen Mary liegt seit rund fünfzig Jahren im Hafen und war einmal das größte Schiff der Welt. Ich sehe sie nur von außen, dafür kann ich kostenlos parken. Danach laufe ich bei kühlem Wetter über einen menschenleeren Strand.
+Bevor ich dort ankomme, gibt's noch ein paar Stopps. Den ersten erreiche ich schon nach wenigen Minuten im Auto: Long Beach. Dort gehe ich zuerst in den Hafen, wo seit fünfzig Jahren die Queen Mary liegt. Sie war damals das größte Schiff der Welt und liegt auch heute noch stolz im Hafen. Weil ich das kostenlose Parken nutzen will, schaue ich sie nur von außen an und fahre nach ein paar Minuten weiter zum Strand von Long Beach. Nach den heißen Tagen ist es wieder richtig angenehm, und ich spaziere mit Jacke am menschenleeren Strand auf und ab.
 
-**Huntington Beach.** Die Stadt kennt man aus der Serie „O.C.“. Am Pier gibt es Chili Cheese Fries. Im Durchschnitt gehört der Ort zu den reichsten in den USA, das sieht man an den vielen Luxusautohändlern an der Straße.
+Weiter geht's nach Huntington Beach. Die Stadt ist vor allem durch die Fernsehserie „O.C., California" bekannt geworden und hat ebenfalls einen wunderschönen Strand mit kleinen und großen Ferienhäusern direkt davor. Beim Pier stärke ich mich mit Chili Cheese Fries, mein Schrittziel auf der Uhr habe ich da längst wieder erreicht. Huntington Beach ist übrigens gemessen am Durchschnittseinkommen die reichste Stadt der USA. Das merke ich vor allem auf der Weiterfahrt Richtung Süden: Ein Luxusautohändler reiht sich an den nächsten.
 
-**Oceanside.** Hier mache ich nur Halt, um mich zu orientieren, denn vom Startort des Race Across America ist an diesem Tag nichts zu sehen. Der Ort wirkt deutlich weniger schick als die Küstenstädte davor.
+Vor dem letzten Stopp kommt noch Oceanside. Dort bin ich in den nächsten Tagen wieder, aber ich will mir vorab schon ein Bild vom Startort des Race Across America machen. Anzeichen vom Rennen finde ich leider noch keine, jedenfalls nicht dort, wo ich suche. Aufgefallen ist mir, dass der Ort weit weniger schick wirkt als alle anderen Küstenorte davor.
 
-**San Diego.** Nach sechs Tagen und über 700 Meilen bin ich da. Ich war schon einmal hier, vor zwanzig Jahren. Wie sich die Stadt verändert hat, schreibe ich in einem eigenen Beitrag.
+Und dann ist es so weit: Nach sechs Tagen und über 700 Meilen bin ich in San Diego. San Diego war für mich ein großer Wunsch, denn vor zwanzig Jahren war ich schon einmal hier. Ich wollte unbedingt wissen, wie die Stadt heute aussieht und woran ich mich noch erinnere. Wie das ausgegangen ist, lest ihr in einem eigenen Beitrag 😀

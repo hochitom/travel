@@ -12,7 +12,7 @@ npm run preview   # Build ansehen
 npm run import    # Artikel aus dem alten WordPress-Blog holen (siehe unten)
 ```
 
-Node 20 oder neuer (Netlify baut mit Node 22).
+Node 22.12 oder neuer (Astro 7 verlangt das, Netlify baut mit Node 22).
 
 ## Inhalte schreiben
 
@@ -38,7 +38,7 @@ Alles liegt in `src/content/reisen/`. **Die Ebene ergibt sich aus dem Pfad:**
 
 Die Seite ist ein Logbuch: Seekartenpapier, Tinte, Meerblau und ein Akzent in Stempelrot. Die Grundsätze stehen in [`design.md`](design.md), alle Farben, Schriften und Abstände als Variablen oben in `src/styles/global.css`. Stempel sind die Komponente `Stempel.astro`.
 
-**Schriften:** IM Fell English (Überschriften), Newsreader (Text) und Reenie Beanie (kurze Handschrift), alle unter der SIL Open Font License. Sie kommen über die Fonts-API von Astro (`experimental.fonts` in `astro.config.mjs`, in Astro 5 noch experimentell). Astro lädt die Dateien beim Build herunter und liefert sie von der eigenen Domain aus, Besucher schicken keine Anfrage an Google. Der Build braucht dafür Internetzugang. Eingebunden werden sie mit `<Font>` in `src/layouts/Layout.astro`, benutzt über die Variablen `--font-kopf`, `--font-text` und `--font-hand`. Eine weitere Schrift: Eintrag in `astro.config.mjs` ergänzen, `<Font>` im Layout hinzufügen.
+**Schriften:** IM Fell English (Überschriften), Newsreader (Text) und Reenie Beanie (kurze Handschrift), alle unter der SIL Open Font License. Sie kommen über die Fonts-API von Astro (`fonts` in `astro.config.mjs`). Astro lädt die Dateien beim Build herunter und liefert sie von der eigenen Domain aus, Besucher schicken keine Anfrage an Google. Der Build braucht dafür Internetzugang. Eingebunden werden sie mit `<Font>` in `src/layouts/Layout.astro`, benutzt über die Variablen `--font-kopf`, `--font-text` und `--font-hand`. Eine weitere Schrift: Eintrag in `astro.config.mjs` ergänzen, `<Font>` im Layout hinzufügen.
 
 ## Seiten
 

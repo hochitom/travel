@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.astro/
+.DS_Store
+.env
+
+# Rohdaten aus dem alten Blog (enthalten alte Texte und unsortierte Bilder).
+# Gehört nie ins Repo, das Repo ist öffentlich.
+_raw/

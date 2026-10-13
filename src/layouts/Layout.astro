@@ -1,6 +1,8 @@
 ---
 import { Font } from 'astro:assets';
 import '../styles/global.css';
+import Logo from '../components/Logo.astro';
+import Briefmarke from '../components/Briefmarke.astro';
 
 interface Props {
   titel?: string;
@@ -35,12 +37,11 @@ const aktiv = (p: string) => (p === '/' ? pfad === '/' : pfad.startsWith(p));
     <Font cssVariable="--font-kopf" preload={[{ weight: 400, style: 'normal', subset: 'latin' }]} />
     <Font cssVariable="--font-text" preload={[{ weight: 400, style: 'normal', subset: 'latin' }]} />
     <Font cssVariable="--font-hand" />
-    <slot name="head" />
   </head>
   <body>
     <header class="kopf">
       <div class="huelle kopf__innen">
-        <a class="marke" href="/">hochitom<span>.travel</span></a>
+        <a class="marke" href="/" aria-label="hochitom.travel, Startseite"><Logo groesse={44} kompakt /></a>
         <nav class="nav" aria-label="Hauptnavigation">
           <a href="/" aria-current={aktiv('/') ? 'page' : undefined}>Weltkarte</a>
           <a href="/reisen/" aria-current={aktiv('/reisen') || aktiv('/jahr') || aktiv('/kontinent') ? 'page' : undefined}>Reisen</a>
@@ -52,7 +53,7 @@ const aktiv = (p: string) => (p === '/' ? pfad === '/' : pfad.startsWith(p));
     </main>
     <footer class="fuss">
       <div class="huelle fuss__innen">
-        <span>© {new Date().getFullYear()} Thomas Hochörtler</span>
+        <span class="fuss__marke"><Briefmarke breite={44} /> <span>© {new Date().getFullYear()} Thomas Hochörtler</span></span>
         <span>
           <a href="/impressum/">Impressum</a> · <a href="/datenschutz/">Datenschutz</a>
         </span>

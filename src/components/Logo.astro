@@ -1,103 +1,62 @@
 ---
 /**
- * Logo-Varianten von hochitom.travel. Farben kommen aus den Variablen,
- * der Dunkelmodus („Nachtwache“) wirkt damit automatisch.
- * Varianten: a (Kompass + Schrift), b (gestapelt), c (Route),
- * siegel (runder Stempel), monogramm (ht).
+ * Logo von hochitom.travel: Kompassrose plus Schriftzug, optional mit Zusatzzeile.
+ * Farben kommen aus den Variablen, der Dunkelmodus („Nachtwache“) wirkt automatisch.
  */
 interface Props {
-  variante?: 'a' | 'b' | 'c' | 'siegel' | 'monogramm';
   groesse?: number;
-  id?: string;
+  /** Kleinere Schrift und ohne Zusatzzeile, z. B. für den Header */
+  kompakt?: boolean;
 }
-const { variante = 'a', groesse, id = 'logo' } = Astro.props;
-const stern = 'M32 14l4.5 14.5L51 32l-14.5 3.5L32 50l-4.5-14.5L13 32l14.5-3.5z';
-const nadel = 'M32 14l2.6 15L32 32l-2.6-3z';
+const { groesse = 56, kompakt = false } = Astro.props;
 ---
 
-{variante === 'a' && (
-  <span class="logo logo--a">
-    <svg viewBox="0 0 64 64" width={groesse ?? 56} height={groesse ?? 56} aria-hidden="true">
-      <circle cx="32" cy="32" r="22" fill="none" stroke="var(--akzent)" stroke-width="3" />
-      <circle cx="32" cy="32" r="17" fill="none" stroke="var(--akzent)" stroke-width="1.5" />
-      <path d={stern} fill="var(--tinte)" />
-      <path d={nadel} fill="var(--akzent)" />
-    </svg>
-    <span class="logo__text">
-      <span class="logo__name">hochitom<span>.travel</span></span>
-      <span class="logo__zusatz">Logbuch der Reisen</span>
-    </span>
-  </span>
-)}
-
-{variante === 'b' && (
-  <span class="logo logo--b">
-    <svg viewBox="0 0 64 64" width={groesse ?? 72} height={groesse ?? 72} aria-hidden="true">
-      <circle cx="32" cy="32" r="22" fill="none" stroke="var(--akzent)" stroke-width="3" />
-      <circle cx="32" cy="32" r="17" fill="none" stroke="var(--akzent)" stroke-width="1.5" />
-      <path d={stern} fill="var(--tinte)" />
-      <path d={nadel} fill="var(--akzent)" />
-    </svg>
-    <span class="logo__name">hochitom<span>.travel</span></span>
-    <span class="logo__zusatz">Logbuch der Reisen</span>
-  </span>
-)}
-
-{variante === 'c' && (
-  <span class="logo logo--c">
-    <span class="logo__name">hochitom<span>.travel</span></span>
-    <svg class="logo__route" viewBox="0 0 560 40" preserveAspectRatio="none" aria-hidden="true">
-      <circle cx="8" cy="28" r="5" fill="none" stroke="var(--tinte)" stroke-width="2" />
-      <path d="M16 28C80 6 130 38 200 20S330 4 400 26S500 34 540 14" fill="none" stroke="var(--akzent)" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 8" vector-effect="non-scaling-stroke" />
-      <circle cx="544" cy="13" r="8" fill="var(--akzent)" />
-      <circle cx="544" cy="13" r="3" fill="var(--papier)" />
-    </svg>
-  </span>
-)}
-
-{variante === 'siegel' && (
-  <svg class="logo logo--siegel" viewBox="0 0 200 200" width={groesse ?? 160} height={groesse ?? 160} role="img" aria-label="Siegel hochitom.travel Logbuch">
-    <defs>
-      <path id={`${id}-oben`} d="M28 100A72 72 0 0 1 172 100" />
-      <path id={`${id}-unten`} d="M14 100A86 86 0 0 0 186 100" />
-    </defs>
-    <circle cx="100" cy="100" r="94" fill="none" stroke="var(--akzent)" stroke-width="3.5" />
-    <circle cx="100" cy="100" r="89" fill="none" stroke="var(--akzent)" stroke-width="1" />
-    <circle cx="100" cy="100" r="62" fill="none" stroke="var(--akzent)" stroke-width="1.5" />
-    <text font-size="17" letter-spacing="2.5" fill="var(--akzent)" text-anchor="middle" style="font-family: var(--serif-kopf)">
-      <textPath href={`#${id}-oben`} startOffset="50%">HOCHITOM.TRAVEL</textPath>
-    </text>
-    <text font-size="13" letter-spacing="4" fill="var(--akzent)" text-anchor="middle" style="font-family: var(--serif-kopf)">
-      <textPath href={`#${id}-unten`} startOffset="50%">LOGBUCH</textPath>
-    </text>
-    <circle cx="23" cy="100" r="2.2" fill="var(--akzent)" />
-    <circle cx="177" cy="100" r="2.2" fill="var(--akzent)" />
-    <g transform="translate(100 100) scale(2.5) translate(-32 -32)">
-      <path d={stern} fill="var(--tinte)" />
-      <path d={nadel} fill="var(--akzent)" />
-    </g>
+<span class:list={['logo', { 'logo--kompakt': kompakt }]}>
+  <svg viewBox="0 0 64 64" width={groesse} height={groesse} aria-hidden="true">
+    <circle cx="32" cy="32" r="22" fill="none" stroke="var(--akzent)" stroke-width="3" />
+    <circle cx="32" cy="32" r="17" fill="none" stroke="var(--akzent)" stroke-width="1.5" />
+    <path d="M32 14l4.5 14.5L51 32l-14.5 3.5L32 50l-4.5-14.5L13 32l14.5-3.5z" fill="var(--tinte)" />
+    <path d="M32 14l2.6 15L32 32l-2.6-3z" fill="var(--akzent)" />
   </svg>
-)}
-
-{variante === 'monogramm' && (
-  <svg class="logo logo--monogramm" viewBox="0 0 200 200" width={groesse ?? 120} height={groesse ?? 120} role="img" aria-label="Monogramm ht">
-    <circle cx="100" cy="100" r="94" fill="none" stroke="var(--akzent)" stroke-width="3.5" />
-    <circle cx="100" cy="100" r="89" fill="none" stroke="var(--akzent)" stroke-width="1" />
-    <circle cx="100" cy="100" r="76" fill="none" stroke="var(--akzent)" stroke-width="2" stroke-linecap="round" stroke-dasharray="1 7" />
-    <text x="100" y="126" font-size="92" fill="var(--tinte)" text-anchor="middle" style="font-family: var(--serif-kopf)">h<tspan fill="var(--akzent)" font-style="italic">t</tspan></text>
-  </svg>
-)}
+  <span class="logo__text">
+    <span class="logo__name">hochitom<span>.travel</span></span>
+    {!kompakt && <span class="logo__zusatz">Logbuch der Reisen</span>}
+  </span>
+</span>
 
 <style>
-  .logo { display: inline-flex; color: var(--tinte); }
-  .logo--a { align-items: center; gap: 0.9rem; }
-  .logo--b { flex-direction: column; align-items: center; gap: 0.35rem; text-align: center; }
-  .logo--c { flex-direction: column; align-items: flex-start; gap: 0.1rem; }
-  .logo__text { display: flex; flex-direction: column; gap: 0.35rem; }
-  .logo__name { font-family: var(--serif-kopf); line-height: 1; font-size: 2.4rem; white-space: nowrap; }
-  .logo__name span { color: var(--akzent); font-style: italic; }
-  .logo--b .logo__name { font-size: 2.6rem; }
-  .logo--c .logo__name { font-size: 3rem; }
-  .logo__zusatz { font-family: var(--serif); font-size: 0.72rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--meer); }
-  .logo__route { width: 100%; height: 1.5rem; }
+  .logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.9rem;
+    color: var(--tinte);
+  }
+  .logo__text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+  .logo__name {
+    font-family: var(--serif-kopf);
+    font-size: 2.4rem;
+    line-height: 1;
+    white-space: nowrap;
+  }
+  .logo--kompakt .logo__name {
+    font-size: 1.9rem;
+  }
+  .logo--kompakt {
+    gap: 0.7rem;
+  }
+  .logo__name span {
+    color: var(--akzent);
+    font-style: italic;
+  }
+  .logo__zusatz {
+    font-family: var(--serif);
+    font-size: 0.72rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--meer);
+  }
 </style>

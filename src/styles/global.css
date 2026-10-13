@@ -179,14 +179,8 @@ h3 {
 }
 
 .marke {
-  font-family: var(--serif-kopf);
-  font-size: 1.9rem;
   color: var(--tinte);
   text-decoration: none;
-}
-
-.marke span {
-  color: var(--akzent);
 }
 
 .nav {
@@ -224,6 +218,12 @@ h3 {
 
 .fuss a {
   color: inherit;
+}
+
+.fuss__marke {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.9rem;
 }
 
 /* ---------- Startseite ---------- */

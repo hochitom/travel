@@ -227,7 +227,7 @@ Regel: Eine neue Komponente nur, wenn sie an mindestens zwei Stellen gebraucht w
 
 - [ ] Farbwerte am echten Bildschirm und mit echten Fotos prüfen
 - [x] Schriften: IM Fell English, Newsreader und Reenie Beanie über die Fonts-API von Astro, selbst ausgeliefert (siehe README). Umlaute und Lesbarkeit am Handy noch prüfen
-- [x] Kartenlösung: bleibt bei Leaflet mit CARTO-Kacheln (OpenStreetMap). Der Seekarten-Look kommt aus CSS (Kachelfilter, Papierrahmen, Kompassrose, Stecknadeln, Zettel-Popups)
+- [x] Kartenlösung: Leaflet mit den Standardkacheln von OpenStreetMap (ohne API-Key; CARTO verlangt inzwischen einen). Der Seekarten-Look kommt aus CSS (Kachelfilter, Papierrahmen, Kompassrose, Stecknadeln, Zettel-Popups)
 - [x] Stempelmotive: rechteckiger Passstempel („Ankunft“, Land, Jahr bzw. Datum) auf Kacheln und Berichten, der runde Stempel bleibt als Variante
 - [x] Logo: Kompassrose plus Schriftzug (siehe Abschnitt 5, Logo)
 - [ ] Darstellung der Weltreise 2018/19 (viele Stationen, eine durchgehende Route?)

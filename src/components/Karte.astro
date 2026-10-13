@@ -76,7 +76,8 @@ const daten = JSON.stringify({ pins, routen });
 
   @media (prefers-color-scheme: dark) {
     .karte :global(.leaflet-tile-pane) {
-      filter: sepia(0.2) saturate(0.7) brightness(0.9);
+      /* Die Standardkacheln sind hell: für Nachtwache umkehren und abdunkeln */
+      filter: invert(1) hue-rotate(180deg) sepia(0.25) saturate(0.6) brightness(0.85) contrast(0.9);
     }
   }
 </style>
@@ -96,10 +97,11 @@ const daten = JSON.stringify({ pins, routen });
   };
   type R = { name: string; lat: number; lng: number; notiz?: string };
 
-  const HELL = 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png';
-  const DUNKEL = 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png';
+  // Standardkacheln von OpenStreetMap: kein API-Key nötig, Nutzungsrichtlinie beachten
+  // (https://operations.osmfoundation.org/policies/tiles/). Hell/Dunkel regelt der CSS-Filter oben.
+  const KACHELN = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
   const QUELLE =
-    '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>-Mitwirkende &copy; <a href="https://carto.com/attributions">CARTO</a>';
+    '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>-Mitwirkende';
 
   function popup(p: P): HTMLElement {
     const box = document.createElement('div');
@@ -140,20 +142,7 @@ const daten = JSON.stringify({ pins, routen });
     karte.on('focus', () => karte.scrollWheelZoom.enable());
     karte.on('blur', () => karte.scrollWheelZoom.disable());
 
-    const dunkel = window.matchMedia('(prefers-color-scheme: dark)');
-    let kacheln = L.tileLayer(dunkel.matches ? DUNKEL : HELL, {
-      attribution: QUELLE,
-      subdomains: 'abcd',
-      maxZoom: 18,
-    }).addTo(karte);
-    dunkel.addEventListener('change', () => {
-      kacheln.remove();
-      kacheln = L.tileLayer(dunkel.matches ? DUNKEL : HELL, {
-        attribution: QUELLE,
-        subdomains: 'abcd',
-        maxZoom: 18,
-      }).addTo(karte);
-    });
+    L.tileLayer(KACHELN, { attribution: QUELLE, maxZoom: 18 }).addTo(karte);
 
     const punkte: L.LatLngTuple[] = [];
 

@@ -3,6 +3,14 @@ titel: 'New Orleans: ein Besuch in der Wiege des Jazz'
 zusammenfassung: 'French Quarter, die Straßenbahn auf der St. Charles Avenue und Brass-Bands an jeder Ecke.'
 datum: 2018-08-07
 position: { name: 'New Orleans', lat: 29.9511, lng: -90.0715 }
+route:
+  - { name: 'Canal Street', lat: 29.9544, lng: -90.0699 }
+  - { name: 'Bourbon Street', lat: 29.9584, lng: -90.0652 }
+  - { name: 'St. Louis Cathedral und Jackson Square', lat: 29.9575, lng: -90.0629 }
+  - { name: 'French Market', lat: 29.9594, lng: -90.061 }
+  - { name: 'St. Charles Avenue', lat: 29.9344, lng: -90.0907 }
+  - { name: 'Magazine Street', lat: 29.9318, lng: -90.0866 }
+  - { name: 'Buckner Mansion', lat: 29.9262, lng: -90.0835 }
 tags: ['stadt', 'musik', 'suedstaaten']
 ---
 

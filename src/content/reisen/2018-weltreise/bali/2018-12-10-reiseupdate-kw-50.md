@@ -3,6 +3,9 @@ titel: 'Reiseupdate KW 50'
 zusammenfassung: 'Angekommen in Bali: erste Eindrücke aus Canggu und was als Nächstes kommt.'
 datum: 2018-12-10
 position: { name: 'Canggu', lat: -8.6478, lng: 115.1385 }
+route:
+  - { name: 'Canggu', lat: -8.6478, lng: 115.1385 }
+  - { name: 'Ubud', lat: -8.5069, lng: 115.2625 }
 tags: ['update', 'ankunft']
 ---
 

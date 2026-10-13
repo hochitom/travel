@@ -188,7 +188,7 @@ const daten = JSON.stringify({ pins, routen });
     }
 
     if (punkte.length > 1) {
-      karte.fitBounds(L.latLngBounds(punkte), { padding: [40, 40], maxZoom: 7 });
+      karte.fitBounds(L.latLngBounds(punkte), { padding: [40, 40], maxZoom: 13 });
     } else if (punkte.length === 1) {
       karte.setView(punkte[0], 8);
     } else {

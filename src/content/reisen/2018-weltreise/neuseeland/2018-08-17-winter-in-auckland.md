@@ -3,6 +3,12 @@ titel: 'Winter in Auckland'
 zusammenfassung: 'Von den Tropen in den neuseeländischen Winter: Maritime Museum, Regen und Eis wie kleine Kunstwerke.'
 datum: 2018-08-17
 position: { name: 'Auckland', lat: -36.8485, lng: 174.7633 }
+route:
+  - { name: 'Hafen, Queens Wharf', lat: -36.8438, lng: 174.766 }
+  - { name: 'Aotea Square', lat: -36.8497, lng: 174.763 }
+  - { name: 'Queen Street', lat: -36.85, lng: 174.7645 }
+  - { name: 'New Zealand Maritime Museum', lat: -36.842, lng: 174.7578 }
+  - { name: 'Giapo', lat: -36.8441, lng: 174.7676 }
 tags: ['stadt', 'nordinsel']
 ---
 

@@ -2,6 +2,11 @@
 titel: "Rückgabe, Evenes und Heimflug über Tromsø"
 datum: 2026-09-10
 position: { name: 'Tromsø', lat: 69.65, lng: 18.96 }
+route:
+  - { name: 'Bleik', lat: 69.281, lng: 15.969 }
+  - { name: 'Flughafen Evenes', lat: 68.4913, lng: 16.6782 }
+  - { name: 'Tromsø, Hafen', lat: 69.6492, lng: 18.9553 }
+  - { name: 'Flughafen Wien-Schwechat', lat: 48.1103, lng: 16.5697 }
 entwurf: false  # erst veröffentlichen, wenn TODOs und Fakten geprüft sind
 ---
 

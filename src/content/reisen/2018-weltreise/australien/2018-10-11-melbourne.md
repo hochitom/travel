@@ -3,6 +3,15 @@ titel: 'Melbourne: unsere ersten Schritte in Australien'
 zusammenfassung: 'Müde angekommen, mit der Gratis-Bim durch die Stadt und gleich in den Top 3 der Reise.'
 datum: 2018-10-11
 position: { name: 'Melbourne', lat: -37.8136, lng: 144.9631 }
+route:
+  - { name: 'Queen Victoria Market', lat: -37.8076, lng: 144.9568 }
+  - { name: 'Flinders Street Station', lat: -37.8183, lng: 144.9671 }
+  - { name: 'Captain Cooks'' Cottage', lat: -37.8148, lng: 144.9795 }
+  - { name: 'Royal Botanic Gardens', lat: -37.8304, lng: 144.9796 }
+  - { name: 'Carlton Gardens und Royal Exhibition Building', lat: -37.8047, lng: 144.9717 }
+  - { name: 'Chinatown', lat: -37.8115, lng: 144.9689 }
+  - { name: 'Southbank Promenade', lat: -37.8216, lng: 144.9644 }
+  - { name: 'Guildford Lane', lat: -37.8105, lng: 144.9604 }
 tags: ['stadt']
 ---
 

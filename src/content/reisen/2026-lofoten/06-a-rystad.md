@@ -2,6 +2,10 @@
 titel: "Regentag in Å und Sakrisøy"
 datum: 2026-09-07
 position: { name: 'Å', lat: 67.88, lng: 12.98 }
+route:
+  - { name: 'Å', lat: 67.88, lng: 12.978 }
+  - { name: 'Norwegisches Fischerdorfmuseum, Å', lat: 67.8795, lng: 12.982 }
+  - { name: 'Sakrisøy', lat: 67.906, lng: 13.069 }
 entwurf: false  # erst veröffentlichen, wenn TODOs und Fakten geprüft sind
 ---
 

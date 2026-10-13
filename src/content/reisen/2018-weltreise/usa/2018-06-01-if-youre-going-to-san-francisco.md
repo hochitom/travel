@@ -3,6 +3,16 @@ titel: 'If you''re going to San Francisco …'
 zusammenfassung: 'Drei Tage Sightseeing, Alcatraz, Wind auf den Twin Peaks und die Schattenseiten der Stadt.'
 datum: 2018-06-01
 position: { name: 'San Francisco', lat: 37.7749, lng: -122.4194 }
+route:
+  - { name: 'Chinatown', lat: 37.7941, lng: -122.4078 }
+  - { name: 'Pier 39', lat: 37.8087, lng: -122.4098 }
+  - { name: 'Fisherman''s Wharf', lat: 37.808, lng: -122.4177 }
+  - { name: 'Lombard Street', lat: 37.8021, lng: -122.4187 }
+  - { name: 'Alcatraz', lat: 37.8267, lng: -122.423 }
+  - { name: 'Golden Gate Park', lat: 37.7694, lng: -122.4862 }
+  - { name: 'Painted Ladies', lat: 37.7762, lng: -122.4328 }
+  - { name: 'City Hall', lat: 37.7793, lng: -122.4193 }
+  - { name: 'Twin Peaks', lat: 37.7544, lng: -122.4477 }
 tags: ['stadt', 'alcatraz']
 ---
 

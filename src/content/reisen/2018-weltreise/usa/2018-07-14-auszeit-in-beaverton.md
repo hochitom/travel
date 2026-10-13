@@ -3,6 +3,10 @@ titel: 'Auszeit in Beaverton'
 zusammenfassung: 'Ein ganzes Haus für 40 Euro, zwei Katzen und endlich Zeit zum Durchschnaufen.'
 datum: 2018-07-14
 position: { name: 'Beaverton, Michigan', lat: 43.8828, lng: -84.4856 }
+route:
+  - { name: 'Beaverton, Michigan', lat: 43.8828, lng: -84.4856 }
+  - { name: 'Glen Arbor', lat: 44.8847, lng: -86.0067 }
+  - { name: 'Philadelphia', lat: 39.9526, lng: -75.1652 }
 tags: ['pause', 'michigan']
 ---
 

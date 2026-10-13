@@ -3,6 +3,15 @@ titel: 'Philadelphia'
 zusammenfassung: 'Rocky-Stufen, Corn Dogs am Reading Terminal Market und ein neues iPhone.'
 datum: 2018-07-20
 position: { name: 'Philadelphia', lat: 39.9526, lng: -75.1652 }
+route:
+  - { name: 'Philadelphia Museum of Art', lat: 39.9656, lng: -75.181 }
+  - { name: 'Rodin Museum', lat: 39.9627, lng: -75.1738 }
+  - { name: 'Naturkundemuseum', lat: 39.9573, lng: -75.171 }
+  - { name: 'Eastern State Penitentiary', lat: 39.9684, lng: -75.1727 }
+  - { name: 'Reading Terminal Market', lat: 39.9533, lng: -75.1594 }
+  - { name: 'Walnut Street', lat: 39.9496, lng: -75.17 }
+  - { name: 'Liberty Bell', lat: 39.9496, lng: -75.1503 }
+  - { name: 'Italian Market', lat: 39.9387, lng: -75.1573 }
 tags: ['stadt']
 ---
 

@@ -3,6 +3,13 @@ titel: 'Nicht schon wieder ein Roadtrip!'
 zusammenfassung: 'Zurück nach Melbourne, St. Kilda und die Planung für die 900 Kilometer nach Sydney.'
 datum: 2018-10-20
 position: { name: 'St Kilda', lat: -37.8676, lng: 144.9807 }
+route:
+  - { name: 'Adelaide', lat: -34.9285, lng: 138.6007 }
+  - { name: 'Great Ocean Road, Twelve Apostles', lat: -38.6624, lng: 143.1049 }
+  - { name: 'St Kilda', lat: -37.8676, lng: 144.9807 }
+  - { name: 'Brighton Beach', lat: -37.9179, lng: 144.9867 }
+  - { name: 'Canberra', lat: -35.2809, lng: 149.13 }
+  - { name: 'Sydney', lat: -33.8688, lng: 151.2093 }
 tags: ['melbourne', 'planung']
 ---
 

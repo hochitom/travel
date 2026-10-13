@@ -2,6 +2,32 @@
 titel: 'Ka kite anō Aotearoa: unser Neuseeland-Rückblick'
 zusammenfassung: '54 Tage, fast 7.000 Kilometer im Camper und ein Land, das unsere Erwartungen übertroffen hat.'
 datum: 2018-10-09
+route:
+  - { name: 'Auckland', lat: -36.8485, lng: 174.7633 }
+  - { name: 'Cape Reinga', lat: -34.4268, lng: 172.6812 }
+  - { name: 'Coromandel', lat: -36.7585, lng: 175.4981 }
+  - { name: 'Rotorua', lat: -38.1368, lng: 176.2497 }
+  - { name: 'Lake Taupo', lat: -38.6857, lng: 176.0702 }
+  - { name: 'Mount Taranaki', lat: -39.2967, lng: 174.0634 }
+  - { name: 'Wellington', lat: -41.2866, lng: 174.7756 }
+  - { name: 'Abel Tasman Coast Track', lat: -40.9167, lng: 172.9833 }
+  - { name: 'Cape Foulwind', lat: -41.75, lng: 171.4833 }
+  - { name: 'Pancake Rocks', lat: -42.1148, lng: 171.3322 }
+  - { name: 'Franz-Josef-Gletscher', lat: -43.467, lng: 170.192 }
+  - { name: 'Fox-Gletscher', lat: -43.466, lng: 170.017 }
+  - { name: 'Haast Pass', lat: -44.095, lng: 169.35 }
+  - { name: 'Queenstown', lat: -45.0312, lng: 168.6626 }
+  - { name: 'Milford Sound', lat: -44.6715, lng: 167.9261 }
+  - { name: 'Slope Point', lat: -46.6772, lng: 169.0036 }
+  - { name: 'Curio Bay', lat: -46.6981, lng: 169.1 }
+  - { name: 'Dunedin', lat: -45.8788, lng: 170.5028 }
+  - { name: 'Moeraki Boulders', lat: -45.3453, lng: 170.8272 }
+  - { name: 'Mount Cook', lat: -43.595, lng: 170.1418 }
+  - { name: 'Arthur''s Pass', lat: -42.942, lng: 171.56 }
+  - { name: 'Hokitika', lat: -42.7167, lng: 170.9667 }
+  - { name: 'Lewis Pass', lat: -42.38, lng: 172.388 }
+  - { name: 'Banks-Halbinsel, Akaroa', lat: -43.804, lng: 172.966 }
+  - { name: 'Christchurch', lat: -43.5321, lng: 172.6362 }
 tags: ['rueckblick']
 ---
 

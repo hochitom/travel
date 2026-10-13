@@ -3,6 +3,14 @@ titel: 'Spotlight on: Los Angeles'
 zusammenfassung: 'Malibu, Venice Beach, die Warner-Bros.-Studios und die Frage, warum diese Stadt so groß ist.'
 datum: 2018-06-10
 position: { name: 'Los Angeles', lat: 34.0522, lng: -118.2437 }
+route:
+  - { name: 'Malibu', lat: 34.0259, lng: -118.7798 }
+  - { name: 'Santa Monica Pier', lat: 34.0092, lng: -118.4977 }
+  - { name: 'Venice Beach', lat: 33.985, lng: -118.4695 }
+  - { name: 'Walk of Fame und TCL Chinese Theatre', lat: 34.1022, lng: -118.341 }
+  - { name: 'Warner-Bros.-Studios', lat: 34.149, lng: -118.3374 }
+  - { name: 'Sunset Boulevard', lat: 34.0901, lng: -118.3868 }
+  - { name: 'Rodeo Drive, Beverly Hills', lat: 34.0678, lng: -118.4008 }
 tags: ['stadt', 'kalifornien']
 ---
 

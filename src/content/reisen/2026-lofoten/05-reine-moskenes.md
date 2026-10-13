@@ -2,6 +2,10 @@
 titel: "1900 Stufen auf den Reinebringen"
 datum: 2026-09-06
 position: { name: 'Reine', lat: 67.93, lng: 13.09 }
+route:
+  - { name: 'Reine', lat: 67.933, lng: 13.089 }
+  - { name: 'Reinebringen', lat: 67.9385, lng: 13.09 }
+  - { name: 'Moskenes Camping', lat: 67.8996, lng: 13.0539 }
 entwurf: false  # erst veröffentlichen, wenn TODOs und Fakten geprüft sind
 ---
 

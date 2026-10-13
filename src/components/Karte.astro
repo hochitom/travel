@@ -142,6 +142,7 @@ const daten = JSON.stringify({ pins, routen });
     karte.on('focus', () => karte.scrollWheelZoom.enable());
     karte.on('blur', () => karte.scrollWheelZoom.disable());
 
+    const dunkel = window.matchMedia('(prefers-color-scheme: dark)');
     L.tileLayer(KACHELN, { attribution: QUELLE, maxZoom: 18 }).addTo(karte);
 
     const punkte: L.LatLngTuple[] = [];

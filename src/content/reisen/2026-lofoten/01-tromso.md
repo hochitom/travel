@@ -2,6 +2,15 @@
 titel: "Drei Tage Tromsø"
 datum: 2026-08-28
 position: { name: 'Tromsø', lat: 69.65, lng: 18.96 }
+route:
+  - { name: 'Flughafen Tromsø', lat: 69.6833, lng: 18.9189 }
+  - { name: 'Hafen und Storgata', lat: 69.6492, lng: 18.9553 }
+  - { name: 'Eismeerkathedrale', lat: 69.6433, lng: 19.0108 }
+  - { name: 'Fjellheisen', lat: 69.6384, lng: 19.0092 }
+  - { name: 'Polarmuseum', lat: 69.6476, lng: 18.9626 }
+  - { name: 'Mack''s Ølhallen', lat: 69.6497, lng: 18.9565 }
+  - { name: 'Prestvannet', lat: 69.6558, lng: 18.9462 }
+  - { name: 'Polaria', lat: 69.646, lng: 18.964 }
 entwurf: false  # erst veröffentlichen, wenn TODOs und Fakten geprüft sind
 ---
 

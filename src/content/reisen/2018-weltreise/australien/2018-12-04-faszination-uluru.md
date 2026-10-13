@@ -3,6 +3,10 @@ titel: 'Faszination Uluru'
 zusammenfassung: 'Rangertour, einmal rund um den roten Felsen bei 38 Grad und ein Sonnenaufgang zum Abschied.'
 datum: 2018-12-04
 position: { name: 'Uluru', lat: -25.3444, lng: 131.0369 }
+route:
+  - { name: 'Ayers Rock Resort, Yulara', lat: -25.2406, lng: 130.9889 }
+  - { name: 'Mala Walk', lat: -25.3525, lng: 131.0145 }
+  - { name: 'Uluru, Rundweg', lat: -25.3444, lng: 131.0369 }
 tags: ['outback', 'wandern']
 ---
 

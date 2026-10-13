@@ -2,6 +2,23 @@
 titel: 'Farewell America! Unser Amerika-Rückblick'
 zusammenfassung: '69 Tage USA, 4 Tage Kanada, 32 Bundesstaaten und über 15.000 Meilen im Auto – und was hängen geblieben ist.'
 datum: 2018-09-06
+route:
+  - { name: 'San Francisco', lat: 37.7749, lng: -122.4194 }
+  - { name: 'Los Angeles', lat: 34.0522, lng: -118.2437 }
+  - { name: 'San Diego', lat: 32.7157, lng: -117.1611 }
+  - { name: 'Flagstaff', lat: 35.1983, lng: -111.6513 }
+  - { name: 'Memphis', lat: 35.1495, lng: -90.049 }
+  - { name: 'Nashville', lat: 36.1627, lng: -86.7816 }
+  - { name: 'Annapolis', lat: 38.9784, lng: -76.4922 }
+  - { name: 'New York', lat: 40.7128, lng: -74.006 }
+  - { name: 'Beaverton, Michigan', lat: 43.8828, lng: -84.4883 }
+  - { name: 'Philadelphia', lat: 39.9526, lng: -75.1652 }
+  - { name: 'Nags Head, Outer Banks', lat: 35.9574, lng: -75.6241 }
+  - { name: 'Myrtle Beach', lat: 33.6891, lng: -78.8867 }
+  - { name: 'Miami', lat: 25.7617, lng: -80.1918 }
+  - { name: 'Key West', lat: 24.5551, lng: -81.78 }
+  - { name: 'New Orleans', lat: 29.9511, lng: -90.0715 }
+  - { name: 'Honolulu', lat: 21.3069, lng: -157.8583 }
 tags: ['rueckblick']
 ---
 

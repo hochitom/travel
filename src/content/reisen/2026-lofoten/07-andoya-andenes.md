@@ -2,6 +2,10 @@
 titel: "Über die Andøya-Route nach Andenes"
 datum: 2026-09-08
 position: { name: 'Andenes', lat: 69.31, lng: 16.12 }
+route:
+  - { name: 'Sortland', lat: 68.6937, lng: 15.4144 }
+  - { name: 'Andøya Space Center', lat: 69.294, lng: 16.02 }
+  - { name: 'Andenes', lat: 69.3167, lng: 16.1167 }
 entwurf: false  # erst veröffentlichen, wenn TODOs und Fakten geprüft sind
 ---
 

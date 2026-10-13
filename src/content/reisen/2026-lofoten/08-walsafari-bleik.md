@@ -2,6 +2,9 @@
 titel: "Walsafari ab Andenes"
 datum: 2026-09-09
 position: { name: 'Andenes', lat: 69.31, lng: 16.12 }
+route:
+  - { name: 'Andenes, Hafen', lat: 69.325, lng: 16.118 }
+  - { name: 'Bleik', lat: 69.281, lng: 15.969 }
 entwurf: false  # erst veröffentlichen, wenn TODOs und Fakten geprüft sind
 ---
 

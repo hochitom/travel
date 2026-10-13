@@ -3,6 +3,16 @@ titel: 'Neuseelands Hauptstadt Wellington'
 zusammenfassung: 'Mount Victoria, Te Papa, Weta Cave und Pinguine unter dem Campingplatz.'
 datum: 2018-09-04
 position: { name: 'Wellington', lat: -41.2866, lng: 174.7756 }
+route:
+  - { name: 'Mount Victoria', lat: -41.2975, lng: 174.7957 }
+  - { name: 'Cuba Street', lat: -41.2926, lng: 174.7745 }
+  - { name: 'Oriental Bay', lat: -41.2929, lng: 174.7931 }
+  - { name: 'Botanischer Garten', lat: -41.2823, lng: 174.7673 }
+  - { name: 'Wellington Cable Car', lat: -41.285, lng: 174.7746 }
+  - { name: 'Parlament', lat: -41.2784, lng: 174.7766 }
+  - { name: 'Old St Paul''s Cathedral', lat: -41.2761, lng: 174.7758 }
+  - { name: 'Te Papa', lat: -41.2905, lng: 174.7821 }
+  - { name: 'Weta Cave', lat: -41.3167, lng: 174.8179 }
 tags: ['stadt', 'nordinsel']
 ---
 

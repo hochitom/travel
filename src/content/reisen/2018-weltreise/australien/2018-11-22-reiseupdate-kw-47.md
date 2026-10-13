@@ -3,6 +3,11 @@ titel: 'Reiseupdate KW 47'
 zusammenfassung: 'Camper zurückgegeben, ab ins Outback, und der Heimflug wandert nach hinten.'
 datum: 2018-11-22
 position: { name: 'Cairns', lat: -16.9186, lng: 145.7781 }
+route:
+  - { name: 'Cairns', lat: -16.9186, lng: 145.7781 }
+  - { name: 'Uluru', lat: -25.3444, lng: 131.0369 }
+  - { name: 'Denpasar', lat: -8.6705, lng: 115.2126 }
+  - { name: 'Flughafen Wien-Schwechat', lat: 48.1103, lng: 16.5697 }
 tags: ['update', 'planung']
 ---
 

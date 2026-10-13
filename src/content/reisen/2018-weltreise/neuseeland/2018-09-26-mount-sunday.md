@@ -3,6 +3,9 @@ titel: 'Sonntagsausflug zum Mount Sunday'
 zusammenfassung: 'Zwanzig Kilometer Schotterpiste, eine Flussdurchfahrt und ein Hügel aus „Herr der Ringe".'
 datum: 2018-09-26
 position: { name: 'Mount Sunday', lat: -43.6000, lng: 171.0400 }
+route:
+  - { name: 'Mount Somers', lat: -43.7167, lng: 171.4167 }
+  - { name: 'Mount Sunday', lat: -43.6, lng: 171.04 }
 tags: ['wandern', 'film', 'suedinsel']
 ---
 

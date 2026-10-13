@@ -3,6 +3,10 @@ titel: 'Hallo Westküste! Hallo Perth!'
 zusammenfassung: 'Sushi in der Happy Hour, Kino mit Käseplatte und ein Spaziergang mit Blick auf die Skyline.'
 datum: 2018-12-13
 position: { name: 'Perth', lat: -31.9505, lng: 115.8605 }
+route:
+  - { name: 'Perth, Zentrum', lat: -31.9523, lng: 115.8613 }
+  - { name: 'Elizabeth Quay', lat: -31.9582, lng: 115.8583 }
+  - { name: 'State War Memorial, Kings Park', lat: -31.9617, lng: 115.8317 }
 tags: ['stadt', 'perth']
 ---
 

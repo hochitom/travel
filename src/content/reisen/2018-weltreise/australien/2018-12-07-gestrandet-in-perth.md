@@ -3,6 +3,9 @@ titel: 'Gestrandet in Perth'
 zusammenfassung: 'Ein Blick in die Buchungsbestätigung im Flieger, zwei verschwundene Hotelzimmer und 900 Meter Luftlinie bei Nacht.'
 datum: 2018-12-07
 position: { name: 'Perth', lat: -31.9505, lng: 115.8605 }
+route:
+  - { name: 'Flughafen Perth', lat: -31.9403, lng: 115.9672 }
+  - { name: 'Perth', lat: -31.9523, lng: 115.8613 }
 tags: ['panne', 'perth']
 ---
 

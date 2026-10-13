@@ -3,6 +3,17 @@ titel: 'Geburtstagsfeier in Sydney'
 zusammenfassung: 'Ein Mietauto, das nicht zurückgegeben werden will, Bronte bis Bondi und viel Ausschlafen.'
 datum: 2018-10-28
 position: { name: 'Sydney', lat: -33.8688, lng: 151.2093 }
+route:
+  - { name: 'Opernhaus', lat: -33.8568, lng: 151.2153 }
+  - { name: 'Harbour Bridge', lat: -33.8523, lng: 151.2108 }
+  - { name: 'The Rocks', lat: -33.8599, lng: 151.209 }
+  - { name: 'Darling Harbour', lat: -33.8737, lng: 151.1986 }
+  - { name: 'Central Station', lat: -33.883, lng: 151.206 }
+  - { name: 'Coogee Beach', lat: -33.9205, lng: 151.2582 }
+  - { name: 'Clovelly Beach', lat: -33.9142, lng: 151.2655 }
+  - { name: 'Bronte Beach', lat: -33.904, lng: 151.268 }
+  - { name: 'Bondi Beach', lat: -33.8915, lng: 151.2767 }
+  - { name: 'Botanischer Garten', lat: -33.8642, lng: 151.2166 }
 tags: ['stadt', 'kueste']
 ---
 

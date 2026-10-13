@@ -3,6 +3,9 @@ titel: 'Bali – Verkehrschaos und Kokosnuss'
 zusammenfassung: 'Ankunft in Denpasar, 90 Minuten Hupkonzert nach Canggu und ein erster Eindruck, der erst einmal sacken muss.'
 datum: 2019-01-06
 position: { name: 'Canggu', lat: -8.6478, lng: 115.1385 }
+route:
+  - { name: 'Flughafen Denpasar', lat: -8.7482, lng: 115.167 }
+  - { name: 'Canggu', lat: -8.6478, lng: 115.1385 }
 tags: ['ankunft', 'canggu']
 ---
 

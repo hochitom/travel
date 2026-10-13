@@ -18,6 +18,8 @@ route:
   - { name: "Å", lat: 67.88, lng: 12.98, notiz: "Südlichster Punkt der Reise" }
   - { name: "Andenes", lat: 69.31, lng: 16.12, notiz: "Walsafari" }
   - { name: "Bleik", lat: 69.281, lng: 15.969, notiz: "Sauna am Meer, letzte Nacht im Camper" }
+titelbild: ./titelbild.jpg
+titelbildAlt: "Blick vom Reinebringen auf Reine und die Fjorde der Lofoten"
 tags: ["roadtrip", "wohnmobil", "wandern", "polarlichter", "walsafari", "tromsø"]
 entwurf: false  # erst veröffentlichen, wenn TODOs und Fakten geprüft sind
 ---

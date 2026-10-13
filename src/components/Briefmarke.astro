@@ -1,0 +1,66 @@
+---
+/**
+ * Dekorative Briefmarke mit Poststempel (Fußzeile, „Über mich“).
+ * Der Poststempel zeigt das Datum des Builds.
+ */
+interface Props {
+  breite?: number;
+}
+const { breite = 56 } = Astro.props;
+const heute = new Date();
+const tag = String(heute.getDate()).padStart(2, '0');
+const monat = String(heute.getMonth() + 1).padStart(2, '0');
+---
+
+<span class="briefmarke" aria-hidden="true" style={`--breite:${breite}px`}>
+  <svg viewBox="0 0 204 252" class="briefmarke__marke">
+    <rect width="204" height="252" fill="var(--papier-2)" />
+    <rect x="18" y="18" width="168" height="216" fill="none" stroke="var(--akzent)" stroke-width="2" />
+    <g transform="translate(102 112) scale(2.2) translate(-32 -32)">
+      <circle cx="32" cy="32" r="22" fill="none" stroke="var(--akzent)" stroke-width="3" />
+      <path d="M32 14l4.5 14.5L51 32l-14.5 3.5L32 50l-4.5-14.5L13 32l14.5-3.5z" fill="var(--tinte)" />
+    </g>
+    <text x="102" y="212" text-anchor="middle" font-size="24" fill="var(--tinte)" style="font-family: var(--serif-kopf)">1 Reise</text>
+    <rect width="204" height="252" fill="none" stroke="var(--papier)" stroke-width="8" stroke-linecap="round" stroke-dasharray="0 12" />
+  </svg>
+  <svg viewBox="0 0 220 120" class="briefmarke__stempel">
+    <defs>
+      <path id="bm-oben" d="M27 60A33 33 0 0 1 93 60" />
+      <path id="bm-unten" d="M19 60A41 41 0 0 0 101 60" />
+    </defs>
+    <circle cx="60" cy="60" r="50" fill="none" stroke="var(--tinte)" stroke-width="2.5" />
+    <circle cx="60" cy="60" r="26" fill="none" stroke="var(--tinte)" stroke-width="1" />
+    <text font-size="9.5" letter-spacing="1.5" fill="var(--tinte)" text-anchor="middle" style="font-family: var(--serif)"><textPath href="#bm-oben" startOffset="50%">HOCHITOM.TRAVEL</textPath></text>
+    <text font-size="8.5" letter-spacing="3" fill="var(--tinte)" text-anchor="middle" style="font-family: var(--serif)"><textPath href="#bm-unten" startOffset="50%">LOGBUCH</textPath></text>
+    <text x="60" y="58" text-anchor="middle" font-size="11" fill="var(--tinte)" style="font-family: var(--serif)">{tag}.{monat}.</text>
+    <text x="60" y="72" text-anchor="middle" font-size="11" fill="var(--tinte)" style="font-family: var(--serif)">{heute.getFullYear()}</text>
+    <g fill="none" stroke="var(--tinte)" stroke-width="2.4" stroke-linecap="round">
+      <path d="M116 38q12-7 24 0t24 0t24 0t24 0" />
+      <path d="M116 52q12-7 24 0t24 0t24 0t24 0" />
+      <path d="M116 66q12-7 24 0t24 0t24 0t24 0" />
+    </g>
+  </svg>
+</span>
+
+<style>
+  .briefmarke {
+    position: relative;
+    display: inline-block;
+    width: var(--breite);
+    height: calc(var(--breite) * 1.235);
+    rotate: 4deg;
+  }
+  .briefmarke__marke {
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(0 1px 1px rgb(30 42 56 / 0.25));
+  }
+  .briefmarke__stempel {
+    position: absolute;
+    left: -30%;
+    top: 10%;
+    width: 170%;
+    rotate: -8deg;
+    opacity: 0.75;
+  }
+</style>

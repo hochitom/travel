@@ -6,16 +6,25 @@ interface Props {
   zusatz?: string;
   /** Schräglage in Grad */
   drehung?: number;
-  /** Durchmesser, z. B. "5rem" */
+  /** Breite bzw. Durchmesser, z. B. "5rem" */
   groesse?: string;
+  /** "pass": rechteckiger Einreisestempel wie im Reisepass, "rund": runder Stempel */
+  form?: 'pass' | 'rund';
+  /** Kopfzeile beim Passstempel */
+  kopf?: string;
 }
 
-const { titel, zusatz, drehung = -8, groesse = '6rem' } = Astro.props;
+const { titel, zusatz, drehung = -6, groesse = '8rem', form = 'pass', kopf = 'Ankunft' } = Astro.props;
 // Lange Namen (z. B. "Großbritannien") brauchen eine kleinere Schrift
-const lang = titel.length > 9;
+const lang = titel.length > (form === 'pass' ? 11 : 9);
 ---
 
-<span class:list={['stempel', { 'stempel--lang': lang }]} style={`--drehung:${drehung}deg;--groesse:${groesse}`} aria-hidden="true">
+<span
+  class:list={['stempel', `stempel--${form}`, { 'stempel--lang': lang }]}
+  style={`--drehung:${drehung}deg;--groesse:${groesse}`}
+  aria-hidden="true"
+>
+  {form === 'pass' && <span class="stempel__kopf">{kopf}</span>}
   <span class="stempel__titel">{titel}</span>
   {zusatz && <span class="stempel__zusatz">{zusatz}</span>}
 </span>
@@ -27,11 +36,7 @@ const lang = titel.length > 9;
     align-items: center;
     justify-content: center;
     width: var(--groesse);
-    height: var(--groesse);
     box-sizing: border-box;
-    padding: 0.35rem;
-    border: 3px double var(--akzent);
-    border-radius: 50%;
     color: var(--akzent);
     font-family: var(--serif-kopf);
     text-align: center;
@@ -42,16 +47,61 @@ const lang = titel.length > 9;
     pointer-events: none;
   }
 
+  /* Rund: Doppelring */
+  .stempel--rund {
+    height: var(--groesse);
+    padding: 0.35rem;
+    border: 3px double var(--akzent);
+    border-radius: 50%;
+  }
+
+  /* Pass: Doppelrahmen mit Trennlinien, Kopfzeile, Ort, Datum */
+  .stempel--pass {
+    padding: 0.3em 0.6em;
+    gap: 0.15em;
+    border: 3px double var(--akzent);
+    border-radius: 0.3em;
+    font-size: calc(var(--groesse) * 0.1);
+  }
+
+  .stempel__kopf {
+    width: 100%;
+    padding-bottom: 0.15em;
+    border-bottom: 1px solid var(--akzent);
+    font-family: var(--serif);
+    font-size: 0.62em;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+  }
+
   .stempel__titel {
     font-size: calc(var(--groesse) * 0.19);
+  }
+
+  .stempel--pass .stempel__titel {
+    font-size: 1.9em;
+    padding-block: 0.05em;
   }
 
   .stempel--lang .stempel__titel {
     font-size: calc(var(--groesse) * 0.14);
   }
 
+  .stempel--pass.stempel--lang .stempel__titel {
+    font-size: 1.45em;
+  }
+
   .stempel__zusatz {
     font-size: calc(var(--groesse) * 0.14);
+  }
+
+  .stempel--pass .stempel__zusatz {
+    width: 100%;
+    padding-top: 0.15em;
+    border-top: 1px solid var(--akzent);
+    font-family: var(--serif);
+    font-size: 0.7em;
+    letter-spacing: 0.2em;
   }
 
   @media (prefers-color-scheme: dark) {

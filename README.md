@@ -79,6 +79,8 @@ Das Markup erzeugen `src/lib/bilder-kern.mjs` und die Komponenten gleich, gestal
 
 Die Seite ist ein Logbuch: Seekartenpapier, Tinte, Meerblau und ein Akzent in Stempelrot. Die Grundsätze stehen in [`design.md`](design.md), alle Farben, Schriften und Abstände als Variablen oben in `src/styles/global.css`. Stempel (Passstempel, rund) sind die Komponente `Stempel.astro`, das Logo `Logo.astro`, Briefmarke mit Poststempel in der Fußzeile `Briefmarke.astro`.
 
+**Vorschaubilder (Open Graph):** Für jede Seite liegt ein Bild unter `public/og/<pfad>.png` (1200 × 630), dazu `standard.png`. Das Layout setzt `og:image` und `twitter:card` (Prop `bild`, Reiseseiten übergeben ihren Pfad). Erzeugt werden sie mit `scripts/og_bilder.py` aus Titel, Zusammenfassung, Route und Land, nicht im Build, die PNGs sind eingecheckt. Nach neuen oder geänderten Berichten neu erzeugen: `pip install pyyaml pillow playwright`, Google-Fonts-Ordner `ofl` mit den drei Schriften bereithalten und `python3 scripts/og_bilder.py --schriften <pfad>/ofl` ausführen (`--nur 2026-lofoten` für einzelne Reisen).
+
 **Schriften:** IM Fell English (Überschriften), Newsreader (Text) und Reenie Beanie (kurze Handschrift), alle unter der SIL Open Font License. Sie kommen über die Fonts-API von Astro (`fonts` in `astro.config.mjs`). Astro lädt die Dateien beim Build herunter und liefert sie von der eigenen Domain aus, Besucher schicken keine Anfrage an Google. Der Build braucht dafür Internetzugang. Eingebunden werden sie mit `<Font>` in `src/layouts/Layout.astro`, benutzt über die Variablen `--font-kopf`, `--font-text` und `--font-hand`. Eine weitere Schrift: Eintrag in `astro.config.mjs` ergänzen, `<Font>` im Layout hinzufügen.
 
 ## Seiten

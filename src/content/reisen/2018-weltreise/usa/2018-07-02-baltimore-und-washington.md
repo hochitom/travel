@@ -3,6 +3,13 @@ titel: 'Zu Besuch beim Weißen Haus'
 zusammenfassung: 'Von Annapolis aus nach Baltimore und Washington D.C. – mit einem schmerzenden Knöchel.'
 datum: 2018-07-02
 position: { name: 'Washington D.C.', lat: 38.8977, lng: -77.0365 }
+route:
+  - { name: 'Annapolis', lat: 38.9784, lng: -76.4922 }
+  - { name: 'Baltimore, Hafen', lat: 39.2856, lng: -76.6113 }
+  - { name: 'Weißes Haus', lat: 38.8977, lng: -77.0365 }
+  - { name: 'Washington Monument', lat: 38.8895, lng: -77.0353 }
+  - { name: 'Lincoln Memorial', lat: 38.8893, lng: -77.0502 }
+  - { name: 'Kapitol', lat: 38.8899, lng: -77.0091 }
 tags: ['stadt']
 ---
 

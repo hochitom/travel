@@ -3,6 +3,10 @@ titel: 'Eine Radtour auf „Quokka Island"'
 zusammenfassung: 'Mit der Fähre nach Rottnest Island, 30 Kilometer auf dem Mountainbike und Selfies mit den glücklichsten Tieren der Welt.'
 datum: 2018-12-22
 position: { name: 'Rottnest Island', lat: -32.0000, lng: 115.5167 }
+route:
+  - { name: 'Fremantle', lat: -32.0569, lng: 115.7439 }
+  - { name: 'Thomson Bay', lat: -31.9966, lng: 115.5435 }
+  - { name: 'Cape Vlamingh', lat: -32.0153, lng: 115.4577 }
 tags: ['insel', 'tiere', 'rad']
 ---
 

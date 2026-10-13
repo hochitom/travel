@@ -2,6 +2,13 @@
 titel: "Camper, Kabelvåg und Henningsvær"
 datum: 2026-08-31
 position: { name: 'Kabelvåg', lat: 68.21, lng: 14.48 }
+route:
+  - { name: 'Flughafen Evenes', lat: 68.4913, lng: 16.6782 }
+  - { name: 'Svolvær', lat: 68.2341, lng: 14.5682 }
+  - { name: 'Kabelvåg, Vågan Kirke', lat: 68.2138, lng: 14.482 }
+  - { name: 'Festvågtind, Henningsvær', lat: 68.156, lng: 14.21 }
+  - { name: 'Henningsvær, Fußballplatz', lat: 68.1514, lng: 14.2022 }
+  - { name: 'Valberg', lat: 68.229, lng: 14.05 }
 entwurf: false  # erst veröffentlichen, wenn TODOs und Fakten geprüft sind
 ---
 

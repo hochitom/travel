@@ -2,6 +2,24 @@
 titel: 'Bye, bye Australia! Unser Australien-Rückblick'
 zusammenfassung: 'Von Melbourne bis Perth: Autos, Camper, Riff, roter Felsen und Quokkas.'
 datum: 2019-01-29
+route:
+  - { name: 'Melbourne', lat: -37.8136, lng: 144.9631 }
+  - { name: 'Great Ocean Road, Twelve Apostles', lat: -38.6624, lng: 143.1049 }
+  - { name: 'Adelaide', lat: -34.9285, lng: 138.6007 }
+  - { name: 'Sydney', lat: -33.8688, lng: 151.2093 }
+  - { name: 'Yamba', lat: -29.4333, lng: 153.35 }
+  - { name: 'Byron Bay', lat: -28.6474, lng: 153.602 }
+  - { name: 'Gold Coast', lat: -28.0167, lng: 153.4 }
+  - { name: 'Brisbane', lat: -27.4698, lng: 153.0251 }
+  - { name: 'Sunshine Coast', lat: -26.65, lng: 153.0667 }
+  - { name: 'Hervey Bay', lat: -25.2882, lng: 152.828 }
+  - { name: 'Seventeen Seventy', lat: -24.1693, lng: 151.882 }
+  - { name: 'Airlie Beach', lat: -20.2686, lng: 148.7186 }
+  - { name: 'Cairns', lat: -16.9186, lng: 145.7781 }
+  - { name: 'Uluru', lat: -25.3444, lng: 131.0369 }
+  - { name: 'Perth', lat: -31.9505, lng: 115.8605 }
+  - { name: 'Pink Lake bei Gregory', lat: -28.1667, lng: 114.2333 }
+  - { name: 'Rottnest Island', lat: -32.0, lng: 115.5167 }
 tags: ['rueckblick']
 ---
 

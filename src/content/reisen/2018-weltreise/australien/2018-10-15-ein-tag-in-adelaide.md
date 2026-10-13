@@ -3,6 +3,14 @@ titel: 'Ein Tag in Adelaide'
 zusammenfassung: 'Glenelg Beach, ein Stromausfall im Restaurant und ein Sonnenuntergang, der eine Stunde später kam als gedacht.'
 datum: 2018-10-15
 position: { name: 'Adelaide', lat: -34.9285, lng: 138.6007 }
+route:
+  - { name: 'Glenelg Beach', lat: -34.9808, lng: 138.5121 }
+  - { name: 'Government House', lat: -34.9205, lng: 138.599 }
+  - { name: 'Migration Museum', lat: -34.921, lng: 138.6011 }
+  - { name: 'South Australian Museum', lat: -34.9207, lng: 138.6031 }
+  - { name: 'Botanischer Garten', lat: -34.9164, lng: 138.6089 }
+  - { name: 'St. Peter''s Cathedral', lat: -34.9068, lng: 138.5946 }
+  - { name: 'St. Francis Xavier''s Cathedral', lat: -34.9276, lng: 138.5971 }
 tags: ['stadt']
 ---
 

@@ -2,9 +2,16 @@
 titel: "Wikinger, Wind und der Mannen"
 datum: 2026-09-03
 entwurf: false  # erst veröffentlichen, wenn TODOs und Fakten geprüft sind
+route:
+  - { name: 'Lofotr Wikingermuseum, Borg', lat: 68.2559, lng: 13.8433 }
+  - { name: 'Eggum', lat: 68.3236, lng: 13.6747 }
+  - { name: 'Haukland Beach', lat: 68.215, lng: 13.54 }
+  - { name: 'Uttakleiv Beach', lat: 68.229, lng: 13.556 }
+  - { name: 'Nusfjord', lat: 68.031, lng: 13.334 }
+  - { name: 'Lofoten Beach Camp, Ramberg', lat: 68.095, lng: 13.22 }
 ---
 
-<!-- TODO: Koordinaten für Uttakleiv (lat/lng) ergänzen, ich kenne sie nicht sicher. -->
+<!-- TODO: Koordinaten in der Route (Uttakleiv, Haukland, Eggum, Nusfjord, Ramberg) sind ungefähr, bitte auf der Karte prüfen. -->
 
 ## Donnerstag: Wikingermuseum und Eggum
 

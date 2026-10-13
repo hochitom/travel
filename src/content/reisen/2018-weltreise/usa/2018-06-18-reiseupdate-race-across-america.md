@@ -3,6 +3,9 @@ titel: 'Reiseupdate KW 25: Das Race Across America'
 zusammenfassung: 'Als Crew beim Race Across America – und warum es nach zwei Tagen schon wieder vorbei war.'
 datum: 2018-06-18
 position: { name: 'Flagstaff', lat: 35.1983, lng: -111.6513 }
+route:
+  - { name: 'Oceanside', lat: 33.1959, lng: -117.3795 }
+  - { name: 'Flagstaff', lat: 35.1983, lng: -111.6513 }
 tags: ['race-across-america', 'update']
 ---
 

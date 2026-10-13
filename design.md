@@ -91,6 +91,16 @@ Regeln:
 
 ---
 
+### Logo und Reisereferenzen
+
+- **Logo:** Kompassrose (Doppelring in Stempelrot, Stern in Tinte, rote Nordnadel) links, daneben „hochitom“ in IM Fell English und „.travel“ kursiv in Stempelrot. Im Header kompakt ohne Zusatzzeile, sonst mit „Logbuch der Reisen“. Komponente: `Logo.astro`.
+- **Favicon:** dieselbe Kompassrose auf Papier, im Dunkelmodus auf Nachtblau (`public/favicon.svg`).
+- **Passstempel:** rechteckiger Doppelrahmen mit „Ankunft“, Land und Jahr bzw. Datum, leicht schräg. Er sitzt auf Kacheln und Berichten (`Stempel.astro`, `form="pass"`). Der runde Stempel bleibt als Variante.
+- **Briefmarke mit Poststempel:** nur dekorativ in der Fußzeile (`Briefmarke.astro`, Poststempel mit Build-Datum). Nicht im Header, damit er ruhig bleibt.
+- Keine Ländernamen, Wappen oder Behördenzeichen auf Marken und Stempeln.
+
+---
+
 ## 6. Layout und Abstände
 
 - **Mobile first.** Zuerst fürs Handy gestalten, dann erweitern.
@@ -217,9 +227,9 @@ Regel: Eine neue Komponente nur, wenn sie an mindestens zwei Stellen gebraucht w
 
 - [ ] Farbwerte am echten Bildschirm und mit echten Fotos prüfen
 - [x] Schriften: IM Fell English, Newsreader und Reenie Beanie über die Fonts-API von Astro, selbst ausgeliefert (siehe README). Umlaute und Lesbarkeit am Handy noch prüfen
-- [x] Kartenlösung: bleibt bei Leaflet mit CARTO-Kacheln (OpenStreetMap). Der Seekarten-Look kommt aus CSS (Kachelfilter, Papierrahmen, Kompassrose, Stecknadeln, Zettel-Popups)
-- [ ] Stempelmotive: aktuell ein runder Stempel aus Land und Jahr bzw. Datum, später eigene Gestaltung?
-- [ ] Logo/Wortmarke für „hochitom.travel“ (aktuell Schriftzug plus Favicon mit Kompassrose)
+- [x] Kartenlösung: Leaflet mit den Standardkacheln von OpenStreetMap (ohne API-Key; CARTO verlangt inzwischen einen). Der Seekarten-Look kommt aus CSS (Kachelfilter, Papierrahmen, Kompassrose, Stecknadeln, Zettel-Popups)
+- [x] Stempelmotive: rechteckiger Passstempel („Ankunft“, Land, Jahr bzw. Datum) auf Kacheln und Berichten, der runde Stempel bleibt als Variante
+- [x] Logo: Kompassrose plus Schriftzug (siehe Abschnitt 5, Logo)
 - [ ] Darstellung der Weltreise 2018/19 (viele Stationen, eine durchgehende Route?)
 - [x] Dunkelmodus „Nachtwache“: umgesetzt über die Farbvariablen
 - [ ] Fotos: im Repo liegen noch keine, die Kacheln zeigen bis dahin einen Papierstreifen mit „Foto folgt“

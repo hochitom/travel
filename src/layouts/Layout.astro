@@ -7,15 +7,19 @@ import Briefmarke from '../components/Briefmarke.astro';
 interface Props {
   titel?: string;
   beschreibung?: string;
+  /** Pfad des Vorschaubilds unter /og/, ohne Endung. Standard: standard */
+  bild?: string;
 }
 
 const {
   titel,
   beschreibung = 'Reiseberichte, Fotos und Karten von Thomas Hochörtler.',
+  bild = 'standard',
 } = Astro.props;
 
 const seitenTitel = titel ? `${titel} · hochitom.travel` : 'hochitom.travel';
 const pfad = Astro.url.pathname;
+const bildUrl = new URL(`/og/${bild}.png`, Astro.site);
 const aktiv = (p: string) => (p === '/' ? pfad === '/' : pfad.startsWith(p));
 ---
 
@@ -32,6 +36,13 @@ const aktiv = (p: string) => (p === '/' ? pfad === '/' : pfad.startsWith(p));
     <meta property="og:description" content={beschreibung} />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="de_AT" />
+    <meta property="og:site_name" content="hochitom.travel" />
+    <meta property="og:url" content={new URL(pfad, Astro.site)} />
+    <meta property="og:image" content={bildUrl} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={`Vorschau: ${seitenTitel}`} />
+    <meta name="twitter:card" content="summary_large_image" />
     <link rel="canonical" href={new URL(pfad, Astro.site)} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <Font cssVariable="--font-kopf" preload={[{ weight: 400, style: 'normal', subset: 'latin' }]} />

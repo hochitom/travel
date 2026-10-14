@@ -1,0 +1,70 @@
+---
+/**
+ * Gemeinsame Basis für Raster, Galerie und Slider (siehe die drei Wrapper daneben).
+ * Das Markup entspricht dem, was src/lib/bilder-kern.mjs aus Markdown erzeugt.
+ *
+ * bilder: Array aus { src: ImageMetadata, alt: string, titel?: string }
+ *   import foto from '../content/reisen/2026-lofoten/bilder/a-schmiede.jpg';
+ */
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+
+export interface Bild {
+  src: ImageMetadata;
+  alt: string;
+  titel?: string;
+}
+interface Props {
+  art: 'raster' | 'galerie' | 'slider';
+  bilder: Bild[];
+}
+
+let zaehler = (globalThis.__bildgruppen ??= 0);
+const { art, bilder } = Astro.props;
+const n = bilder.length;
+const basis = `lb-${Astro.url.pathname.replace(/\W+/g, '').slice(-8)}-${(globalThis.__bildgruppen = ++zaehler)}`;
+const ids = bilder.map((_, i) => `${basis}-${i + 1}`);
+const mitZaehler = art === 'slider' && n > 1;
+const sliderAttr = art === 'slider' ? { tabindex: 0, role: 'group', 'aria-label': 'Bildergalerie, seitlich wischen' } : {};
+---
+
+<div class={`bild${art}`} {...sliderAttr}>
+  {
+    bilder.map((b, i) => (
+      <figure class="bildgruppe__bild">
+        <button type="button" class="bild__auf" popovertarget={ids[i]} aria-label={`${b.alt || 'Bild'} – vergrößern`}>
+          <Image src={b.src} alt={b.alt} widths={[320, 640, 960]} sizes="(min-width: 48rem) 20rem, 90vw" loading="lazy" />
+        </button>
+        {(mitZaehler || b.titel) && (
+          <figcaption>
+            {mitZaehler && <span class="bildzaehler">{i + 1} / {n}</span>}
+            {b.titel}
+          </figcaption>
+        )}
+      </figure>
+    ))
+  }
+</div>
+
+{
+  bilder.map((b, i) => (
+    <div id={ids[i]} class="lightbox" popover="auto" role="dialog" aria-label="Bildansicht">
+      <button type="button" class="lightbox__zu" popovertarget={ids[i]} popovertargetaction="hide" aria-label="Schließen" autofocus>×</button>
+      <figure class="lightbox__bild">
+        <Image src={b.src} alt={b.alt} widths={[960, 1600, 2400]} sizes="100vw" loading="lazy" />
+        {(n > 1 || b.titel) && (
+          <figcaption>
+            {n > 1 && <span class="bildzaehler">{i + 1} / {n}</span>}
+            {b.titel}
+          </figcaption>
+        )}
+      </figure>
+      {n > 1 && (
+        <>
+          <button type="button" class="lightbox__nav lightbox__nav--zurueck" popovertarget={ids[(i - 1 + n) % n]} popovertargetaction="show" aria-label="Vorheriges Bild">‹</button>
+          <button type="button" class="lightbox__nav lightbox__nav--weiter" popovertarget={ids[(i + 1) % n]} popovertargetaction="show" aria-label="Nächstes Bild">›</button>
+        </>
+      )}
+    </div>
+  ))
+}

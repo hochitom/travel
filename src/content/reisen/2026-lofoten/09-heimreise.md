@@ -34,7 +34,17 @@ In Tromsø haben wir zuerst das Gepäck geholt und wollten gleich für den Weite
 
 Zuerst wollten wir zu Burgr, aber das Lokal sperrt erst um 15 Uhr auf, dafür waren wir zu früh. Also haben wir unsere Pläne geändert und sind ins Nyt Kaffe, wo wir uns zum ersten Mal gestärkt haben: Denise mit einem vegetarischen Burger, ich mit einem Rentier-Burger. Danach sind wir ein wenig durch die Storgata gebummelt und waren im Fjällräven-Geschäft. Denise wollte unbedingt, dass ich mir etwas kaufe, aber ich bin standhaft geblieben und habe kein Geld ausgegeben. Sie selbst hat sich dafür zwei Leiberl gekauft.
 
+![Der Innenhof des NYT Bar & Bistro in Tromsø mit Lichterketten](./bilder/tromso-nyt-hof.jpg)
+
+![Zwei Burger mit Kartoffeln und Cola im NYT, ich sitze dahinter](./bilder/tromso-nyt-burger-01.jpg)
+
+![Draufsicht auf die zwei Burger mit Kartoffeln](./bilder/tromso-nyt-burger-02.jpg)
+
+![Ich am Hafen von Tromsø vor der Statue eines Walfängers im Boot](./bilder/tromso-hafen-walfaenger-statue.jpg)
+
 Dann waren wir im Risø auf einen Kaffee und noch einmal auf Zimtschnecken, vor dem Lokal in der Sonne sitzend, richtig gemütlich. Das Wetter in Tromsø war heute überhaupt sehr schön, fast wolkenloser Himmel, Sonnenschein und richtig angenehme Temperaturen, ein perfekter Ausklang des Norwegen-Urlaubs. Wir sind noch ein bisschen herumgeschlendert und waren in einem Einkaufszentrum mit einem Norrøna Store und einem Rituals Store, haben uns dort umgesehen und die Zeit vertrödelt. Danach haben wir noch einmal ein bisschen in der Sonne im Freien gesessen, bevor wir zurück zum Hafen sind, um unser Gepäck abzuholen.
+
+![Ich vor dem Risø in der Sonne, auf dem Tisch Kaffee und zwei Zimtschnecken](./bilder/tromso-riso-zimtschnecken.jpg)
 
 Mit dem Bus ging es wieder zum Flughafen, wo wir auf den Flieger nach Wien gewartet haben. Am Nachmittag ist dort alles sehr entspannt, auch beim Security-Check waren wir sehr schnell durch.
 

@@ -21,4 +21,10 @@ Danach ging es weiter zum Moskenes Camping, wo wir einen Platz direkt an der Ste
 
 In der Nacht haben wir wieder Nordlichter gesehen, genau in dem Zeitfenster, das laut Prognose die beste Chance der bisherigen Reise war.
 
-<!-- BILD: Polarlichter in der Nacht auf den 7. September, falls Fotos vorhanden -->
+![Grüne Polarlicht-Streifen über Felsen am Campingplatz](./bilder/polarlicht-moskenes-01.jpg)
+
+![Polarlichter über Felsen und einer kleinen Eberesche](./bilder/polarlicht-moskenes-02.jpg)
+
+![Mond und Polarlichter über der Steinmauer, links ein Camper](./bilder/polarlicht-moskenes-03.jpg)
+
+![Schwache Polarlichter hinter den Bergen, davor Wohnmobile auf dem Campingplatz](./bilder/polarlicht-moskenes-04.jpg)

@@ -11,6 +11,10 @@ Heute hat der Wecker schon um acht Uhr geklingelt, weil wir früh genug am Hafen
 
 Mit einem mittelgroßen Katamaran sind wir aufs Meer hinausgefahren. Die Fahrt war ziemlich aufregend, es gab ordentlichen Wellengang. Denise hat das mächtig zu schaffen gemacht, und sie war froh, dass es Speibsackerl an Bord gab, die sie später auch gebraucht hat. Mir hat der Wellengang nichts ausgemacht, auch wenn es ein mulmig-lustiges Gefühl war, bei diesen hohen Wellen hinauszufahren.
 
+![Die norwegische Flagge am Heck des Schiffs, dahinter das offene Meer](./bilder/walsafari-flagge.jpg)
+
+<!-- TODO: Stammt das Flaggen-Foto wirklich von der Walsafari? Das Schiff mit Kran und Rettungsboot sieht nicht nach einem Katamaran aus. -->
+
 Nach etwa vierzig Minuten waren wir am Ort des Geschehens. Der Kapitän hat das Schiff nur mehr treiben lassen, und dann hieß es warten. Die Wale haben sich Zeit gelassen.
 
 Um ein Uhr wurde an Bord eine Trauerminute abgehalten. An diesem Tag fand das Staatsbegräbnis von König Harald V. von Norwegen statt, der am vergangenen Freitag verstorben war.

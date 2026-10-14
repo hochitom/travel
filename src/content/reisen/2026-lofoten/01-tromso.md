@@ -33,7 +33,11 @@ Wir haben ausgeschlafen und gemütlich im Hotel gefrühstückt, ungefähr von 10
 
 Mit der Bahn wieder hinunter, dann zu Fuß an der Eismeerkathedrale vorbei und über die große Brücke zurück in die Stadt. Dort gab es Kaffee und norwegische Mehlspeisen im Kaffebønna. Danach ins Polarmuseum, eine sehr interessante Ausstellung über Roald Amundsen und die norwegischen Polarexpeditionen zum Nordpol.
 
+![Wandbild mit einem Polarforscher in Kapuze an einem Haus bei der Straße zum Skansen](./bilder/tromso-wandbild-skansen.jpg)
+
 Im Anschluss in Mack's Ølhallen, die alte Brauerei-Kneipe, auf ein Probierpaket. Danach, schon etwas angeheitert, weiter ins Blårock Café zum Essen und Trinken und noch in die Tiki Bar. Zum Ausklang gab es im Hotel noch ein Abschlussgetränk und eine Kleinigkeit zu essen.
+
+![Zwei Halbe Bier bei Mack, auf dem Glas die Karte Nordnorwegens mit Tromsø](./bilder/tromso-macks-bier-norwegenkarte.jpg)
 
 ## Sonntag: Prestvannet, Polaria und Eisbar
 

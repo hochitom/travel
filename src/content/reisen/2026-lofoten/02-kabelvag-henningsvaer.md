@@ -66,4 +66,8 @@ Danach ging es gemütlich weiter zum Lofoten Fjordcamp in Valberg. Dafür haben 
 
 Gekocht habe ich Gemüsepfanne mit Couscous, die sehr gut geschmeckt hat. Großes Lob an Claude fürs Rezept, an Chefkoch Thomas und an die beste Gemüseschneiderin Denise. Als Dessert gab es als Überraschung nochmal dasselbe wie am Vortag, trotzdem wieder sehr gut, und die Freude war groß.
 
-Nach dem Essen standen plötzlich Schafe vor dem Wohnmobil und haben den Rasen des Campingplatzes abgegrast. Denise hat versucht, Kontakt aufzunehmen, aber die Schafe sprechen offenbar auch in Norwegen nur Norwegisch. Sie haben sie nicht verstanden und sind vor ihr geflüchtet. Am Abend haben wir wieder Phase 10 gespielt, diesmal mit Punktezählung. Wieder habe ich gewonnen, Denise war wieder eine faire Verliererin. Danach haben wir noch die tolle Aussicht aus dem Camper genossen, geduscht und sind schlafen gegangen.
+Nach dem Essen standen plötzlich Schafe vor dem Wohnmobil und haben den Rasen des Campingplatzes abgegrast. Denise hat versucht, Kontakt aufzunehmen, aber die Schafe sprechen offenbar auch in Norwegen nur Norwegisch. Sie haben sie nicht verstanden und sind vor ihr geflüchtet.
+
+![Zwei Schafe liegen im Gras vor einem Fjord](./bilder/valberg-schafe-fjord.jpg)
+
+<!-- TODO: Passt das Schaf-Foto zum Campingplatz in Valberg, oder war es eine andere Begegnung? --> Am Abend haben wir wieder Phase 10 gespielt, diesmal mit Punktezählung. Wieder habe ich gewonnen, Denise war wieder eine faire Verliererin. Danach haben wir noch die tolle Aussicht aus dem Camper genossen, geduscht und sind schlafen gegangen.

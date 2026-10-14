@@ -34,6 +34,47 @@ Alles liegt in `src/content/reisen/`. **Die Ebene ergibt sich aus dem Pfad:**
 
 **Bilder** liegen neben der Markdown-Datei (`./bilder/...`) und werden von Astro beim Build optimiert.
 
+## Bilder und Galerien
+
+Bilder liegen neben dem Beitrag im Ordner `bilder/`. Ein Bild allein in einer Zeile wird als Einzelbild eingeklebt.
+Der Text in Anführungszeichen ist die Beschriftung:
+
+```md
+![Alt-Text](./bilder/foto.jpg "Beschriftung")
+```
+
+Mehrere Bilder lassen sich zwischen `:::art` und `:::` gruppieren. Leere Zeilen dazwischen sind egal.
+
+```md
+:::galerie
+![Alt-Text](./bilder/a.jpg "Beschriftung")
+![Alt-Text](./bilder/b.jpg)
+:::
+```
+
+| Art       | Aussehen                                              |
+| --------- | ----------------------------------------------------- |
+| `raster`  | kleine, gleich große Kacheln (4:3)                    |
+| `galerie` | Spalten, die Bilder behalten ihr Seitenformat         |
+| `slider`  | große Bilder zum seitlichen Wischen, mit Zähler (1/7) |
+
+Jedes Bild öffnet sich per Klick in einer Lightbox (Pfeile, Esc, Klick daneben). Technik: das HTML-Attribut
+`popover`, also kein Framework. Das kleine Skript `src/scripts/lightbox.js` ergänzt Pfeiltasten und sauberes
+Blättern, die Lightbox funktioniert aber auch ohne. Falsche Syntax (nicht geschlossen, Text zwischen den Bildern)
+bricht den Build mit einer Meldung ab.
+
+In `.astro`-Seiten gibt es dieselben Gruppen als Komponenten `Raster`, `Galerie` und `Slider`:
+
+```astro
+---
+import Galerie from '../components/Galerie.astro';
+import a from '../content/reisen/2026-lofoten/bilder/a-schmiede.jpg';
+---
+<Galerie bilder={[{ src: a, alt: 'Schmiede', titel: 'Die alte Schmiede' }]} />
+```
+
+Das Markup erzeugen `src/lib/remark-bilder.mjs` und die Komponenten gleich, gestaltet wird es von `src/styles/bilder.css`.
+
 ## Design
 
 Die Seite ist ein Logbuch: Seekartenpapier, Tinte, Meerblau und ein Akzent in Stempelrot. Die Grundsätze stehen in [`design.md`](design.md), alle Farben, Schriften und Abstände als Variablen oben in `src/styles/global.css`. Stempel sind die Komponente `Stempel.astro`.

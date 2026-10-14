@@ -1,0 +1,284 @@
+/*
+  Bilder: Einzelbild, Raster, Galerie, Slider und Lightbox. Alles ohne JavaScript.
+
+  Das Markup kommt aus zwei Quellen und ist an beiden Stellen gleich:
+    - Markdown:  src/lib/remark-bilder.mjs  (Syntax siehe README, Abschnitt "Bilder und Galerien")
+    - Astro:     src/components/Raster.astro, Galerie.astro, Slider.astro
+
+  Die Lightbox ist das native HTML-Attribut `popover`. Ein Button mit `popovertarget` öffnet sie,
+  der Browser kümmert sich um Esc, Fokus und die oberste Ebene. Die Pfeile in der Lightbox sind
+  Buttons, die das Popover des vorigen bzw. nächsten Bildes öffnen. Ein Popover schließt dabei
+  automatisch das offene. Browser ohne `popover` zeigen die Bilder einfach ohne Vergrößerung.
+
+  Klassen:
+    .bild                      Einzelbild mit Beschriftung
+    .bildraster                gleichmäßige kleine Kacheln (4:3)
+    .bildgalerie               Spalten, Bilder behalten ihr Seitenformat
+    .bildslider                große Kacheln zum seitlichen Wischen
+    .bildgruppe__bild          ein Bild einer Gruppe (figure)
+    .bild__auf                 Button um das Bild, öffnet die Lightbox
+    .lightbox                  Popover mit großem Bild, Schließen- und Pfeil-Buttons
+
+  Die Selektoren sind absichtlich etwas spezifischer als `.prosa img` in global.css, damit der
+  Papierrahmen dort nicht in die Lightbox oder in die Kacheln hineinwirkt.
+*/
+
+/* ---------- Einzelbild ---------- */
+
+.bild {
+  margin: 1.5rem 0;
+}
+
+.bild__auf {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  cursor: zoom-in;
+}
+
+.bild .bild__auf img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border: 8px solid var(--papier-2);
+  box-shadow: 2px 3px 0 var(--schatten);
+}
+
+/* ---------- Gemeinsames für Raster, Galerie, Slider ---------- */
+
+/* Gruppen dürfen aus der schmalen Lesespalte ausbrechen, wie eingeklebt (design.md, Abschnitt 6) */
+:is(.bildraster, .bildgalerie, .bildslider) {
+  --gruppe: min(100vw - 2 * var(--rand), var(--breite));
+  --abstand: 0.9rem;
+  width: var(--gruppe);
+  margin: 2rem calc(50% - var(--gruppe) / 2);
+}
+
+:is(.bildraster, .bildgalerie, .bildslider) .bildgruppe__bild {
+  position: relative;
+  margin: 0;
+}
+
+:is(.bildraster, .bildgalerie, .bildslider) .bild__auf img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border: 6px solid var(--papier-2);
+  box-shadow: 2px 3px 0 var(--schatten);
+  transition: rotate 0.15s ease-out;
+}
+
+/* Leicht schräg eingeklebt, höchstens ±1° (design.md, Abschnitt 5). Beim Zeigen gerade. */
+:is(.bildraster, .bildgalerie) .bildgruppe__bild:nth-child(3n + 1) {
+  rotate: -0.9deg;
+}
+:is(.bildraster, .bildgalerie) .bildgruppe__bild:nth-child(3n + 2) {
+  rotate: 0.7deg;
+}
+:is(.bildraster, .bildgalerie) .bildgruppe__bild:nth-child(3n) {
+  rotate: -0.3deg;
+}
+:is(.bildraster, .bildgalerie) .bildgruppe__bild:is(:hover, :focus-within) {
+  rotate: 0deg;
+}
+
+:is(.bildraster, .bildgalerie, .bildslider) figcaption {
+  font-size: 1.25rem;
+  margin-top: 0.3rem;
+}
+
+.bildzaehler {
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  color: var(--tinte-leise);
+  margin-right: 0.5em;
+}
+
+/* ---------- Raster ---------- */
+
+.bildraster {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 10rem), 1fr));
+  gap: var(--abstand);
+}
+
+.bildraster .bild__auf img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+/* ---------- Galerie ---------- */
+
+.bildgalerie {
+  columns: 10.5rem 3;
+  column-gap: var(--abstand);
+}
+
+.bildgalerie .bildgruppe__bild {
+  break-inside: avoid;
+  margin: 0 0 var(--abstand);
+}
+
+/* ---------- Slider ---------- */
+
+.bildslider {
+  display: flex;
+  gap: 1rem;
+  padding: 0.75rem 1rem 1rem;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: 1rem;
+  scrollbar-width: thin;
+  scrollbar-color: var(--linie) transparent;
+}
+
+.bildslider .bildgruppe__bild {
+  flex: 0 0 min(86%, 30rem);
+  scroll-snap-align: center;
+}
+
+.bildslider .bild__auf img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+/* ---------- Lightbox ---------- */
+
+html:has(.lightbox:popover-open) {
+  overflow: hidden;
+}
+
+/* Ohne :popover-open bleibt sie zu, auch in Browsern ohne popover-Unterstützung */
+.lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  background: #0d1318; /* deckend, damit ein darunter noch offenes Bild nie durchscheint */
+  color: #f1f0e3;
+}
+
+.lightbox:popover-open {
+  display: grid;
+  place-items: center;
+  padding: 3rem clamp(0.5rem, 6vw, 4.5rem) 1rem;
+}
+
+.lightbox::backdrop {
+  background: rgb(12 18 24 / 0.94);
+}
+
+/* Der Schließen-Button füllt die ganze Fläche: Klick neben das Bild schließt */
+.lightbox__zu {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  padding: 0.4rem 1.1rem;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: 2.5rem / 1 var(--sans);
+  cursor: zoom-out;
+}
+
+.lightbox .lightbox__bild {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  justify-items: center;
+  gap: 0.5rem;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+}
+
+.lightbox .lightbox__bild img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: calc(100dvh - 7.5rem);
+  margin: 0;
+  border: 0;
+  box-shadow: none;
+  object-fit: contain;
+}
+
+.lightbox .lightbox__bild figcaption {
+  margin: 0;
+  max-width: 40rem;
+  color: #f1f0e3;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.lightbox .bildzaehler {
+  color: #c9d1d6;
+}
+
+.lightbox__nav {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  translate: 0 -50%;
+  display: grid;
+  place-items: center;
+  width: 3rem;
+  height: 3rem;
+  padding: 0 0 0.2rem;
+  border: 0;
+  border-radius: 50%;
+  background: rgb(241 240 227 / 0.16);
+  color: #f1f0e3;
+  font: 2rem / 1 var(--sans);
+  cursor: pointer;
+}
+
+.lightbox__nav:hover {
+  background: rgb(241 240 227 / 0.3);
+}
+
+.lightbox__nav--zurueck {
+  left: max(0.5rem, 1.5vw);
+}
+
+.lightbox__nav--weiter {
+  right: max(0.5rem, 1.5vw);
+}
+
+.lightbox :focus-visible {
+  outline-color: #f1f0e3;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .lightbox:popover-open {
+    animation: lightbox-ein 0.18s ease-out;
+  }
+
+  @keyframes lightbox-ein {
+    from {
+      opacity: 0;
+    }
+  }
+}

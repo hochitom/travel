@@ -39,7 +39,9 @@ Wir sind nicht direkt bei Haukland Beach stehengeblieben, sondern durch den Tunn
 
 Vor dem Kochen sind wir noch eine Runde am Strand spaziert, der wirklich sehr schön ist. Dann habe ich Linsen-Kokos-Curry mit Reis gekocht, das wieder sehr gut war, großes Lob an Claude fürs Rezept. Vom Camper aus haben wir noch den Sonnenuntergang am Strand beobachtet. Die Sonne ist aber leider schon hinter den Wolken verschwunden, es gab also nur einen halben Sonnenuntergang.
 
-<!-- BILD: Uttakleiv Beach am Abend -->
+![Uttakleiv Beach mit weißem Kiesstrand, grüner Wiese und Bergen unter blauem Himmel](./bilder/uttakleiv-strand.jpg)
+
+<!-- TODO: Das Foto ist bei Sonne und blauem Himmel aufgenommen, passt es zum Abend oder eher zum Freitagmorgen? -->
 
 ## Freitag: Mannen
 
@@ -47,7 +49,12 @@ Wir haben ausgeschlafen und waren trotzdem schon früh munter. Die Nacht am Stel
 
 Nach dem Frühstück sind wir zu Fuß vom Uttakleiv Beach zum Haukland Beach gegangen und haben im Haukland Beach Café Pause gemacht, mit Kaffee und je einem Stück Kuchen. Es war schon sehr sonnig und richtig angenehm warm. Danach ging es weiter auf den Mannen, steil und etwas anstrengend, aber der Ausblick hat alles entlohnt. Wir sind nicht ganz bis zum Gipfel gekommen, waren aber trotzdem sehr hoch oben, haben ein paar Fotos gemacht und sind dann Richtung Uttakleiv Beach abgestiegen, zurück zum Camper.
 
-<!-- BILD: Ausblick vom Mannen -->
+:::raster
+![Ich am steilen Pfad, über mir Strommasten und blauer Himmel](./bilder/mannen-aufstieg-thomas.jpg)
+![Ich auf einem Felsen mit Blick auf einen See im Tal](./bilder/mannen-see-aussicht.jpg)
+:::
+
+<!-- TODO: Stammen die zwei Fotos wirklich vom Mannen? Der See mit der Straße im Tal könnte auch woanders aufgenommen sein. -->
 
 ## Nusfjord
 
@@ -58,5 +65,10 @@ Danach sind wir mit dem Camper nach Nusfjord gefahren und haben uns das alte Fis
 Dann folgte die etwa 15-minütige Fahrt zum Lofoten Beach Camp in Ramberg. Wir haben gleich einen Stellplatz gesucht, eingeparkt und eingecheckt, und danach noch eine kleine Runde gedreht. Denise wollte unbedingt ein Bier trinken. Nach anfänglichem Widerstand habe ich mich überreden lassen, damit sie nicht traurig ist. Wir haben in der Sonne im „Base Camp" gesessen, das Bier getrunken und ein nettes Gespräch geführt, einfach genossen. Als es kalt wurde, sind wir zurück zum Camper.
 
 Zum Abendessen gab es Gnocchi mit Lofoten-Pesto. Die Gnocchi waren etwas wenig, vielleicht hätten wir eine zweite Packung kaufen sollen, das Pesto dafür gut. Nach dem Essen haben wir geduscht und waren rechtzeitig zum Sonnenuntergang wieder beim Wohnmobil, um ihn gemeinsam anzusehen.
+
+:::raster
+![Das Lofoten Beach Camp von oben, Wohnmobile und Zelte vor Bergen und Meer](./bilder/ramberg-camp-uebersicht.jpg)
+![Die Sonne geht hinter einer Reihe von Wohnmobilen über dem Meer unter](./bilder/ramberg-sonnenuntergang-camper.jpg)
+:::
 
 Am Abend haben wir noch ein paar Partien Uno gespielt, bis Denise endlich einmal gewonnen hat. Davor hatte immer ich gewonnen. Dann haben wir uns hingelegt und noch ein wenig gelesen: Denise ist wie immer schon während des Kapitels eingeschlafen, ich habe noch ein Kapitel Harry Potter gelesen. Um 23 Uhr haben aber beide schon geschlafen.

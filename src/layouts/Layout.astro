@@ -2,6 +2,7 @@
 import { Font } from 'astro:assets';
 import '../styles/global.css';
 import '../styles/bilder.css';
+import '../styles/modell.css';
 import Logo from '../components/Logo.astro';
 import Briefmarke from '../components/Briefmarke.astro';
 
@@ -73,6 +74,7 @@ const aktiv = (p: string) => (p === '/' ? pfad === '/' : pfad.startsWith(p));
     </footer>
   <script>
     import '../scripts/lightbox.js';
+    import '../scripts/modell.js';
   </script>
   </body>
 </html>

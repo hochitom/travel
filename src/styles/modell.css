@@ -1,0 +1,142 @@
+/*
+  Interaktive 3D-Modelle (:::modell name), siehe src/scripts/modell.js.
+
+    .modell                Figur im Beitrag, bricht aus der Textspalte aus wie die Bildgruppen
+    .modell__buehne        Fläche für Startknopf, danach Canvas und Bedienung
+    .modell__leinwand      das Canvas
+    .modell__bedienung     Regler, Anzeige und Knöpfe
+*/
+
+.prosa .modell,
+.modell {
+  --gruppe: min(100vw - 2 * var(--rand), var(--breite));
+  width: var(--gruppe);
+  margin: 2rem calc(50% - var(--gruppe) / 2);
+}
+
+.modell__buehne {
+  border: 1px solid var(--linie);
+  background: var(--papier-2);
+  border-radius: var(--radius);
+  box-shadow: 0 0.5rem 1.25rem var(--schatten);
+}
+
+/* Vor dem Start: Hinweis und Knopf, damit kein Code vorab geladen wird */
+.modell__buehne:not(.modell__buehne--aktiv) {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 0.9rem;
+  min-height: 15rem;
+  padding: 1.5rem;
+  text-align: center;
+  background:
+    repeating-linear-gradient(135deg, var(--streifen-1) 0 0.5rem, var(--streifen-2) 0.5rem 1rem);
+}
+.prosa .modell__vorschau,
+.modell__vorschau {
+  margin: 0;
+  max-width: 30rem;
+  font-family: var(--serif);
+  color: var(--tinte);
+  background: var(--papier-2);
+  padding: 0.5rem 0.8rem;
+}
+
+.modell button {
+  font: inherit;
+  font-family: var(--sans);
+  font-size: 0.9rem;
+  color: var(--papier-2);
+  background: var(--tinte);
+  border: 0;
+  border-radius: var(--radius);
+  padding: 0.55rem 0.95rem;
+  cursor: pointer;
+}
+.modell button:hover:not(:disabled) {
+  background: var(--akzent-dunkel);
+}
+.modell button:disabled {
+  opacity: 0.7;
+  cursor: progress;
+}
+.modell button:focus-visible,
+.modell__leinwand:focus-visible,
+.modell input:focus-visible {
+  outline: 3px solid var(--akzent);
+  outline-offset: 2px;
+}
+
+.modell__leinwand {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  max-height: 80vh;
+  cursor: grab;
+  touch-action: pan-y; /* senkrecht scrollen bleibt möglich, waagrecht zieht das Modell */
+  background: linear-gradient(var(--papier-2), var(--papier));
+}
+.modell__leinwand:active {
+  cursor: grabbing;
+}
+
+.modell__bedienung {
+  display: grid;
+  gap: 0.6rem;
+  padding: 0.8rem 1rem 1rem;
+  border-top: 1px solid var(--linie);
+  font-family: var(--sans);
+  font-size: 0.9rem;
+}
+.modell__regler {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 0.75rem;
+}
+.modell__regler input {
+  width: 100%;
+  accent-color: var(--akzent);
+}
+.modell__regler-name {
+  color: var(--tinte-leise);
+}
+.modell__anzeige {
+  margin: 0;
+  color: var(--tinte);
+}
+.modell__knoepfe {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.modell__knoepfe button:last-child {
+  background: transparent;
+  color: var(--tinte);
+  border: 1px solid var(--linie);
+}
+.modell__knoepfe button:last-child:hover:not(:disabled) {
+  background: var(--streifen-1);
+}
+
+.prosa .modell figcaption,
+.modell figcaption {
+  margin-top: 0.6rem;
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  line-height: 1.45;
+  color: var(--tinte-leise);
+}
+
+@media (max-width: 40rem) {
+  .modell__leinwand {
+    aspect-ratio: 4 / 3;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .modell__leinwand {
+    cursor: default;
+  }
+}

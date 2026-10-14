@@ -22,6 +22,16 @@
 const GRUPPEN = { raster: 'bildraster', galerie: 'bildgalerie', slider: 'bildslider' };
 const MARKER_AUF = /^:::(raster|galerie|slider)$/;
 const MARKER_ZU = /^:::$/;
+const MARKER_MODELL = /^:::modell\s+([a-z0-9-]+)$/;
+
+// Interaktive 3D-Modelle (src/scripts/modell.js, src/scripts/modelle/). Ohne JavaScript bleibt der Text stehen.
+const MODELLE = {
+  reinebringen: {
+    vorschau: 'Schematisches 3D-Modell des Stufenwegs auf den Reinebringen: 484 Höhenmeter, 1.978 Stufen, etwa 1,1 km.',
+    unterschrift:
+      'Schematisches Modell, nicht maßstabsgetreu: Form des Bergs und Wegverlauf sind frei gezeichnet, die Höhe ist 1,5-fach überhöht. Fest sind nur die Angaben der Infotafel (484 m, 1.978 Stufen, ca. 1,1 km, die letzten 100 m ohne Stufen).',
+  },
+};
 
 const ABSATZ = /<p>([\s\S]*?)<\/p>/g;
 const IMG = /<img\b[^>]*>/g;
@@ -126,6 +136,12 @@ function lies(inneres) {
   return teile;
 }
 
+function baueModell(name) {
+  const m = MODELLE[name];
+  if (!m) throw new Error(`Modell: unbekanntes Modell "${name}". Bekannt: ${Object.keys(MODELLE).join(', ')}`);
+  return `<figure class="modell" data-modell="${name}"><div class="modell__buehne"><p class="modell__vorschau">${m.vorschau}</p><button type="button" class="modell__start">3D-Modell starten</button></div><figcaption>${m.unterschrift}</figcaption></figure>`;
+}
+
 /** Hash, damit die Popover-IDs mehrerer Seiten nicht kollidieren */
 function kurzerHash(s) {
   let h = 5381;
@@ -153,7 +169,11 @@ export function bilderUmwandeln(html, quelle = '') {
     const p = absaetze[a];
     const eigenes = p.teile;
 
-    if (eigenes[0]?.art === 'auf') {
+    const modell = eigenes.length === 1 && eigenes[0].art === 'text' ? MARKER_MODELL.exec(eigenes[0].wert) : null;
+    if (modell) {
+      ergebnis += html.slice(pos, p.start) + baueModell(modell[1]);
+      pos = p.ende;
+    } else if (eigenes[0]?.art === 'auf') {
       // Gruppe lesen, bis zum schließenden :::
       let art;
       const bilder = [];

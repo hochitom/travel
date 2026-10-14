@@ -3,6 +3,11 @@ titel: 'Mit dem Flieger über das Great Barrier Reef'
 zusammenfassung: 'Ein Rundflug in der Mini-Maschine, türkises Wasser, ein Herz im Riff und ein ziemlich flaues Gefühl im Magen.'
 datum: 2018-11-19
 position: { name: 'Whitsunday Islands', lat: -20.2797, lng: 149.0369 }
+route:
+  - { name: 'Airlie Beach', lat: -20.2686, lng: 148.7186 }
+  - { name: 'Whitsunday Islands', lat: -20.2797, lng: 149.0369 }
+  - { name: 'Whitehaven Beach', lat: -20.28, lng: 149.04 }
+  - { name: 'Heart Reef, Hardy Reef', lat: -19.7667, lng: 149.1833 }
 tags: ['flug', 'riff', 'ostkueste']
 ---
 

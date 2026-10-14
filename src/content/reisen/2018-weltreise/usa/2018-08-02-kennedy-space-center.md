@@ -3,6 +3,9 @@ titel: 'Fly me to the moon: ein Besuch im Kennedy Space Center'
 zusammenfassung: 'Raketen, Crawler, ein Bus mit Panne vor dem SpaceX-Launchpad und Applaus nach jedem Film.'
 datum: 2018-08-02
 position: { name: 'Kennedy Space Center', lat: 28.5729, lng: -80.6490 }
+route:
+  - { name: 'Jacksonville', lat: 30.3322, lng: -81.6557 }
+  - { name: 'Kennedy Space Center', lat: 28.5729, lng: -80.649 }
 tags: ['raumfahrt', 'florida']
 ---
 

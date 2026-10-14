@@ -3,6 +3,10 @@ titel: 'Ausflug zu einem der schönsten Orte Amerikas: Sleeping Bear Dunes'
 zusammenfassung: 'Steile Sanddünen am Lake Michigan, eine traurige Bärenlegende und ein See, der eigentlich ein Meer ist.'
 datum: 2018-07-16
 position: { name: 'Sleeping Bear Dunes', lat: 44.8806, lng: -86.0425 }
+route:
+  - { name: 'Pierce Stocking Scenic Drive', lat: 44.89, lng: -86.052 }
+  - { name: 'Sleeping Bear Dune Overlook', lat: 44.883, lng: -86.059 }
+  - { name: 'Pyramid Point Trail', lat: 44.9733, lng: -85.8933 }
 tags: ['natur', 'michigan', 'nationalpark']
 ---
 

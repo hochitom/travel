@@ -3,6 +3,12 @@ titel: 'Reiseupdate KW 31'
 zusammenfassung: 'Neun Stunden im Flieger, eine Gartenhütte ohne Strom und der letzte Stopp in den USA.'
 datum: 2018-07-31
 position: { name: 'Honolulu', lat: 21.3069, lng: -157.8583 }
+route:
+  - { name: 'Miami', lat: 25.7617, lng: -80.1918 }
+  - { name: 'New Orleans', lat: 29.9511, lng: -90.0715 }
+  - { name: 'Houston', lat: 29.7604, lng: -95.3698 }
+  - { name: 'Honolulu', lat: 21.3069, lng: -157.8583 }
+  - { name: 'Haleiwa', lat: 21.592, lng: -158.103 }
 tags: ['update', 'hawaii']
 ---
 

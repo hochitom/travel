@@ -3,6 +3,12 @@ titel: 'Der Ananas auf der Spur'
 zusammenfassung: 'Ein Regentag auf der Dole-Plantage mit Zug, Eis und Hurrikan Hector im Hintergrund.'
 datum: 2018-08-15
 position: { name: 'Dole Plantation', lat: 21.5265, lng: -158.0393 }
+route:
+  - { name: 'Haleiwa', lat: 21.592, lng: -158.103 }
+  - { name: 'Sunset Beach', lat: 21.6783, lng: -158.0399 }
+  - { name: 'Shark''s Cove', lat: 21.6498, lng: -158.064 }
+  - { name: 'Turtle Bay', lat: 21.701, lng: -157.997 }
+  - { name: 'Dole Plantation', lat: 21.5265, lng: -158.0393 }
 tags: ['hawaii', 'oahu']
 ---
 

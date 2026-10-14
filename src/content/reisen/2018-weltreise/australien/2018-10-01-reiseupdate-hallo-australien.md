@@ -3,6 +3,13 @@ titel: 'Reiseupdate KW 39: Hallo Australien'
 zusammenfassung: 'Um 2.30 Uhr aufgestanden, Turbulenzen im Flieger und gerade in einem netten Café in Melbourne gelandet.'
 datum: 2018-10-01
 position: { name: 'Melbourne', lat: -37.8136, lng: 144.9631 }
+route:
+  - { name: 'Christchurch', lat: -43.5321, lng: 172.6362 }
+  - { name: 'Melbourne', lat: -37.8136, lng: 144.9631 }
+  - { name: 'Sydney', lat: -33.8688, lng: 151.2093 }
+  - { name: 'Cairns', lat: -16.9186, lng: 145.7781 }
+  - { name: 'Uluru', lat: -25.3444, lng: 131.0369 }
+  - { name: 'Perth', lat: -31.9505, lng: 115.8605 }
 tags: ['update', 'ankunft']
 ---
 

@@ -2,6 +2,12 @@
 titel: 'Die schönsten Campingplätze Neuseelands'
 zusammenfassung: 'Fünf Plätze, die uns geblieben sind – alle gratis und alle mit Aussicht.'
 datum: 2018-10-05
+route:
+  - { name: 'Tokerau Beach', lat: -34.8333, lng: 173.0833 }
+  - { name: 'Kowharewa Bay, Nähe Cape Reinga', lat: -34.4268, lng: 172.6812 }
+  - { name: 'Five Mile Bay, Lake Taupo', lat: -38.725, lng: 176.095 }
+  - { name: 'Lake Pukaki Reserve', lat: -44.1833, lng: 170.15 }
+  - { name: 'Drift Bay, Lake Wakatipu', lat: -45.09, lng: 168.58 }
 tags: ['camper', 'tipps']
 ---
 

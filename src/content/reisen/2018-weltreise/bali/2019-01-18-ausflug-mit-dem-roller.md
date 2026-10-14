@@ -3,6 +3,9 @@ titel: 'Ausflug mit dem Roller'
 zusammenfassung: 'Mittendrin statt nur dabei: Mit zwei Rädern wird Canggu plötzlich viel angenehmer, und der Tempel im Meer ist den Ausflug wert.'
 datum: 2019-01-18
 position: { name: 'Tanah Lot', lat: -8.6212, lng: 115.0868 }
+route:
+  - { name: 'Canggu', lat: -8.6478, lng: 115.1385 }
+  - { name: 'Tanah Lot', lat: -8.6212, lng: 115.0868 }
 tags: ['roller', 'tempel', 'canggu']
 ---
 

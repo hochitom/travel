@@ -3,6 +3,9 @@ titel: 'Lost in San Francisco'
 zusammenfassung: 'Zwölf Stunden Flug, ein falsches Hotel und eine steile Straße zu viel.'
 datum: 2018-05-29
 position: { name: 'San Francisco', lat: 37.7749, lng: -122.4194 }
+route:
+  - { name: 'Flughafen San Francisco', lat: 37.6213, lng: -122.379 }
+  - { name: 'Downtown San Francisco', lat: 37.7879, lng: -122.4075 }
 tags: ['ankunft', 'stadt']
 ---
 

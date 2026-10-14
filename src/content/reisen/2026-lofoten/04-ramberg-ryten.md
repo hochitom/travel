@@ -2,9 +2,13 @@
 titel: "Ryten, Sauna und doch noch Polarlichter"
 datum: 2026-09-05
 entwurf: false  # erst veröffentlichen, wenn TODOs und Fakten geprüft sind
+route:
+  - { name: 'Lofoten Beach Camp, Ramberg', lat: 68.095, lng: 13.22 }
+  - { name: 'Ryten', lat: 68.09, lng: 13.103 }
+  - { name: 'Kvalvika Beach', lat: 68.0965, lng: 13.094 }
 ---
 
-<!-- TODO: Koordinaten für Ramberg (lat/lng) ergänzen, ich kenne sie nicht sicher. -->
+<!-- TODO: Koordinaten in der Route (Ramberg, Ryten, Kvalvika) sind ungefähr, bitte auf der Karte prüfen. -->
 
 Trotz frühem Zubettgehen am Vorabend haben wir heute etwas länger geschlafen, bis 8:30 Uhr. Den Kaffee im Bett und unsere täglichen LinkedIn-Spiele lassen wir uns aber nicht nehmen. Danach gab es ein gemütliches Frühstück wie immer: Brot, Rührei, Kaffee, Saft, Gemüse und eine kleine Schüssel Müsli. Kurz nach 11 Uhr sind wir losgefahren, denn heute stand der Ryten auf dem Programm.
 

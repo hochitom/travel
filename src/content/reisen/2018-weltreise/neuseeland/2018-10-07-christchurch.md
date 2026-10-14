@@ -3,6 +3,12 @@ titel: 'Frühlingserwachen in Christchurch'
 zusammenfassung: 'Eine Stadt im Wiederaufbau, 185 leere Sessel und die erste Frühlingssonne.'
 datum: 2018-10-07
 position: { name: 'Christchurch', lat: -43.5321, lng: 172.6362 }
+route:
+  - { name: 'Cathedral Square', lat: -43.5309, lng: 172.6365 }
+  - { name: '185 Empty Chairs', lat: -43.5253, lng: 172.6397 }
+  - { name: 'Cardboard Cathedral', lat: -43.529, lng: 172.6445 }
+  - { name: 'Hagley Park', lat: -43.53, lng: 172.62 }
+  - { name: 'Botanischer Garten', lat: -43.5309, lng: 172.6197 }
 tags: ['stadt', 'suedinsel']
 ---
 

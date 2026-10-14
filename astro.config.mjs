@@ -1,5 +1,6 @@
 import { defineConfig, fontProviders } from 'astro/config';
-import remarkBilder from './src/lib/remark-bilder.mjs';
+import { satteri } from '@astrojs/markdown-satteri';
+import bilder from './src/lib/satteri-bilder.mjs';
 
 // Schriften über die Fonts-API von Astro. Astro lädt die Dateien beim Build herunter und liefert
 // sie von der eigenen Domain aus. Besucher schicken also keine Anfrage an Google. Die CSS-Variablen
@@ -9,8 +10,9 @@ export default defineConfig({
   site: 'https://hochitom.travel',
   trailingSlash: 'always',
   build: { format: 'directory' },
-  // Bildgruppen (:::galerie usw.) und Lightbox in Markdown, siehe README "Bilder und Galerien"
-  markdown: { remarkPlugins: [remarkBilder] },
+  // Markdown läuft ab Astro 7 über Sätteri. Das Plugin macht Bildgruppen (:::galerie usw.) und die
+  // Lightbox in Markdown möglich, siehe README "Bilder und Galerien".
+  markdown: { processor: satteri({ hastPlugins: [bilder] }) },
   fonts: [
     {
       provider: fontProviders.google(),

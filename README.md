@@ -73,7 +73,7 @@ import a from '../content/reisen/2026-lofoten/bilder/a-schmiede.jpg';
 <Galerie bilder={[{ src: a, alt: 'Schmiede', titel: 'Die alte Schmiede' }]} />
 ```
 
-Das Markup erzeugen `src/lib/remark-bilder.mjs` und die Komponenten gleich, gestaltet wird es von `src/styles/bilder.css`.
+Das Markup erzeugen `src/lib/bilder-kern.mjs` und die Komponenten gleich, gestaltet wird es von `src/styles/bilder.css`.
 
 ## Design
 

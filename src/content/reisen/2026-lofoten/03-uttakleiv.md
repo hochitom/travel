@@ -49,20 +49,46 @@ Wir haben ausgeschlafen und waren trotzdem schon früh munter. Die Nacht am Stel
 
 Nach dem Frühstück sind wir zu Fuß vom Uttakleiv Beach zum Haukland Beach gegangen und haben im Haukland Beach Café Pause gemacht, mit Kaffee und je einem Stück Kuchen. Es war schon sehr sonnig und richtig angenehm warm. Danach ging es weiter auf den Mannen, steil und etwas anstrengend, aber der Ausblick hat alles entlohnt. Wir sind nicht ganz bis zum Gipfel gekommen, waren aber trotzdem sehr hoch oben, haben ein paar Fotos gemacht und sind dann Richtung Uttakleiv Beach abgestiegen, zurück zum Camper.
 
-:::raster
+:::galerie
 ![Ich am steilen Pfad, über mir Strommasten und blauer Himmel](./bilder/mannen-aufstieg-thomas.jpg)
+![Ein Bach stürzt über Felsen und Moos den Hang herab](./bilder/mannen-bach-wasserfall.jpg)
 ![Ich auf einem Felsen mit Blick auf einen See im Tal](./bilder/mannen-see-aussicht.jpg)
+![Wanderer auf dem Grat über dem See im Tal](./bilder/mannen-see-grat.jpg)
+![Blick vom Hang auf grüne Wiesen, einen roten Stall und das Meer](./bilder/mannen-blick-uttakleiv.jpg)
+![Panorama vom Mannen über Berge, Seen und die Bucht mit hellem Strand](./bilder/mannen-panorama.jpg)
 :::
-
-<!-- TODO: Stammen die zwei Fotos wirklich vom Mannen? Der See mit der Straße im Tal könnte auch woanders aufgenommen sein. -->
 
 ## Nusfjord
 
 Danach sind wir mit dem Camper nach Nusfjord gefahren und haben uns das alte Fischerdörfchen angeschaut. Die Fahrt dorthin war wieder sehr schön, das Dorf klein, aber nett. Der Eintritt war mit 30 € pro Person aus heutiger Sicht ein wenig zu viel für das, was wir gesehen haben, aber davon haben wir uns die Laune nicht verderben lassen. In einem Café gab es eine Fischsuppe, und eine kleine Süßigkeit habe ich für den nächsten Tag mitgenommen, die wir mit einem Kaffee essen wollten. Dann sind wir noch ein wenig durch Nusfjord spaziert.
 
+:::galerie
+![Die Straße entlang des Fjords, dahinter eine lange Schlange stehender Autos](./bilder/nusfjord-anfahrt-stau.jpg)
+![Schild „Welcome to Nusfjord“ mit dem Eintrittspreis von 150 NOK](./bilder/nusfjord-eintrittsschild.jpg)
+![Ein Schotterweg führt hinunter zu roten und gelben Häusern am Wasser](./bilder/nusfjord-strasse-haeuser.jpg)
+![Gelbe Lagerhäuser am Steg spiegeln sich im Hafen, davor ein schwarzes Schlauchboot](./bilder/nusfjord-hafen-spiegelung.jpg)
+![Gelbe Gebäude am Steg vor steilen Felswänden](./bilder/nusfjord-gelbe-gebaeude-wasser.jpg)
+![Rote und gelbe Häuser vor einer grauen Felswand](./bilder/nusfjord-gelbe-haeuser.jpg)
+![Landhandel und Kafé mit Eisstand und das Karoline Restaurant](./bilder/nusfjord-landhandel-karoline.jpg)
+![Die weiße Bäckerei mit einem gelben Fahrrad am Balkon, dahinter rote Fischerhütten](./bilder/nusfjord-baeckerei.jpg)
+![Rote Fischerhütten am Fjord unter einer mächtigen Felswand](./bilder/nusfjord-rote-haeuser-fjord.jpg)
+![Rotes Bootshaus an einer ruhigen Bucht, umgeben von Felsen und Vogelbeerbäumen](./bilder/nusfjord-bucht-rotes-haus.jpg)
+![Trockenfische liegen im Museum auf einem Holzgestell](./bilder/nusfjord-stockfisch.jpg)
+![Alte Funk- und Echolotgeräte an einer Holzwand im Museum](./bilder/nusfjord-funkgeraete.jpg)
+:::
+
+<!-- TODO: Das Foto mit der Autoschlange (erstes Bild) – stammt es wirklich von der Anfahrt nach Nusfjord? -->
+
+<!-- TODO: Auf dem Eintrittsschild steht 150 NOK (etwa 13 €), im Text steht „30 € pro Person“. Bitte den Preis prüfen. -->
+
 ## Abend in Ramberg
 
 Dann folgte die etwa 15-minütige Fahrt zum Lofoten Beach Camp in Ramberg. Wir haben gleich einen Stellplatz gesucht, eingeparkt und eingecheckt, und danach noch eine kleine Runde gedreht. Denise wollte unbedingt ein Bier trinken. Nach anfänglichem Widerstand habe ich mich überreden lassen, damit sie nicht traurig ist. Wir haben in der Sonne im „Base Camp" gesessen, das Bier getrunken und ein nettes Gespräch geführt, einfach genossen. Als es kalt wurde, sind wir zurück zum Camper.
+
+:::raster
+![Das Base Camp, ein dreieckiges Glashaus mit Terrasse vor einer steilen Felswand](./bilder/ramberg-basecamp-terrasse.jpg)
+![Bunte Surfbretter an der Holzwand im Base Camp](./bilder/ramberg-basecamp-surfbretter.jpg)
+:::
 
 Zum Abendessen gab es Gnocchi mit Lofoten-Pesto. Die Gnocchi waren etwas wenig, vielleicht hätten wir eine zweite Packung kaufen sollen, das Pesto dafür gut. Nach dem Essen haben wir geduscht und waren rechtzeitig zum Sonnenuntergang wieder beim Wohnmobil, um ihn gemeinsam anzusehen.
 

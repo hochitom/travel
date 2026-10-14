@@ -1,5 +1,5 @@
 /**
- * Remark-Plugin für Bilder in Markdown. Keine Abhängigkeiten, kein JavaScript im Browser.
+ * Kern der Bild-Syntax für Markdown, unabhängig vom Markdown-Prozessor. Arbeitet auf dem HTML-Baum (hast):
  *
  * 1. Bildgruppen mit Markern (leere Zeilen zwischen den Bildern sind egal):
  *
@@ -12,11 +12,11 @@
  *
  * 2. Jedes Bild, das allein in einem Absatz steht, wird zum Einzelbild mit Lightbox.
  *
- * Das erzeugte Markup entspricht den Astro-Komponenten (src/components/Raster.astro usw.) und wird
- * von src/styles/bilder.css gestaltet. Die Lightbox ist ein `popover`, siehe dort.
+ * Das erzeugte Markup entspricht den Astro-Komponenten (src/components/Bildgruppe.astro) und wird von
+ * src/styles/bilder.css gestaltet. Die Lightbox ist ein `popover`, siehe dort.
  *
- * Technik: Die neuen Elemente sind mdast-Knoten mit `data.hName` und `data.hProperties`. Die echten
- * `image`-Knoten bleiben erhalten, damit Astro sie wie jedes Markdown-Bild optimiert.
+ * Die `img`-Elemente bleiben echte Elemente mit dem Pfad aus dem Markdown, damit Astro sie wie jedes
+ * Markdown-Bild optimiert.
  */
 
 const GRUPPEN = { raster: 'bildraster', galerie: 'bildgalerie', slider: 'bildslider' };
@@ -27,39 +27,39 @@ const MARKER_ZU = /^:::$/;
 // Bausteine
 // ---------------------------------------------------------------------------
 
-/** Ein HTML-Element, getarnt als mdast-Absatz. remark-rehype macht daraus `hName` mit `hProperties`. */
-const el = (hName, hProperties, children = []) => ({
-  type: 'paragraph',
-  data: { hName, hProperties },
-  children,
-});
-
+const el = (tagName, properties = {}, children = []) => ({ type: 'element', tagName, properties, children });
 const text = (value) => ({ type: 'text', value });
 
-/** Frischer image-Knoten. Der Titel wandert in die Beschriftung, damit er nicht doppelt als Tooltip erscheint. */
-const bildKnoten = (b) => ({ type: 'image', url: b.url, alt: b.alt ?? '', title: null });
+const istLeer = (k) => k.type === 'text' && !k.value.trim();
+const istImg = (k) => k.type === 'element' && k.tagName === 'img';
+
+/** Bild als schlichte Daten, ohne den Titel (der wird zur Beschriftung) */
+const bildDaten = (img) => ({
+  img,
+  alt: String(img.properties?.alt ?? ''),
+  titel: img.properties?.title ? String(img.properties.title) : '',
+});
+
+/** Kopie des img-Elements ohne title, damit der Titel nicht zusätzlich als Tooltip erscheint */
+function bildKopie(b) {
+  const { title, ...rest } = b.img.properties ?? {};
+  return { ...b.img, properties: rest };
+}
 
 const zaehler = (i, n) => el('span', { className: ['bildzaehler'] }, [text(`${i + 1} / ${n}`)]);
 
-/** figcaption mit optionalem Zähler und Beschriftung, oder nichts */
 function unterschrift(b, i, n, mitZaehler) {
   const teile = [];
   if (mitZaehler && n > 1) teile.push(zaehler(i, n));
-  if (b.title) teile.push(text(b.title));
+  if (b.titel) teile.push(text(b.titel));
   return teile.length ? [el('figcaption', {}, teile)] : [];
 }
 
-/** Button um das Bild, öffnet das Popover mit der Lightbox */
 const oeffner = (b, popoverId) =>
   el(
     'button',
-    {
-      type: 'button',
-      className: ['bild__auf'],
-      popovertarget: popoverId,
-      ariaLabel: `${b.alt || 'Bild'} – vergrößern`,
-    },
-    [bildKnoten(b)],
+    { type: 'button', className: ['bild__auf'], popovertarget: popoverId, ariaLabel: `${b.alt || 'Bild'} – vergrößern` },
+    [bildKopie(b)],
   );
 
 const navKnopf = (richtung, zeichen, beschriftung, zielId) =>
@@ -82,17 +82,10 @@ function lightbox(bilder, i, ids) {
   const kinder = [
     el(
       'button',
-      {
-        type: 'button',
-        className: ['lightbox__zu'],
-        popovertarget: id,
-        popovertargetaction: 'hide',
-        ariaLabel: 'Schließen',
-        autofocus: true,
-      },
+      { type: 'button', className: ['lightbox__zu'], popovertarget: id, popovertargetaction: 'hide', ariaLabel: 'Schließen', autofocus: true },
       [text('×')],
     ),
-    el('figure', { className: ['lightbox__bild'] }, [bildKnoten(bilder[i]), ...unterschrift(bilder[i], i, n, true)]),
+    el('figure', { className: ['lightbox__bild'] }, [bildKopie(bilder[i]), ...unterschrift(bilder[i], i, n, true)]),
   ];
   if (n > 1) {
     kinder.push(
@@ -126,11 +119,13 @@ function baueGruppe(art, bilder, basis) {
 // Erkennen
 // ---------------------------------------------------------------------------
 
+const istAbsatz = (k) => k.type === 'element' && k.tagName === 'p';
+
 /** Zerlegt einen Absatz in Marker, Bilder und anderen Text */
 function lies(absatz) {
   const teile = [];
   for (const kind of absatz.children) {
-    if (kind.type === 'image') {
+    if (istImg(kind)) {
       teile.push({ art: 'bild', knoten: kind });
     } else if (kind.type === 'text') {
       for (const zeile of kind.value.split('\n').map((z) => z.trim()).filter(Boolean)) {
@@ -147,44 +142,43 @@ function lies(absatz) {
 }
 
 const istBildAbsatz = (k) => {
-  if (k.type !== 'paragraph') return false;
-  const inhalt = k.children.filter((c) => !(c.type === 'text' && !c.value.trim()));
-  return inhalt.length === 1 && inhalt[0].type === 'image';
+  if (!istAbsatz(k)) return false;
+  const inhalt = k.children.filter((c) => !istLeer(c));
+  return inhalt.length === 1 && istImg(inhalt[0]);
 };
 
-const beginntGruppe = (k) => k.type === 'paragraph' && lies(k)[0]?.art === 'auf';
+const beginntGruppe = (k) => istAbsatz(k) && lies(k)[0]?.art === 'auf';
 
 /** Liest eine Gruppe ab Index `start`. Bricht den Build mit einer klaren Meldung ab, wenn sie kaputt ist. */
-function leseGruppe(kinder, start, datei) {
-  const fehler = (meldung, knoten) => {
-    const text = `Bildgruppe: ${meldung}`;
-    if (typeof datei.fail === 'function') datei.fail(text, knoten.position);
-    throw new Error(text);
+function leseGruppe(kinder, start) {
+  const fehler = (meldung) => {
+    throw new Error(`Bildgruppe: ${meldung}`);
   };
 
   let art;
   const bilder = [];
   for (let j = start; j < kinder.length; j++) {
     const absatz = kinder[j];
-    if (absatz.type !== 'paragraph') fehler('Vor dem schließenden ::: steht etwas anderes als Bilder.', absatz);
+    if (istLeer(absatz)) continue; // Zeilenumbruch zwischen zwei Blöcken
+    if (!istAbsatz(absatz)) fehler('Vor dem schließenden ::: steht etwas anderes als Bilder.');
     const teile = lies(absatz);
     for (let t = 0; t < teile.length; t++) {
       const teil = teile[t];
       if (teil.art === 'auf') {
-        if (art) fehler('Gruppen dürfen nicht verschachtelt werden.', absatz);
+        if (art) fehler('Gruppen dürfen nicht verschachtelt werden.');
         art = teil.gruppe;
       } else if (teil.art === 'bild') {
-        bilder.push(teil.knoten);
+        bilder.push(bildDaten(teil.knoten));
       } else if (teil.art === 'zu') {
-        if (teile.slice(t + 1).length) fehler('Nach dem schließenden ::: darf im selben Absatz nichts mehr stehen.', absatz);
-        if (!bilder.length) fehler(`Die Gruppe "${art}" enthält kein Bild.`, absatz);
+        if (teile.slice(t + 1).length) fehler('Nach dem schließenden ::: darf im selben Absatz nichts mehr stehen.');
+        if (!bilder.length) fehler(`Die Gruppe "${art}" enthält kein Bild.`);
         return { art, bilder, ende: j };
       } else {
-        fehler(`Zwischen den Markern ist nur Bild-Syntax erlaubt, gefunden: ${teil.wert ?? 'anderer Inhalt'}`, absatz);
+        fehler(`Zwischen den Markern ist nur Bild-Syntax erlaubt, gefunden: ${teil.wert ?? 'anderer Inhalt'}`);
       }
     }
   }
-  fehler(`Die Gruppe "${art}" wird nie mit ::: geschlossen.`, kinder[start]);
+  return fehler(`Die Gruppe "${art}" wird nie mit ::: geschlossen.`);
 }
 
 /** Kurzer, stabiler Hash, damit die Popover-IDs mehrerer Seiten nicht kollidieren */
@@ -194,31 +188,28 @@ function kurzerHash(s) {
   return h.toString(36).slice(0, 5);
 }
 
-// ---------------------------------------------------------------------------
-// Plugin
-// ---------------------------------------------------------------------------
+/**
+ * Wandelt die Kinder des Wurzelknotens um und gibt die neue Liste zurück.
+ * `quelle` ist der Dateipfad (nur für stabile, eindeutige IDs).
+ */
+export function bilderUmwandeln(kinder, quelle = '') {
+  const praefix = kurzerHash(String(quelle));
+  let nummer = 0;
+  const neueBasis = () => `lb-${praefix}-${++nummer}`;
 
-export default function remarkBilder() {
-  return (baum, datei) => {
-    const praefix = kurzerHash(String(datei?.path ?? datei?.history?.[0] ?? ''));
-    let nummer = 0;
-    const neueBasis = () => `lb-${praefix}-${++nummer}`;
-
-    const kinder = baum.children;
-    const ergebnis = [];
-    for (let i = 0; i < kinder.length; i++) {
-      const k = kinder[i];
-      if (beginntGruppe(k)) {
-        const g = leseGruppe(kinder, i, datei);
-        ergebnis.push(...baueGruppe(g.art, g.bilder, neueBasis()));
-        i = g.ende;
-      } else if (istBildAbsatz(k)) {
-        const bild = k.children.find((c) => c.type === 'image');
-        ergebnis.push(...baueEinzelbild(bild, neueBasis()));
-      } else {
-        ergebnis.push(k);
-      }
+  const ergebnis = [];
+  for (let i = 0; i < kinder.length; i++) {
+    const k = kinder[i];
+    if (beginntGruppe(k)) {
+      const g = leseGruppe(kinder, i);
+      ergebnis.push(...baueGruppe(g.art, g.bilder, neueBasis()));
+      i = g.ende;
+    } else if (istBildAbsatz(k)) {
+      const bild = k.children.find(istImg);
+      ergebnis.push(...baueEinzelbild(bildDaten(bild), neueBasis()));
+    } else {
+      ergebnis.push(k);
     }
-    baum.children = ergebnis;
-  };
+  }
+  return ergebnis;
 }

@@ -2,7 +2,7 @@
   Bilder: Einzelbild, Raster, Galerie, Slider und Lightbox. Alles ohne JavaScript.
 
   Das Markup kommt aus zwei Quellen und ist an beiden Stellen gleich:
-    - Markdown:  src/lib/remark-bilder.mjs  (Syntax siehe README, Abschnitt "Bilder und Galerien")
+    - Markdown:  src/lib/bilder-kern.mjs  (Syntax siehe README, Abschnitt "Bilder und Galerien")
     - Astro:     src/components/Raster.astro, Galerie.astro, Slider.astro
 
   Die Lightbox ist das native HTML-Attribut `popover`. Ein Button mit `popovertarget` öffnet sie,

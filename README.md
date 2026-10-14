@@ -75,6 +75,12 @@ import a from '../content/reisen/2026-lofoten/bilder/a-schmiede.jpg';
 
 Das Markup erzeugen `src/lib/bilder-html.mjs` (umhüllt den Berichtstext in `src/components/MitBildern.astro`, unabhängig vom Markdown-Prozessor) und die Komponenten gleich, gestaltet wird es von `src/styles/bilder.css`.
 
+### Interaktive 3D-Modelle
+
+Eine einzelne Zeile `:::modell reinebringen` (eigener Absatz) setzt ein 3D-Modell in den Beitrag. Es lädt erst nach Klick auf „3D-Modell starten“, vorher wird kein Modell-Code geladen. Der Code liegt in `src/scripts/modelle/`, geladen wird er über `src/scripts/modell.js`, das Aussehen steht in `src/styles/modell.css`. Ein neues Modell braucht einen Eintrag in `MODELLE` (`src/lib/bilder-html.mjs`) und in `lader` (`src/scripts/modell.js`).
+
+Das Modell des Reinebringen ist schematisch: Geländeform und Wegverlauf sind frei gezeichnet, fest sind nur die Zahlen der Infotafel (484 m, 1.978 Stufen, etwa 1,1 km). Mit echten Daten (GPX-Track) ersetzt man `wegPunkt()` und `gelaende()` in `src/scripts/modelle/reinebringen.js`.
+
 ## Design
 
 Die Seite ist ein Logbuch: Seekartenpapier, Tinte, Meerblau und ein Akzent in Stempelrot. Die Grundsätze stehen in [`design.md`](design.md), alle Farben, Schriften und Abstände als Variablen oben in `src/styles/global.css`. Stempel (Passstempel, rund) sind die Komponente `Stempel.astro`, das Logo `Logo.astro`, Briefmarke mit Poststempel in der Fußzeile `Briefmarke.astro`.

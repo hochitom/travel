@@ -2,6 +2,7 @@
 import { Image } from 'astro:assets';
 import { render } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
+import MitBildern from '../../components/MitBildern.astro';
 import Karte from '../../components/Karte.astro';
 import ReiseKachel from '../../components/ReiseKachel.astro';
 import Stempel from '../../components/Stempel.astro';
@@ -111,7 +112,7 @@ const stempelZusatz = beginn
     }
 
     <div class="text prosa">
-      <Content />
+      <MitBildern quelle={knoten.pfad}><Content /></MitBildern>
     </div>
 
     {

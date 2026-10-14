@@ -1,0 +1,19 @@
+---
+/**
+ * Umhüllt den Inhalt eines Berichts und macht aus Bildern und Bildgruppen (:::galerie usw.) das Markup
+ * mit Lightbox. Die Syntax steht in src/lib/bilder-html.mjs und in der README ("Bilder und Galerien").
+ *
+ *   <MitBildern quelle={knoten.pfad}><Content /></MitBildern>
+ *
+ * Es arbeitet auf dem fertigen HTML (Astro.slots.render), unabhängig vom Markdown-Prozessor.
+ */
+import { bilderUmwandeln } from '../lib/bilder-html.mjs';
+
+interface Props {
+  quelle?: string;
+}
+const { quelle = '' } = Astro.props;
+const html = bilderUmwandeln(await Astro.slots.render('default'), quelle);
+---
+
+<Fragment set:html={html} />

@@ -13,9 +13,10 @@ Danach sind wir Richtung Andenes aufgebrochen, etwa vier Stunden Fahrzeit stande
 
 Den ersten Teil der Fahrt hat Denise übernommen, gut zweieinhalb bis drei Stunden, bis zur Pause kurz nach Sortland. Dort haben wir am Straßenrand, an einer kleinen Bucht, Kaffee gekocht und getrunken und dazu unsere Gifflar gegessen. Danach bin ich weitergefahren, über die Andøya-Brücke auf die Insel und von dort die Landschaftsroute über Bukkekjerka, Kleivodden bzw. Bø, statt der schnelleren Strecke direkt nach Andenes. Sie war deutlich schöner, weshalb wir uns dafür entschieden haben. Wir hatten wieder ein paar schöne Ausblicke aufs Meer, und zum ersten Mal auf der Reise haben wir Elche gesehen. Zumindest glauben wir das, der Größe nach könnten es auch Rentiere gewesen sein, ganz sicher sind wir uns nicht.
 
+:::raster
 ![Gerade Straße durch herbstliche Moorlandschaft, am Horizont Berge](./bilder/andoya-strasse.jpg)
-
 ![Straße durch ein Tal mit Strommast, dunkle Wolken und ein Streifen Sonne auf den Hängen](./bilder/fahrt-tal-strommast.jpg)
+:::
 
 Das Wetter war extrem wechselhaft. Regen, Sonnenschein, starker Regen, leichter Regen, nasse Fahrbahn, trockene Fahrbahn, wirklich alles war dabei. Unterwegs sind wir an Anlagen vorbeigekommen, die für uns wie Einrichtungen des Andøya Space Centers ausgesehen haben, vielleicht Raketenstartplätze oder irgendwelche Funkeinrichtungen.
 
@@ -27,11 +28,11 @@ Mittlerweile sind wir beim Andenes Camping angekommen, wo wir diese Nacht bleibe
 
 Wir haben dann noch einen Strandspaziergang gemacht, genau in dem Moment, als es zu regnen begonnen hat. Nach dem Duschen gab es einen wunderschönen Sonnenuntergang, bevor es danach wieder zu regnen begann.
 
+:::raster
 ![Strand mit einem Bachlauf im Sand und dunklen Wolken, im Hintergrund eine Person](./bilder/andenes-strand-bachlauf.jpg)
-
 ![Der Camper auf der Wiese, im Fenster spiegelt sich der orange Himmel](./bilder/andenes-camper-sonnenuntergang.jpg)
-
 ![Sonnenuntergang über dem Strand, goldenes Licht unter dunklen Wolken](./bilder/andenes-sonnenuntergang-strand.jpg)
+:::
 
 Am Abend haben wir noch eine Partie Phase 10 gespielt. Diesmal hat Denise gewonnen, und zwar so richtig unfair: Sie hat mich danach ausgelacht und konnte gar nicht mehr aufhören zu lachen. Dazu haben wir noch eine Folge „The Gentlemen" auf Netflix geschaut.
 

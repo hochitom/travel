@@ -1,0 +1,11 @@
+---
+/** Slider: Bilder als slider, jedes Bild öffnet sich in der Lightbox. Props siehe Bildgruppe.astro. */
+import Bildgruppe from './Bildgruppe.astro';
+import type { Bild } from './Bildgruppe.astro';
+interface Props {
+  bilder: Bild[];
+}
+const { bilder } = Astro.props;
+---
+
+<Bildgruppe art="slider" bilder={bilder} />

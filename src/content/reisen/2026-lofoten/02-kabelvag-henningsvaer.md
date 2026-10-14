@@ -28,6 +28,13 @@ Wir sind bis nach Svolvær gefahren und haben im Bacalao gegessen, schon ziemlic
 
 Dort haben wir den Camper eingerichtet: Betten bezogen, Lebensmittel verstaut, geduscht. Am Abend haben wir im Camper Phase 10 gespielt. Ich habe gewonnen, Denise hat es sportlich genommen. Dann kam die erste Nacht im Camper.
 
+:::raster
+![Die Küchenzeile im Camper bei gedämpftem Licht, links das Bett](./bilder/camper-kueche-innen.jpg)
+![Sitzgruppe mit Tisch und Fahrerkabine im Camper](./bilder/camper-sitzgruppe-innen.jpg)
+:::
+
+<!-- TODO: Camper-Innenfotos: sind sie vom ersten Abend in Kabelvåg oder von einem späteren Abend? -->
+
 ### Zustand des Campers
 
 Auf den ersten Blick sah der Camper sehr gut und sauber aus, auf den zweiten leider nicht. Die Vormieter waren offenbar sehr schlampig. Der Grauwassertank war überhaupt nicht geleert, wir sind mit vollem Tank gestartet. Auch sonst war es an manchen Stellen schmutzig, teils lag noch Müll im Auto, und am Boden war Dreck. Schade, dass der Vermieter da nichts unternommen hat.

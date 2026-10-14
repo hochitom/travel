@@ -39,7 +39,10 @@ Wir sind nicht direkt bei Haukland Beach stehengeblieben, sondern durch den Tunn
 
 Vor dem Kochen sind wir noch eine Runde am Strand spaziert, der wirklich sehr schön ist. Dann habe ich Linsen-Kokos-Curry mit Reis gekocht, das wieder sehr gut war, großes Lob an Claude fürs Rezept. Vom Camper aus haben wir noch den Sonnenuntergang am Strand beobachtet. Die Sonne ist aber leider schon hinter den Wolken verschwunden, es gab also nur einen halben Sonnenuntergang.
 
+:::raster
 ![Uttakleiv Beach mit weißem Kiesstrand, grüner Wiese und Bergen unter blauem Himmel](./bilder/uttakleiv-strand.jpg)
+![Weißer Strand und grüne Wiese in Uttakleiv, dahinter Berge in Wolken](./bilder/uttakleiv-strand-sonne.jpg)
+:::
 
 <!-- TODO: Das Foto ist bei Sonne und blauem Himmel aufgenommen, passt es zum Abend oder eher zum Freitagmorgen? -->
 
@@ -52,9 +55,11 @@ Nach dem Frühstück sind wir zu Fuß vom Uttakleiv Beach zum Haukland Beach geg
 :::galerie
 ![Ich am steilen Pfad, über mir Strommasten und blauer Himmel](./bilder/mannen-aufstieg-thomas.jpg)
 ![Ein Bach stürzt über Felsen und Moos den Hang herab](./bilder/mannen-bach-wasserfall.jpg)
+![Ein dunkler See im Tal mit der Straße am Ufer, darüber Berge](./bilder/mannen-see-strasse.jpg)
 ![Ich auf einem Felsen mit Blick auf einen See im Tal](./bilder/mannen-see-aussicht.jpg)
 ![Wanderer auf dem Grat über dem See im Tal](./bilder/mannen-see-grat.jpg)
 ![Blick vom Hang auf grüne Wiesen, einen roten Stall und das Meer](./bilder/mannen-blick-uttakleiv.jpg)
+![Blick vom Mannen auf den Haukland Beach, den Parkplatz und die Bucht](./bilder/mannen-blick-haukland.jpg)
 ![Panorama vom Mannen über Berge, Seen und die Bucht mit hellem Strand](./bilder/mannen-panorama.jpg)
 :::
 
@@ -68,6 +73,7 @@ Danach sind wir mit dem Camper nach Nusfjord gefahren und haben uns das alte Fis
 ![Ein Schotterweg führt hinunter zu roten und gelben Häusern am Wasser](./bilder/nusfjord-strasse-haeuser.jpg)
 ![Gelbe Lagerhäuser am Steg spiegeln sich im Hafen, davor ein schwarzes Schlauchboot](./bilder/nusfjord-hafen-spiegelung.jpg)
 ![Gelbe Gebäude am Steg vor steilen Felswänden](./bilder/nusfjord-gelbe-gebaeude-wasser.jpg)
+![Das gelbe Karoline Restaurant am Steg, Gäste an Holztischen](./bilder/nusfjord-karoline-restaurant.jpg)
 ![Rote und gelbe Häuser vor einer grauen Felswand](./bilder/nusfjord-gelbe-haeuser.jpg)
 ![Landhandel und Kafé mit Eisstand und das Karoline Restaurant](./bilder/nusfjord-landhandel-karoline.jpg)
 ![Die weiße Bäckerei mit einem gelben Fahrrad am Balkon, dahinter rote Fischerhütten](./bilder/nusfjord-baeckerei.jpg)
@@ -75,6 +81,7 @@ Danach sind wir mit dem Camper nach Nusfjord gefahren und haben uns das alte Fis
 ![Rotes Bootshaus an einer ruhigen Bucht, umgeben von Felsen und Vogelbeerbäumen](./bilder/nusfjord-bucht-rotes-haus.jpg)
 ![Trockenfische liegen im Museum auf einem Holzgestell](./bilder/nusfjord-stockfisch.jpg)
 ![Alte Funk- und Echolotgeräte an einer Holzwand im Museum](./bilder/nusfjord-funkgeraete.jpg)
+![Alte Funkgeräte, Telefone und Bildschirme auf Holzpaletten im Museum](./bilder/nusfjord-museum-funkgeraete-02.jpg)
 :::
 
 <!-- TODO: Das Foto mit der Autoschlange (erstes Bild) – stammt es wirklich von der Anfahrt nach Nusfjord? -->
@@ -95,6 +102,7 @@ Zum Abendessen gab es Gnocchi mit Lofoten-Pesto. Die Gnocchi waren etwas wenig, 
 :::raster
 ![Das Lofoten Beach Camp von oben, Wohnmobile und Zelte vor Bergen und Meer](./bilder/ramberg-camp-uebersicht.jpg)
 ![Die Sonne geht hinter einer Reihe von Wohnmobilen über dem Meer unter](./bilder/ramberg-sonnenuntergang-camper.jpg)
+![Alter weißer Pickup mit Surfbrett, Aufschrift „Lofoten Beach Camp – Surf & Camp“](./bilder/ramberg-beachcamp-pickup.jpg)
 :::
 
 Am Abend haben wir noch ein paar Partien Uno gespielt, bis Denise endlich einmal gewonnen hat. Davor hatte immer ich gewonnen. Dann haben wir uns hingelegt und noch ein wenig gelesen: Denise ist wie immer schon während des Kapitels eingeschlafen, ich habe noch ein Kapitel Harry Potter gelesen. Um 23 Uhr haben aber beide schon geschlafen.

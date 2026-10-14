@@ -45,6 +45,7 @@ Der Saunagang am Nachmittag war sehr angenehm. Wir hatten Glück, nur Denise und
 :::raster
 ![Das dunkle Saunagebäude am Lofoten Beach Camp mit beleuchtetem Giebelfenster](./bilder/ramberg-sauna-gebaeude.jpg)
 ![Blick aus dem Saunafenster auf Holzterrasse, Wiese und Meer](./bilder/ramberg-sauna-fensterblick.jpg)
+![Gegenlicht über der Holzterrasse am Meer, Menschen im Handtuch auf den Stufen](./bilder/ramberg-sauna-terrasse-sonne.jpg)
 :::
 
 Polarlichter, dachten wir, werden es heute wohl nicht mehr. In der Nacht davor gab es welche, aber die haben wir verschlafen. Erst heute Morgen habe ich auf Instagram gesehen, dass jemand direkt beim Lofoten Beach Camp Polarlichter fotografiert hat.

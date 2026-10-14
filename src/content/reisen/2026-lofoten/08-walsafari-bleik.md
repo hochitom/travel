@@ -18,10 +18,9 @@ Heute hat der Wecker schon um acht Uhr geklingelt, weil wir früh genug am Hafen
 
 Mit einem mittelgroßen Katamaran sind wir aufs Meer hinausgefahren. Die Fahrt war ziemlich aufregend, es gab ordentlichen Wellengang. Denise hat das mächtig zu schaffen gemacht, und sie war froh, dass es Speibsackerl an Bord gab, die sie später auch gebraucht hat. Mir hat der Wellengang nichts ausgemacht, auch wenn es ein mulmig-lustiges Gefühl war, bei diesen hohen Wellen hinauszufahren.
 
-:::raster
 ![Eine Reisesyke-Tüte, die Spucktüte an Bord, vor dem Meer](./bilder/walsafari-reisesykepose.jpg)
+
 ![Die norwegische Flagge am Heck des Schiffs, dahinter das offene Meer](./bilder/walsafari-flagge.jpg)
-:::
 
 <!-- TODO: Das Schiff auf den Fotos ist ein klassisches Ausflugsschiff mit Kran und Rettungsboot, kein Katamaran. Soll „Katamaran" im Text geändert werden? -->
 

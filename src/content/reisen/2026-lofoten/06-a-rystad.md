@@ -31,9 +31,10 @@ In Å haben wir uns das Dorf angesehen und waren im Norwegischen Fischerdorfmuse
 
 Nach der Dorfbesichtigung waren wir am südlichsten Punkt der Lofoten angekommen, jetzt ging es wieder Richtung Norden. Zuerst haben wir noch in Sakrisøy gehalten und ein Foto beim gelben Haus gemacht. Bei Anitas Sjømat habe ich eine Fischsuppe und einen Fischburger gekauft und gegessen. Die Fischsuppe war sehr gut, vom Fischburger war ich weniger überzeugt, vielleicht hatte ich mir etwas anderes vorgestellt, es war für meinen Geschmack ein eher mittelmäßiger Burger. Dazu haben wir zwei süße Zimtschnecken und eine Kardamom-Schnecke für die spätere Jause im Camper mitgenommen.
 
+:::raster
 ![Das gelbe Haus in Sakrisøy, davor ich zwischen großen Steinen](./bilder/sakrisoy-gelbes-haus.jpg)
-
 ![Blick im Regen von einer Holzterrasse auf Fjord und Berge](./bilder/sakrisoy-fjord-regen.jpg)
+:::
 
 ## Denises erste Fahrt
 

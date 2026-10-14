@@ -1,4 +1,5 @@
 import { defineConfig, fontProviders } from 'astro/config';
+import remarkBilder from './src/lib/remark-bilder.mjs';
 
 // Schriften über die Fonts-API von Astro. Astro lädt die Dateien beim Build herunter und liefert
 // sie von der eigenen Domain aus. Besucher schicken also keine Anfrage an Google. Die CSS-Variablen
@@ -8,6 +9,8 @@ export default defineConfig({
   site: 'https://hochitom.travel',
   trailingSlash: 'always',
   build: { format: 'directory' },
+  // Bildgruppen (:::galerie usw.) und Lightbox in Markdown, siehe README "Bilder und Galerien"
+  markdown: { remarkPlugins: [remarkBilder] },
   fonts: [
     {
       provider: fontProviders.google(),

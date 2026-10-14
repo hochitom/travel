@@ -40,12 +40,12 @@ Am Parkplatz gab es noch ein Café. Dort habe ich einen Kaffee mitgenommen, und 
 ![Wege führen durchs Gras hinunter zum weißen Strand von Ramberg](./bilder/ramberg-strand-pfad.jpg)
 :::
 
-Der Saunagang am Nachmittag war sehr angenehm. Wir hatten Glück, nur Denise und ich waren drin und hatten die ganze Sauna für uns. Rund eine Stunde haben wir dort verbracht, ich war dreimal drinnen, Denise sogar viermal.
+Der Saunagang am Nachmittag war sehr angenehm. Wir hatten Glück, nur Denise und ich waren drin und hatten die ganze Sauna für uns. Rund eine Stunde haben wir dort verbracht, ich war dreimal drinnen, Denise sogar viermal. Danach haben wir geduscht und Kartoffel-Gemüse-Eintopf gekocht, der wieder sehr lecker war. Als Nachspeise hat Denise noch Schokopudding mit Pfirsichen gezaubert.
 
 :::raster
 ![Das dunkle Saunagebäude am Lofoten Beach Camp mit beleuchtetem Giebelfenster](./bilder/ramberg-sauna-gebaeude.jpg)
 ![Blick aus dem Saunafenster auf Holzterrasse, Wiese und Meer](./bilder/ramberg-sauna-fensterblick.jpg)
-::: Danach haben wir geduscht und Kartoffel-Gemüse-Eintopf gekocht, der wieder sehr lecker war. Als Nachspeise hat Denise noch Schokopudding mit Pfirsichen gezaubert.
+:::
 
 Polarlichter, dachten wir, werden es heute wohl nicht mehr. In der Nacht davor gab es welche, aber die haben wir verschlafen. Erst heute Morgen habe ich auf Instagram gesehen, dass jemand direkt beim Lofoten Beach Camp Polarlichter fotografiert hat.
 

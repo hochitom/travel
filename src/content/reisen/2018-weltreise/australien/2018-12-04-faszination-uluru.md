@@ -27,6 +27,8 @@ Obwohl es „nur" eine rote Felsformation ist, beeindruckt sie uns sehr. Es gibt
 
 Insgesamt sind wir über drei Stunden unterwegs. Es wird immer wärmer, und regelmäßige Trinkpausen sind ein Muss. Auf dem Weg gibt's leider nur eine einzige Auffüllstation für Wasser. Wir würden jedem raten, die Flasche dort aufzufüllen, egal wie viel noch drin ist. Viel wird zu dem Zeitpunkt ohnehin nicht mehr drin sein. Kurz vor dem Parkplatz sind wir beide schon ziemlich geschlaucht, es ist extrem heiß und die Luft steht. Als wir wieder im Auto sitzen, zeigt es 38 Grad an, und wir genießen die Klimaanlage.
 
+:::berg Uluru | -25.3444, 131.0369 | 863 m | 5 km
+
 <!-- bild: 2018/12/1123-uluru_009-960x1440.jpg -->
 <!-- bild: 2018/12/1123-uluru_011-960x1440.jpg -->
 <!-- bild: 2018/12/1123-uluru_012-960x640.jpg -->

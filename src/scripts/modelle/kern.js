@@ -241,7 +241,8 @@ export function starten(buehne, m) {
     z: (bereich.z[0] + bereich.z[1]) / 2,
   };
   const radius = Math.hypot(bereich.x[1] - bereich.x[0], bereich.z[1] - bereich.z[0]) / 2;
-  const sockelBasis = Math.min(0, g.min) - Math.max(20, (g.max - Math.min(0, g.min)) * 0.08);
+  // Sockel endet knapp unter dem tiefsten Punkt (im Binnenland also nicht erst auf Meereshöhe)
+  const sockelBasis = g.min - Math.max(20, (g.max - g.min) * 0.08);
   const abschnitte = m.abschnitte ?? [{ bis: 1, art: 'pfad' }];
   const stufenGesamt = abschnitte.filter((a) => a.art === 'stufen').reduce((s, a) => s + a.anzahl, 0);
   const stufenEinheit = abschnitte.find((a) => a.art === 'stufen')?.einheit ?? 'Stufe';

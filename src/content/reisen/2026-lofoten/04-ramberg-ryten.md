@@ -31,6 +31,8 @@ Der Ryten hatte schon am Morgen eine Wolkenhaube, obwohl rundherum ein wundersch
 ![Pfad auf einem Grat über dem offenen Meer](./bilder/ryten-meerblick-pfad.jpg)
 :::
 
+:::berg Ryten | 68.0890, 13.0951 | 543 m
+
 <!-- TODO: Wo war der Ausgangspunkt der Wanderung (Parkplatz/Ort, vermutlich Fredvang)? Wie heißt das Café am Parkplatz? -->
 
 Am Parkplatz gab es noch ein Café. Dort habe ich einen Kaffee mitgenommen, und wir haben im Camper die Süßspeisen von gestern dazu gegessen. Danach ging es zurück Richtung Lofoten Beach Camp, mit einer kleinen Pause in Ramberg für Fotos und Ausblick von einem Aussichtspunkt auf den Ramberg-Strand.

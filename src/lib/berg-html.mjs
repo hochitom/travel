@@ -11,7 +11,10 @@
  *
  * Erster Teil ist der Name. Danach in beliebiger Reihenfolge: Lage als "Breite, Länge" (Grad, Punkt als
  * Dezimalzeichen), Höhe als "541 m", Wikidata-Kennung "Q…", Ausschnitt als "3 km". Lage oder Wikidata muss sein.
- * Die Lage darf ungefähr sein, die Skizze sucht den höchsten Punkt im Umkreis von etwa 350 m.
+ * Die Lage darf ungefähr sein, die Skizze sucht den höchsten Punkt im Umkreis von etwa 350 m. Mit dem Teil
+ * "genau" entfällt die Suche, die Fahne steht dann exakt an der Lage (für Gipfel an einem ansteigenden Grat):
+ *
+ *   :::berg Reinebringen | 67.9278, 13.0714 | 484 m | genau
  */
 
 export const BERG_STANDARD = { breite: 3000, ueberhoehung: 1.3 };
@@ -28,10 +31,11 @@ const zahl = (n) => n.toLocaleString('de-AT', { maximumFractionDigits: 1 });
  * @param {number} [p.hoehe]        Gipfelhöhe in m (sonst Wikidata, sonst aus dem Gelände)
  * @param {string} [p.wikidata]     Wikidata-Kennung, Q mit Zahl
  * @param {number} [p.breite]       Kantenlänge des Ausschnitts in m
+ * @param {boolean} [p.genau]       Lage exakt übernehmen, keine Gipfelsuche im Umkreis
  * @param {number} [p.ueberhoehung] Faktor für die Höhe in der Darstellung
  * @param {string} [p.unterschrift] eigene Bildunterschrift (HTML-sicherer Text), ersetzt den ersten Satz
  */
-export function bergFigur({ name, lat, lon, hoehe, wikidata, breite = BERG_STANDARD.breite, ueberhoehung = BERG_STANDARD.ueberhoehung, unterschrift } = {}) {
+export function bergFigur({ name, lat, lon, hoehe, wikidata, breite = BERG_STANDARD.breite, ueberhoehung = BERG_STANDARD.ueberhoehung, genau, unterschrift } = {}) {
   const fehler = (m) => {
     throw new Error(`Berg${name ? ` "${name}"` : ''}: ${m}`);
   };
@@ -43,7 +47,8 @@ export function bergFigur({ name, lat, lon, hoehe, wikidata, breite = BERG_STAND
   if (hoehe !== undefined && !(hoehe > 0 && hoehe < 9000)) fehler(`ungültige Höhe ${hoehe}.`);
   if (!(breite >= 500 && breite <= 20000)) fehler('Ausschnitt muss zwischen 0,5 und 20 km liegen.');
 
-  const daten = { name, lat, lon, hoehe, wikidata, breite, ueberhoehung };
+  if (genau && !hatLage) fehler('"genau" braucht eine Lage (lat, lon).');
+  const daten = { name, lat, lon, hoehe, wikidata, breite, ueberhoehung, genau: genau ? '' : undefined };
   const attribute = Object.entries(daten)
     .filter(([, w]) => w !== undefined)
     .map(([k, w]) => ` data-${k}="${maske(w)}"`)
@@ -53,7 +58,7 @@ export function bergFigur({ name, lat, lon, hoehe, wikidata, breite = BERG_STAND
   const quellen =
     'Gelände: <a href="https://registry.opendata.aws/terrain-tiles/">Terrain Tiles</a> (Mapzen/Tilezen, Open Data on AWS)' +
     (wikidata ? `, Gipfel: <a href="https://www.wikidata.org/wiki/${wikidata}">Wikidata</a>` : '');
-  const satz = unterschrift || `Skizze aus Höhendaten, Höhe ${zahl(ueberhoehung)}-fach überhöht, die Fahne steht am höchsten Punkt.`;
+  const satz = unterschrift || `Skizze aus Höhendaten, Höhe ${zahl(ueberhoehung)}-fach überhöht, die Fahne steht ${genau ? 'an der angegebenen Lage des Gipfels' : 'am höchsten Punkt'}.`;
   return (
     `<figure class="modell modell--berg" data-modell="berg" data-sichtbar${attribute}>` +
     `<div class="modell__buehne"><p class="modell__vorschau">${vorschau}</p>` +
@@ -73,7 +78,8 @@ export function bergAusMarker(text) {
     else if ((m = /^(\d+(?:[.,]\d+)?)\s*m$/.exec(t))) p.hoehe = Number(m[1].replace(',', '.'));
     else if ((m = /^(\d+(?:[.,]\d+)?)\s*km$/.exec(t))) p.breite = Number(m[1].replace(',', '.')) * 1000;
     else if (/^Q\d+$/.test(t)) p.wikidata = t;
-    else throw new Error(`Berg "${name}": unbekannte Angabe "${t}". Erlaubt: "Breite, Länge", "541 m", "3 km", "Q…".`);
+    else if (t === 'genau') p.genau = true;
+    else throw new Error(`Berg "${name}": unbekannte Angabe "${t}". Erlaubt: "Breite, Länge", "541 m", "3 km", "Q…", "genau".`);
   }
   return p;
 }

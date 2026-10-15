@@ -82,7 +82,7 @@ Eine einzelne Zeile `:::modell reinebringen` (eigener Absatz) setzt ein 3D-Model
 Aufbau:
 
 - `src/scripts/modelle/kern.js`: der gemeinsame Renderer. Die Konfiguration steht im Kopfkommentar (Gelände, Weg, Abschnitte, Marken, Stempel).
-- `src/scripts/modelle/<name>.js`: nur die Konfiguration eines Modells (Geländefunktion, Weg, Texte).
+- `src/scripts/modelle/<name>.js`: nur die Konfiguration eines Modells (Geländefunktion, Weg, Texte), oder eine async-Funktion, die sie aus den data-Attributen der Figur baut (z. B. `berg.js`).
 - `src/scripts/modelle/meta.mjs`: Vorschautext und Bildunterschrift (wird beim Build gelesen).
 - `src/scripts/modell.js`: Lader, findet `modelle/<name>.js` automatisch.
 - `src/styles/modell.css`: Aussehen.
@@ -90,6 +90,27 @@ Aufbau:
 **Neues Modell:** 1. `src/scripts/modelle/<name>.js` anlegen (als Vorlage `reinebringen.js`). 2. Eintrag in `MODELLE` in `meta.mjs`. 3. Im Beitrag `:::modell <name>`.
 
 Das Modell des Reinebringen ist schematisch: Gelände und Wegverlauf sind frei gezeichnet, fest sind nur die Zahlen der Infotafel (484 m, 1.978 Stufen, etwa 1,1 km). Mit echten Daten (GPX-Track) ersetzt man `wegPunkte()` und `hoehe()` in `reinebringen.js`.
+
+### Berg-Skizzen aus öffentlichen Daten
+
+Ein einzelner Berg als drehbare 3D-Skizze im selben Stil, ohne eigenes Modell. Das Gelände kommt aus den [Terrain Tiles](https://registry.opendata.aws/terrain-tiles/) (Mapzen/Tilezen, Open Data on AWS, frei, ohne Schlüssel), optional liefert [Wikidata](https://www.wikidata.org/) Name, Gipfelhöhe und Lage. Beides lädt der Browser erst nach Klick auf „3D-Skizze starten“. Bedienung: nur Drehen (Ziehen oder Pfeiltasten).
+
+In Markdown eine eigene Zeile, Teile mit `|` getrennt:
+
+```md
+:::berg Festvågtind | 68.1783, 14.2248 | 541 m
+:::berg Großglockner | 47.0745, 12.6938 | 3798 m | 6 km
+```
+
+Erster Teil ist der Name, danach in beliebiger Reihenfolge: Lage `Breite, Länge` (ungefähr reicht, der höchste Punkt im Umkreis von etwa 350 m wird gesucht), Höhe `541 m` (sonst aus Wikidata, sonst aus dem Gelände), Wikidata-Kennung `Q…`, Ausschnitt `3 km` (Standard). Lage oder Wikidata muss sein.
+
+In Astro-Seiten dasselbe als Komponente:
+
+```astro
+<Berg name="Festvågtind" lat={68.1783} lon={14.2248} hoehe={541} />
+```
+
+Aufbau: `src/components/Berg.astro` und `src/lib/berg-html.mjs` (Markup, Marker), `src/scripts/modelle/berg.js` (baut das Modell aus den Daten), `src/scripts/modelle/hoehendaten.js` (Höhenkacheln und Wikidata laden).
 
 ## Design
 

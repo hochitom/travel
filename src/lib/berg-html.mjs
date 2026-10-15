@@ -1,7 +1,8 @@
 /**
  * Markup für eine Berg-Skizze (drehbares 3D-Modell eines einzelnen Bergs aus öffentlichen Daten).
  * Wird von src/components/Berg.astro und vom Marker `:::berg` in Markdown (src/lib/bilder-html.mjs) benutzt.
- * Läuft beim Bauen in Node. Der Modell-Code (src/scripts/modelle/berg.js) und die Daten werden erst nach Klick geladen.
+ * Läuft beim Bauen in Node. Der Modell-Code (src/scripts/modelle/berg.js) und die Daten lädt der Browser erst, wenn
+ * die Figur in die Nähe des sichtbaren Bereichs kommt (data-sichtbar, siehe src/scripts/modell.js).
  *
  * Marker in Markdown, eine eigene Zeile (eigener Absatz), Teile mit | getrennt:
  *
@@ -54,10 +55,10 @@ export function bergFigur({ name, lat, lon, hoehe, wikidata, breite = BERG_STAND
     (wikidata ? `, Gipfel: <a href="https://www.wikidata.org/wiki/${wikidata}">Wikidata</a>` : '');
   const satz = unterschrift || `Skizze aus Höhendaten, Höhe ${zahl(ueberhoehung)}-fach überhöht, die Fahne steht am höchsten Punkt.`;
   return (
-    `<figure class="modell modell--berg" data-modell="berg"${attribute}>` +
+    `<figure class="modell modell--berg" data-modell="berg" data-sichtbar${attribute}>` +
     `<div class="modell__buehne"><p class="modell__vorschau">${vorschau}</p>` +
     `<button type="button" class="modell__start">3D-Skizze starten</button></div>` +
-    `<figcaption>${satz} ${quellen}. Die Daten lädt dein Browser erst nach dem Klick.</figcaption>` +
+    `<figcaption>${satz} ${quellen}. Die Daten lädt dein Browser erst, wenn die Skizze ins Bild kommt.</figcaption>` +
     `</figure>`
   );
 }

@@ -18,6 +18,7 @@
  *     sockel: false,                         // Schnittkanten am Rand zeigen (für Ausschnitte aus echtem Gelände)
  *     nordpfeil: false,                      // kleine Kompassnadel oben rechts, dreht mit
  *     einpassen: false,                      // Gelände in der Startansicht senkrecht mittig ins Blatt setzen
+ *     betont: false,                         // Gelände hebt sich stärker ab: dunklerer Grund, kräftigere Schatten
  *     bedienung: 'voll',                     // 'voll' (Drehen, Zoomen, Weg) oder 'drehen' (nur Drehen)
  *     weg: {                                 // optional, ohne Weg gibt es nur Drehen
  *       meter: 1100,                         // Länge des Wegs in m (nominal)
@@ -84,7 +85,7 @@ const rgb = (c, a = 1) => `rgb(${c[0] | 0} ${c[1] | 0} ${c[2] | 0}${a < 1 ? ` / 
 
 const LICHTSTUFEN = 48;
 
-function palette(el) {
+function palette(el, betont = false) {
   const p = {
     papier: lesen(el, '--papier'),
     papier2: lesen(el, '--papier-2'),
@@ -97,13 +98,19 @@ function palette(el) {
   const hell = (p.papier2[0] + p.papier2[1] + p.papier2[2]) / 3 > 128;
   p.dunkel = !hell;
   // Fläche: beleuchtet = Lesepapier, im Schatten = Bleistifttönung (im Dunkelmodus umgekehrt: Licht heller)
-  const licht = hell ? p.papier2 : mische(p.papier2, p.linie, 0.85);
-  const schatten = hell ? mische(p.papier2, p.linie, 0.95) : p.papier;
+  let licht = hell ? p.papier2 : mische(p.papier2, p.linie, 0.85);
+  let schatten = hell ? mische(p.papier2, p.linie, 0.95) : p.papier;
+  // Betont: Grund in Seekartenpapier (dunkler als das Blatt), Licht heller, Schatten mit etwas Tinte
+  p.grund = betont ? (hell ? mische(p.papier, p.linie, 0.25) : p.papier) : p.papier2;
+  if (betont) {
+    licht = hell ? mische(p.papier2, [255, 255, 255], 0.35) : mische(p.linie, p.tinte, 0.4);
+    schatten = hell ? mische(schatten, p.tinte, 0.22) : mische(p.papier2, p.linie, 0.5);
+  }
   p.schattenFarbe = schatten;
   p.wasser = mische(p.papier2, p.meer, hell ? 0.2 : 0.35);
   // Füllfarben einmal pro Palette statt einmal pro Zelle und Bild
   p.flaechen = Array.from({ length: LICHTSTUFEN + 1 }, (_, k) =>
-    rgb(mische(schatten, licht, 0.25 + 0.75 * Math.min(1, (k / LICHTSTUFEN) * 1.15))),
+    rgb(mische(schatten, licht, (betont ? 0.1 : 0.25) + (betont ? 0.9 : 0.75) * Math.min(1, (k / LICHTSTUFEN) * 1.15))),
   );
   p.sockel = rgb(mische(schatten, p.linie, hell ? 0.35 : 0.2));
   p.schriftHand = getComputedStyle(el).getPropertyValue('--hand').trim() || 'cursive';
@@ -346,7 +353,7 @@ export function starten(buehne, m) {
   const START = { gier: m.ansicht?.gier ?? -0.25, neigung: m.ansicht?.neigung ?? 0.42, zoom: m.ansicht?.zoom ?? 1 };
   let ansicht = { ...START };
   let position = 0;
-  let farben = palette(buehne);
+  let farben = palette(buehne, m.betont);
   let b = 0, h = 0, dpr = 1;
   let hoehe0 = 0.58; // senkrechte Lage der Mitte als Anteil der Blatthöhe
   let geplant = false;
@@ -580,7 +587,7 @@ export function starten(buehne, m) {
     ctx.closePath();
   }
 
-  const LINIEN_ALPHA = [0.28, 0.55, 1];
+  const LINIEN_ALPHA = m.betont ? [0.38, 0.7, 1] : [0.28, 0.55, 1];
   const LINIEN_BREITE = [0.7, 1.05, 1.5];
   function hoehenlinien(c, dicke) {
     const lin = g.linien[c];
@@ -603,7 +610,7 @@ export function starten(buehne, m) {
 
   function zeichnen() {
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-    ctx.fillStyle = rgb(farben.papier2);
+    ctx.fillStyle = rgb(farben.grund);
     ctx.fillRect(0, 0, b, h);
     kamera();
 
@@ -883,11 +890,11 @@ export function starten(buehne, m) {
   // Hell/Dunkel-Wechsel und späte Schriften
   const farbschema = window.matchMedia('(prefers-color-scheme: dark)');
   farbschema.addEventListener?.('change', () => {
-    farben = palette(buehne);
+    farben = palette(buehne, m.betont);
     neuZeichnen();
   });
   document.fonts?.ready.then(() => {
-    farben = palette(buehne);
+    farben = palette(buehne, m.betont);
     neuZeichnen();
   });
 

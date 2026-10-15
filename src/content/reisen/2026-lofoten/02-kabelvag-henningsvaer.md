@@ -63,6 +63,8 @@ Dort sind wir zu Fuß auf den Festvågtind gegangen, allerdings nicht ganz bis z
 
 <!-- BILD: Blick vom Festvågtind auf Henningsvær -->
 
+:::berg Festvågtind | 68.1783, 14.2248 | 541 m
+
 Statt direkt zum Camper zurückzugehen, haben wir beschlossen, bis nach Henningsvær hinein zu spazieren, ein langer Fußweg entlang der Straße, über Brücken. Das hat sich ausgezahlt: Für den Parkplatz hatten wir extra 16 € bezahlt, so konnten wir die Parkzeit wirklich ausnutzen. In der Trevarefabrikken gab es Kaffee und eine Zimtschnecke. Dabei ist uns aufgefallen, dass die Bezahlung für den Parkplatz gar nicht durchgegangen war. Schnell nachbezahlt, in der Hoffnung auf keinen Strafzettel.
 
 Nach dem Kaffee sind wir weiter durch Henningsvær spaziert, hinunter zum berühmten Fußballplatz, und haben die Aussicht vom Hügel daneben genossen. Inzwischen hatten sich die Wolken verzogen, es war richtig sonnig mit blauem Himmel, und wir konnten Henningsvær voll genießen. Auf dem Rückweg haben wir von der Brücke aus Quallen im Meer beobachtet. Beim Camper dann die große Erleichterung: kein Strafzettel, die Parkgebühr musste nicht doppelt bezahlt werden.

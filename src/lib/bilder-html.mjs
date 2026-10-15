@@ -20,13 +20,16 @@
  */
 
 import { MODELLE } from '../scripts/modelle/meta.mjs';
+import { bergAusMarker, bergFigur } from './berg-html.mjs';
 
 const GRUPPEN = { raster: 'bildraster', galerie: 'bildgalerie', slider: 'bildslider' };
 const MARKER_AUF = /^:::(raster|galerie|slider)$/;
 const MARKER_ZU = /^:::$/;
 const MARKER_MODELL = /^:::modell\s+([a-z0-9-]+)$/;
+const MARKER_BERG = /^:::berg\s+(.+)$/;
 
-// Interaktive 3D-Modelle: Texte stehen in src/scripts/modelle/meta.mjs, der Code wird erst nach Klick geladen
+// Interaktive 3D-Modelle: Texte stehen in src/scripts/modelle/meta.mjs, der Code wird erst nach Klick geladen.
+// Berg-Skizzen (:::berg Name | Breite, Länge | …) siehe src/lib/berg-html.mjs.
 
 const ABSATZ = /<p>([\s\S]*?)<\/p>/g;
 const IMG = /<img\b[^>]*>/g;
@@ -164,9 +167,14 @@ export function bilderUmwandeln(html, quelle = '') {
     const p = absaetze[a];
     const eigenes = p.teile;
 
-    const modell = eigenes.length === 1 && eigenes[0].art === 'text' ? MARKER_MODELL.exec(eigenes[0].wert) : null;
+    const einzeln = eigenes.length === 1 && eigenes[0].art === 'text' ? eigenes[0].wert : '';
+    const modell = MARKER_MODELL.exec(einzeln);
+    const berg = MARKER_BERG.exec(einzeln);
     if (modell) {
       ergebnis += html.slice(pos, p.start) + baueModell(modell[1]);
+      pos = p.ende;
+    } else if (berg) {
+      ergebnis += html.slice(pos, p.start) + bergFigur(bergAusMarker(berg[1]));
       pos = p.ende;
     } else if (eigenes[0]?.art === 'auf') {
       // Gruppe lesen, bis zum schließenden :::

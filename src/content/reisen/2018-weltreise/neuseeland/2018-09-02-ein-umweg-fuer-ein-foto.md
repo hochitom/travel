@@ -18,6 +18,8 @@ Von Taupo geht's über die Westküste nach New Plymouth. Unterwegs kommen wir an
 
 Weil wir am nächsten Tag wandern wollen, fahren wir gleich zum Visitor Center. Dort angekommen, haben sich tatsächlich die Wolken verzogen und wir sehen den Gipfel. Schnell noch Fotos, dann gehen wir ins Visitor Center. Als wir nach fünf Minuten wieder rauskommen, ist der Berg schon wieder unter einer dicken Wolkenschicht verschwunden.
 
+:::berg Mount Taranaki | -39.2968, 174.0634 | 2518 m | 12 km
+
 <!-- bild: 2018/08/0824-three-sister-mt--taranaki_002.jpg -->
 <!-- bild: 2018/08/0824-three-sister-mt--taranaki_001.jpg -->
 <!-- bild: 2018/08/0824-three-sister-mt--taranaki_005.jpg -->

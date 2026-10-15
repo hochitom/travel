@@ -24,5 +24,7 @@ Angeschrieben mit 1,5 Kilometern und 45 Minuten Gehzeit, führt ein markierter W
 
 Vom Mount Sunday hat man wirklich einen wunderbaren Blick auf die Landschaft, auch wenn sich an dem Tag der eine oder andere Gipfel in den Wolken versteckt. Die Spitze würde zum Verweilen einladen, wenn es uns nicht fast vom Wind verblasen würde. Wir schießen ein paar Fotos, machen einen kleinen Rundgang auf dem Plateau und treten dann die Heimreise an. Die führt auf der gleichen Strecke zurück. Also wieder: festhalten und durchrütteln lassen!
 
+:::berg Mount Sunday | -43.5481, 170.8931 | 611 m | 2 km
+
 <!-- bild: 2018/09/0916-mt--sunday_003-1.jpg -->
 <!-- bild: 2018/09/0916-mt--sunday_005.jpg -->

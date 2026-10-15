@@ -63,6 +63,8 @@ Nach dem Frühstück sind wir zu Fuß vom Uttakleiv Beach zum Haukland Beach geg
 ![Panorama vom Mannen über Berge, Seen und die Bucht mit hellem Strand](./bilder/mannen-panorama.jpg)
 :::
 
+:::berg Mannen | 68.2037, 13.5200 | 400 m
+
 ## Nusfjord
 
 Danach sind wir mit dem Camper nach Nusfjord gefahren und haben uns das alte Fischerdörfchen angeschaut. Die Fahrt dorthin war wieder sehr schön, das Dorf klein, aber nett. Der Eintritt war mit 30 € pro Person aus heutiger Sicht ein wenig zu viel für das, was wir gesehen haben, aber davon haben wir uns die Laune nicht verderben lassen. In einem Café gab es eine Fischsuppe, und eine kleine Süßigkeit habe ich für den nächsten Tag mitgenommen, die wir mit einem Kaffee essen wollten. Dann sind wir noch ein wenig durch Nusfjord spaziert.

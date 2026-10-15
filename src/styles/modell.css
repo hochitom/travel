@@ -1,5 +1,6 @@
 /*
-  Interaktive 3D-Modelle (:::modell name), siehe src/scripts/modell.js und src/scripts/modelle/.
+  Interaktive 3D-Modelle (:::modell name) und Berg-Skizzen (:::berg …, Berg.astro),
+  siehe src/scripts/modell.js und src/scripts/modelle/.
   Gestaltung nach design.md: ein eingeklebtes Blatt (Papierrand, leicht schräg wie die Fotos), darunter
   ein Eintragskopf mit großen Zahlen. Text steht gerade, nur das Blatt ist gekippt.
 
@@ -8,6 +9,7 @@
     .modell__blatt         eingeklebtes Blatt mit dem Canvas
     .modell__kopf          Eintragskopf: Weg, Stufen, Höhe
     .modell__bedienung     Kopf, Regler, Knöpfe
+    .modell--berg          Berg-Skizze: nur Drehen, Eintragskopf mit Gipfel, Lage, Ausschnitt
 */
 
 .prosa .modell,
@@ -189,12 +191,31 @@
   max-width: 42rem;
 }
 
+/* ---------- Berg-Skizze: nur Drehen, quadratischer Ausschnitt ---------- */
+
+.modell--berg .modell__leinwand {
+  aspect-ratio: 3 / 2;
+}
+.modell--berg .modell__kopf dd {
+  font-size: 1.5rem;
+}
+.modell--berg .modell__kopf dd small {
+  display: block;
+}
+.prosa .modell figcaption a,
+.modell figcaption a {
+  color: inherit;
+}
+
 @media (max-width: 40rem) {
   .modell__leinwand {
     aspect-ratio: 4 / 3;
   }
   .modell__kopf {
     gap: 0.4rem 1.5rem;
+  }
+  .modell--berg .modell__leinwand {
+    aspect-ratio: 4 / 3;
   }
 }
 

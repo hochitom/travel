@@ -102,7 +102,7 @@ In Markdown eine eigene Zeile, Teile mit `|` getrennt:
 :::berg Großglockner | 47.0745, 12.6938 | 3798 m | 6 km
 ```
 
-Erster Teil ist der Name, danach in beliebiger Reihenfolge: Lage `Breite, Länge` (ungefähr reicht, der höchste Punkt im Umkreis von etwa 350 m wird gesucht), Höhe `541 m` (sonst aus Wikidata, sonst aus dem Gelände), Wikidata-Kennung `Q…`, Ausschnitt `3 km` (Standard). Lage oder Wikidata muss sein.
+Erster Teil ist der Name, danach in beliebiger Reihenfolge: Lage `Breite, Länge` (ungefähr reicht, der höchste Punkt im Umkreis von etwa 350 m wird gesucht), Höhe `541 m` (sonst aus Wikidata, sonst aus dem Gelände), Wikidata-Kennung `Q…`, Ausschnitt `3 km` (Standard), `genau` (Lage exakt übernehmen, ohne Gipfelsuche, z. B. beim Reinebringen, dessen Grat nach Westen weiter ansteigt). Lage oder Wikidata muss sein.
 
 In Astro-Seiten dasselbe als Komponente:
 

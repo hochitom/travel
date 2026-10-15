@@ -24,6 +24,8 @@ interface Props {
   wikidata?: string;
   /** Kantenlänge des Ausschnitts in m, Standard 3000 */
   breite?: number;
+  /** Lage exakt übernehmen statt den höchsten Punkt im Umkreis zu suchen (Gipfel an einem ansteigenden Grat) */
+  genau?: boolean;
   /** Faktor für die Höhe in der Darstellung, Standard 1,3 */
   ueberhoehung?: number;
   /** Eigener erster Satz der Bildunterschrift (Quellen werden immer angehängt) */

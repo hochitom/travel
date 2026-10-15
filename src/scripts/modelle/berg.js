@@ -6,7 +6,8 @@
  * amtliche Gipfelhöhe und Lage. Bedienung: nur Drehen.
  *
  * Die Angaben kommen aus den data-Attributen der Figur, die src/lib/berg-html.mjs erzeugt:
- *   data-name, data-lat, data-lon, data-hoehe, data-wikidata, data-breite (m), data-ueberhoehung
+ *   data-name, data-lat, data-lon, data-hoehe, data-wikidata, data-breite (m), data-ueberhoehung,
+ *   data-genau (Lage exakt übernehmen, keine Gipfelsuche)
  */
 import { hoehenraster, wikidataBerg } from './hoehendaten.js';
 
@@ -41,7 +42,8 @@ export default async function berg(angaben) {
 
   const breite = wert(angaben.breite) || 3000;
   const halbe = breite / 2;
-  const r = await hoehenraster({ lat, lon, halbe, n: GITTER, suche: SUCHE });
+  const genau = angaben.genau !== undefined && Number.isFinite(wert(angaben.lat));
+  const r = await hoehenraster({ lat, lon, halbe, n: GITTER, suche: genau ? 0 : SUCHE });
 
   // Meer: Tiefen und Schären unter 2 m abschneiden, das Wasser liegt flach knapp unter 0
   const werte = r.werte.map((h) => (h < 2 ? -2 : h));

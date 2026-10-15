@@ -1,7 +1,7 @@
 /**
  * Modell: ein einzelner Berg als drehbare Skizze aus öffentlichen Daten.
  *
- * Anders als die gezeichneten Modelle (z. B. reinebringen.js) ist das Gelände hier echt: Es kommt aus den
+ * Anders als bei frei gezeichneten Modellen (:::modell) ist das Gelände hier echt: Es kommt aus den
  * Terrain Tiles (siehe hoehendaten.js) und wird erst geladen, wenn die Skizze ins Bild kommt. Optional liefert Wikidata Name,
  * amtliche Gipfelhöhe und Lage. Bedienung: nur Drehen.
  *

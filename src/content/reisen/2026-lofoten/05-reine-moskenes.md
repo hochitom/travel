@@ -20,8 +20,6 @@ Dort gab es erst einmal Parkplatzsuche, erst beim dritten Parkplatz wurden wir f
 ![Blick vom Reinebringen auf Reine, die Inseln und das offene Meer](./bilder/reinebringen-aussicht-reine.jpg)
 :::
 
-:::modell reinebringen
-
 :::berg Reinebringen | 67.9278, 13.0714 | 484 m | genau
 
 Zurück beim Camper haben wir uns umgezogen und noch ein bisschen Reine erkundet. Wir haben Kaffee getrunken, dazu ein Croissant bzw. eine Zimtschnecke gegessen und sind noch etwas durch den Ort gegangen.

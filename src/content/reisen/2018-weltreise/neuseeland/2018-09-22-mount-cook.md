@@ -41,6 +41,8 @@ Am nächsten Morgen ist vom schlechten Wetter nichts mehr zu merken. Die Sonne s
 
 Schon um 10 Uhr parken wir am Parkplatz, ziehen die Wanderschuhe an, und los geht's. Der Hooker Valley Track ist einer der beliebtesten Wanderwege der Südinsel und dementsprechend gut besucht. Angeschrieben mit drei Stunden und 10 Kilometern, führt er über drei Hängebrücken bis zum Hooker Lake und zum Gletscherausläufer des Mount Cook. Die Wanderung ist wunderschön, der Blick auf die Berge einfach atemberaubend. Es war also eindeutig die richtige Entscheidung zu warten und den Weg bei schönem Wetter zu gehen.
 
+:::berg Aoraki/Mount Cook | -43.5950, 170.1418 | 3724 m | 10 km
+
 Den restlichen Tag genießen wir auf dem Campingplatz am Lake Pukaki. Der Platz hat es uns angetan, und bei sommerlichen Temperaturen entspannen wir direkt am See in der Sonne.
 
 <!-- bild: 2018/09/0914-mt--cook_004.jpg -->

@@ -40,6 +40,8 @@ Nach gut zwei Stunden im Hafen von Pearl City beschließen wir, noch eine Wander
 
 Der Diamond Head ist ein Vulkankrater, den man über einen Trail besteigen kann. Die Wanderung ist zwar kurz, hat es aber ganz schön in sich. Über viele Stufen und Höhenmeter geht's hinauf zum Aussichtspunkt. Oben werden wir gleich mit einem wunderbaren Blick auf Honolulu und das Meer belohnt. Früher war es offenbar ein Militärgelände mit Hubschrauberlandeplatz und Aussichtsplattformen.
 
+:::berg Diamond Head | 21.2599, -157.8117 | 232 m
+
 <!-- bild: 2018/08/0730-honolulu_img_5078.jpg -->
 <!-- bild: 2018/08/0730-honolulu_img_5063.jpg -->
 <!-- bild: 2018/08/0730-honolulu_img_5054.jpg -->

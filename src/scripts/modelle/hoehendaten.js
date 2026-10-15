@@ -1,5 +1,5 @@
 /**
- * Öffentliche Daten für die Berg-Skizzen, geladen im Browser erst nach Klick.
+ * Öffentliche Daten für die Berg-Skizzen, geladen im Browser erst, wenn die Skizze ins Bild kommt.
  *
  * Gelände: Terrain Tiles (Mapzen/Tilezen, Open Data on AWS, https://registry.opendata.aws/terrain-tiles/).
  * Kacheln im Terrarium-Format: 256 × 256 PNG, Höhe = R · 256 + G + B / 256 − 32768 (m). Frei, ohne Schlüssel,

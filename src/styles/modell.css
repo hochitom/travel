@@ -1,10 +1,13 @@
 /*
-  Interaktive 3D-Modelle (:::modell name), siehe src/scripts/modell.js.
+  Interaktive 3D-Modelle (:::modell name), siehe src/scripts/modell.js und src/scripts/modelle/.
+  Gestaltung nach design.md: ein eingeklebtes Blatt (Papierrand, leicht schräg wie die Fotos), darunter
+  ein Eintragskopf mit großen Zahlen. Text steht gerade, nur das Blatt ist gekippt.
 
     .modell                Figur im Beitrag, bricht aus der Textspalte aus wie die Bildgruppen
-    .modell__buehne        Fläche für Startknopf, danach Canvas und Bedienung
-    .modell__leinwand      das Canvas
-    .modell__bedienung     Regler, Anzeige und Knöpfe
+    .modell__buehne        Fläche für Startknopf, danach Blatt und Bedienung
+    .modell__blatt         eingeklebtes Blatt mit dem Canvas
+    .modell__kopf          Eintragskopf: Weg, Stufen, Höhe
+    .modell__bedienung     Kopf, Regler, Knöpfe
 */
 
 .prosa .modell,
@@ -14,124 +17,184 @@
   margin: 2rem calc(50% - var(--gruppe) / 2);
 }
 
-.modell__buehne {
-  border: 1px solid var(--linie);
-  background: var(--papier-2);
-  border-radius: var(--radius);
-  box-shadow: 0 0.5rem 1.25rem var(--schatten);
-}
+/* ---------- Vor dem Start: Papierstreifen wie bei fehlenden Fotos, nichts wird vorab geladen ---------- */
 
-/* Vor dem Start: Hinweis und Knopf, damit kein Code vorab geladen wird */
 .modell__buehne:not(.modell__buehne--aktiv) {
   display: grid;
-  place-items: center;
+  justify-items: center;
   align-content: center;
-  gap: 0.9rem;
+  gap: 1rem;
   min-height: 15rem;
   padding: 1.5rem;
   text-align: center;
-  background:
-    repeating-linear-gradient(135deg, var(--streifen-1) 0 0.5rem, var(--streifen-2) 0.5rem 1rem);
+  border: 8px solid var(--papier-2);
+  box-shadow: 2px 3px 0 var(--schatten);
+  rotate: -0.4deg;
+  background: repeating-linear-gradient(135deg, var(--streifen-1) 0 0.5rem, var(--streifen-2) 0.5rem 1rem);
 }
 .prosa .modell__vorschau,
 .modell__vorschau {
   margin: 0;
-  max-width: 30rem;
-  font-family: var(--serif);
-  color: var(--tinte);
+  max-width: 28rem;
+  padding: 0.45rem 0.8rem;
   background: var(--papier-2);
-  padding: 0.5rem 0.8rem;
+  font-family: var(--hand);
+  font-size: 1.4rem;
+  line-height: 1.15;
+  color: var(--tinte);
 }
 
-.modell button {
-  font: inherit;
-  font-family: var(--sans);
-  font-size: 0.9rem;
-  color: var(--papier-2);
-  background: var(--tinte);
-  border: 0;
-  border-radius: var(--radius);
-  padding: 0.55rem 0.95rem;
-  cursor: pointer;
-}
-.modell button:hover:not(:disabled) {
-  background: var(--akzent-dunkel);
-}
-.modell button:disabled {
-  opacity: 0.7;
-  cursor: progress;
-}
-.modell button:focus-visible,
-.modell__leinwand:focus-visible,
-.modell input:focus-visible {
-  outline: 3px solid var(--akzent);
-  outline-offset: 2px;
-}
+/* ---------- Eingeklebtes Blatt ---------- */
 
+.modell__blatt {
+  border: 8px solid var(--papier-2);
+  box-shadow: 2px 3px 0 var(--schatten);
+  rotate: -0.4deg;
+  background: var(--papier-2);
+}
 .modell__leinwand {
   display: block;
   width: 100%;
   aspect-ratio: 16 / 10;
   max-height: 80vh;
   cursor: grab;
-  touch-action: pan-y; /* senkrecht scrollen bleibt möglich, waagrecht zieht das Modell */
-  background: linear-gradient(var(--papier-2), var(--papier));
+  touch-action: pan-y; /* senkrecht scrollen bleibt möglich, waagrecht dreht das Modell */
 }
 .modell__leinwand:active {
   cursor: grabbing;
 }
 
+/* ---------- Eintragskopf und Bedienung ---------- */
+
 .modell__bedienung {
   display: grid;
-  gap: 0.6rem;
-  padding: 0.8rem 1rem 1rem;
-  border-top: 1px solid var(--linie);
+  gap: 0.9rem;
+  margin-top: 1.1rem;
   font-family: var(--sans);
   font-size: 0.9rem;
 }
+
+.modell__kopf {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 2.5rem;
+  margin: 0;
+  padding: 0.55rem 0 0.7rem;
+  border-block: 1px solid var(--linie);
+}
+.modell__kopf div {
+  display: grid;
+  gap: 0.1rem;
+}
+.modell__kopf dt {
+  font-family: var(--hand);
+  font-size: 1.25rem;
+  line-height: 1;
+  color: var(--meer);
+}
+.modell__kopf dd {
+  margin: 0;
+  font-family: var(--serif-kopf);
+  font-size: 1.9rem;
+  line-height: 1.1;
+  color: var(--tinte);
+  font-variant-numeric: tabular-nums;
+}
+.modell__kopf dd small {
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  color: var(--tinte-leise);
+}
+
 .modell__regler {
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
-  gap: 0.75rem;
+  gap: 0.9rem;
+}
+.modell__regler-name {
+  font-family: var(--hand);
+  font-size: 1.25rem;
+  color: var(--meer);
 }
 .modell__regler input {
   width: 100%;
+  min-height: 2.75rem; /* Touch-Ziel */
   accent-color: var(--akzent);
 }
-.modell__regler-name {
-  color: var(--tinte-leise);
-}
-.modell__anzeige {
+
+.prosa .modell__hinweis,
+.modell__hinweis {
   margin: 0;
-  color: var(--tinte);
+  font-family: var(--hand);
+  font-size: 1.25rem;
+  line-height: 1.1;
+  color: var(--akzent);
 }
+.modell__hinweis:empty {
+  display: none;
+}
+
 .modell__knoepfe {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 0.6rem;
 }
-.modell__knoepfe button:last-child {
-  background: transparent;
+
+.modell button {
+  min-height: 2.75rem;
+  padding: 0.5rem 1.1rem;
+  font: inherit;
+  font-family: var(--sans);
+  font-size: 0.95rem;
+  color: var(--papier-2);
+  background: var(--akzent);
+  border: 2px solid var(--akzent);
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+.modell button:hover:not(:disabled) {
+  background: var(--akzent-dunkel);
+  border-color: var(--akzent-dunkel);
+}
+.modell button:disabled {
+  opacity: 0.7;
+  cursor: progress;
+}
+.modell__knoepfe button[data-aktion='zuruecksetzen'] {
   color: var(--tinte);
-  border: 1px solid var(--linie);
+  background: transparent;
+  border-color: var(--linie);
 }
-.modell__knoepfe button:last-child:hover:not(:disabled) {
+.modell__knoepfe button[data-aktion='zuruecksetzen']:hover:not(:disabled) {
   background: var(--streifen-1);
+  border-color: var(--linie);
+}
+
+/* Sichtbarer Fokus im Stil der Seite (Tintenkreis), nie entfernen */
+.modell button:focus-visible,
+.modell__leinwand:focus-visible,
+.modell input:focus-visible {
+  outline: 3px solid var(--tinte);
+  outline-offset: 3px;
 }
 
 .prosa .modell figcaption,
 .modell figcaption {
-  margin-top: 0.6rem;
+  margin-top: 0.8rem;
   font-family: var(--sans);
   font-size: 0.85rem;
-  line-height: 1.45;
+  line-height: 1.5;
   color: var(--tinte-leise);
+  max-width: 42rem;
 }
 
 @media (max-width: 40rem) {
   .modell__leinwand {
     aspect-ratio: 4 / 3;
+  }
+  .modell__kopf {
+    gap: 0.4rem 1.5rem;
   }
 }
 

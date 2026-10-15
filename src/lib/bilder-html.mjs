@@ -19,19 +19,14 @@
  * Gearbeitet wird nur mit `<p>`-Blöcken und `<img>`-Tags, mehr erzeugt Markdown für Bilder nicht.
  */
 
+import { MODELLE } from '../scripts/modelle/meta.mjs';
+
 const GRUPPEN = { raster: 'bildraster', galerie: 'bildgalerie', slider: 'bildslider' };
 const MARKER_AUF = /^:::(raster|galerie|slider)$/;
 const MARKER_ZU = /^:::$/;
 const MARKER_MODELL = /^:::modell\s+([a-z0-9-]+)$/;
 
-// Interaktive 3D-Modelle (src/scripts/modell.js, src/scripts/modelle/). Ohne JavaScript bleibt der Text stehen.
-const MODELLE = {
-  reinebringen: {
-    vorschau: 'Schematisches 3D-Modell des Stufenwegs auf den Reinebringen: 484 Höhenmeter, 1.978 Stufen, etwa 1,1 km.',
-    unterschrift:
-      'Schematisches Modell, nicht maßstabsgetreu: Form des Bergs und Wegverlauf sind frei gezeichnet, die Höhe ist 1,5-fach überhöht. Fest sind nur die Angaben der Infotafel (484 m, 1.978 Stufen, ca. 1,1 km, die letzten 100 m ohne Stufen).',
-  },
-};
+// Interaktive 3D-Modelle: Texte stehen in src/scripts/modelle/meta.mjs, der Code wird erst nach Klick geladen
 
 const ABSATZ = /<p>([\s\S]*?)<\/p>/g;
 const IMG = /<img\b[^>]*>/g;

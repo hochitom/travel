@@ -77,9 +77,19 @@ Das Markup erzeugen `src/lib/bilder-html.mjs` (umhüllt den Berichtstext in `src
 
 ### Interaktive 3D-Modelle
 
-Eine einzelne Zeile `:::modell reinebringen` (eigener Absatz) setzt ein 3D-Modell in den Beitrag. Es lädt erst nach Klick auf „3D-Modell starten“, vorher wird kein Modell-Code geladen. Der Code liegt in `src/scripts/modelle/`, geladen wird er über `src/scripts/modell.js`, das Aussehen steht in `src/styles/modell.css`. Ein neues Modell braucht einen Eintrag in `MODELLE` (`src/lib/bilder-html.mjs`) und in `lader` (`src/scripts/modell.js`).
+Eine einzelne Zeile `:::modell reinebringen` (eigener Absatz) setzt ein 3D-Modell in den Beitrag. Es lädt erst nach Klick auf „3D-Modell starten“, vorher wird kein Modell-Code geladen. Alle Modelle teilen sich dieselbe Darstellung im Logbuch-Stil (Papier, Höhenlinien, Stempelrot, Eintragskopf, Hell/Dunkel).
 
-Das Modell des Reinebringen ist schematisch: Geländeform und Wegverlauf sind frei gezeichnet, fest sind nur die Zahlen der Infotafel (484 m, 1.978 Stufen, etwa 1,1 km). Mit echten Daten (GPX-Track) ersetzt man `wegPunkt()` und `gelaende()` in `src/scripts/modelle/reinebringen.js`.
+Aufbau:
+
+- `src/scripts/modelle/kern.js`: der gemeinsame Renderer. Die Konfiguration steht im Kopfkommentar (Gelände, Weg, Abschnitte, Marken, Stempel).
+- `src/scripts/modelle/<name>.js`: nur die Konfiguration eines Modells (Geländefunktion, Weg, Texte).
+- `src/scripts/modelle/meta.mjs`: Vorschautext und Bildunterschrift (wird beim Build gelesen).
+- `src/scripts/modell.js`: Lader, findet `modelle/<name>.js` automatisch.
+- `src/styles/modell.css`: Aussehen.
+
+**Neues Modell:** 1. `src/scripts/modelle/<name>.js` anlegen (als Vorlage `reinebringen.js`). 2. Eintrag in `MODELLE` in `meta.mjs`. 3. Im Beitrag `:::modell <name>`.
+
+Das Modell des Reinebringen ist schematisch: Gelände und Wegverlauf sind frei gezeichnet, fest sind nur die Zahlen der Infotafel (484 m, 1.978 Stufen, etwa 1,1 km). Mit echten Daten (GPX-Track) ersetzt man `wegPunkte()` und `hoehe()` in `reinebringen.js`.
 
 ## Design
 

@@ -2,7 +2,7 @@
  * Modell: ein einzelner Berg als drehbare Skizze aus öffentlichen Daten.
  *
  * Anders als die gezeichneten Modelle (z. B. reinebringen.js) ist das Gelände hier echt: Es kommt aus den
- * Terrain Tiles (siehe hoehendaten.js) und wird erst nach dem Klick geladen. Optional liefert Wikidata Name,
+ * Terrain Tiles (siehe hoehendaten.js) und wird erst geladen, wenn die Skizze ins Bild kommt. Optional liefert Wikidata Name,
  * amtliche Gipfelhöhe und Lage. Bedienung: nur Drehen.
  *
  * Die Angaben kommen aus den data-Attributen der Figur, die src/lib/berg-html.mjs erzeugt:
@@ -79,6 +79,7 @@ export default async function berg(angaben) {
     sockel: true,
     nordpfeil: true,
     einpassen: true,
+    betont: true,
     bedienung: 'drehen',
     marken: [{ x: 0, y: gipfelY, z: 0, text: `Gipfel · ${zahl(hoehe)} m`, art: 'fahne' }],
     stempel: { kopf: 'Gipfel', titel: `${zahl(hoehe)} m`, zusatz: name },

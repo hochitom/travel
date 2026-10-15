@@ -93,7 +93,7 @@ Das Modell des Reinebringen ist schematisch: Gelände und Wegverlauf sind frei g
 
 ### Berg-Skizzen aus öffentlichen Daten
 
-Ein einzelner Berg als drehbare 3D-Skizze im selben Stil, ohne eigenes Modell. Das Gelände kommt aus den [Terrain Tiles](https://registry.opendata.aws/terrain-tiles/) (Mapzen/Tilezen, Open Data on AWS, frei, ohne Schlüssel), optional liefert [Wikidata](https://www.wikidata.org/) Name, Gipfelhöhe und Lage. Beides lädt der Browser erst nach Klick auf „3D-Skizze starten“. Bedienung: nur Drehen (Ziehen oder Pfeiltasten).
+Ein einzelner Berg als drehbare 3D-Skizze im selben Stil, ohne eigenes Modell. Das Gelände kommt aus den [Terrain Tiles](https://registry.opendata.aws/terrain-tiles/) (Mapzen/Tilezen, Open Data on AWS, frei, ohne Schlüssel), optional liefert [Wikidata](https://www.wikidata.org/) Name, Gipfelhöhe und Lage. Beides lädt der Browser erst, wenn die Skizze in die Nähe des sichtbaren Bereichs kommt (mit Datensparmodus erst nach Klick auf „3D-Skizze starten“). Bedienung: nur Drehen (Ziehen oder Pfeiltasten).
 
 In Markdown eine eigene Zeile, Teile mit `|` getrennt:
 

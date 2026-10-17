@@ -21,6 +21,13 @@ export interface Pin {
   bild?: string;
 }
 
+/** Routenpunkt mit dem Eintrag, zu dessen Route er gehört */
+export interface Station extends Punkt {
+  url: string;
+  eintrag: string;
+  bild?: string;
+}
+
 export interface Knoten {
   eintrag: Eintrag;
   /** Pfad ohne "index", z. B. "2018-weltreise/usa" */
@@ -223,7 +230,8 @@ function position(k: Knoten): Punkt | undefined {
 async function bildUrl(k: Knoten): Promise<string | undefined> {
   const bild = k.eintrag.data.titelbild;
   if (!bild) return undefined;
-  const optimiert = await getImage({ src: bild, width: 320, format: 'webp' });
+  // Quadratisch zugeschnitten für die Infokarten der Karte
+  const optimiert = await getImage({ src: bild, width: 320, height: 320, fit: 'cover', format: 'webp' });
   return optimiert.src;
 }
 
@@ -250,8 +258,15 @@ export async function pinsFuer(knoten: Knoten[]): Promise<Pin[]> {
   return pins;
 }
 
-export function routenFuer(k: Knoten): Punkt[][] {
-  const eigene = k.eintrag.data.route;
-  if (eigene.length > 1) return [eigene];
-  return k.kinder.map((c) => c.eintrag.data.route).filter((r) => r.length > 1);
+async function stationen(k: Knoten): Promise<Station[]> {
+  const url = knotenUrl(k);
+  const eintrag = k.eintrag.data.titel;
+  const bild = await bildUrl(k);
+  return k.eintrag.data.route.map((p) => ({ ...p, url, eintrag, bild }));
+}
+
+export async function routenFuer(k: Knoten): Promise<Station[][]> {
+  if (k.eintrag.data.route.length > 1) return [await stationen(k)];
+  const kinder = k.kinder.filter((c) => c.eintrag.data.route.length > 1);
+  return Promise.all(kinder.map(stationen));
 }

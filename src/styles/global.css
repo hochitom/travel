@@ -570,40 +570,101 @@ h3 {
 /* ---------- Reisebericht ---------- */
 
 .artikel-kopf {
-  padding-block: clamp(1.5rem, 4vw, 3rem) 1rem;
+  padding-block: clamp(1.5rem, 4vw, 3rem) 1.75rem;
 }
 
+/* Abschluss wie im Kassenbuch: kräftige Linie, darunter eine feine */
 .artikel-kopf__innen {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 1rem 2rem;
-  padding-bottom: 1.5rem;
+  position: relative;
+  padding-bottom: 1.75rem;
   border-bottom: 2px solid var(--tinte);
 }
 
-.artikel-kopf__text {
-  flex: 1 1 24rem;
-  min-width: 0;
+.artikel-kopf__innen::after {
+  content: '';
+  position: absolute;
+  inset: auto 0 -6px;
+  height: 1px;
+  background: var(--tinte);
+}
+
+.artikel-kopf h1 {
+  font-size: clamp(2.75rem, 7.5vw, 5rem);
+  line-height: 1;
+  margin: 0;
+}
+
+.artikel-kopf__lead {
+  max-width: 38rem;
+  margin: 1rem 0 0;
+  font-size: clamp(1.125rem, 2vw, 1.25rem);
+  line-height: 1.55;
+  color: var(--tinte-leise);
+  text-wrap: pretty;
 }
 
 .krumen {
+  margin-bottom: 1.75rem;
   color: var(--tinte-leise);
-  margin-bottom: 1.25rem;
+  font-size: 0.95rem;
 }
 
 .krumen a {
   color: inherit;
+  text-decoration-color: var(--linie);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.25em;
 }
 
-/* Eintragskopf wie auf der Seite eines Logbuchs: Ort, Zeitraum, Stelle im Buch */
+.krumen a:hover {
+  color: var(--akzent);
+  text-decoration-color: currentColor;
+}
+
+/* Eintragskopf wie auf der Seite eines Logbuchs: liniierte Felder für Ort, Zeitraum, Stelle im Buch */
 .eintragskopf {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.25rem 2rem;
-  margin-bottom: 0.75rem;
+  margin: 0 0 1.5rem;
+  border-block: 1px solid var(--linie);
+}
+
+.eintragskopf > div {
+  padding: 0.5rem 1.5rem 0.55rem;
+  border-left: 1px solid var(--linie);
+}
+
+.eintragskopf > div:first-child {
+  padding-left: 0;
+  border-left: 0;
+}
+
+.eintragskopf dt {
+  font-size: 0.8rem;
+  font-style: italic;
+  line-height: 1.3;
   color: var(--tinte-leise);
+}
+
+.eintragskopf dd {
+  margin: 0;
+  line-height: 1.35;
+}
+
+/* Am Handy untereinander, getrennt durch Bleistiftlinien */
+@media (max-width: 36rem) {
+  .eintragskopf {
+    flex-direction: column;
+  }
+
+  .eintragskopf > div {
+    padding-inline: 0;
+    border-left: 0;
+  }
+
+  .eintragskopf > div + div {
+    border-top: 1px solid var(--linie);
+  }
 }
 
 .titelbild {

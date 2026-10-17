@@ -92,14 +92,6 @@ const stelle =
       )
     }
 
-    {
-      (pins.length > 0 || routen.length > 0) && (
-        <div class="huelle" style="margin-bottom:2rem">
-          <Karte pins={pins} routen={routen} hoehe="24rem" beschriftung={`Karte: ${d.titel}`} />
-        </div>
-      )
-    }
-
     <div class="text prosa">
       <MitBildern quelle={knoten.pfad}><Content /></MitBildern>
     </div>
@@ -134,6 +126,14 @@ const stelle =
             ))}
           </ol>
         </section>
+      )
+    }
+
+    {
+      (pins.length > 0 || routen.length > 0) && (
+        <div class="huelle" style="margin-block:3rem 2rem">
+          <Karte pins={pins} routen={routen} hoehe="24rem" beschriftung={`Karte: ${d.titel}`} />
+        </div>
       )
     }
 

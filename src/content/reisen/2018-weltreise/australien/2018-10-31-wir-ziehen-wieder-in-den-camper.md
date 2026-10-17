@@ -4,9 +4,9 @@ zusammenfassung: 'Falscher Zug, verpasster Bus, bezahlter Kaffee – und am Ende
 datum: 2018-10-31
 position: { name: 'Sydney', lat: -33.8688, lng: 151.2093 }
 tags: ['camper', 'ostkueste']
+titelbild: ./bilder/a1118015-b6c0-4083-b732-3bc31b99573f.jpg
+titelbildAlt: "A1118015 B6c0"
 ---
-
-<!-- titelbild: 2018/10/a1118015-b6c0-4083-b732-3bc31b99573f.jpeg -->
 
 Dreißig Tage sind genug! So lange ist es her, dass wir unseren Camper in Christchurch zurückgegeben haben. Als wir in den letzten Tagen mit dem Auto von Melbourne nach Sydney gefahren sind, haben wir uns schon wieder einen Camper herbeigesehnt.
 

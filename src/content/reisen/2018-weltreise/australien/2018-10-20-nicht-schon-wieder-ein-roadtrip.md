@@ -11,9 +11,9 @@ route:
   - { name: 'Canberra', lat: -35.2809, lng: 149.13 }
   - { name: 'Sydney', lat: -33.8688, lng: 151.2093 }
 tags: ['melbourne', 'planung']
+titelbild: ./bilder/1011-brighton-beach-boxes_006.jpg
+titelbildAlt: "Brighton Beach Boxes"
 ---
-
-<!-- titelbild: 2018/10/1011-brighton-beach-boxes_006.jpg -->
 
 Unser Plan für Australien sah eigentlich vor, nach ein paar Tagen in Melbourne mit dem Auto nach Sydney zu fahren. Erstens kommt es aber anders und zweitens, als man denkt! Wir sind mit dem Dreidollar-Mietauto nach Adelaide gefahren und haben dort versucht, einen Sonnenuntergang zu erwischen.
 
@@ -21,11 +21,13 @@ Nach einem Tag in Adelaide besorgen wir uns ein neues Mietauto und fahren zurüc
 
 Zurück in Melbourne nutzen wir den Nachmittag, um den Stadtteil St. Kilda zu erkunden. Beim ersten Aufenthalt sind wir nicht so weit in den Süden gekommen. Zu Fuß geht's zuerst zu „Sisters of Soul", wo wir unsere leeren Mägen füllen. Wir hätten nicht gedacht, dass ein veganer Burger so gut schmecken kann! Danach spazieren wir noch am Strand entlang, bevor wir uns auf den Weg zur Unterkunft machen.
 
-<!-- bild: 2018/10/1009-portland-to-apollo-bay_001-1.jpg -->
-<!-- bild: 2018/10/1009-portland-to-apollo-bay_001.jpg -->
-<!-- bild: 2018/10/1009-portland-to-apollo-bay_002.jpg -->
-<!-- bild: 2018/10/1010-st--kilda_003.jpg -->
-<!-- bild: 2018/10/1010-st--kilda_004.jpg -->
+:::galerie
+![Portland To Apollo Bay](./bilder/1009-portland-to-apollo-bay_001-1.jpg)
+![Portland To Apollo Bay](./bilder/1009-portland-to-apollo-bay_001.jpg)
+![Portland To Apollo Bay](./bilder/1009-portland-to-apollo-bay_002.jpg)
+![St Kilda](./bilder/1010-st--kilda_003.jpg)
+![St Kilda](./bilder/1010-st--kilda_004.jpg)
+:::
 
 ## Ein Roadtrip von Melbourne nach Sydney
 
@@ -39,6 +41,8 @@ Am ersten Tag fahren wir von unserer Unterkunft in Melbourne nach Brighton, eine
 
 Den restlichen Tag verbringen wir im Auto, denn bis zur nächsten Unterkunft müssen wir wieder fast 150 Kilometer zurücklegen. Dort erwartet uns eine wunderbare kleine Farm, ideal, um den Roadtrip zu planen. Dafür hatten wir bisher nämlich noch gar keine Zeit.
 
-<!-- bild: 2018/10/1011-brighton-beach-boxes_005.jpg -->
-<!-- bild: 2018/10/1011-brighton-beach-boxes_007.jpg -->
-<!-- bild: 2018/10/1011-brighton-beach-boxes_008.jpg -->
+:::raster
+![Brighton Beach Boxes](./bilder/1011-brighton-beach-boxes_005.jpg)
+![Brighton Beach Boxes](./bilder/1011-brighton-beach-boxes_007.jpg)
+![Brighton Beach Boxes](./bilder/1011-brighton-beach-boxes_008.jpg)
+:::

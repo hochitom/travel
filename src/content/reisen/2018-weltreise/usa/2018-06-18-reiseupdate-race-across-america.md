@@ -7,9 +7,9 @@ route:
   - { name: 'Oceanside', lat: 33.1959, lng: -117.3795 }
   - { name: 'Flagstaff', lat: 35.1983, lng: -111.6513 }
 tags: ['race-across-america', 'update']
+titelbild: ./bilder/04-raam_img_1924_001.jpg
+titelbildAlt: "Raam"
 ---
-
-<!-- titelbild: 2018/06/04-raam_img_1924_001.jpg -->
 
 Eigentlich wollten wir euch heute von unserem Abenteuer beim Race Across America erzählen. Leider sind unsere Pläne vor drei Tagen über den Haufen geworfen worden. Aber fangen wir von vorne an.
 

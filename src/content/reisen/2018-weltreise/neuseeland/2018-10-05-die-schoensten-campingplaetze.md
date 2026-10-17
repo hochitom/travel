@@ -9,9 +9,9 @@ route:
   - { name: 'Lake Pukaki Reserve', lat: -44.1833, lng: 170.15 }
   - { name: 'Drift Bay, Lake Wakatipu', lat: -45.09, lng: 168.58 }
 tags: ['camper', 'tipps']
+titelbild: ./bilder/0815-cape-reinga_001.jpg
+titelbildAlt: "Cape Reinga"
 ---
-
-<!-- titelbild: 2018/09/0815-cape-reinga_001.jpg -->
 
 Wir sind so froh, dass wir uns entschieden haben, Neuseeland mit dem Camper zu erkunden. Das Land ist dafür wirklich ein Paradies, und man merkt, wie beliebt Campen auch bei den Einheimischen ist. Der große Vorteil: Wir waren unglaublich flexibel und konnten jederzeit überall stehen bleiben.
 
@@ -25,7 +25,7 @@ Der Platz am Tokerau Beach war etwas mühsam zu erreichen, und wir dachten zuers
 
 Es regnet an dem Tag immer wieder, aber das stört uns nicht wirklich. Es gibt Schlimmeres, als bei Regen im warmen Camper einzuschlafen und am nächsten Tag vom Meeresrauschen geweckt zu werden. Die perfekte erste Campererfahrung.
 
-<!-- bild: 2018/09/0815-cape-reinga_001-2.jpg -->
+![Cape Reinga](./bilder/0815-cape-reinga_001-2.jpg)
 
 ### Kowharewa Bay – Nordinsel
 
@@ -33,7 +33,7 @@ Den zweiten Platz auf der Nordinsel, den wir unbedingt erwähnen wollen, ist die
 
 Wir sind dort lange allein und glauben schon, dass das so bleibt. Dann kommt der Verrückte, der uns mitten in der Nacht aufweckt. Trotzdem ist es landschaftlich wundervoll, und weil der Platz nicht an einer Hauptroute der Touristen liegt, auch sehr ruhig. Der Sonnenuntergang war einfach wunderschön.
 
-<!-- bild: 2018/09/0816-tutukaka-beach_001.jpg -->
+![Tutukaka Beach](./bilder/0816-tutukaka-beach_001.jpg)
 
 ### Five Mile Bay – Lake Taupo – Nordinsel
 
@@ -41,7 +41,7 @@ Wir waren froh, als wir das Gebiet um Rotorua verlassen hatten. Dort war es sehr
 
 Der Platz war trotz Winter-Frühlingssaison richtig gut besucht, und immer wieder kamen neue Camper dazu. Dieser Gratisplatz liegt direkt am See, und es gibt einen wirklich schönen Weg am Ufer, auf dem wir abends noch spazierten.
 
-<!-- bild: 2018/09/0823-wai-o-tapu-huka-falls_001.jpg -->
+![Wai O Tapu Huka Falls](./bilder/0823-wai-o-tapu-huka-falls_001.jpg)
 
 ### Lake Pukaki Reserve – Südinsel
 
@@ -51,10 +51,10 @@ Der Blick auf den Lake Pukaki war toll, auch wenn es draußen regnete und stürm
 
 ### Drift Bay – Lake Wakatipu – Südinsel
 
-<!-- bild: 2018/09/0915-twizel_001-1.jpg -->
+![Twizel](./bilder/0915-twizel_001-1.jpg)
 
 Auf diesem Platz haben wir sicher am meisten Fotos gemacht, wir konnten gar nicht mehr aufhören zu fotografieren. Der See liegt zwischen den Bergen, Sonnenuntergang und Sonnenaufgang waren ein Traum. Das Licht war perfekt, und abends machten wir noch einen kleinen Spaziergang am Seeufer.
 
 Hier wären wir wirklich gern noch einen Tag geblieben. Aber am nächsten Tag stand die Fahrt zum Milford Sound an, und weil wir dort nicht am Wochenende hinwollten, hieß es weiterfahren. Wir überlegten sogar, nach dem Milford Sound noch einmal eine Nacht dort zu verbringen, aber das wäre ein viel zu großer Umweg gewesen. So blieb es bei einer Nacht an diesem wundervollen Ort.
 
-<!-- bild: 2018/09/0905-queenstown_001-1.jpg -->
+![Queenstown](./bilder/0905-queenstown_001-1.jpg)

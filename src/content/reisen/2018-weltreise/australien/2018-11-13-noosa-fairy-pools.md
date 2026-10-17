@@ -8,9 +8,9 @@ route:
   - { name: 'Eumundi', lat: -26.4733, lng: 152.9533 }
   - { name: 'Noosa', lat: -26.3972, lng: 153.0906 }
 tags: ['camper', 'ostkueste', 'strand']
+titelbild: ./bilder/1105-noosa_004-e1542103683730.jpg
+titelbildAlt: "Noosa"
 ---
-
-<!-- titelbild: 2018/11/1105-noosa_004-e1542103683730.jpg -->
 
 Weiter geht's Richtung Cairns, und Brisbane, wo wir die letzten beiden Nächte waren, lassen wir hinter uns. Der Plan für die nächsten Tage: Noosa anschauen, vor allem wegen der Fairy Pools, von denen wir schon einiges gehört haben.
 
@@ -20,7 +20,7 @@ Am nächsten Tag machen wir einen kurzen Zwischenstopp beim Eumundi Market, der 
 
 Eigentlich wollten wir zu den Fairy Pools spazieren. Aber weder beim Noosa National Park noch irgendwo in der Nähe finden wir einen Parkplatz für unseren Camper. Als wir ihn endlich irgendwo abgestellt haben, reicht es nur für einen kurzen Spaziergang durch den Ort. Der Weg zu den Fairy Pools wäre von dort mehr als eine Stunde gewesen, und das tun wir uns an dem Tag eindeutig nicht mehr an. Auslassen wollen wir sie aber auch nicht, also schlafen wir noch eine Nacht auf dem Gratis-Platz.
 
-<!-- bild: 2018/11/1104-sunshine-coast-cotton-tree_001-e1542103233775-300x214.jpg | Sonnenuntergang in Mooloolaba -->
+![Sunshine Coast Cotton Tree](./bilder/1104-sunshine-coast-cotton-tree_001-e1542103233775.jpg "Sonnenuntergang in Mooloolaba")
 
 Am Sonntag fahren wir wieder Richtung Mooloolaba, denn dort haben wir einen netten Campingplatz gefunden, auf dem wir den Tag ganz entspannt verbringen. Er liegt direkt an der Mündung des Maroochy River ins Meer, also gibt's einen Strand am Fluss und einen am Meer. Ins Meer waren wir übrigens noch nie, und auch hier können wir uns nicht überwinden: Die Wassertemperatur ist derzeit alles andere als einladend.
 
@@ -32,7 +32,9 @@ Die Fairy Pools sind mehrere natürliche Becken im Fels, die bei Flut und durch 
 
 Am Rückweg schlendern wir wieder durch Noosa und füllen unsere Energiereserven mit einem köstlichen Smoothie auf. Dann setzen wir uns für ein paar Stunden ins Auto und fahren zu unserem nächsten Schlafplatz.
 
-<!-- bild: 2018/11/1105-noosa_002.jpg -->
-<!-- bild: 2018/11/1105-noosa_005.jpg -->
-<!-- bild: 2018/11/1105-noosa_006.jpg -->
-<!-- bild: 2018/11/1105-noosa_003.jpg -->
+:::galerie
+![Noosa](./bilder/1105-noosa_002.jpg)
+![Noosa](./bilder/1105-noosa_005.jpg)
+![Noosa](./bilder/1105-noosa_006.jpg)
+![Noosa](./bilder/1105-noosa_003.jpg)
+:::

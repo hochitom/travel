@@ -9,9 +9,9 @@ route:
   - { name: 'Pittsburgh', lat: 40.4406, lng: -79.9959 }
   - { name: 'Philadelphia', lat: 39.9526, lng: -75.1652 }
 tags: ['roadtrip', 'musik']
+titelbild: ./bilder/0709-cleveland_img_3840.jpg
+titelbildAlt: "Cleveland"
 ---
-
-<!-- titelbild: 2018/07/0709-cleveland_img_3840.jpg -->
 
 Als wir uns endlich von Kater Pete losreißen können, steht eine lange Autofahrt an. Wieder einmal. Laut unserem Plan vom Wochenende müssen wir nach Philadelphia.
 
@@ -25,14 +25,18 @@ Etwas außerhalb von Cleveland liegt dann das Hard Rock Cafe. Eigentlich ist es 
 
 ## Pittsburgh
 
-<!-- bild: 2018/07/0709-cleveland_img_3833.jpg -->
-<!-- bild: 2018/07/0709-cleveland_img_3834.jpg -->
-<!-- bild: 2018/07/0709-cleveland_img_3837.jpg -->
-<!-- bild: 2018/07/0709-cleveland_img_3838.jpg -->
+:::galerie
+![Cleveland](./bilder/0709-cleveland_img_3833.jpg)
+![Cleveland](./bilder/0709-cleveland_img_3834.jpg)
+![Cleveland](./bilder/0709-cleveland_img_3837.jpg)
+![Cleveland](./bilder/0709-cleveland_img_3838.jpg)
+:::
 
 Die Nacht verbringen wir in einem Ort, der ziemlich genau in der Mitte zwischen Cleveland und Pittsburgh liegt, am nächsten Tag geht's weiter nach Pittsburgh. Dort schauen wir uns den Station Square an und spazieren am Monongahela River entlang. Eigentlich wären wir gern noch mit der Duquesne Incline gefahren, einer Standseilbahn auf den Mount Washington. Aber wir haben noch eine fünfstündige Autofahrt vor uns, und aus Zeitmangel muss das ausfallen.
 
-<!-- bild: 2018/07/0710-pittsburgh-philadelphia_img_3849.jpg -->
-<!-- bild: 2018/07/0710-pittsburgh-philadelphia_img_3845.jpg -->
-<!-- bild: 2018/07/0710-pittsburgh-philadelphia_img_3847.jpg -->
-<!-- bild: 2018/07/0710-pittsburgh-philadelphia_img_3850.jpg -->
+:::galerie
+![Pittsburgh Philadelphia](./bilder/0710-pittsburgh-philadelphia_img_3849.jpg)
+![Pittsburgh Philadelphia](./bilder/0710-pittsburgh-philadelphia_img_3845.jpg)
+![Pittsburgh Philadelphia](./bilder/0710-pittsburgh-philadelphia_img_3847.jpg)
+![Pittsburgh Philadelphia](./bilder/0710-pittsburgh-philadelphia_img_3850.jpg)
+:::

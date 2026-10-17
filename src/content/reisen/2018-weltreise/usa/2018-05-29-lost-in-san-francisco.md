@@ -7,9 +7,9 @@ route:
   - { name: 'Flughafen San Francisco', lat: 37.6213, lng: -122.379 }
   - { name: 'Downtown San Francisco', lat: 37.7879, lng: -122.4075 }
 tags: ['ankunft', 'stadt']
+titelbild: ./bilder/goldengatebridge.jpg
+titelbildAlt: "Goldengatebridge"
 ---
-
-<!-- titelbild: 2018/05/goldengatebridge.jpg -->
 
 Ein Buch, zwei Filme, zwei Mahlzeiten, unzählige kleine Nickerchen und fast zwölf Stunden Flug später sind wir endlich da. Angekommen am ersten Ziel unserer Reise: San Francisco.
 
@@ -31,4 +31,4 @@ Nach dem Missgeschick gönnen wir uns ein Taxi und lassen uns zum richtigen Hote
 
 Heute geht's mit der richtigen Erkundung los, und wir freuen uns schon auf die Stadt!
 
-<!-- bild: 2018/05/IMG_0657-768x1152.jpg -->
+![Lost in San Francisco](./bilder/img_0657.jpg)

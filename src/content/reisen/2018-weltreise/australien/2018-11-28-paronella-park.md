@@ -4,9 +4,9 @@ zusammenfassung: 'Kleine Schlösser im Regenwald, ein Wasserkraftwerk aus alten 
 datum: 2018-11-28
 position: { name: 'Paronella Park', lat: -17.5933, lng: 145.9231 }
 tags: ['park', 'ostkueste']
+titelbild: ./bilder/1115-babinda-boulders-paronella-park_009.jpg
+titelbildAlt: "Babinda Boulders Paronella Park"
 ---
-
-<!-- titelbild: 2018/11/1115-babinda-boulders-paronella-park_009.jpg -->
 
 Auf unserer Reise in den Norden kommen wir auch beim Paronella Park vorbei. Von dem Park haben wir eher zufällig erfahren und fahren spontan hin. So spontan, dass wir weder wissen, ob man Eintritt zahlt, noch wie viel.
 
@@ -16,11 +16,13 @@ Während wir noch diskutieren, kommt eine Mitarbeiterin zu uns. Wir sind gespann
 
 Wir stellen den Camper am Campingplatz ab und erkunden den Park bei einer Führung. Das Besondere sind die vielen kleinen Schlösser. Ein Spanier hat sich mit dem Park einen Traum erfüllt: Inspiriert von den Schlössern in Katalonien wollte er hier einen kleinen Vergnügungspark bauen. In den Schlössern gab es einen Tanzsaal, ein Kino und ein Café. Er hat unheimlich viel Geld in sein Projekt gesteckt.
 
-<!-- bild: 2018/11/1115-babinda-boulders-paronella-park_003.jpg -->
-<!-- bild: 2018/11/1115-babinda-boulders-paronella-park_002.jpg -->
-<!-- bild: 2018/11/1115-babinda-boulders-paronella-park_004.jpg -->
-<!-- bild: 2018/11/1115-babinda-boulders-paronella-park_001.jpg -->
-<!-- bild: 2018/11/1115-babinda-boulders-paronella-park_005.jpg -->
+:::galerie
+![Babinda Boulders Paronella Park](./bilder/1115-babinda-boulders-paronella-park_003.jpg)
+![Babinda Boulders Paronella Park](./bilder/1115-babinda-boulders-paronella-park_002.jpg)
+![Babinda Boulders Paronella Park](./bilder/1115-babinda-boulders-paronella-park_004.jpg)
+![Babinda Boulders Paronella Park](./bilder/1115-babinda-boulders-paronella-park_001.jpg)
+![Babinda Boulders Paronella Park](./bilder/1115-babinda-boulders-paronella-park_005.jpg)
+:::
 
 Ebenfalls bemerkenswert ist das Wasserkraftwerk. Er war der Erste in der Gegend, der eines gebaut hat. Heute wird der gesamte Strom des Parks noch immer dort erzeugt, das Kraftwerk wurde erst vor wenigen Jahren komplett restauriert. Sobald es Strom lieferte, begann der Erbauer, den Wasserfall zu beleuchten. Einfach nur, um zu zeigen, dass er es kann.
 
@@ -30,6 +32,8 @@ Die Tour am Tag gefällt uns sehr gut. Wir sind die Einzigen in der Gruppe, und 
 
 Für die Gäste des Campingplatzes gibt's abends noch eine Nachttour. Mit Taschenlampen bewaffnet gehen wir gleich nach Sonnenuntergang noch einmal durch den Park, am beleuchteten Wasserfall vorbei und durch den stimmungsvoll beleuchteten Wald. Den Abschluss bildet eine Licht- und Musikshow, bei der das Schloss toll in Szene gesetzt wird.
 
-<!-- bild: 2018/11/1115-babinda-boulders-paronella-park_006.jpg -->
-<!-- bild: 2018/11/1115-babinda-boulders-paronella-park_007.jpg -->
-<!-- bild: 2018/11/1115-babinda-boulders-paronella-park_008.jpg -->
+:::raster
+![Babinda Boulders Paronella Park](./bilder/1115-babinda-boulders-paronella-park_006.jpg)
+![Babinda Boulders Paronella Park](./bilder/1115-babinda-boulders-paronella-park_007.jpg)
+![Babinda Boulders Paronella Park](./bilder/1115-babinda-boulders-paronella-park_008.jpg)
+:::

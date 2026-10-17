@@ -11,26 +11,30 @@ route:
   - { name: 'Haast Pass', lat: -44.0953, lng: 169.3548 }
   - { name: 'Lake Dunstan', lat: -45.0357, lng: 169.1996 }
 tags: ['roadtrip', 'suedinsel', 'gletscher']
+titelbild: ./bilder/0903-franz-josef-glacier_010-2.jpg
+titelbildAlt: "Franz Josef Glacier"
 ---
-
-<!-- titelbild: 2018/09/0903-franz-josef-glacier_010-2.jpg -->
 
 Der erste Punkt unseres Südinsel-Programms, der Abel-Tasman-Nationalpark, ist erledigt. Punkt zwei ist die Westküste. Wir haben schon viel davon gehört und sagen gleich vorweg: Wir werden nicht enttäuscht.
 
 Der Plan ist, die Westküste von Norden nach Süden abzufahren. Gestartet wird in Westport, und als Erstes marschieren wir zum Leuchtturm am Cape Foulwind. Wir parken den Camper etwas südlich in der Tauranga Bay und spazieren die rund eineinhalb Kilometer zum Cape Foulwind. Neben schönen Ausblicken aufs Meer und die steilen Küsten kommen wir auch an einer Seelöwenkolonie vorbei. Auch wenn wir auf der Reise schon öfter Seelöwen gesehen haben, ist es jedes Mal aufs Neue schön, die Tiere zu beobachten.
 
-<!-- bild: 2018/09/0831-cape-foulwind_001.jpg -->
-<!-- bild: 2018/09/0831-cape-foulwind_004.jpg -->
-<!-- bild: 2018/09/0831-cape-foulwind_003.jpg -->
+:::raster
+![Cape Foulwind](./bilder/0831-cape-foulwind_001.jpg)
+![Cape Foulwind](./bilder/0831-cape-foulwind_004.jpg)
+![Cape Foulwind](./bilder/0831-cape-foulwind_003.jpg)
+:::
 
 Am Samstag geht's zu den Pancake Rocks. Vorher halten wir kurz, um den Truman Track zu gehen. Dieser etwa zehnminütige Weg führt durch einen für Neuseeland typischen Wald zur Küste, die hier aus Sandstein besteht. Die Wellen haben dem Sandstein eine ganz besondere, weiche Form gegeben.
 
 Danach geht's zu den Pancake Rocks. Ihren Namen haben die Felsen, weil sie aussehen wie Pancakes, die auf dem Teller aufeinandergestapelt liegen. Neben der Form sind es vor allem die vielen Löcher in den Felsen, die einen staunen lassen. Aus den Löchern schießt Wasser, wenn unten die Wellen dagegenschlagen, und über die Jahre sind richtige Becken entstanden. Einfach atemberaubend!
 
-<!-- bild: 2018/09/0901-pancake-rocks_005.jpg -->
-<!-- bild: 2018/09/0901-pancake-rocks_006.jpg -->
-<!-- bild: 2018/09/0901-pancake-rocks_007.jpg -->
-<!-- bild: 2018/09/0901-pancake-rocks_008.jpg -->
+:::galerie
+![Pancake Rocks](./bilder/0901-pancake-rocks_005.jpg)
+![Pancake Rocks](./bilder/0901-pancake-rocks_006.jpg)
+![Pancake Rocks](./bilder/0901-pancake-rocks_007.jpg)
+![Pancake Rocks](./bilder/0901-pancake-rocks_008.jpg)
+:::
 
 Der nächste Tag steht ganz im Zeichen des Autos, was aber nicht weniger aufregend ist. Schon bei unseren Recherchen wurde die Westküste unter anderem so beschrieben:
 
@@ -41,10 +45,12 @@ Auf gut Österreichisch: Nehmt ein paar Speibsackerl aus dem Flugzeug mit, wenn 
 
 Das Speibsackerl brauchen wir zum Glück nicht, aber die Straßen sind wirklich einzigartig, und der Vergleich mit der Achterbahn hinkt nicht. Es geht bergauf und bergab, links und rechts, die Kurven reichen von ganz leicht bis 180 Grad. Dann geht's lange geradeaus, und kurz nachdem der Camper wieder Fahrt aufgenommen hat, kommt die nächste Kurve. Oder halt ein Berg. Als Fahrer ist das ganz lustig, als Beifahrerin wohl eher nicht.
 
-<!-- bild: 2018/09/0901-pancake-rocks_009.jpg -->
-<!-- bild: 2018/09/0904-haast-pass_023.jpg -->
-<!-- bild: 2018/09/0904-haast-pass_025.jpg -->
-<!-- bild: 2018/09/0904-haast-pass_026.jpg -->
+:::galerie
+![Pancake Rocks](./bilder/0901-pancake-rocks_009.jpg)
+![Haast Pass](./bilder/0904-haast-pass_023.jpg)
+![Haast Pass](./bilder/0904-haast-pass_025.jpg)
+![Haast Pass](./bilder/0904-haast-pass_026.jpg)
+:::
 
 Tagesziel ist der Ort Franz Josef Glacier. Am nächsten Tag steht nämlich eine Wanderung zum Fuß des Gletschers an, der nach dem österreichischen Kaiser Franz Josef benannt wurde. Als Österreicher ist das quasi Pflichtprogramm.
 
@@ -52,16 +58,18 @@ Wieder beim Camper, schauen wir uns noch die anderen Wege und Sehenswürdigkeite
 
 Zum Fox-Gletscher gehen wir am nächsten Tag. Der Weg zum Aussichtspunkt ist kürzer, aber wegen der Steilheit auch anstrengender. Nach einer Stunde sind wir trotz Fotopausen wieder am Parkplatz. Bei beiden Gletschern fällt uns auf, wie stark sie zurückgegangen sind. Das wird einem direkt vor Augen geführt, und trotzdem werden Touristen mit Hubschraubern auf die Gletscher geflogen. Wir wollen gar nicht wissen, in welchen Abständen die Hubschrauber hier im Sommer starten und landen!
 
-<!-- bild: 2018/09/0903-franz-josef-glacier_012-2-1.jpg -->
-<!-- bild: 2018/09/0903-franz-josef-glacier_011-2.jpg -->
-<!-- bild: 2018/09/0903-franz-josef-glacier_013-2.jpg -->
-<!-- bild: 2018/09/0903-franz-josef-glacier_016-2.jpg -->
-<!-- bild: 2018/09/0903-franz-josef-glacier_014-2.jpg -->
-<!-- bild: 2018/09/0903-franz-josef-glacier_015-2.jpg -->
-<!-- bild: 2018/09/0904-haast-pass_017-1.jpg -->
-<!-- bild: 2018/09/0904-haast-pass_018-1.jpg -->
-<!-- bild: 2018/09/0904-haast-pass_019-1.jpg -->
-<!-- bild: 2018/09/0904-haast-pass_020-1.jpg -->
+:::galerie
+![Franz Josef Glacier](./bilder/0903-franz-josef-glacier_012-2-1.jpg)
+![Franz Josef Glacier](./bilder/0903-franz-josef-glacier_011-2.jpg)
+![Franz Josef Glacier](./bilder/0903-franz-josef-glacier_013-2.jpg)
+![Franz Josef Glacier](./bilder/0903-franz-josef-glacier_016-2.jpg)
+![Franz Josef Glacier](./bilder/0903-franz-josef-glacier_014-2.jpg)
+![Franz Josef Glacier](./bilder/0903-franz-josef-glacier_015-2.jpg)
+![Haast Pass](./bilder/0904-haast-pass_017-1.jpg)
+![Haast Pass](./bilder/0904-haast-pass_018-1.jpg)
+![Haast Pass](./bilder/0904-haast-pass_019-1.jpg)
+![Haast Pass](./bilder/0904-haast-pass_020-1.jpg)
+:::
 
 Die beiden Gletscher haben wir gesehen, also ist es Zeit, die Westküste zu verlassen. Weil wir nicht schon wieder für einen Campingplatz zahlen wollen, liegt ein langer Tag im Auto vor uns. Aber wie schon am Sonntag ist er atemberaubend!
 
@@ -69,8 +77,10 @@ Um die Westküste im Süden zu verlassen, muss man über den Haast Pass. Und die
 
 Nach dem Haast Pass ist die Landschaft nicht weniger spektakulär. Wir brauchen noch etwas mehr als eine Stunde bis zu unserem Schlafplatz am Lake Dunstan, der Highway 6 führt zuerst am Lake Wanaka und später am Lake Hawea entlang. Wir kommen aus dem Fotografieren gar nicht mehr heraus.
 
-<!-- bild: 2018/09/0904-haast-pass_022-1.jpg -->
-<!-- bild: 2018/09/0904-haast-pass_024-1.jpg -->
-<!-- bild: 2018/09/0904-haast-pass_028-1.jpg -->
-<!-- bild: 2018/09/0904-haast-pass_027-1.jpg -->
-<!-- bild: 2018/09/0904-haast-pass_029-2.jpg -->
+:::galerie
+![Haast Pass](./bilder/0904-haast-pass_022-1.jpg)
+![Haast Pass](./bilder/0904-haast-pass_024-1.jpg)
+![Haast Pass](./bilder/0904-haast-pass_028-1.jpg)
+![Haast Pass](./bilder/0904-haast-pass_027-1.jpg)
+![Haast Pass](./bilder/0904-haast-pass_029-2.jpg)
+:::

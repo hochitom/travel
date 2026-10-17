@@ -7,9 +7,9 @@ route:
   - { name: 'Flughafen Perth', lat: -31.9403, lng: 115.9672 }
   - { name: 'Perth', lat: -31.9523, lng: 115.8613 }
 tags: ['panne', 'perth']
+titelbild: ./bilder/1127-perth-tag-3_001.jpg
+titelbildAlt: "Perth Tag"
 ---
-
-<!-- titelbild: 2018/12/1127-perth-tag-3_001.jpg -->
 
 Schon zu Beginn unserer Reise mussten wir einen ordentlichen Rückschlag hinnehmen. Ihr erinnert euch vielleicht noch, wie wir in San Francisco beim falschen Hotel gestanden sind. Nun ja, fast auf den Tag genau sechs Monate später erleben wir ein Déjà-vu.
 

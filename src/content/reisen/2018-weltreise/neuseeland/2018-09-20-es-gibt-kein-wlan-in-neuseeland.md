@@ -3,9 +3,9 @@ titel: 'Es gibt kein WLAN in Neuseeland'
 zusammenfassung: 'Okay, das war übertrieben. Aber nur fast.'
 datum: 2018-09-20
 tags: ['camper', 'alltag', 'internet']
+titelbild: ./bilder/0811-auckland-tag-3_001.jpg
+titelbildAlt: "Auckland Tag"
 ---
-
-<!-- titelbild: 2018/09/0811-auckland-tag-3_001.jpg -->
 
 Okay, da haben wir ein wenig übertrieben! Es gibt hier schon WLAN, nur mag es uns leider nicht. Wenn man mit dem Auto durch Neuseeland fährt und die Reise nebenbei auf einem Blog dokumentieren will, ist vernünftiges Internet essenziell.
 

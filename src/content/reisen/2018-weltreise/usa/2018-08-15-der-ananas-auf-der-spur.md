@@ -10,9 +10,9 @@ route:
   - { name: 'Turtle Bay', lat: 21.701, lng: -157.997 }
   - { name: 'Dole Plantation', lat: 21.5265, lng: -158.0393 }
 tags: ['hawaii', 'oahu']
+titelbild: ./bilder/0803-dole-plantation_img_6680.jpg
+titelbildAlt: "Dole Plantation"
 ---
-
-<!-- titelbild: 2018/08/0803-dole-plantation_img_6680.jpg -->
 
 Im Norden der Insel gehen wir es etwas ruhiger an. Die meiste Zeit verbringen wir an den wunderschönen Stränden rund um Haleiwa, zum Beispiel am Sunset Beach, an der Shark Cove und an der Turtle Bay, um nur einige zu nennen. Weil das Wetter aber ziemlich wechselhaft ist, brauchen wir ein Alternativprogramm und entscheiden uns für einen Ausflug zur Ananasplantage der Firma Dole.
 
@@ -20,10 +20,12 @@ Schon seit 1901 baut Dole auf Oahu Ananas an, und die Plantagen kann man besicht
 
 Wir entscheiden uns für Zug und Garten, den Irrgarten heben wir uns für den nächsten Hawaii-Besuch auf. Die Rundfahrt mit dem Zug durch die Plantagen ist die Hauptattraktion. Nach kurzer Wartezeit steigen wir in eine Bahn, und während der Fahrt wird alles erklärt, von der Geschichte bis zu Anbau und Ernte. Übrigens: Ananas wachsen gar nicht auf Bäumen, sondern auf krautigen Pflanzen knapp über dem Boden. Immer wieder kommen wir an alten Maschinen vorbei, die langsam vor sich hin rosten. Ein trauriger Anblick!
 
-<!-- bild: 2018/08/0803-dole-plantation_img_6631.jpg -->
-<!-- bild: 2018/08/0803-dole-plantation_img_6643.jpg -->
-<!-- bild: 2018/08/0803-dole-plantation_img_6656.jpg -->
-<!-- bild: 2018/08/0803-dole-plantation_img_6650.jpg -->
+:::galerie
+![Dole Plantation](./bilder/0803-dole-plantation_img_6631.jpg)
+![Dole Plantation](./bilder/0803-dole-plantation_img_6643.jpg)
+![Dole Plantation](./bilder/0803-dole-plantation_img_6656.jpg)
+![Dole Plantation](./bilder/0803-dole-plantation_img_6650.jpg)
+:::
 
 Nach rund zwanzig Minuten spuckt uns der Zug wieder aus, und wir erkunden den Plantagengarten. Wir sehen jede Menge Pflanzen, die hier auf der Insel und rund um die Plantage wachsen. Aber auch hier haben wir das Gefühl, dass der Garten seine beste Zeit schon hinter sich hat.
 
@@ -31,8 +33,10 @@ Zum Abschluss machen wir den Shop unsicher. Zuerst holen wir uns ein Ananas-Eis,
 
 Auf dem Heimweg kaufen wir noch eine frische Dole-Ananas aus Hawaii und verkochen sie daheim zu einem leckeren Abendessen. Beim Essen erzählt uns unsere Vermieterin, warum das Wetter auf Hawaii so komisch war. Schuld war Hurrikan Hector, der ein paar tausend Meilen entfernt sein Unwesen trieb.
 
-<!-- bild: 2018/08/0803-dole-plantation_img_6671.jpg -->
-<!-- bild: 2018/08/0803-dole-plantation_img_6662.jpg -->
-<!-- bild: 2018/08/0803-dole-plantation_img_6661.jpg -->
-<!-- bild: 2018/08/0803-dole-plantation_img_6659.jpg -->
-<!-- bild: 2018/08/0803-dole-plantation_img_6676.jpg -->
+:::galerie
+![Dole Plantation](./bilder/0803-dole-plantation_img_6671.jpg)
+![Dole Plantation](./bilder/0803-dole-plantation_img_6662.jpg)
+![Dole Plantation](./bilder/0803-dole-plantation_img_6661.jpg)
+![Dole Plantation](./bilder/0803-dole-plantation_img_6659.jpg)
+![Dole Plantation](./bilder/0803-dole-plantation_img_6676.jpg)
+:::

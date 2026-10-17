@@ -7,9 +7,9 @@ route:
   - { name: 'Miami', lat: 25.7617, lng: -80.1918 }
   - { name: 'Key West', lat: 24.5551, lng: -81.7800 }
 tags: ['stadt', 'strand', 'florida']
+titelbild: ./bilder/0719-miami_img_0217.jpg
+titelbildAlt: "Miami"
 ---
-
-<!-- titelbild: 2018/07/0719-miami_img_0217.jpg -->
 
 Miami ist definitiv eine Stadt, in die man sich verlieben könnte. Wir genießen die vier Tage dort richtig und nehmen uns ganz bewusst Zeit, um „richtig" Urlaub zu machen.
 
@@ -17,25 +17,31 @@ Die Unterkunft suchen wir uns wieder bewusst etwas außerhalb, um nicht mitten i
 
 Den ersten Tag beginnen wir ganz entspannt: lange schlafen, ausgiebig frühstücken, dann geht's in die Stadt. Zuerst zu den Wynwood Walls, einem Viertel mit extrem viel Streetart und Graffiti. Irgendwie haben es uns diese Kunstwerke angetan, und wir lieben es, durch die Gassen zu spazieren und sie zu bewundern.
 
-<!-- bild: 2018/07/0719-miami_img_4265.jpg -->
-<!-- bild: 2018/07/0719-miami_img_4275.jpg -->
-<!-- bild: 2018/07/0719-miami_img_4276.jpg -->
+:::raster
+![Miami](./bilder/0719-miami_img_4265.jpg)
+![Miami](./bilder/0719-miami_img_4275.jpg)
+![Miami](./bilder/0719-miami_img_4276.jpg)
+:::
 
 Bevor es an den Strand geht, machen wir noch einen Halt an der Bayfront und im Bayfront Park. Dort findet man neben dem Hard Rock Cafe auch Restaurants und einige Geschäfte. Nach diesen Pflichtpunkten geht's endlich an den weltberühmten South Beach. Wir genießen Sonne und Wasser.
 
 ## Ausflug auf die Keys
 
-<!-- bild: 2018/07/0719-miami_img_4296.jpg -->
-<!-- bild: 2018/07/0719-miami_img_0222.jpg -->
-<!-- bild: 2018/07/0719-miami_img_0211.jpg -->
+:::raster
+![Miami](./bilder/0719-miami_img_4296.jpg)
+![Miami](./bilder/0719-miami_img_0222.jpg)
+![Miami](./bilder/0719-miami_img_0211.jpg)
+:::
 
 Eigentlich haben wir uns extra den Wecker gestellt, aber als er aus ist, schlafen wir seelenruhig noch eine Stunde weiter. Mit leichter Verspätung treten wir den Tagesausflug auf die Keys an. Die Keys sind viele einzelne Inseln, die nur über Brücken mit dem Festland verbunden sind, ganz am Ende liegt Key West.
 
 Key West ist der südlichste Punkt der USA und ein beliebter Urlaubsort. Wir nutzen die Zeit, um durch die Stadt zu spazieren, durch die Geschäfte zu bummeln, und essen ein leckeres Eis mit Key Lime und Erdnussbutter.
 
-<!-- bild: 2018/07/0720-key-west_img_4343.jpg -->
-<!-- bild: 2018/07/0720-key-west_img_4364.jpg -->
-<!-- bild: 2018/07/0720-key-west_img_4376-bearbeitet.jpg -->
+:::raster
+![Key West](./bilder/0720-key-west_img_4343.jpg)
+![Key West](./bilder/0720-key-west_img_4364.jpg)
+![Key West](./bilder/0720-key-west_img_4376-bearbeitet.jpg)
+:::
 
 Den dritten Tag in Miami verbringen wir ganz entspannt. Wir bleiben bis Mittag in der Unterkunft und machen uns erst nachmittags auf zum Strand. Das Wasser hat eine so angenehme Temperatur und ist perfekt, um einfach nur drinnen zu stehen.
 

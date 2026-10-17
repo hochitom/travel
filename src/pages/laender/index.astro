@@ -1,0 +1,44 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Karte from '../../components/Karte.astro';
+import ReiseKachel from '../../components/ReiseKachel.astro';
+import { KONTINENTE, einheiten, ladeBaum, nachKontinent, routenFuer } from '../../lib/reisen';
+
+// Ein Land ist eine Etappe der Weltreise oder eine Reise in ein einzelnes Land
+const baum = await ladeBaum();
+const laender = einheiten(baum);
+const kontinente = nachKontinent(laender);
+const routen = (await Promise.all(laender.map(routenFuer))).flat();
+---
+
+<Layout titel="Länder" beschreibung="Alle Länder, in denen ich unterwegs war, mit Rückblick und Route.">
+  <div class="huelle">
+    <section class="hero">
+      <h1>Länder</h1>
+      <p>Jedes Land mit seinem Rückblick, der Route und allen Berichten. Eine Station auf der Karte führt zum Land.</p>
+    </section>
+
+    {
+      laender.length === 0 ? (
+        <p class="leer">Noch keine Länder veröffentlicht.</p>
+      ) : (
+        <>
+          <Karte routen={routen} hoehe="min(60vh, 32rem)" beschriftung="Karte mit den Routen aller Länder" />
+
+          {kontinente.map(([key, liste]) => (
+            <section class="gruppe">
+              <h2>{key in KONTINENTE ? <a href={`/kontinent/${key}/`}>{KONTINENTE[key]}</a> : 'Ohne Kontinent'}</h2>
+              <ul class="raster">
+                {liste.map((k) => (
+                  <li>
+                    <ReiseKachel knoten={k} />
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ))}
+        </>
+      )
+    }
+  </div>
+</Layout>

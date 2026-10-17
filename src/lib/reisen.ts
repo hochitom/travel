@@ -130,6 +130,9 @@ export function kontinent(k: Knoten): string | undefined {
 export function laender(k: Knoten): string[] {
   const eigene = k.eintrag.data.laender;
   if (eigene.length) return eigene;
+  // Reise mit Etappen (Weltreise): die Länder aller Etappen
+  const etappen = k.kinder.filter((c) => c.ebene === 'etappe');
+  if (etappen.length) return [...new Set(etappen.flatMap(laender))];
   return k.eltern ? laender(k.eltern) : [];
 }
 
@@ -172,6 +175,11 @@ export function einheiten(alle: Knoten[]): Knoten[] {
         (k.ebene === 'reise' && !k.kinder.some((c) => c.ebene === 'etappe')),
     )
     .sort(sortiere);
+}
+
+/** Reisen als Ganzes, die Weltreise also als eine Reise statt als einzelne Etappen */
+export function reisen(alle: Knoten[]): Knoten[] {
+  return alle.filter((k) => k.ebene === 'reise').sort(sortiere);
 }
 
 export function nachJahr(units: Knoten[]): [number, Knoten[]][] {

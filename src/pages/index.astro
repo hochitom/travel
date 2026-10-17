@@ -2,11 +2,11 @@
 import Layout from '../layouts/Layout.astro';
 import Karte from '../components/Karte.astro';
 import ReiseKachel from '../components/ReiseKachel.astro';
-import { einheiten, ladeBaum, pinsFuer, von } from '../lib/reisen';
+import { ladeBaum, pinsFuer, reisen, von } from '../lib/reisen';
 
 const baum = await ladeBaum();
 const pins = await pinsFuer(baum);
-const neueste = einheiten(baum)
+const neueste = reisen(baum)
   .sort((a, b) => (von(b)?.getTime() ?? 0) - (von(a)?.getTime() ?? 0))
   .slice(0, 6);
 ---
@@ -24,7 +24,7 @@ const neueste = einheiten(baum)
     {
       neueste.length > 0 ? (
         <section>
-          <h2>Letzte Einträge</h2>
+          <h2>Letzte Reisen</h2>
           <ul class="raster raster--betont">
             {neueste.map((k) => (
               <li>

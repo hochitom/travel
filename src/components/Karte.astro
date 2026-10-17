@@ -1,10 +1,10 @@
 ---
-import type { Pin, Punkt } from '../lib/reisen';
+import type { Pin, Station } from '../lib/reisen';
 
 interface Props {
   pins?: Pin[];
   /** Linien mit nummerierten Stationen (Detailseiten) */
-  routen?: Punkt[][];
+  routen?: Station[][];
   hoehe?: string;
   beschriftung?: string;
 }
@@ -95,7 +95,7 @@ const daten = JSON.stringify({ pins, routen });
     ort?: string;
     bild?: string;
   };
-  type R = { name: string; lat: number; lng: number; notiz?: string };
+  type R = { name: string; lat: number; lng: number; notiz?: string; url: string; eintrag: string; bild?: string };
 
   // Standardkacheln von OpenStreetMap: kein API-Key nötig, Nutzungsrichtlinie beachten
   // (https://operations.osmfoundation.org/policies/tiles/). Hell/Dunkel regelt der CSS-Filter oben.
@@ -103,28 +103,30 @@ const daten = JSON.stringify({ pins, routen });
   const QUELLE =
     '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>-Mitwirkende';
 
-  function popup(p: P): HTMLElement {
+  // Infokarte: quadratisches Titelbild (falls vorhanden), Titel, Zusatzzeile, Link zum Eintrag
+  function popup(titel: string, zusatz: string | undefined, url: string, bild?: string, eintrag?: string): HTMLElement {
     const box = document.createElement('div');
     box.className = 'popup';
-    if (p.bild) {
+    if (bild) {
       const img = document.createElement('img');
-      img.src = p.bild;
+      img.src = bild;
       img.alt = '';
+      img.width = 320;
+      img.height = 320;
       img.loading = 'lazy';
       box.append(img);
     }
-    const titel = document.createElement('strong');
-    titel.textContent = p.titel;
-    box.append(titel);
-    const meta = [p.ort, p.zeit].filter(Boolean).join(', ');
-    if (meta) {
+    const t = document.createElement('strong');
+    t.textContent = titel;
+    box.append(t);
+    if (zusatz) {
       const small = document.createElement('small');
-      small.textContent = meta;
+      small.textContent = zusatz;
       box.append(small);
     }
     const link = document.createElement('a');
-    link.href = p.url;
-    link.textContent = 'Eintrag aufschlagen';
+    link.href = url;
+    link.textContent = eintrag ? `Zum Eintrag „${eintrag}“` : 'Eintrag aufschlagen';
     box.append(link);
     return box;
   }
@@ -156,7 +158,7 @@ const daten = JSON.stringify({ pins, routen });
         popupAnchor: [0, -14],
       });
       L.marker([p.lat, p.lng], { icon, title: p.titel, keyboard: true })
-        .bindPopup(popup(p), { maxWidth: 260 })
+        .bindPopup(popup(p.titel, [p.ort, p.zeit].filter(Boolean).join(', '), p.url, p.bild), { maxWidth: 220 })
         .addTo(karte);
       punkte.push([p.lat, p.lng]);
     }
@@ -171,18 +173,9 @@ const daten = JSON.stringify({ pins, routen });
           iconSize: [24, 24],
           iconAnchor: [12, 12],
         });
-        const m = L.marker([s.lat, s.lng], { icon, title: s.name }).addTo(karte);
-        const text = document.createElement('div');
-        text.className = 'popup';
-        const t = document.createElement('strong');
-        t.textContent = s.name;
-        text.append(t);
-        if (s.notiz) {
-          const n = document.createElement('small');
-          n.textContent = s.notiz;
-          text.append(n);
-        }
-        m.bindPopup(text);
+        L.marker([s.lat, s.lng], { icon, title: s.name })
+          .bindPopup(popup(s.name, s.notiz, s.url, s.bild, s.eintrag), { maxWidth: 220 })
+          .addTo(karte);
         punkte.push([s.lat, s.lng]);
       });
     }

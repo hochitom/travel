@@ -37,7 +37,7 @@ for (let k = knoten.eltern; k; k = k.eltern) krumen.unshift(k);
 
 // Karte: eigene Position/Route plus die Pins aller Beiträge darunter
 const pins = await pinsFuer(knoten.ebene === 'beitrag' ? [knoten] : [knoten, ...nachfahren(knoten)]);
-const routen = routenFuer(knoten);
+const routen = await routenFuer(knoten);
 
 const etappen = knoten.kinder.filter((k) => k.ebene === 'etappe');
 const beitraege = knoten.kinder.filter((k) => k.ebene === 'beitrag');

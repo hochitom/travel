@@ -4,9 +4,9 @@ zusammenfassung: 'Der erste Badetag im Atlantik und die Rechnung für meinen Ver
 datum: 2018-07-26
 position: { name: 'Myrtle Beach', lat: 33.6891, lng: -78.8867 }
 tags: ['strand', 'south-carolina']
+titelbild: ./bilder/345db674-fba5-407b-bf3c-2805c6c02e06-e1531966774538.jpg
+titelbildAlt: "345db674 Fba5"
 ---
-
-<!-- titelbild: 2018/07/345db674-fba5-407b-bf3c-2805c6c02e06-e1531966774538.jpeg -->
 
 Auf den Outer Banks sind wir die ganze Zeit am Atlantik, auch in Annapolis haben wir ihn schon kennengelernt. Hineingewagt haben wir uns bisher nie. Die Ausrede waren immer die fehlenden Badetücher, besser gesagt: meine Ausrede.
 

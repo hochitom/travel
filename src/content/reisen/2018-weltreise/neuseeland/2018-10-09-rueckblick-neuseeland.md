@@ -29,9 +29,9 @@ route:
   - { name: 'Banks-Halbinsel, Akaroa', lat: -43.804, lng: 172.966 }
   - { name: 'Christchurch', lat: -43.5321, lng: 172.6362 }
 tags: ['rueckblick']
+titelbild: ./bilder/0914-mt--cook_011.jpg
+titelbildAlt: "Mt Cook"
 ---
-
-<!-- titelbild: 2018/09/0914-mt--cook_011.jpg -->
 
 Neuseeland war das erste Land, das wir bei der Planung unserer Weltreise fixiert haben. Es war für uns immer das Land, das wir unbedingt einmal bereisen wollten, und unsere Erwartungen wurden sogar noch übertroffen. Wir blicken auf eineinhalb Monate voller atemberaubender Momente und Eindrücke zurück.
 
@@ -43,11 +43,13 @@ Als wir den Camper abholten, hatten wir zuerst gemischte Gefühle. 40 Tage solle
 
 Die Natur Neuseelands ist einfach wundervoll. Zuerst ging's ganz in den Norden zum Cape Reinga und dann weiter zur Coromandel-Halbinsel. Danach verbrachten wir zwei Tage in Rotorua und bewunderten die Geysire, unser ständiger Begleiter dort war der Geruch nach Schwefel. Weiter ging's über den Lake Taupo zum Mount Taranaki. Dort hatten wir wieder Pech mit dem Wetter und konnten unsere Wanderung leider nicht machen. Den Abschluss auf der Nordinsel bildeten drei Tage in Wellington, der Hauptstadt, bevor wir mit der Fähre auf die Südinsel übersetzten.
 
-<!-- bild: 2018/08/0815-cape-reinga_img_0702.jpg -->
-<!-- bild: 2018/08/0816-tutukaka-beach_dji_0150.jpg -->
-<!-- bild: 2018/08/0822-te-puia_001.jpg -->
-<!-- bild: 2018/08/0818-coromandel-halbinsel_004.jpg -->
-<!-- bild: 2018/08/0820-hot-water-beach-cathedral-grove_016.jpg -->
+:::galerie
+![Cape Reinga](./bilder/0815-cape-reinga_img_0702.jpg)
+![Tutukaka Beach](./bilder/0816-tutukaka-beach_dji_0150.jpg)
+![Te Puia](./bilder/0822-te-puia_001.jpg)
+![Coromandel Halbinsel](./bilder/0818-coromandel-halbinsel_004.jpg)
+![Hot Water Beach Cathedral Grove](./bilder/0820-hot-water-beach-cathedral-grove_016.jpg)
+:::
 
 ### Ab auf die Südinsel
 
@@ -61,10 +63,12 @@ Der Arthur's Pass darf bei einer Neuseeland-Rundreise auch nicht fehlen. Also gi
 
 ### Tschüss Neuseeland
 
-<!-- bild: 2018/09/0909-slope-point_007.jpg -->
-<!-- bild: 2018/09/0906-milford-sound_011.jpg -->
-<!-- bild: 2018/09/0904-haast-pass_024-1.jpg -->
-<!-- bild: 2018/09/0903-franz-josef-glacier_015.jpg -->
+:::galerie
+![Slope Point](./bilder/0909-slope-point_007.jpg)
+![Milford Sound](./bilder/0906-milford-sound_011.jpg)
+![Haast Pass](./bilder/0904-haast-pass_024-1.jpg)
+![Franz Josef Glacier](./bilder/0903-franz-josef-glacier_015.jpg)
+:::
 
 Neuseeland war wirklich schön, und die Zeit verging im Flug. Wir haben so viel gesehen und waren an so wundervollen Orten. Besonders gefallen hat uns, wie wenig besiedelt manche Gebiete sind und wie abwechslungsreich die Landschaft ist. Manchmal könnte man meinen, in der Wüste Nevadas zu sein, und am nächsten Tag ist man schon in den schottischen Highlands. Es gibt Regenwald, Berge, Gletscher und Strände.
 

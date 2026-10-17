@@ -10,9 +10,9 @@ route:
   - { name: 'Honolulu', lat: 21.3069, lng: -157.8583 }
   - { name: 'Haleiwa', lat: 21.592, lng: -158.103 }
 tags: ['update', 'hawaii']
+titelbild: ./bilder/img_0305-e1532986783742.jpg
+titelbildAlt: "Reiseupdate KW 31"
 ---
-
-<!-- titelbild: 2018/07/img_0305-e1532986783742.jpg -->
 
 Das letzte Reiseupdate ist schon wieder eine Weile her, also bringen wir euch einmal wieder auf den aktuellsten Stand. Wer unseren Newsletter liest, weiß schon: Seit gestern sind wir auf Hawaii.
 
@@ -24,7 +24,9 @@ Auf Hawaii verbringen wir die ersten Tage im Süden der Insel Oahu, danach geht'
 
 Hawaii ist schon unser letzter Stopp in den USA. Nach mehr als zwei Monaten in den USA und Kanada geht's heute in einer Woche weiter nach Neuseeland.
 
-<!-- bild: 2018/07/img_0304-e1532986818304.jpg -->
-<!-- bild: 2018/07/img_0308.jpg -->
-<!-- bild: 2018/07/img_0303-e1532987638226.jpg -->
-<!-- bild: 2018/07/img_0310.jpg -->
+:::galerie
+![Reiseupdate KW 31](./bilder/img_0304-e1532986818304.jpg)
+![Reiseupdate KW 31](./bilder/img_0308.jpg)
+![Reiseupdate KW 31](./bilder/img_0303-e1532987638226.jpg)
+![Reiseupdate KW 31](./bilder/img_0310.jpg)
+:::

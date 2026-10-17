@@ -3,9 +3,9 @@ titel: 'Auszeit auf einer australischen Farm'
 zusammenfassung: 'Eigene Eier zum Frühstück, ein Farmhund namens Spring und endlich ein Plan für die Route.'
 datum: 2018-10-22
 tags: ['pause', 'farm']
+titelbild: ./bilder/1012-reefman-estate_001.jpg
+titelbildAlt: "Reefman Estate"
 ---
-
-<!-- titelbild: 2018/10/1012-reefman-estate_001.jpg -->
 
 Schon auf dem Rückweg von Adelaide nach Melbourne merken wir, wie sehr uns das Planen jeden Abend belastet. Wenn man meistens mehr als drei Stunden im Auto verbringt, ist es schwierig, abends auch noch die Energie aufzubringen, die nächsten Tage durchzuplanen. Genau deshalb beschließen wir, wieder einmal zwei Nächte an einem Ort zu bleiben und unsere weitere Route bis Sydney zu planen.
 
@@ -15,8 +15,10 @@ Der Hausherr erzählt uns, dass sich beide sehr für Nachhaltigkeit interessiere
 
 Am nächsten Tag erwartet uns ein Frühstück mit Eiern von den eigenen Hühnern, selbst gemachter Marmelade und Milch vom Bauern ganz in der Nähe. Daheim sind das normale Dinge, aber gerade jetzt, wo es zum Frühstück meistens Erdnussbutter oder Nutella gibt, merken wir, was für ein Luxus das ist.
 
-<!-- bild: 2018/10/1011-brighton-beach-boxes_001-2.jpg -->
-<!-- bild: 2018/10/1011-brighton-beach-boxes_001.jpg -->
+:::raster
+![Brighton Beach Boxes](./bilder/1011-brighton-beach-boxes_001-2.jpg)
+![Brighton Beach Boxes](./bilder/1011-brighton-beach-boxes_001.jpg)
+:::
 
 Den restlichen Tag verbringen wir nur auf der Farm. Die Drohne darf wieder einmal steigen, wir machen Yoga und lesen ein Buch auf der Terrasse. Ein weiteres Highlight ist der Farmhund „Spring", ein besonders freundlicher Australian Shepherd, der sich die ganze Zeit zu uns legt und gestreichelt werden will. Dem kommen wir natürlich gern nach ;)
 

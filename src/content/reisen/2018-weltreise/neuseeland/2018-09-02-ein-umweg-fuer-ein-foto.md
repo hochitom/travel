@@ -8,9 +8,9 @@ route:
   - { name: 'New Plymouth', lat: -39.0556, lng: 174.0752 }
   - { name: 'Mount Taranaki', lat: -39.2967, lng: 174.0640 }
 tags: ['berg', 'nordinsel', 'camper']
+titelbild: ./bilder/0824-three-sister-mt--taranaki_006.jpg
+titelbildAlt: "Three Sister Mt Taranaki"
 ---
-
-<!-- titelbild: 2018/08/0824-three-sister-mt--taranaki_006.jpg -->
 
 Nach Rotorua wird es langsam Zeit, die Nordinsel zu verlassen. Wir machen uns auf den Weg nach Wellington. Der ursprüngliche Plan wäre mitten durch den Tongariro-Nationalpark gegangen. Dann sehen wir auf Instagram Bilder vom Mount Taranaki und beschließen spontan, eine andere Route zu nehmen.
 
@@ -20,17 +20,21 @@ Weil wir am nächsten Tag wandern wollen, fahren wir gleich zum Visitor Center. 
 
 :::berg Mount Taranaki | -39.2968, 174.0634 | 2518 m | 12 km
 
-<!-- bild: 2018/08/0824-three-sister-mt--taranaki_002.jpg -->
-<!-- bild: 2018/08/0824-three-sister-mt--taranaki_001.jpg -->
-<!-- bild: 2018/08/0824-three-sister-mt--taranaki_005.jpg -->
-<!-- bild: 2018/08/0824-three-sister-mt--taranaki_006.jpg -->
+:::galerie
+![Three Sister Mt Taranaki](./bilder/0824-three-sister-mt--taranaki_002.jpg)
+![Three Sister Mt Taranaki](./bilder/0824-three-sister-mt--taranaki_001.jpg)
+![Three Sister Mt Taranaki](./bilder/0824-three-sister-mt--taranaki_005.jpg)
+![Three Sister Mt Taranaki](./bilder/0824-three-sister-mt--taranaki_006.jpg)
+:::
 
 Am nächsten Morgen ist vom Mount Taranaki leider gar nichts mehr zu sehen. Wir fahren zum Dawson Falls Visitor Center und gehen zumindest eine kleine Runde zu den Dawson Falls, aber das Wetter mit Regen, starken Windböen und kaum Sicht ist für eine längere Wanderung leider viel zu schlecht. Der 18 Meter hohe Wasserfall entschädigt uns ein bisschen für den Umweg, den wir für diesen Berg in Kauf genommen haben.
 
 Zurück im Camper kochen wir uns erst einmal einen heißen Kaffee und überlegen, ob wir einfach eine Nacht bleiben und hoffen, dass das Wetter am nächsten Tag besser wird. Wir entscheiden uns dann doch für die Weiterfahrt, denn eigentlich wollen wir endlich auf die Südinsel. Und dort haben wir hoffentlich noch mehr Möglichkeiten zum Wandern.
 
-<!-- bild: 2018/08/0825-mt--taranaki-dawsons-falls_012.jpg -->
-<!-- bild: 2018/08/0825-mt--taranaki-dawsons-falls_007.jpg -->
-<!-- bild: 2018/08/0825-mt--taranaki-dawsons-falls_008.jpg -->
-<!-- bild: 2018/08/0825-mt--taranaki-dawsons-falls_009.jpg -->
-<!-- bild: 2018/08/0825-mt--taranaki-dawsons-falls_011.jpg | Der Mount Taranaki bei unserer Abreise -->
+:::galerie
+![Mt Taranaki Dawsons Falls](./bilder/0825-mt--taranaki-dawsons-falls_012.jpg)
+![Mt Taranaki Dawsons Falls](./bilder/0825-mt--taranaki-dawsons-falls_007.jpg)
+![Mt Taranaki Dawsons Falls](./bilder/0825-mt--taranaki-dawsons-falls_008.jpg)
+![Mt Taranaki Dawsons Falls](./bilder/0825-mt--taranaki-dawsons-falls_009.jpg)
+![Mt Taranaki Dawsons Falls](./bilder/0825-mt--taranaki-dawsons-falls_011.jpg "Der Mount Taranaki bei unserer Abreise")
+:::

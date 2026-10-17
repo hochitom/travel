@@ -12,9 +12,9 @@ route:
   - { name: 'Sunset Boulevard', lat: 34.0901, lng: -118.3868 }
   - { name: 'Rodeo Drive, Beverly Hills', lat: 34.0678, lng: -118.4008 }
 tags: ['stadt', 'kalifornien']
+titelbild: ./bilder/0604-los-angeles_img_1531_020.jpg
+titelbildAlt: "Los Angeles"
 ---
-
-<!-- titelbild: 2018/06/0604-los-angeles_img_1531_020.jpg -->
 
 Die nächste Großstadt am Highway No. 1 ist Los Angeles und damit das nächste Ziel unseres Roadtrips. Bevor wir in die Stadt fahren, schauen wir noch in Malibu, Santa Monica und am Venice Beach vorbei. Im Norden war es eher windig und kalt, jetzt wird es von Tag zu Tag wärmer, und die Sonne lädt dazu ein, die Zeit draußen zu verbringen.
 
@@ -22,11 +22,13 @@ Die nächste Großstadt am Highway No. 1 ist Los Angeles und damit das nächste 
 
 Malibu ist als Wohnort vieler Filmstars bekannt und überzeugt mit wunderschönen Häusern direkt am Strand. Eigentlich ist es eine lange Durchzugsstraße mit wenigen Geschäften und Lokalen. Die Stars wohnen entweder direkt am Meer oder oben in den Hügeln. Das Besondere: Die Häuser liegen wirklich direkt am Strand, Gartentürl auf und man steht im Sand. Der Strand ist aber ganz normal öffentlich zugänglich, und das nutzen auch einige Sonnenhungrige. Mit Parkplätzen schaut es eher schlecht aus, aber genau deshalb ist es hier ruhig und nicht so überlaufen wie in Santa Monica. Wir spazieren ein Stück den Strand entlang und spüren zum ersten Mal auf dieser Reise Sand und Wasser unter den Füßen.
 
-<!-- bild: 2018/06/0603-malibu-los-angeles_img_1396_001.jpg -->
-<!-- bild: 2018/06/0603-malibu-los-angeles_img_1408_002.jpg -->
-<!-- bild: 2018/06/0603-malibu-los-angeles_img_1414_003.jpg -->
-<!-- bild: 2018/06/0603-malibu-los-angeles_img_1437_005.jpg -->
-<!-- bild: 2018/06/0603-malibu-los-angeles_img_1428_004.jpg -->
+:::galerie
+![Malibu Los Angeles](./bilder/0603-malibu-los-angeles_img_1396_001.jpg)
+![Malibu Los Angeles](./bilder/0603-malibu-los-angeles_img_1408_002.jpg)
+![Malibu Los Angeles](./bilder/0603-malibu-los-angeles_img_1414_003.jpg)
+![Malibu Los Angeles](./bilder/0603-malibu-los-angeles_img_1437_005.jpg)
+![Malibu Los Angeles](./bilder/0603-malibu-los-angeles_img_1428_004.jpg)
+:::
 
 ## Santa Monica und Venice Beach
 
@@ -40,22 +42,26 @@ Nach einem langen Tag am Strand geht's endlich in die Stadt. Unser erstes Motel 
 
 Dank Mietauto sehen wir innerhalb von zwei Tagen die wichtigsten Sehenswürdigkeiten. LA gilt als die Autostadt schlechthin, und das können wir nur bestätigen. Die Stadt ist einfach riesig, nach New York die zweitgrößte der USA und die größte in Kalifornien. Wir brauchen meistens mindestens eine halbe bis dreiviertel Stunde, bis wir irgendwo sind.
 
-<!-- bild: 2018/06/0604-los-angeles_img_1442_002.jpg -->
-<!-- bild: 2018/06/0604-los-angeles_img_1440_001.jpg -->
-<!-- bild: 2018/06/0604-los-angeles_img_1447_004.jpg -->
-<!-- bild: 2018/06/0604-los-angeles_img_1449_005.jpg -->
+:::galerie
+![Los Angeles](./bilder/0604-los-angeles_img_1442_002.jpg)
+![Los Angeles](./bilder/0604-los-angeles_img_1440_001.jpg)
+![Los Angeles](./bilder/0604-los-angeles_img_1447_004.jpg)
+![Los Angeles](./bilder/0604-los-angeles_img_1449_005.jpg)
+:::
 
 Am zweiten Tag buchen wir in der Früh Tickets für eine Führung durch die Warner-Bros.-Studios. Davor ist noch etwas Zeit, also fahren wir zum Walk of Fame und zum TCL Chinese Theatre.
 
 Anfangs zögern wir, ob wir die Tour wirklich machen sollen, denn billig sind die Tickets nicht. Aber wir können nur sagen: Die Investition zahlt sich definitiv aus, sonst hätten wir echt was verpasst. Mit einem größeren Golfcart fahren wir über das Gelände, besuchen Drehorte und lernen viel darüber, wie Filme und Serien entstehen. Wir sehen viele Kulissen und erfahren, wie aus der Straße, die gerade noch New York war, eine Straße im Chicago der Zwanzigerjahre wird. Richtig interessant.
 
-<!-- bild: 2018/06/0604-los-angeles_img_3158_006.jpg -->
-<!-- bild: 2018/06/0604-los-angeles_img_1496_011.jpg -->
-<!-- bild: 2018/06/0604-los-angeles_img_1474_008.jpg -->
-<!-- bild: 2018/06/0604-los-angeles_img_1500_012.jpg -->
-<!-- bild: 2018/06/0604-los-angeles_img_1483_009.jpg -->
-<!-- bild: 2018/06/0604-los-angeles_img_1486_010.jpg -->
-<!-- bild: 2018/06/0604-los-angeles_img_1523_019.jpg -->
+:::galerie
+![Los Angeles](./bilder/0604-los-angeles_img_3158_006.jpg)
+![Los Angeles](./bilder/0604-los-angeles_img_1496_011.jpg)
+![Los Angeles](./bilder/0604-los-angeles_img_1474_008.jpg)
+![Los Angeles](./bilder/0604-los-angeles_img_1500_012.jpg)
+![Los Angeles](./bilder/0604-los-angeles_img_1483_009.jpg)
+![Los Angeles](./bilder/0604-los-angeles_img_1486_010.jpg)
+![Los Angeles](./bilder/0604-los-angeles_img_1523_019.jpg)
+:::
 
 Das Highlight ist der Besuch am Drehort von „The Big Bang Theory" und „Fuller House". Gedreht wird zum Glück gerade nicht, sonst dürfte man dort nicht hinein. Außerdem gibt es eine Ausstellung mit vielen Kostümen und Requisiten aus Harry Potter, und wir dürfen sogar beide den Sprechenden Hut aufsetzen. Gryffindor, natürlich ;) Der Besuch war auf jeden Fall super, und wir schauen Filme jetzt mit ganz anderen Augen.
 
@@ -66,8 +72,10 @@ Mir hat es in LA besser gefallen als in San Francisco. Allerdings sind wir auch 
 > Alle unsere Träume können wahr werden, wenn wir den Mut haben, ihnen zu folgen.
 > – Walt Disney
 
-<!-- bild: 2018/06/0604-los-angeles_img_1519_018.jpg -->
-<!-- bild: 2018/06/0604-los-angeles_img_1517_016.jpg -->
-<!-- bild: 2018/06/0604-los-angeles_img_1507_014.jpg -->
-<!-- bild: 2018/06/0604-los-angeles_img_1509_015.jpg -->
-<!-- bild: 2018/06/0604-los-angeles_img_1505_013.jpg -->
+:::galerie
+![Los Angeles](./bilder/0604-los-angeles_img_1519_018.jpg)
+![Los Angeles](./bilder/0604-los-angeles_img_1517_016.jpg)
+![Los Angeles](./bilder/0604-los-angeles_img_1507_014.jpg)
+![Los Angeles](./bilder/0604-los-angeles_img_1509_015.jpg)
+![Los Angeles](./bilder/0604-los-angeles_img_1505_013.jpg)
+:::

@@ -7,9 +7,9 @@ route:
   - { name: 'Canggu', lat: -8.6478, lng: 115.1385 }
   - { name: 'Ubud', lat: -8.5069, lng: 115.2625 }
 tags: ['update', 'ankunft']
+titelbild: ./bilder/885da6fd-e351-401e-aa87-dc97e4122a13.jpg
+titelbildAlt: "885da6fd E351"
 ---
-
-<!-- titelbild: 2018/12/885da6fd-e351-401e-aa87-dc97e4122a13.jpeg -->
 
 Wir sind in Bali angekommen! Zeit für ein kurzes Update mit den ersten Eindrücken und den nächsten Plänen.
 

@@ -14,9 +14,9 @@ route:
   - { name: 'City Hall', lat: 37.7793, lng: -122.4193 }
   - { name: 'Twin Peaks', lat: 37.7544, lng: -122.4477 }
 tags: ['stadt', 'alcatraz']
+titelbild: ./bilder/sanfrancisco_016.jpg
+titelbildAlt: "Sanfrancisco"
 ---
-
-<!-- titelbild: 2018/06/sanfrancisco_016.jpg -->
 
 Gestern war unser letzter Tag in San Francisco, jetzt geht's Richtung Süden. Die Tage waren wunderbar, aber auch anstrengend und teilweise erschreckend.
 
@@ -24,23 +24,27 @@ An die Hektik, den Lärm, den Müll, den Geruch und die vielen Leute mussten wir
 
 Die ersten beiden Tage sind wir ganz klassisch Touristen: Wir klappern die bekanntesten Sehenswürdigkeiten der Reihe nach ab, lassen uns aber nicht stressen und spazieren auch durch abgelegenere Gassen.
 
-<!-- bild: 2018/06/sanfrancisco_001.jpg -->
-<!-- bild: 2018/06/sanfrancisco_002.jpg -->
-<!-- bild: 2018/06/sanfrancisco_003.jpg -->
-<!-- bild: 2018/06/sanfrancisco_004.jpg -->
-<!-- bild: 2018/06/sanfrancisco_005.jpg -->
-<!-- bild: 2018/06/sanfrancisco_007.jpg -->
+:::galerie
+![Sanfrancisco](./bilder/sanfrancisco_001.jpg)
+![Sanfrancisco](./bilder/sanfrancisco_002.jpg)
+![Sanfrancisco](./bilder/sanfrancisco_003.jpg)
+![Sanfrancisco](./bilder/sanfrancisco_004.jpg)
+![Sanfrancisco](./bilder/sanfrancisco_005.jpg)
+![Sanfrancisco](./bilder/sanfrancisco_007.jpg)
+:::
 
 Die Stadttour beginnt in Chinatown und im Financial District und führt uns bis zum Embarcadero Center. Dann gehen wir die Piers entlang und landen beim berühmten Pier 39. Dort liegen die Seelöwen in Scharen auf den Holzplanken und lassen sich nicht stören. Ihr könnt sie übrigens auch von zuhause aus beobachten, es gibt eine Seelöwen-Livewebcam. Danach geht's weiter zur Fisherman's Wharf. Ganz klassisch steigen wir auch in ein Cable Car und lassen uns zur Crooked Street, der Lombard Street, kutschieren.
 
 Am zweiten Tag steht Alcatraz am Programm. Die Tickets haben wir schon von daheim aus gebucht, das solltet ihr unbedingt auch tun, denn vor Ort gibt's keine mehr. Der Ausflug ist richtig spannend, und die Insel ist gar nicht so unheimlich, wie ich sie mir vorgestellt habe. Außerhalb des Gefängnisses könnte man sie fast idyllisch nennen. Das liegt wahrscheinlich daran, dass sie heute zur Golden Gate National Recreation Area gehört und vom US National Park Service betreut wird.
 
-<!-- bild: 2018/06/sanfrancisco_009.jpg -->
-<!-- bild: 2018/06/sanfrancisco_010.jpg -->
-<!-- bild: 2018/06/sanfrancisco_011.jpg -->
-<!-- bild: 2018/06/sanfrancisco_012.jpg -->
-<!-- bild: 2018/06/sanfrancisco_014.jpg -->
-<!-- bild: 2018/06/sanfrancisco_017.jpg -->
+:::galerie
+![Sanfrancisco](./bilder/sanfrancisco_009.jpg)
+![Sanfrancisco](./bilder/sanfrancisco_010.jpg)
+![Sanfrancisco](./bilder/sanfrancisco_011.jpg)
+![Sanfrancisco](./bilder/sanfrancisco_012.jpg)
+![Sanfrancisco](./bilder/sanfrancisco_014.jpg)
+![Sanfrancisco](./bilder/sanfrancisco_017.jpg)
+:::
 
 Den Nachmittag verbringen wir im Golden Gate Park und nutzen das schöne Wetter zum Entspannen. Auf dem Rückweg schauen wir uns noch die Painted Ladies und die City Hall an.
 
@@ -48,9 +52,11 @@ Den dritten und letzten Tag wollen wir noch einmal genießen. Alles, was wir unb
 
 ### Die Schattenseiten der Großstadt
 
-<!-- bild: 2018/06/sanfrancisco_018.jpg -->
-<!-- bild: 2018/06/sanfrancisco_019.jpg -->
-<!-- bild: 2018/06/sanfrancisco_016.jpg -->
+:::raster
+![Sanfrancisco](./bilder/sanfrancisco_018.jpg)
+![Sanfrancisco](./bilder/sanfrancisco_019.jpg)
+![Sanfrancisco](./bilder/sanfrancisco_016.jpg)
+:::
 
 Schon bei der Ankunft im richtigen Hotel ;) fällt uns etwas auf: die extrem vielen Obdachlosen. Hier in Downtown ist das wirklich krass, und ich bin immer noch schockiert und traurig. So viel Armut habe ich in einer Stadt noch nie gesehen. Man wird hier ständig damit konfrontiert. Die Leute schlafen auf dem Gehsteig, in Geschäftseingängen, in Bussen und liegen in den Parks. Manche schreien, singen oder reden mit sich selbst, viele wirken, als wären sie gar nicht mehr da. Der allgegenwärtige Marihuana-Geruch macht den Gesamteindruck auch nicht besser. Das Einzige, was uns nie passiert ist: dass uns jemand direkt angesprochen hat.
 

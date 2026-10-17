@@ -10,9 +10,9 @@ route:
   - { name: 'Hagley Park', lat: -43.53, lng: 172.62 }
   - { name: 'Botanischer Garten', lat: -43.5309, lng: 172.6197 }
 tags: ['stadt', 'suedinsel']
+titelbild: ./bilder/0929-tag-5_002.jpg
+titelbildAlt: "Tag"
 ---
-
-<!-- titelbild: 2018/10/0929-tag-5_002.jpg -->
 
 Die letzten Tage in Neuseeland verbringen wir in Christchurch. Vielen wird die Stadt wegen des schlimmen Erdbebens im Februar 2011 ein Begriff sein. Obwohl die Katastrophe schon einige Jahre her ist, sieht man das Ausmaß auch heute noch. Trotzdem gefällt uns die Stadt sehr gut, und sie ist der perfekte Abschluss unseres Neuseeland-Aufenthalts.
 
@@ -22,10 +22,12 @@ Danach gehen wir weiter zu den 185 Empty Chairs und zur Cardboard Cathedral. Die
 
 Die Cardboard Cathedral liegt ganz in der Nähe. Hier stand vor dem Erdbeben ebenfalls eine Kathedrale, die völlig zerstört wurde. Die Cardboard Cathedral wurde eigentlich nur als Übergangslösung gebaut und besteht zu einem Teil aus Karton.
 
-<!-- bild: 2018/10/0927-tag-3_004.jpg -->
-<!-- bild: 2018/10/0925-tag-1_002.jpg -->
-<!-- bild: 2018/10/0925-tag-1_001.jpg -->
-<!-- bild: 2018/10/0927-tag-3_005.jpg -->
+:::galerie
+![Tag](./bilder/0927-tag-3_004.jpg)
+![Tag](./bilder/0925-tag-1_002.jpg)
+![Tag](./bilder/0925-tag-1_001.jpg)
+![Tag](./bilder/0927-tag-3_005.jpg)
+:::
 
 Am dritten Tag in Christchurch wird das Wetter endlich schöner und wärmer. Wir nutzen es für den Hagley Park und den Botanischen Garten und merken dort, dass inzwischen Frühling ist. Der Park liegt ganz in der Nähe unserer Unterkunft, und so drehen wir dort auch eine kleine Laufrunde am Morgen.
 
@@ -33,9 +35,11 @@ Am Avon River kommen wir bei jeder Runde durch die Stadt vorbei. Der Fluss schl�
 
 Ansonsten nutzen wir die Zeit in Christchurch, um unsere ganze Wäsche zu waschen und wieder alles in die Rucksäcke zu packen. Gar nicht so einfach! Christchurch war einfach perfekt, um noch einmal zu entspannen, die Zeit zu genießen und in der Sonne Kaffee zu trinken und Kuchen zu essen.
 
-<!-- bild: 2018/10/0927-tag-3_001.jpg -->
-<!-- bild: 2018/10/0927-tag-3_002.jpg -->
-<!-- bild: 2018/10/0927-tag-3_003.jpg -->
-<!-- bild: 2018/10/0925-tag-1_003.jpg -->
-<!-- bild: 2018/10/0929-tag-5_001.jpg -->
-<!-- bild: 2018/10/0929-tag-5_003.jpg -->
+:::galerie
+![Tag](./bilder/0927-tag-3_001.jpg)
+![Tag](./bilder/0927-tag-3_002.jpg)
+![Tag](./bilder/0927-tag-3_003.jpg)
+![Tag](./bilder/0925-tag-1_003.jpg)
+![Tag](./bilder/0929-tag-5_001.jpg)
+![Tag](./bilder/0929-tag-5_003.jpg)
+:::

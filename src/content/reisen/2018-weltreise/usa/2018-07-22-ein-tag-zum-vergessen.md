@@ -9,9 +9,9 @@ route:
   - { name: 'Yorktown', lat: 37.2388, lng: -76.5097 }
   - { name: 'Portsmouth', lat: 36.8354, lng: -76.2983 }
 tags: ['roadtrip', 'virginia']
+titelbild: ./bilder/0712-coronel-parkway-yorktown-portsmouth_img_4006.jpg
+titelbildAlt: "Coronel Parkway Yorktown Portsmouth"
 ---
-
-<!-- titelbild: 2018/07/0712-coronel-parkway-yorktown-portsmouth_img_4006.jpg -->
 
 „Ich bin schweißgebadet aufgewacht, nach einer Horror-Nacht …", haben schon die Toten Hosen gesungen. Ich hätte letzten Donnerstag das gleiche Lied singen können. So schlecht wie mein Schlaf war auch der ganze Tag für uns.
 

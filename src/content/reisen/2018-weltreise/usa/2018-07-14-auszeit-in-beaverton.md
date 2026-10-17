@@ -8,9 +8,9 @@ route:
   - { name: 'Glen Arbor', lat: 44.8847, lng: -86.0067 }
   - { name: 'Philadelphia', lat: 39.9526, lng: -75.1652 }
 tags: ['pause', 'michigan']
+titelbild: ./bilder/0708-beaverton-haus_img_3225.jpg
+titelbildAlt: "Beaverton Haus"
 ---
-
-<!-- titelbild: 2018/07/0708-beaverton-haus_img_3225.jpg -->
 
 Beim Start der Reise haben wir bewusst nur den ersten Monat bis New York geplant. Einerseits wussten wir nicht, wie es uns nach dem Race Across America geht, andererseits auch nicht, wie uns das Reisen überhaupt gefällt.
 
@@ -22,9 +22,11 @@ Auf Airbnb finden wir eine Familie, die ein Zimmer in ihrem Haus vermietet, und 
 
 Bitte wie? Wir haben tatsächlich ein ganzes Haus für etwas mehr als 40 Euro gebucht? JA :D
 
-<!-- bild: 2018/07/0708-beaverton-haus_img_3220.jpg -->
-<!-- bild: 2018/07/0708-beaverton-haus_img_3221.jpg -->
-<!-- bild: 2018/07/0708-beaverton-haus_img_3222.jpg -->
+:::raster
+![Beaverton Haus](./bilder/0708-beaverton-haus_img_3220.jpg)
+![Beaverton Haus](./bilder/0708-beaverton-haus_img_3221.jpg)
+![Beaverton Haus](./bilder/0708-beaverton-haus_img_3222.jpg)
+:::
 
 Als wir am Donnerstag nach fünf Stunden Autofahrt in Beaverton in Michigan ankommen, müssen wir natürlich sofort das Haus erkunden. Und es ist genau, wonach wir gesucht haben: ein schönes Haus im Grünen mit viel Platz zum Arbeiten. Wir haben nämlich einiges vor. Einerseits wollen wir die weitere Reise von Beaverton bis New Orleans planen, wo wir Ende Juli sein werden. Dazu kommen die Pläne für Hawaii. Und dann ist da noch unser Reisetagebuch, das wir wieder mit Inhalten füttern wollen, denn die Beiträge haben sich in den letzten Wochen aufgestaut.
 
@@ -36,6 +38,8 @@ In Beaverton lassen wir es uns so richtig gut gehen. Zum Frühstück gibt's Spie
 
 Als wir uns am Montag wieder ins Auto setzen, um Richtung Philadelphia zu fahren, ist das der bisher schwerste Abschied in Amerika. Hier hätten wir es noch ein paar Tage ausgehalten.
 
-<!-- bild: 2018/07/0708-beaverton-haus_img_3226.jpg -->
-<!-- bild: 2018/07/0708-beaverton-haus_img_3231.jpg -->
-<!-- bild: 2018/07/0708-beaverton-haus_img_3234.jpg -->
+:::raster
+![Beaverton Haus](./bilder/0708-beaverton-haus_img_3226.jpg)
+![Beaverton Haus](./bilder/0708-beaverton-haus_img_3231.jpg)
+![Beaverton Haus](./bilder/0708-beaverton-haus_img_3234.jpg)
+:::

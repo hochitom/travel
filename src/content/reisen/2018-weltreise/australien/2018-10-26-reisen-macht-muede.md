@@ -4,9 +4,9 @@ zusammenfassung: 'Ein Montag in Sydney um 12 Uhr, und wir sind beide einfach nur
 datum: 2018-10-26
 position: { name: 'Sydney', lat: -33.8688, lng: 151.2093 }
 tags: ['alltag', 'reflexion']
+titelbild: ./bilder/1013-raymond-island-lake-entrance_001.jpg
+titelbildAlt: "Raymond Island Lake Entrance"
 ---
-
-<!-- titelbild: 2018/10/1013-raymond-island-lake-entrance_001.jpg -->
 
 Wir sind gerade in Sydney, es ist 12 Uhr an einem Montag, und wir sind beide einfach nur müde. Die letzten drei Wochen, in denen wir jeden Tag den Ort gewechselt haben, haben ihre Spuren hinterlassen. Genau deshalb versuchen wir in Sydney, wieder Kraft zu tanken, und freuen uns umso mehr auf die Zeit im Camper.
 

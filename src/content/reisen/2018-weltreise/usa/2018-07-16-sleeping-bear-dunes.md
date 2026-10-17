@@ -8,9 +8,9 @@ route:
   - { name: 'Sleeping Bear Dune Overlook', lat: 44.883, lng: -86.059 }
   - { name: 'Pyramid Point Trail', lat: 44.9733, lng: -85.8933 }
 tags: ['natur', 'michigan', 'nationalpark']
+titelbild: ./bilder/0707-sleeping-bear-dunes_img_3819.jpg
+titelbildAlt: "Sleeping Bear Dunes"
 ---
-
-<!-- titelbild: 2018/07/0707-sleeping-bear-dunes_img_3819.jpg -->
 
 Als wir im Internet recherchieren, was man rund um die Great Lakes und in Michigan so unternehmen kann, stoßen wir darauf, dass hier der schönste Urlaubsort Amerikas liegen soll – gewählt von den Amerikanern selbst in einer Fernsehsendung. Nach den vielen Infos und Fotos, die wir online gesehen haben, wollen wir uns dieses Highlight natürlich nicht entgehen lassen.
 
@@ -18,11 +18,13 @@ Von unserer Unterkunft in Beaverton geht's Richtung Norden, rund zweieinhalb Stu
 
 Uns erwarten unglaubliche Ausblicke auf die umliegenden Seen und interessante Infos. Ein Stopp ist der Cottonwood Trail, ein kurzer Wanderweg über 1,5 Meilen, bei dem man direkt auf den Dünen im Sand geht.
 
-<!-- bild: 2018/07/0707-sleeping-bear-dunes_img_3707.jpg -->
-<!-- bild: 2018/07/0707-sleeping-bear-dunes_img_3712.jpg -->
-<!-- bild: 2018/07/0707-sleeping-bear-dunes_img_3718.jpg -->
-<!-- bild: 2018/07/0707-sleeping-bear-dunes_img_3721.jpg -->
-<!-- bild: 2018/07/0707-sleeping-bear-dunes_img_3729.jpg -->
+:::galerie
+![Sleeping Bear Dunes](./bilder/0707-sleeping-bear-dunes_img_3707.jpg)
+![Sleeping Bear Dunes](./bilder/0707-sleeping-bear-dunes_img_3712.jpg)
+![Sleeping Bear Dunes](./bilder/0707-sleeping-bear-dunes_img_3718.jpg)
+![Sleeping Bear Dunes](./bilder/0707-sleeping-bear-dunes_img_3721.jpg)
+![Sleeping Bear Dunes](./bilder/0707-sleeping-bear-dunes_img_3729.jpg)
+:::
 
 Das Highlight der Rundfahrt ist aber definitiv der Sleeping Bear Dune Overlook. Die Dünen sind eine steile Küste aus Sand. Von oben sieht man zuerst gar nicht auf den See hinunter, erst vom Lake Michigan Overlook erkennt man, wie weit und steil die Küste wirklich ist. Anfangs wundern wir uns, warum überall Schilder stehen, dass man nicht hinunterklettern soll. Aber als wir sehen, wie viele Leute trotzdem unterwegs sind, verstehen wir, warum es sie braucht. Die Höhe wird offenbar immer wieder unterschätzt, und der Wiederaufstieg ist nicht nur anstrengend, sondern dauert bis zu zwei Stunden.
 
@@ -30,11 +32,13 @@ Das Highlight der Rundfahrt ist aber definitiv der Sleeping Bear Dune Overlook. 
 
 Der Legende nach lebten in der Gegend eine Bärin und ihre zwei Jungen. Als ein Waldbrand die Nahrung der Bären vernichtete, mussten sie sich einen neuen Lebensraum suchen. Die Bärin beschloss, den See zu überqueren. Die Jungen schafften es aber beide nicht ans andere Ufer und ertranken. Die Bärin kletterte auf die Düne und wartete auf sie. Mit der Zeit wurde sie vom Wind mit Sand bedeckt, und angeblich liegt sie noch heute darunter und wartet.
 
-<!-- bild: 2018/07/0707-sleeping-bear-dunes_img_3816.jpg -->
-<!-- bild: 2018/07/0707-sleeping-bear-dunes_img_3811.jpg -->
-<!-- bild: 2018/07/0707-sleeping-bear-dunes_img_3780.jpg -->
-<!-- bild: 2018/07/0707-sleeping-bear-dunes_img_3777.jpg -->
-<!-- bild: 2018/07/0707-sleeping-bear-dunes_img_3768.jpg -->
+:::galerie
+![Sleeping Bear Dunes](./bilder/0707-sleeping-bear-dunes_img_3816.jpg)
+![Sleeping Bear Dunes](./bilder/0707-sleeping-bear-dunes_img_3811.jpg)
+![Sleeping Bear Dunes](./bilder/0707-sleeping-bear-dunes_img_3780.jpg)
+![Sleeping Bear Dunes](./bilder/0707-sleeping-bear-dunes_img_3777.jpg)
+![Sleeping Bear Dunes](./bilder/0707-sleeping-bear-dunes_img_3768.jpg)
+:::
 
 ## Pyramid Point Trail
 

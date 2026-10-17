@@ -9,9 +9,9 @@ route:
   - { name: 'Denpasar', lat: -8.6705, lng: 115.2126 }
   - { name: 'Flughafen Wien-Schwechat', lat: 48.1103, lng: 16.5697 }
 tags: ['update', 'planung']
+titelbild: ./bilder/1119-palm-cove_015-1.jpg
+titelbildAlt: "Palm Cove"
 ---
-
-<!-- titelbild: 2018/11/1119-palm-cove_015-1.jpg -->
 
 Seit unserem letzten Reiseupdate sind schon wieder fast zwei Monate vergangen. Es ist für uns immer wieder erstaunlich, wie schnell die Zeit vergeht. Uns kommt vor, als hätten wir erst gestern den Camper bezogen, aber unser Monat im Camper in Australien ist schon wieder vorbei.
 

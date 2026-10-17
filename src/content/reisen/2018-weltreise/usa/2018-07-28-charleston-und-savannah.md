@@ -8,17 +8,19 @@ route:
   - { name: 'Charleston', lat: 32.7765, lng: -79.9311 }
   - { name: 'Savannah', lat: 32.0809, lng: -81.0912 }
 tags: ['stadt', 'suedstaaten']
+titelbild: ./bilder/0715-charleston_img_4100.jpg
+titelbildAlt: "Charleston"
 ---
-
-<!-- titelbild: 2018/07/0715-charleston_img_4100.jpg -->
 
 Nach dem Strandtag in Myrtle Beach geht's weiter Richtung Süden. Wir buchen eine Unterkunft in der Nähe von Charleston, um uns von dort die Umgebung anzuschauen und dann weiter nach Savannah zu fahren.
 
 Mit der Unterkunft haben wir wieder riesiges Glück und erleben eine richtig coole, typisch amerikanische Familie. Gleich in der Auffahrt begrüßen uns drei amerikanische Oldtimer, und auch im Haus wird es nicht langweilig. Viele Zimmer sind nach unterschiedlichen Themen eingerichtet, Karibik, Zebramuster oder wie unseres ganz im britischen Stil mit Union Jack und Postern von Musikern. Die Gastgeber sind total offen und aufgeschlossen, und wir kommen gleich ins Plaudern. Eine super Gelegenheit, unser Englisch auszupacken.
 
-<!-- bild: 2018/07/0715-charleston_img_4102.jpg -->
-<!-- bild: 2018/07/0715-charleston_img_4111.jpg -->
-<!-- bild: 2018/07/0715-charleston_img_4117.jpg -->
+:::raster
+![Charleston](./bilder/0715-charleston_img_4102.jpg)
+![Charleston](./bilder/0715-charleston_img_4111.jpg)
+![Charleston](./bilder/0715-charleston_img_4117.jpg)
+:::
 
 Auch am nächsten Morgen fragt die Gastgeberin interessiert, was wir vorhaben, und versorgt uns mit Infos und einer Karte von Charleston. Also geht's in die Stadt. Wir spazieren an der Waterfront entlang, schauen uns die Rainbow Row an und gehen weiter ins French Quarter und zum Historic Charleston City Market. Nach rund zwei Stunden sind wir von Hitze und Sonne so geschafft, dass wir weiterfahren, noch kurz in eine kleine Shoppingmall und dann zurück ins Quartier.
 
@@ -26,6 +28,8 @@ Als wir der Gastgeberin von dem heißen Tag erzählen, schmunzelt sie nur. Diese
 
 Am nächsten Tag geht's weiter nach Savannah. Auch hier schlendern wir in der Hitze ein paar Sehenswürdigkeiten ab. Savannah ähnelt Charleston stark, deshalb halten wir uns nicht lange auf und genießen nur ein schnelles Eis im berühmten Eissalon „Leopold's Ice Cream".
 
-<!-- bild: 2018/07/0716-savannah_img_4144.jpg -->
-<!-- bild: 2018/07/0716-savannah_img_4158.jpg -->
-<!-- bild: 2018/07/0716-savannah_img_4167.jpg -->
+:::raster
+![Savannah](./bilder/0716-savannah_img_4144.jpg)
+![Savannah](./bilder/0716-savannah_img_4158.jpg)
+![Savannah](./bilder/0716-savannah_img_4167.jpg)
+:::

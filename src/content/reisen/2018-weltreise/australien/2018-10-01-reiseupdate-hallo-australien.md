@@ -11,9 +11,9 @@ route:
   - { name: 'Uluru', lat: -25.3444, lng: 131.0369 }
   - { name: 'Perth', lat: -31.9505, lng: 115.8605 }
 tags: ['update', 'ankunft']
+titelbild: ./bilder/1001-tag-2_001.jpg
+titelbildAlt: "Tag"
 ---
-
-<!-- titelbild: 2018/09/1001-tag-2_001.jpg -->
 
 Neuseeland haben wir nach eineinhalb Monaten verlassen, und wir sitzen gerade in einem netten Café in Melbourne. Die Anreise war diesmal leider nicht so angenehm, wir fühlen uns erledigt und geschlaucht.
 

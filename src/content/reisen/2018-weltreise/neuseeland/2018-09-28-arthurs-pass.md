@@ -9,9 +9,9 @@ route:
   - { name: 'Greymouth', lat: -42.4500, lng: 171.2108 }
   - { name: 'Hokitika', lat: -42.7167, lng: 170.9667 }
 tags: ['camper', 'suedinsel', 'natur']
+titelbild: ./bilder/0917-glow-worm-hokitika_001.jpg
+titelbildAlt: "Glow Worm Hokitika"
 ---
-
-<!-- titelbild: 2018/09/0917-glow-worm-hokitika_001.jpg -->
 
 Nach 50 Kilometern Schotterpiste machen wir uns auf den Weg zum Arthur's Pass. Wenn man nach den schönsten Strecken in Neuseeland sucht, ist fast immer auch dieser Pass dabei. Für uns war von Anfang an klar, dass wir dorthin müssen.
 
@@ -19,10 +19,12 @@ Von Mount Somers geht's in knapp zwei Stunden Autofahrt zu unserem Schlafplatz a
 
 Auf der Fahrt kommen wir bei Castle Hill vorbei und legen einen spontanen Halt ein. Schon von der Straße aus wirken die runden Felsen auf den Hügeln richtig spektakulär. Optisch erinnern sie ein wenig an die Moeraki Boulders, die wir erst vor ein paar Tagen gesehen haben, aber je näher wir kommen, desto größer wird der Unterschied. Und je länger wir zwischen den Steinen herumirren, desto mehr sehen wir. Aus jedem Winkel sehen sie anders aus. Echt beeindruckend!
 
-<!-- bild: 2018/09/0916-mt--sunday_001.jpg -->
-<!-- bild: 2018/09/0916-mt--sunday_002.jpg -->
-<!-- bild: 2018/09/0916-mt--sunday_003.jpg -->
-<!-- bild: 2018/09/0916-mt--sunday_004.jpg -->
+:::galerie
+![Mt Sunday](./bilder/0916-mt--sunday_001.jpg)
+![Mt Sunday](./bilder/0916-mt--sunday_002.jpg)
+![Mt Sunday](./bilder/0916-mt--sunday_003.jpg)
+![Mt Sunday](./bilder/0916-mt--sunday_004.jpg)
+:::
 
 In der Nacht beginnt es leider zu regnen, und der Regen hört auch am nächsten Tag nicht auf. Er hüllt die Berge in dunkelgraue Wolken. Wohin man schaut, ist es grau. Also verschieben wir das Tagesprogramm auf den nächsten Tag und fahren weiter an die Westküste nach Greymouth, wo wir schon zu Beginn unseres Aufenthalts auf der Südinsel waren.
 
@@ -32,7 +34,7 @@ Glücklicherweise gibt es an der Westküste auch eine Möglichkeit, Glühwürmch
 
 Wir parken den Camper neben der Straße. Der Eingang zum Wald ist nicht zu übersehen, ein großes Schild weist darauf hin, und ein paar andere Autos stehen schon am Straßenrand. Mit Stirnlampe und Fotoapparat gehen wir die paar Meter in den Wald, und sofort leuchtet es überall. Die tausenden Glühwürmchen wirken wie ein Sternenhimmel.
 
-<!-- bild: 2018/09/0917-glow-worm-hokitika_005.jpg | Der Versuch, die Glühwürmchen fotografisch festzuhalten -->
+![Glow Worm Hokitika](./bilder/0917-glow-worm-hokitika_005.jpg "Der Versuch, die Glühwürmchen fotografisch festzuhalten")
 
 Nach dem Frühstück am nächsten Tag holen wir das verpasste Programm vom Vortag nach und fahren wieder auf den Arthur's Pass. Das Wetter hat sich eindeutig gebessert: statt grauem Himmel und Regen gibt's wieder blauen Himmel und Sonnenschein.
 
@@ -40,7 +42,9 @@ Am Arthur's Pass besuchen wir einen Wasserfall mit dem klingenden Namen Devil's 
 
 Danach geht's wieder die gleiche Strecke zurück, die wir schon am Vormittag bezwungen haben. Obwohl wir sie jetzt zum dritten Mal fahren, ist sie nicht weniger spektakulär, und wir bleiben noch bei den beiden Aussichtspunkten stehen, die einen schönen Blick ins Tal bieten.
 
-<!-- bild: 2018/09/0918-arthurs-pass_006.jpg -->
-<!-- bild: 2018/09/0918-arthurs-pass_007.jpg -->
-<!-- bild: 2018/09/0918-arthurs-pass_008.jpg -->
-<!-- bild: 2018/09/0918-arthurs-pass_009.jpg -->
+:::galerie
+![Arthurs Pass](./bilder/0918-arthurs-pass_006.jpg)
+![Arthurs Pass](./bilder/0918-arthurs-pass_007.jpg)
+![Arthurs Pass](./bilder/0918-arthurs-pass_008.jpg)
+![Arthurs Pass](./bilder/0918-arthurs-pass_009.jpg)
+:::

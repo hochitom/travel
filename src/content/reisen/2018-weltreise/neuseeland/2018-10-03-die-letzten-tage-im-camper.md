@@ -11,9 +11,9 @@ route:
   - { name: 'Akaroa', lat: -43.8044, lng: 172.9694 }
   - { name: 'Christchurch', lat: -43.5321, lng: 172.6362 }
 tags: ['camper', 'suedinsel']
+titelbild: ./bilder/0920-vanlife_006.jpg
+titelbildAlt: "Vanlife"
 ---
-
-<!-- titelbild: 2018/10/0920-vanlife_006.jpg -->
 
 Etwas mehr als 30 Tage haben wir gebraucht, um alle Punkte auf unserer Neuseeland-To-do-Liste abzuhaken. Mit der Fahrt über den Arthur's Pass und dem Besuch der Devil's Punchbowl ist der letzte Punkt erledigt. Jetzt müssen wir überlegen, wie es weitergehen soll.
 
@@ -21,18 +21,22 @@ So ungefähr muss es sich anfühlen, wenn die eigene Mannschaft ein paar Runden 
 
 Die Nacht davor verbringen wir auf dem schönsten kostenpflichtigen Campingplatz der Reise am Fuß des Arthur's Pass in Jackson. Von dort fahren wir nach Waiuta, einer Geisterstadt. Wir haben schon oft von verlassenen Goldgräberstädten gelesen, und die Bilder und Videos davon waren immer sehr beeindruckend. Entsprechend hoch sind unsere Erwartungen. Als wir ankommen, sind wir aber ziemlich enttäuscht: Außer ein paar Fundamenten und vereinzelten Gebäuden ist von der Geisterstadt nichts mehr zu sehen. Nach einem kurzen Rundgang setzen wir uns wieder in den Camper und fahren den Berg hinunter.
 
-<!-- bild: 2018/10/0919-ghost-town_001.jpg -->
-<!-- bild: 2018/10/0919-ghost-town_002.jpg -->
-<!-- bild: 2018/10/0919-ghost-town_003.jpg -->
-<!-- bild: 2018/10/0919-ghost-town_004.jpg -->
+:::galerie
+![Ghost Town](./bilder/0919-ghost-town_001.jpg)
+![Ghost Town](./bilder/0919-ghost-town_002.jpg)
+![Ghost Town](./bilder/0919-ghost-town_003.jpg)
+![Ghost Town](./bilder/0919-ghost-town_004.jpg)
+:::
 
 Danach geht's wieder einmal nach Greymouth. Es ist schon lustig: Dieser Ort hat so überhaupt nichts an sich, und trotzdem schlafen wir dreimal dort. Nur in Auckland haben wir bisher mehr Tage verbracht. Wir nutzen Greymouth zumindest, um uns ein Programm für die restlichen sieben Tage zurechtzulegen.
 
 Das letzte Wochenende im Camper wollen wir auf der Banks-Halbinsel verbringen, einem erloschenen Vulkan bei Christchurch. Von Greymouth machen wir uns auf den Weg dorthin. Weil wir genug Zeit haben, teilen wir die Fahrt auf drei Tagesetappen auf. Am ersten Tag geht's an den Lake Brunner, den größten See an der Westküste Neuseelands. Tags darauf über den Lewis Pass nach Hanmer Springs, und am Samstag weiter nach Duvauchelle auf der Banks-Halbinsel.
 
-<!-- bild: 2018/10/0922-hamner-springs_008.jpg -->
-<!-- bild: 2018/10/0922-hamner-springs_007.jpg -->
-<!-- bild: 2018/10/0924-banks-peninsula_009.jpg -->
+:::raster
+![Hamner Springs](./bilder/0922-hamner-springs_008.jpg)
+![Hamner Springs](./bilder/0922-hamner-springs_007.jpg)
+![Banks Peninsula](./bilder/0924-banks-peninsula_009.jpg)
+:::
 
 Eigentlich wollten wir dort noch einmal die Wanderschuhe auspacken und einen der Gipfel erklimmen. Leider machen uns die zahlreichen kleinen Lämmer einen Strich durch die Rechnung: Wegen der „Lambing Season" sind alle Wanderwege gesperrt, die für uns infrage kommen. Nach einem einstündigen Spaziergang fahren wir daher weiter nach Akaroa und schauen uns die Altstadt an.
 

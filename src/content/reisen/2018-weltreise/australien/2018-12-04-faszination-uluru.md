@@ -8,9 +8,9 @@ route:
   - { name: 'Mala Walk', lat: -25.3525, lng: 131.0145 }
   - { name: 'Uluru, Rundweg', lat: -25.3444, lng: 131.0369 }
 tags: ['outback', 'wandern']
+titelbild: ./bilder/1122-kata-tjuta_001-3.jpg
+titelbildAlt: "Kata Tjuta"
 ---
-
-<!-- titelbild: 2018/12/1122-kata-tjuta_001-3.jpg -->
 
 Am zweiten Tag im Zentrum Australiens steht das Highlight am Programm. Wir machen uns auf den Weg zum Mala Carpark direkt beim Uluru. Wie (fast) immer sind wir spät dran, und statt eines ordentlichen Frühstücks gibt's eine Banane und einen Müsliriegel auf dem Weg zum Parkplatz.
 
@@ -18,10 +18,12 @@ Jeden Tag um 8 Uhr gibt's nämlich eine kostenlose Tour mit einem Nationalpark-R
 
 Nach der geführten Tour steht noch die Wanderung um den Uluru an. Mittlerweile ist es schon warm, aber durch den Wind ist es auszuhalten. Der Weg führt teilweise ganz nah am Uluru vorbei, sodass wir ihn berühren können, und dann wieder weiter weg. Der Ranger hat erklärt, dass der Weg bewusst so angelegt wurde, damit die Aborigines einen Teil des Uluru für sich haben und nicht alles mit den Touristen teilen müssen.
 
-<!-- bild: 2018/12/1123-uluru_002-960x640.jpg -->
-<!-- bild: 2018/12/1123-uluru_003-960x640.jpg -->
-<!-- bild: 2018/12/1123-uluru_004-960x1440.jpg -->
-<!-- bild: 2018/12/1123-uluru_005-960x640.jpg -->
+:::galerie
+![Uluru](./bilder/1123-uluru_002.jpg)
+![Uluru](./bilder/1123-uluru_003.jpg)
+![Uluru](./bilder/1123-uluru_004.jpg)
+![Uluru](./bilder/1123-uluru_005.jpg)
+:::
 
 Obwohl es „nur" eine rote Felsformation ist, beeindruckt sie uns sehr. Es gibt immer wieder Höhlen, Grotten und Formationen, die den ganzen Weg spannend machen. Wegen der religiösen Bedeutung sollte man von vielen Stellen keine Fotos machen. Schilder weisen darauf hin, aber leider halten sich nicht alle daran.
 
@@ -29,11 +31,13 @@ Insgesamt sind wir über drei Stunden unterwegs. Es wird immer wärmer, und rege
 
 :::berg Uluru | -25.3444, 131.0369 | 863 m | 5 km
 
-<!-- bild: 2018/12/1123-uluru_009-960x1440.jpg -->
-<!-- bild: 2018/12/1123-uluru_011-960x1440.jpg -->
-<!-- bild: 2018/12/1123-uluru_012-960x640.jpg -->
-<!-- bild: 2018/12/1123-uluru_006-960x640.jpg -->
-<!-- bild: 2018/12/1123-uluru_010-960x640.jpg -->
+:::galerie
+![Uluru](./bilder/1123-uluru_009.jpg)
+![Uluru](./bilder/1123-uluru_011.jpg)
+![Uluru](./bilder/1123-uluru_012.jpg)
+![Uluru](./bilder/1123-uluru_006.jpg)
+![Uluru](./bilder/1123-uluru_010.jpg)
+:::
 
 Wenn der Wetterbericht mehr als 36 Grad vorhersagt, werden hier übrigens viele Wege gesperrt. Bei solchen Temperaturen wandern ist einfach zu gefährlich.
 
@@ -41,10 +45,12 @@ Gesperrt wird auch der Weg auf den Uluru. Bei unserer Ankunft haben wir nämlich
 
 Zurück im Resort, sind wir beide fast am Verhungern. Wir gehen gleich in ein Restaurant und stärken uns mit Kürbisrisotto mit Süßkartoffeln und Gewürzen aus dem Outback. Danach ruhen wir uns erst einmal aus, bevor wir abends zu einem anderen Aussichtspunkt fahren, um noch einmal den Sonnenuntergang zu sehen.
 
-<!-- bild: 2018/12/1123-uluru_008-960x640.jpg -->
-<!-- bild: 2018/11/1123-uluru_001-960x640.jpg -->
-<!-- bild: 2018/12/1123-uluru_014-960x640.jpg -->
-<!-- bild: 2018/12/1123-uluru_013-960x1440.jpg -->
+:::galerie
+![Uluru](./bilder/1123-uluru_008.jpg)
+![Uluru](./bilder/1123-uluru_001.jpg)
+![Uluru](./bilder/1123-uluru_014.jpg)
+![Uluru](./bilder/1123-uluru_013.jpg)
+:::
 
 Der ist diesmal leider nicht so spektakulär. Es sind viele Wolken am Himmel, und der Uluru wird nicht so schön beleuchtet wie am Tag davor. Bald fahren wir zurück ins Resort und lassen den Abend bei einem Cider und einem Bier ausklingen.
 
@@ -52,4 +58,4 @@ Nach zwei intensiven Tagen geht's auch schon wieder weiter. Bevor wir uns endgü
 
 Unsere Zeit im Outback ist viel zu schnell vergangen, wir hätten uns noch ein paar Tage mehr vorstellen können. Vor allem der Kings Canyon und Alice Springs sind sich in so kurzer Zeit leider nicht mehr ausgegangen. Aber man soll gehen, wenn es am schönsten ist, und so haben wir für den nächsten Besuch in Australien noch etwas zu entdecken ;)
 
-<!-- bild: 2018/12/1124-sonnenaufgang-uluru-flug_001-960x720.jpg | Sonnenaufgang -->
+![Sonnenaufgang Uluru Flug](./bilder/1124-sonnenaufgang-uluru-flug_001.jpg "Sonnenaufgang")

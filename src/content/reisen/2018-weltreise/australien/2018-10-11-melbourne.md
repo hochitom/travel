@@ -13,15 +13,15 @@ route:
   - { name: 'Southbank Promenade', lat: -37.8216, lng: 144.9644 }
   - { name: 'Guildford Lane', lat: -37.8105, lng: 144.9604 }
 tags: ['stadt']
+titelbild: ./bilder/1001-melbourne-tag-2_004.jpg
+titelbildAlt: "Melbourne Tag"
 ---
-
-<!-- titelbild: 2018/10/1001-melbourne-tag-2_004.jpg -->
 
 Kurz nach sieben Uhr Ortszeit landen wir mit dem Flieger aus Christchurch in Melbourne. Ein neues Land, nein, ein neuer Kontinent wartet auf uns. Entsprechend motiviert sind wir, aber leider verläuft der Start etwas holprig.
 
 Schon in den Tagen vor der Ankunft haben wir vergeblich versucht, die Vermieterin unserer Unterkunft zu erreichen. Auf keine Nachricht kam eine Antwort. Als wir am Flughafen die Passkontrolle und alle anderen Einreisekontrollen hinter uns haben und endlich draußen stehen, schreiben wir ihr eine letzte Nachricht. Unser Problem: Es ist sieben Uhr früh, und Check-in ist erst ab 14 Uhr möglich.
 
-<!-- bild: 2018/10/0930-melbourne-tag-1_001-225x300.jpg | Die Skyline von Melbourne vom Queen Victoria Market -->
+![Melbourne Tag](./bilder/0930-melbourne-tag-1_001.jpg "Die Skyline von Melbourne vom Queen Victoria Market")
 
 Wir beschließen kurzerhand, einfach ohne Antwort mit dem Uber zur Unterkunft zu fahren. Wir erwischen einen sehr gesprächigen Fahrer, der uns gleich mit den wichtigsten Infos zu Melbourne und Australien versorgt. Am Flughafen hatten wir noch zwei Cafés in der Nähe entdeckt, wo wir die Zeit hätten totschlagen können, denn mit dem Gepäck wollten wir nicht auf Entdeckungstour gehen.
 
@@ -31,28 +31,34 @@ So richtig in Schwung kommen unsere Körper an dem Tag aber nicht. Sie fühlen s
 
 Am nächsten Tag geht's frisch und munter in den montäglichen Trubel der Vier-Millionen-Stadt. Mit der Gratis-Bim fahren wir zur Flinders Street Station und gehen von dort zu Fuß weiter, zuerst am Yarra River entlang, dann wieder hinein ins Zentrum.
 
-<!-- bild: 2018/10/1001-melbourne-tag-2_002.jpg -->
-<!-- bild: 2018/10/1001-melbourne-tag-2_005.jpg -->
-<!-- bild: 2018/10/1001-melbourne-tag-2_003.jpg -->
-<!-- bild: 2018/10/1001-melbourne-tag-2_007.jpg -->
-<!-- bild: 2018/10/1001-melbourne-tag-2_006.jpg -->
+:::galerie
+![Melbourne Tag](./bilder/1001-melbourne-tag-2_002.jpg)
+![Melbourne Tag](./bilder/1001-melbourne-tag-2_005.jpg)
+![Melbourne Tag](./bilder/1001-melbourne-tag-2_003.jpg)
+![Melbourne Tag](./bilder/1001-melbourne-tag-2_007.jpg)
+![Melbourne Tag](./bilder/1001-melbourne-tag-2_006.jpg)
+:::
 
 Den Dienstag starten wir wieder mit einer entspannten Fahrt zur Flinders Station. Diesmal spazieren wir danach vorbei an Cooks' Cottage in den Botanischen Garten und weiter zu den Carlton Gardens, wo wir uns das Royal Exhibition Building und das Melbourne Museum von außen anschauen. Nach den vielen tausend Schritten werden wir langsam hungrig und gehen zurück ins Zentrum, diesmal durch Chinatown, das älteste Chinatown der Welt.
 
-<!-- bild: 2018/10/1002-melbourne-tag-3_015.jpg -->
-<!-- bild: 2018/10/1002-melbourne-tag-3_009.jpg -->
-<!-- bild: 2018/10/1002-melbourne-tag-3_018.jpg -->
-<!-- bild: 2018/10/1002-melbourne-tag-3_010.jpg -->
-<!-- bild: 2018/10/1002-melbourne-tag-3_008.jpg -->
-<!-- bild: 2018/10/1002-melbourne-tag-3_016.jpg -->
-<!-- bild: 2018/10/1002-melbourne-tag-3_017.jpg -->
+:::galerie
+![Melbourne Tag](./bilder/1002-melbourne-tag-3_015.jpg)
+![Melbourne Tag](./bilder/1002-melbourne-tag-3_009.jpg)
+![Melbourne Tag](./bilder/1002-melbourne-tag-3_018.jpg)
+![Melbourne Tag](./bilder/1002-melbourne-tag-3_010.jpg)
+![Melbourne Tag](./bilder/1002-melbourne-tag-3_008.jpg)
+![Melbourne Tag](./bilder/1002-melbourne-tag-3_016.jpg)
+![Melbourne Tag](./bilder/1002-melbourne-tag-3_017.jpg)
+:::
 
 Unser dritter Tag in Melbourne beginnt, wie sollte es anders sein, mit einer Fahrt in der Straßenbahn zur Flinders Station. Diesmal überqueren wir den Yarra River und spazieren die Southbank Promenade flussabwärts. Nachdem wir den Fluss wieder überquert haben, geht's am Batman Park vorbei in die Guildford Lane. Zum Abschluss unseres Aufenthalts gehen wir in Chinatown essen. Das Lokal heißt „Mao Please" und ist offensichtlich eine Hommage an Mao Zedong.
 
 Melbourne hat uns vom ersten Tag an wahnsinnig gut gefallen und liegt derzeit in den Top 3 der schönsten Städte der Reise. Wir wissen nicht, ob es daran liegt, dass wir schon lange nicht mehr in einer Stadt dieser Größe waren, oder am milden Wetter, das den Aufenthalt so angenehm macht. Jedenfalls haben wir die Zeit sehr genossen und das Gefühl, noch nicht alles gesehen zu haben.
 
-<!-- bild: 2018/10/1003-melbourne-tag-4_021.jpg -->
-<!-- bild: 2018/10/1002-melbourne-tag-3_019.jpg -->
-<!-- bild: 2018/10/1002-melbourne-tag-3_013.jpg -->
-<!-- bild: 2018/10/1002-melbourne-tag-3_014.jpg -->
-<!-- bild: 2018/10/1003-melbourne-tag-4_020.jpg -->
+:::galerie
+![Melbourne Tag](./bilder/1003-melbourne-tag-4_021.jpg)
+![Melbourne Tag](./bilder/1002-melbourne-tag-3_019.jpg)
+![Melbourne Tag](./bilder/1002-melbourne-tag-3_013.jpg)
+![Melbourne Tag](./bilder/1002-melbourne-tag-3_014.jpg)
+![Melbourne Tag](./bilder/1003-melbourne-tag-4_020.jpg)
+:::

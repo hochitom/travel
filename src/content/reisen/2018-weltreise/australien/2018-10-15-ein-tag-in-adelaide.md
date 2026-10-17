@@ -12,9 +12,9 @@ route:
   - { name: 'St. Peter''s Cathedral', lat: -34.9068, lng: 138.5946 }
   - { name: 'St. Francis Xavier''s Cathedral', lat: -34.9276, lng: 138.5971 }
 tags: ['stadt']
+titelbild: ./bilder/1007-adelaide-tag-2_003-2.jpg
+titelbildAlt: "Adelaide Tag"
 ---
-
-<!-- titelbild: 2018/10/1007-adelaide-tag-2_003-2.jpg -->
 
 Ein Aufenthalt in Adelaide stand ursprünglich gar nicht auf unserem Plan. Aber weil wir das Mietauto zum Flughafen in Adelaide bringen müssen, beschließen wir, uns einen Tag Zeit zu nehmen und die Hauptstadt von South Australia zu erkunden.
 
@@ -24,18 +24,22 @@ Der Strand hat uns so gut gefallen, dass wir überlegen, noch einmal hinzuspazie
 
 Am nächsten Tag haben wir viel vor: Wir wollen in einem Tag möglichst viel von der Stadt sehen. Das Wetter ist perfekt und erinnert uns sehr an den Sommer in Amerika. Es hat um die 30 Grad, und wir wünschen uns fast das kühle Wetter von Melbourne zurück. Wir fahren mit dem Zug direkt in die Stadt und machen wie immer einen kleinen Spaziergang durchs Zentrum.
 
-<!-- bild: 2018/10/1007-adelaide-tag-2_002.jpg -->
-<!-- bild: 2018/10/1007-adelaide-tag-2_001.jpg -->
-<!-- bild: 2018/10/1007-adelaide-tag-2_003.jpg -->
+:::raster
+![Adelaide Tag](./bilder/1007-adelaide-tag-2_002.jpg)
+![Adelaide Tag](./bilder/1007-adelaide-tag-2_001.jpg)
+![Adelaide Tag](./bilder/1007-adelaide-tag-2_003.jpg)
+:::
 
 Es ist Sonntag, und das Government House hat einen Tag der offenen Tür, also führt uns unser erster Weg dorthin. Im Innenhof spielt eine Kapelle, und wir spazieren durch den Garten des Regierungsgebäudes. Danach geht's vorbei am Migration Museum und am South Australian Museum zum Botanischen Garten.
 
 Das Wetter ist viel zu schön, um die Zeit drinnen zu verbringen, deshalb besuchen wir kein Museum. Im Botanischen Garten drehen wir eine kleine Runde und merken wieder einmal, wie stark sich Flora und Fauna von der österreichischen unterscheiden. Was uns hier in Australien auch immer wieder auffällt, sind die unglaublich farbenfrohen Vögel. Danach spazieren wir noch zur St. Peter's Cathedral und trinken einen Kaffee am Karrawirra Parri, dem Fluss, der durch Adelaide fließt.
 
-<!-- bild: 2018/10/1007-adelaide-tag-2_001-2-1.jpg -->
-<!-- bild: 2018/10/1007-adelaide-tag-2_002-2-1.jpg -->
-<!-- bild: 2018/10/1007-adelaide-tag-2_003-2.jpg -->
-<!-- bild: 2018/10/1007-adelaide-tag-2_004.jpg -->
+:::galerie
+![Adelaide Tag](./bilder/1007-adelaide-tag-2_001-2-1.jpg)
+![Adelaide Tag](./bilder/1007-adelaide-tag-2_002-2-1.jpg)
+![Adelaide Tag](./bilder/1007-adelaide-tag-2_003-2.jpg)
+![Adelaide Tag](./bilder/1007-adelaide-tag-2_004.jpg)
+:::
 
 Eigentlich wollten wir noch zum Adelaide Central Market, aber der hat sonntags leider geschlossen, also besuchen wir nur die St. Francis Xavier's Cathedral. Schon in Melbourne ist uns aufgefallen, wie schön hier die Häuser sind und wie viele historische Kathedralen und Gebäude es gibt. Egal ob Innenstadt oder Randbezirk, überall gibt's schöne Gebäude, die einen Besuch und ein Foto wert sind.
 
@@ -47,4 +51,4 @@ Pünktlich um 18 Uhr sitzen wir am Strand und warten auf den Sonnenuntergang. Ab
 
 Wir sind müde und wollen eigentlich nur noch heim. Trotzdem warten wir die zusätzliche Stunde und werden mit einem wirklich wunderschönen Sonnenuntergang belohnt.
 
-<!-- bild: 2018/10/1007-adelaide-tag-2_005.jpg -->
+![Adelaide Tag](./bilder/1007-adelaide-tag-2_005.jpg)

@@ -4,9 +4,9 @@ zusammenfassung: 'Eine Führung zur Fütterungszeit und der älteste Koala der W
 datum: 2018-11-03
 position: { name: 'Port Macquarie', lat: -31.4333, lng: 152.9000 }
 tags: ['tiere', 'ostkueste']
+titelbild: ./bilder/1026-koala-hospital_004.jpg
+titelbildAlt: "Koala Hospital"
 ---
-
-<!-- titelbild: 2018/10/1026-koala-hospital_004.jpg -->
 
 In den letzten Tagen sind wir immer weiter in den Norden Australiens gefahren. Das klingt spektakulärer, als es ist, denn eigentlich sind wir noch immer ziemlich im Süden des Landes.
 
@@ -20,9 +20,11 @@ Sind die Koalas wieder gesund, werden sie ausgewildert und an ihren alten Platz 
 
 Nach der sehr interessanten Führung spazieren wir noch allein über das Gelände und beobachten die Koalas.
 
-<!-- bild: 2018/10/1026-koala-hospital_001.jpg -->
-<!-- bild: 2018/10/1026-koala-hospital_003.jpg -->
-<!-- bild: 2018/10/1026-koala-hospital_002.jpg -->
-<!-- bild: 2018/10/1026-koala-hospital_005.jpg -->
-<!-- bild: 2018/10/1026-koala-hospital_006.jpg -->
-<!-- bild: 2018/10/1026-koala-hospital_007.jpg -->
+:::galerie
+![Koala Hospital](./bilder/1026-koala-hospital_001.jpg)
+![Koala Hospital](./bilder/1026-koala-hospital_003.jpg)
+![Koala Hospital](./bilder/1026-koala-hospital_002.jpg)
+![Koala Hospital](./bilder/1026-koala-hospital_005.jpg)
+![Koala Hospital](./bilder/1026-koala-hospital_006.jpg)
+![Koala Hospital](./bilder/1026-koala-hospital_007.jpg)
+:::

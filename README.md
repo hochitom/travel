@@ -9,7 +9,7 @@ npm install
 npm run dev       # lokal auf http://localhost:4321
 npm run build     # statische Seite nach dist/
 npm run preview   # Build ansehen
-npm run import    # Artikel aus dem alten WordPress-Blog holen (siehe unten)
+npm run bilder    # Bilder des alten Blogs in die Weltreise-Berichte einsetzen (siehe unten)
 ```
 
 Node 22.12 oder neuer (Astro 7 verlangt das, Netlify baut mit Node 22).
@@ -128,18 +128,17 @@ Die Seite ist ein Logbuch: Seekartenpapier, Tinte, Meerblau und ein Akzent in St
 | `/jahr/<jahr>/` | Reisen eines Jahres mit Karte |
 | `/kontinent/<name>/` | Reisen eines Kontinents mit Karte |
 
-## Weltreise 2018/19 neu aufbauen
+## Weltreise 2018/19
 
-Die Inhalte kommen aus dem alten Blog (WordPress), werden aber **neu geschrieben**: Ich-Form, ohne Bezug zur Hochzeitsreise, ohne Namen Dritter.
+Die Berichte in `src/content/reisen/2018-weltreise/` sind aus dem alten Blog (thehoneymoonadventure.blog) neu geschrieben, in Wir-Form.
 
-1. `npm install && npm run import` holt alle Artikel als Rohfassung nach `_raw/` (nicht im Git). Dort liegen `uebersicht.md` (alle Artikel, Etappen, auffällige Wörter), `beitraege/*.md`, `etappen.json` und `medien.json`.
-2. Bilder sortieren, siehe `scripts/bilder/sortiere_bilder.py` (Download, GPS-Stichprobe, Gesichtserkennung, Kontaktbogen zum Durchklicken).
-3. Die Texte etappenweise umschreiben und nach `src/content/reisen/2018-weltreise/<etappe>/` legen. Neues Frontmatter laut `_vorlagen/`.
+Die Bilder kommen mit `npm run bilder` (`scripts/bilder-importieren.mjs`) dazu. Das Skript sucht in den Berichten nach Kommentaren wie `<!-- bild: 2018/06/foto.jpg | Beschriftung -->` und `<!-- titelbild: … -->`, lädt die Originale vom alten Blog, entfernt die Metadaten (GPS) und legt sie nach `<etappe>/bilder/`. Mehrere Bilder hintereinander werden zu `:::raster` (2–3) oder `:::galerie` (ab 4), das Titelbild kommt ins Frontmatter. Mit einem Argument läuft es nur für passende Berichte (`npm run bilder -- hobbiton`). Bereits geladene Bilder werden übersprungen.
+
+Die Alt-Texte stammen aus den Dateinamen und sollten beim Durchsehen verbessert werden.
 
 ### Wichtig: das Repo ist öffentlich
 
-- `_raw/` steht in `.gitignore` und darf nie committet werden. Dort liegen die alten Texte und ungeprüfte Fotos.
-- Bilder kommen erst ins Repo, nachdem sie im Kontaktbogen freigegeben wurden. Was einmal in der Git-History liegt, bleibt dort auch nach dem Löschen.
+- Bilder vor dem Commit durchsehen. Was einmal in der Git-History liegt, bleibt dort auch nach dem Löschen.
 - Positionen auf der Karte nicht genauer als nötig angeben, keine Wohnadressen.
 
 ## Deployment

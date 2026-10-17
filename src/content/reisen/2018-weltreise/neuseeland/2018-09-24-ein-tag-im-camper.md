@@ -3,9 +3,9 @@ titel: 'Ein Tag im Camper'
 zusammenfassung: 'Wie ein ganz normaler Tag in Neuseeland für uns aussieht: Tee, Hummus, Schnapsen und viel Landschaft.'
 datum: 2018-09-24
 tags: ['camper', 'alltag']
+titelbild: ./bilder/0908-bluff-invercargill_001-1.jpg
+titelbildAlt: "Bluff Invercargill"
 ---
-
-<!-- titelbild: 2018/09/0908-bluff-invercargill_001-1.jpg -->
 
 Heute erzählen wir einmal, wie ein typischer Tag in Neuseeland für uns ausschaut. Wir werden meistens zwischen 7 und 8 Uhr munter, entweder weil draußen die Vögel schon sehr laut zwitschern oder weil uns extrem kalt ist. Je weiter wir in den Süden gekommen sind, desto kälter ist es geworden. Anfangs haben wir noch im kurzen T-Shirt geschlafen, daran ist inzwischen nicht mehr zu denken. Jetzt schlafen wir im langen T-Shirt, mit Pulli und Kapuze über dem Kopf.
 
@@ -13,7 +13,7 @@ Dann krabbeln wir schweren Herzens aus dem warmen Bett und stellen einen Tee auf
 
 Nach dem Frühstück wird abgewaschen, danach muss alles wieder fahrsicher verstaut werden. Das Geschirr kommt weg, das Gas wird abgedreht, die Wasserpumpe ausgeschaltet, meistens halt. Es kann hier schon 11 Uhr werden, bis wir wirklich wegkommen.
 
-<!-- bild: 2018/09/0924-banks-peninsula_001.jpg -->
+![Banks Peninsula](./bilder/0924-banks-peninsula_001.jpg)
 
 Los geht's, jetzt wird wieder etwas Neues entdeckt! In Neuseeland muss man sich gar nicht viel vornehmen, meistens ist die Landschaft allein schon so beeindruckend, dass man auch so viel erlebt. Ansonsten verbringen wir viel Zeit in der Natur, mit kleinen Wanderungen, Ausflügen ans Wasser oder einem Spaziergang durch eine Stadt.
 
@@ -27,6 +27,8 @@ Manchmal genießen wir aber auch einfach die Aussicht bei einer Tasse Tee und ei
 
 Nach einem langen Tag mit vielen Eindrücken sind wir abends schnell müde. Nur wenn das Buch ganz spannend ist, schaffen wir es bis 23 Uhr, sonst schlafen wir schon um 22 Uhr ganz brav.
 
-<!-- bild: 2018/09/0920-vanlife_001.jpg -->
-<!-- bild: 2018/09/0924-banks-peninsula_002.jpg -->
-<!-- bild: 2018/09/0908-bluff-invercargill_002-1.jpg -->
+:::raster
+![Vanlife](./bilder/0920-vanlife_001.jpg)
+![Banks Peninsula](./bilder/0924-banks-peninsula_002.jpg)
+![Bluff Invercargill](./bilder/0908-bluff-invercargill_002-1.jpg)
+:::

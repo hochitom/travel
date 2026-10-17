@@ -4,6 +4,8 @@ zusammenfassung: 'Acht Monate um die halbe Welt: USA, Neuseeland, Australien und
 von: 2018-05-28
 bis: 2019-01-31
 tags: ['weltreise', 'rucksack', 'camper']
+titelbild: ./neuseeland/bilder/0914-mt--cook_011.jpg
+titelbildAlt: "Aoraki/Mount Cook in Neuseeland"
 ---
 
 Wir haben unsere Jobs gekündigt, die großen Rucksäcke gepackt und sind im Mai 2018 aufgebrochen. Die Route war nur grob geplant: erst die USA, dann Neuseeland und Australien, zum Schluss Bali.

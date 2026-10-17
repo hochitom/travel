@@ -122,7 +122,8 @@ Die Seite ist ein Logbuch: Seekartenpapier, Tinte, Meerblau und ein Akzent in St
 
 | Route | Inhalt |
 |---|---|
-| `/` | Weltkarte mit allen Pins, zuletzt unterwegs |
+| `/` | Weltkarte mit allen Pins, die letzten Reisen (Weltreise als eine Reise) |
+| `/laender/` | Alle Länder mit Karte: Etappen der Weltreise und Reisen in ein einzelnes Land |
 | `/reisen/` | Alle Reisen, umschaltbar nach Jahr oder Kontinent |
 | `/reisen/<pfad>/` | Reise, Etappe oder Bericht (mit Karte, Kapitelliste, Blättern) |
 | `/jahr/<jahr>/` | Reisen eines Jahres mit Karte |

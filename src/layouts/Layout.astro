@@ -56,7 +56,7 @@ const aktiv = (p: string) => (p === '/' ? pfad === '/' : pfad.startsWith(p));
       <div class="huelle kopf__innen">
         <a class="marke" href="/" aria-label="hochitom.travel, Startseite"><Logo groesse={44} kompakt /></a>
         <nav class="nav" aria-label="Hauptnavigation">
-          <a href="/" aria-current={aktiv('/') ? 'page' : undefined}>Weltkarte</a>
+          <a href="/laender/" aria-current={aktiv('/laender') ? 'page' : undefined}>Länder</a>
           <a href="/reisen/" aria-current={aktiv('/reisen') || aktiv('/jahr') || aktiv('/kontinent') ? 'page' : undefined}>Reisen</a>
         </nav>
       </div>
